@@ -15,12 +15,12 @@ Fixes #<issue_number> (if applicable)
 
 - [ ] I have self-reviewed my code
 - [ ] For core features, I have added thorough tests
+
 - [ ] Analytics needed? If yes, describe below:
 [ your notes here ]
-
 - [ ] Product update? If yes, one-sentence description:
 [ your release note here ]
 - [ ] Documentation update? If yes, one-sentence description:
 [ your release note here ]
-- [ ] I have added or updated the relevant documentation (README, etc.)
-- [ ] I have added or updated the relevant tests (unit, integration, etc.)
+- [ ] Test update? If yes, one sentence description:
+[ your release note here ]
