@@ -25,11 +25,15 @@
       - [Assumptions](#assumptions)
       - [Constraints](#constraints)
   - [Audience \& Use Cases](#audience--use-cases)
+  - [Audience \& Use Cases](#audience--use-cases-1)
     - [Target Audience](#target-audience)
-    - [User Personas](#user-personas)
+      - [Tourists](#tourists)
+      - [Casual Shoppers](#casual-shoppers)
+      - [Wine Lovers](#wine-lovers)
+      - [Wine Newbies](#wine-newbies)
+  - [Functional Requirements](#functional-requirements)
   - [UI/UX](#uiux)
     - [Mockups](#mockups)
-  - [Functional Requirements](#functional-requirements)
   - [Non-Functional Requirements](#non-functional-requirements)
   - [Recommended Minimum Hardware Requirements](#recommended-minimum-hardware-requirements)
   - [Future Improvements](#future-improvements)
@@ -145,8 +149,8 @@ This scope ensures a focused and achievable MVP (Minimum Viable Product), allowi
 
 | Stakeholders           | Interest                                                |
 | ---------------------- | ------------------------------------------------------- |
-| Intermarché's customer | Primary beneficiary                                      |
-| Intermarché            | Project initiator and secondary beneficiary              |
+| Intermarché's customer | Primary beneficiary                                     |
+| Intermarché            | Project initiator and secondary beneficiary             |
 | ALGOSUP                | Technology provider, second project initiator           |
 | ALGOSUP's students     | Project contributors, developers, testers, designers... |
 
@@ -166,13 +170,79 @@ _To be defined – include limitations such as time, budget, technology, or regu
 
 ## Audience & Use Cases
 
+Absolutely! Here's a detailed breakdown of the **Target Audience** section with descriptions, age ranges, persona names, and usage scenarios for each type of user. If you’d like, I can also generate illustrated persona cards afterward.
+
+---
+
+## Audience & Use Cases
+
 ### Target Audience
 
-_To be defined – describe the main user groups (e.g., wine lovers, casual shoppers, tourists)._
+#### Tourists
 
-### User Personas
+**Age Range:** 25–60
 
-_To be defined – include fictional examples of users to illustrate needs and behaviors._
+**Persona Name:** _Anna, the Curious Traveler_
+
+**Description:**
+Anna is a tourist visiting France, eager to explore French culture through its gastronomy. She doesn’t speak fluent French and is unfamiliar with local wine or cheese. She often shops at Intermarché for convenience and wants help choosing authentic regional products.
+
+**How They’ll Use the App:**
+Anna opens the app in-store, sets her preferred language to English, and browses local wine and cheese pairings recommended for regional dishes. She filters by “local products” and gets insights into producers, allowing her to bring a taste of France home.
+
+![anna](./images/anna.png)
+
+---
+
+#### Casual Shoppers
+
+**Age Range:** 30–55
+
+**Persona Name:** _Marc, the Busy Parent_
+
+**Description:**
+Marc is a working parent who shops weekly at Intermarché. He’s not a wine connoisseur but wants to make nice meals for his family. Convenience and speed matter most to him.
+
+**How They’ll Use the App:**
+Marc uses the app to quickly match wine or cheese with meals he already plans to cook. He appreciates the simple interface, no-login access, and dish-based suggestions like “Which wine goes with lasagna?”
+
+![marc](./images/marc.png)
+
+---
+
+#### Wine Lovers
+
+**Age Range:** 35–65
+
+**Persona Name:** _Claire, the Wine Enthusiast_
+
+**Description:**
+Claire has a deep appreciation for wine and occasionally hosts tastings. She values quality, regional authenticity, and food pairing precision. She enjoys exploring lesser-known wines and artisanal cheeses.
+
+**How They’ll Use the App:**
+Claire uses advanced filters to explore pairing combinations, discover hidden gems from local producers, and save preferred pairings. She might share her recommendations with friends and even plan tasting menus with the help of the app.
+
+![Claire](./images/claire.png)
+
+---
+
+#### Wine Newbies
+
+**Age Range:** 18–30
+
+**Persona Name:** _Lucas, the Curious Student_
+
+**Description:**
+Lucas is new to wine and cheese culture but wants to learn. He’s open to trying new things but often feels overwhelmed by the selection in-store.
+
+**How They’ll Use the App:**
+Lucas enters a few taste preferences (fruity, light, etc.) and selects a dish he plans to cook with friends. The app gives him easy, beginner-friendly pairings with short descriptions and explanations — helping him gain confidence with each use.
+
+---
+
+## Functional Requirements
+
+_To be defined – list features the app must support (e.g., product filtering, recommendation engine)._
 
 ---
 
@@ -181,12 +251,6 @@ _To be defined – include fictional examples of users to illustrate needs and b
 ### Mockups
 
 _To be defined – include visual prototypes or wireframes illustrating the app's layout and interaction flow._
-
----
-
-## Functional Requirements
-
-_To be defined – list features the app must support (e.g., product filtering, recommendation engine)._
 
 ---
 
