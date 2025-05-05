@@ -1,0 +1,128 @@
+name: "Code Issue"
+description: "Report a bug or unexpected behavior in the server codebase"
+title: "[CODE ISSUE] "
+labels:
+  - bug
+  - code-review
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <!--
+        Thank you for taking the time to report a code issue!
+        Please fill out the sections below as completely as possible.
+        -->
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: "A clear and concise description of the problem. What is the issue?"
+      placeholder: "E.g. The user’s session is not being persisted after login."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: "Steps to Reproduce"
+      description: "Please provide a step-by-step list so we can reproduce the behavior."
+      placeholder: |
+        1. Go to `/login`
+        2. Enter valid credentials
+        3. Click “Sign In”
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: "Expected Behavior"
+      description: "What did you expect to happen?"
+      placeholder: "E.g. The user should be redirected to the dashboard and remain logged in."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: "Actual Behavior"
+      description: "What actually happens? Include error messages, logs, stack traces, etc."
+      placeholder: "E.g. The page reloads to the login screen with no error."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### Code Location (if available)"
+
+  - type: input
+    id: file_path
+    attributes:
+      label: "File Path"
+      description: "Path to the file where the issue occurs, if known."
+      placeholder: "e.g. `src/auth/session.js`"
+    validations:
+      required: false
+
+  - type: input
+    id: function_module
+    attributes:
+      label: "Function / Module"
+      description: "Name of the function or module, if applicable."
+      placeholder: "e.g. `createSession()`"
+    validations:
+      required: false
+
+  - type: input
+    id: line_numbers
+    attributes:
+      label: "Line Number(s)"
+      description: "Line number(s) in the file, if known."
+      placeholder: "e.g. 42–56"
+    validations:
+      required: false
+
+  - type: textarea
+    id: code_snippet
+    attributes:
+      label: "Relevant Code Snippet"
+      description: "Paste the relevant code snippet here."
+      render: "code"
+    validations:
+      required: false
+
+  - type: textarea
+    id: conceptual_description
+    attributes:
+      label: "Conceptual Description"
+      description: |
+        If you don’t have the exact code, describe the concept, algorithm, or module
+        where the issue occurs and how it deviates from the expected design.
+      placeholder: "E.g. The token-refresh logic does not properly update the session store."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "Impact / Severity"
+      description: "How critical is this issue?"
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+      default: 1
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Additional Context"
+      description: "Any other information, screenshots, or references that might help debug the issue."
+      placeholder: "Attach logs, screenshots, or link to related tickets."
+    validations:
+      required: false
