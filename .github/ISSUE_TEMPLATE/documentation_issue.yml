@@ -1,0 +1,102 @@
+name: "Documentation Issue"
+description: "Report outdated, missing, or incorrect documentation in the codebase or website"
+title: "[DOCS ISSUE] "
+labels:
+  - documentation
+  - docs
+  - triage
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        <!--
+        Thank you for improving our docs!
+        Please fill in as much detail as you can so we can address the problem quickly.
+        -->
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "A concise description of the documentation problem."
+      placeholder: "E.g. The API reference for `createSession` is missing example payloads."
+    validations:
+      required: true
+
+  - type: textarea
+    id: doc_location
+    attributes:
+      label: "Documentation Location"
+      description: "Where does this issue occur? Provide file path, URL, or section heading."
+      placeholder: "E.g. `docs/api/authentication.md`, Section “Session Management”"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_content
+    attributes:
+      label: "Expected Documentation"
+      description: "What should the documentation include or explain?"
+      placeholder: "E.g. A sample JSON request/response for token refresh."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_content
+    attributes:
+      label: "Actual Documentation"
+      description: "What is there currently? Paste the problematic snippet or link."
+      placeholder: "E.g. Only the function signature is listed, no examples."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: "Steps to Reproduce (if applicable)"
+      description: "How can we view the issue? For website docs, include navigation steps."
+      placeholder: |
+        1. Go to `docs/getting-started.md`  
+        2. Click “API Reference”  
+        3. Scroll to “Authentication”
+    validations:
+      required: false
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "Impact / Severity"
+      description: "How important is this documentation fix?"
+      options:
+        - Low – Minor typo or formatting
+        - Medium – Missing detail but workarounds exist
+        - High – Misleading or missing critical information
+        - Critical – Blocks development or causes errors
+      default: 1
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### Attachments / Examples"
+
+  - type: checkboxes
+    id: attachments
+    attributes:
+      label: "Include any of the following (optional):"
+      options:
+        - label: Code samples
+        - label: Screenshots / GIFs
+        - label: Links to external references
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Additional Context"
+      description: "Any further notes, links to related issues, or discussion threads."
+      placeholder: "E.g. Discussed in issue #456"
+    validations:
+      required: false
