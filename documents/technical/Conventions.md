@@ -96,11 +96,11 @@
 
 >[!TIP]
 >
->- `Good Practice:` Use a simple and descriptive name in PascalCase for the elements.
+>- `Good Practice:` Use a simple and descriptive name in Pascal Case for the elements.
 >
 >```md
->Group KitchenAppliance
->Input UserName
+>Group Kitchen Appliance
+>Input User Name
 >```
 
 <br>
@@ -125,11 +125,11 @@
 
 >[!TIP]
 >
->- `Good Practice:` Use a simple and descriptive name in kebab-case for the states.
+>- `Good Practice:` Use a simple and descriptive name in Pascal Case for the states.
 >
 >```md
->active-page
->user-preferences
+>Active Page
+>User Preferences
 >```
 
 <br>
@@ -147,10 +147,10 @@
 
 >[!TIP]
 >
->- `Good Practice:` Use a simple and descriptive name in PascalCase for the workflows.
+>- `Good Practice:` Use a simple and descriptive name in Pascal Case for the workflows.
 >
 >```md
->Workflow UserPreferences
+>Workflow User Preferences
 >Workflow Backend
 >```
 
