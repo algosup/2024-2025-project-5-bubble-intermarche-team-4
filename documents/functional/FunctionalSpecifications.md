@@ -49,8 +49,8 @@
     - [Multilingual Support](#multilingual-support)
     - [QR Code Accessibility](#qr-code-accessibility)
       - [Example: Wine Aisle QR Code Flow](#example-wine-aisle-qr-code-flow)
-      - [If the user chooses "Something to accompany my wine":](#if-the-user-chooses-something-to-accompany-my-wine)
-      - [If the user chooses "Find a wine":](#if-the-user-chooses-find-a-wine)
+      - [If the user chooses "Something to accompany my wine"](#if-the-user-chooses-something-to-accompany-my-wine)
+      - [If the user chooses "Find a wine"](#if-the-user-chooses-find-a-wine)
     - [Product Tags](#product-tags)
     - [Research Filters](#research-filters)
     - [Bar-Code Scanner](#bar-code-scanner)
@@ -389,9 +389,9 @@ This round version of the logo is ideal for **loading pages** or compact areas w
 
 According to Intermarché’s official branding policy:
 
-* The logo must **not** be altered in shape, proportions, or color.
-* A **minimum usage size of 25mm** is required for optimal readability.
-* Logos must be displayed on a **white background** to maintain visual clarity.
+- The logo must **not** be altered in shape, proportions, or color.
+- A **minimum usage size of 25mm** is required for optimal readability.
+- Logos must be displayed on a **white background** to maintain visual clarity.
 
 ---
 
@@ -414,7 +414,6 @@ The application’s color scheme aligns with Intermarché’s official brand col
 | **Black** | 26, 23, 26, 100    | ![Black](./images/color/IntermarcheBlack.png) |
 | **Grey**  | 220, 220, 220, 100 | ![Grey](./images/color/IntermarcheGrey.png)   |
 
-
 ---
 
 ### Mockups
@@ -431,8 +430,8 @@ Although not a traditional user sign-up, this onboarding process helps tailor th
 
 **Information Collected:**
 
-* The user's country of origin — used to refine recommendation logic
-* The language spoken — used for full interface translation
+- The user's country of origin — used to refine recommendation logic
+- The language spoken — used for full interface translation
 
 <div align="center">
 
@@ -442,25 +441,25 @@ Although not a traditional user sign-up, this onboarding process helps tailor th
 
 **UI Elements:**
 
-* Two dropdown fields: one for selecting the country, and one for the preferred language
-* A "Continue" button that is **disabled** by default and becomes **active** only when both fields are filled
+- Two dropdown fields: one for selecting the country, and one for the preferred language
+- A "Continue" button that is **disabled** by default and becomes **active** only when both fields are filled
 
 **Available Countries:**
 
-* France
-* United Kingdom
-* Spain
-* Germany
-* Italy
-* China
-* Other
+- France
+- United Kingdom
+- Spain
+- Germany
+- Italy
+- China
+- Other
 
 Supported languages can be found in the [Multilingual Support](#multilingual-support) section.
 
 **Button Behavior:**
 
-* **Disabled state:** Grey background, inactive
-* **Enabled state:** Red background, active
+- **Disabled state:** Grey background, inactive
+- **Enabled state:** Red background, active
 
 These button colors are defined in the [Color Palette](#color-palette) section.
 
@@ -521,7 +520,7 @@ The user is presented with two options:
 
 ---
 
-#### If the user chooses "Something to accompany my wine":
+#### If the user chooses "Something to accompany my wine"
 
 - The user is prompted to input the **name of the wine** they have selected.
 - After submission, they are redirected to the product page, which includes:
@@ -534,7 +533,7 @@ The user is presented with two options:
 
 ---
 
-#### If the user chooses "Find a wine":
+#### If the user chooses "Find a wine"
 
 - The user can apply filters to refine their search, including:
 
@@ -551,6 +550,33 @@ The user is presented with two options:
 
 ### Research Filters
 
+- **Functionality:**
+  The mobile application must allow users to apply filters when searching for products
+
+- **Details:**
+  
+  The Users can use the following filters to refine their search:
+
+  - the type of product,
+  - the price range,
+  - the seasonality of the product,
+  - the region or country of origin
+
+  If the Users specified the type of of product they are looking for, they will have access to secific filters for that type of product:
+  - for the **wine** type, the user unlock the following filters:
+    - the color of the wine (red, white, rosé, sparkling),
+    - the grape variety,
+    - the sweetness level (dry, semi-dry, sweet),
+    - the alcohol content
+  - for the **cheese** type, the user unlock the following filters:
+    - the milk type (cow, goat, sheep),
+    - the texture (soft, hard, semi-soft),
+    - the aging process (fresh, aged, blue-veined),
+    - the flavor profile (mild, strong, spicy)
+  - for the **meal** type, the user unlock the following filters:
+    - the dieatary restrictions (vegetarian, vegan, gluten-free),
+    - the region of origin (Provence, Bordeaux, ...)
+  
 ### Bar-Code Scanner
 
 ### In-Shop Location of Products
