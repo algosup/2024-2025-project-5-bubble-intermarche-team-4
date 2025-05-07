@@ -1,6 +1,15 @@
 # Wine & Cheese Data
 
-This repository contains structured data for 100 best-selling wines and 100 best-selling cheeses, curated by Team 4.
+## Repository structure
+
+```
+├── data/
+    ├── images-meals/                   # Made by us
+    └── cheeses.json                    # Made by us
+    └── meal.json                       # Made by us
+    └── wines.json                      # Made by us
+    └── Data - Wine and Cheese.xlsx     # Provided by Intermarché Saint-Rémy-de-Provence
+```
 
 ## Overview
 
