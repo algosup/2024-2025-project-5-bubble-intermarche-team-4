@@ -10,6 +10,9 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "Red"
+        ],
         "image": "/images-meals/Boeuf_Bourguignon.jpg"
     },
     {
@@ -23,6 +26,10 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "White",
+            "Sparkling"
+        ],
         "image": "/images-meal/Quiche_Lorraine.jpg"
     },
     {
@@ -34,6 +41,10 @@
         "region": "Provence",
         "allergenes": [
             "gluten"
+        ],
+        "wine": [
+            "Rosé",
+            "Red"
         ],
         "image": "/images-meal/Ratatouille.jpg"
     },
@@ -48,6 +59,9 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "Red"
+        ],
         "image": "/images-meal/Coq_au_Vin.jpg"
     },
     {
@@ -59,6 +73,9 @@
         "region": "Languedoc",
         "allergenes": [
             "gluten"
+        ],
+        "wine": [
+            "Red"
         ],
         "image": "/images-meal/Cassoulet.jpg"
     },
@@ -72,6 +89,9 @@
         "allergenes": [
             "lactose"
         ],
+        "wine": [
+            "White"
+        ],
         "image": "/images-meal/Blanquette_de_Veau.jpg"
     },
     {
@@ -84,6 +104,10 @@
         "allergenes": [
             "lactose"
         ],
+        "wine": [
+            "White",
+            "Red"
+        ],
         "image": "/images-meal/Gratin_Dauphinois.jpg"
     },
     {
@@ -95,6 +119,9 @@
         "region": "Alsace",
         "allergenes": [
             "gluten"
+        ],
+        "wine": [
+            "White"
         ],
         "image": "/images-meal/Choucroute_Garnie.jpg"
     },
@@ -109,6 +136,9 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "Red"
+        ],
         "image": "/images-meal/Hachis_Parmentier.jpg"
     },
     {
@@ -120,6 +150,10 @@
         "region": "Pays Basque",
         "allergenes": [
             "gluten"
+        ],
+        "wine": [
+            "White",
+            "Rosé"
         ],
         "image": "/images-meal/Poulet_Basquaise.jpg"
     },
@@ -133,6 +167,9 @@
         "allergenes": [
             "lactose"
         ],
+        "wine": [
+            "White"
+        ],
         "image": "/images-meal/Tartiflette.jpg"
     },
     {
@@ -144,6 +181,9 @@
         "region": "Sud-Ouest",
         "allergenes": [
             "gluten"
+        ],
+        "wine": [
+            "Red"
         ],
         "image": "/images-meal/Magret_de_canard.jpg"
     },
@@ -158,6 +198,9 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "Red"
+        ],
         "image": "/images-meal/Boudin_Noir_aux_Pommes.jpg"
     },
     {
@@ -169,6 +212,9 @@
         "region": "Île-de-France",
         "allergenes": [
             "gluten"
+        ],
+        "wine": [
+            "Red"
         ],
         "image": "/images-meal/Pot_au_Feu.jpg"
     },
@@ -182,6 +228,10 @@
         "allergenes": [
             "gluten"
         ],
+        "wine": [
+            "Red",
+            "Rosé"
+        ],
         "image": "/images-meal/Couscous_Royal.jpg"
     },
     {
@@ -193,6 +243,9 @@
         "region": "Île-de-France",
         "allergenes": [
             "gluten"
+        ],
+        "wine": [
+            "White"
         ],
         "image": "/images-meal/Tête_de_Veau.jpg"
     },
@@ -206,6 +259,9 @@
         "allergenes": [
             "gluten"
         ],
+        "wine": [
+            "Red"
+        ],
         "image": "/images-meal/Gigot_d'Agneau.jpg"
     },
     {
@@ -217,6 +273,9 @@
         "region": "Provence",
         "allergenes": [
             "gluten"
+        ],
+        "wine": [
+            "Red"
         ],
         "image": "/images-meal/Navarin_d'Agneau.jpg"
     },
@@ -231,6 +290,9 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "White"
+        ],
         "image": "/images-meal/Sole_Meunière.jpg"
     },
     {
@@ -243,6 +305,10 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "Red",
+            "White"
         ],
         "image": "/images-meal/Filet_Mignon_à_la_Moutarde.jpg"
     },
@@ -257,6 +323,10 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "Red",
+            "White"
+        ],
         "image": "/images-meal/Lapin_à_la_Moutarde.jpg"
     },
     {
@@ -269,6 +339,9 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "White"
         ],
         "image": "/images-meal/Escalope_Normande.jpg"
     },
@@ -283,6 +356,9 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "Red"
+        ],
         "image": "/images-meal/Côte_de_Boeuf.jpg"
     },
     {
@@ -295,6 +371,9 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "White"
         ],
         "image": "/images-meal/Poule_au_Pot.jpg"
     },
@@ -309,6 +388,9 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "Red"
+        ],
         "image": "/images-meal/Confit_de_Canard.jpg"
     },
     {
@@ -321,6 +403,10 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "Red",
+            "White"
         ],
         "image": "/images-meal/Andouillette.jpg"
     },
@@ -335,6 +421,10 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "Red",
+            "White"
+        ],
         "image": "/images-meal/Caille_Rôtie.jpg"
     },
     {
@@ -347,6 +437,10 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "White",
+            "Rosé"
         ],
         "image": "/images-meal/Gratin_de_courgettes.jpg"
     },
@@ -361,6 +455,9 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "Red"
+        ],
         "image": "/images-meal/Bœuf_aux_carottes.jpg"
     },
     {
@@ -373,6 +470,9 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "White"
         ],
         "image": "/images-meal/Gratin_de_poisson.jpg"
     },
@@ -387,6 +487,10 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "White",
+            "Rosé"
+        ],
         "image": "/images-meal/Lotte_à_l'armoricaine.jpg"
     },
     {
@@ -399,6 +503,9 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "White"
         ],
         "image": "/images-meal/Gratin_savoyard.jpg"
     },
@@ -413,6 +520,9 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "Red"
+        ],
         "image": "/images-meal/Civet_de_lièvre.jpg"
     },
     {
@@ -425,6 +535,10 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "White",
+            "Rosé"
         ],
         "image": "/images-meal/Pavé_de_saumon.jpg"
     },
@@ -439,6 +553,9 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "Red"
+        ],
         "image": "/images-meal/Langue_de_bœuf.jpg"
     },
     {
@@ -451,6 +568,10 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "Red",
+            "White"
         ],
         "image": "/images-meal/Poulet_rôti.jpg"
     },
@@ -465,6 +586,10 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "White",
+            "Rosé"
+        ],
         "image": "/images-meal/Gratin_de_légumes.jpg"
     },
     {
@@ -477,6 +602,10 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "Red",
+            "White"
         ],
         "image": "/images-meal/Rôti_de_porc.jpg"
     },
@@ -491,6 +620,9 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "White"
+        ],
         "image": "/images-meal/Brandade_de_morue.jpg"
     },
     {
@@ -503,6 +635,10 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "White",
+            "Rosé"
         ],
         "image": "/images-meal/Tielle_sétoise.jpg"
     },
@@ -517,6 +653,10 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "White",
+            "Rosé"
+        ],
         "image": "/images-meal/Soupe_au_Pistou.jpg"
     },
     {
@@ -529,6 +669,9 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "White"
         ],
         "image": "/images-meal/Saumon_en_papillote.jpg"
     },
@@ -543,6 +686,10 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "White",
+            "Sparkling"
+        ],
         "image": "/images-meal/Tartare_de_saumon.jpg"
     },
     {
@@ -555,6 +702,10 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "White",
+            "Rosé"
         ],
         "image": "/images-meal/Salade_nicoise.jpg"
     },
@@ -569,6 +720,9 @@
             "gluten",
             "lactose"
         ],
+        "wine": [
+            "Red"
+        ],
         "image": "/images-meal/Boeuf_Stroganoff.jpg"
     },
     {
@@ -581,6 +735,9 @@
         "allergenes": [
             "gluten",
             "lactose"
+        ],
+        "wine": [
+            "Red"
         ],
         "image": "/images-meal/Boeuf_Wellington.jpg"
     }
