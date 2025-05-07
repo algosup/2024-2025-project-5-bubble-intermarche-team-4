@@ -470,8 +470,6 @@ Supported languages can be found in the [Multilingual Support](#multilingual-sup
 
 - **Disabled state:** Grey background, inactive
 
-- **Enabled state:** Red background, active
-
 <div align="center">
 
 ![alt](./images/pages/buttons/ButtonDisabled.png)
@@ -485,7 +483,6 @@ Supported languages can be found in the [Multilingual Support](#multilingual-sup
 ![alt](./images/pages/buttons/ButtonActive.png)
 
 </div>
-
 
 These button colors are defined in the [Color Palette](#color-palette) section.
 
