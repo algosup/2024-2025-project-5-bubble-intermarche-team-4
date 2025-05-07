@@ -35,15 +35,29 @@
       - [Wine Lovers](#wine-lovers)
       - [Wine Newbies](#wine-newbies)
   - [UI/UX](#uiux)
+    - [Graphic Charter](#graphic-charter)
+    - [Logotype](#logotype)
+      - [Base Logo](#base-logo)
+      - [Intermarché Super Logo](#intermarché-super-logo)
+      - [Round Intermarché Logo](#round-intermarché-logo)
+    - [Logo Usage Guidelines](#logo-usage-guidelines)
+    - [Logo Liability Disclaimer](#logo-liability-disclaimer)
+    - [Color Palette](#color-palette)
     - [Mockups](#mockups)
+      - [Sign-Up Page](#sign-up-page)
   - [Functional Requirements](#functional-requirements)
     - [Multilingual Support](#multilingual-support)
     - [QR Code Accessibility](#qr-code-accessibility)
       - [Example: Wine Aisle QR Code Flow](#example-wine-aisle-qr-code-flow)
       - [If the user chooses "Something to accompany my wine":](#if-the-user-chooses-something-to-accompany-my-wine)
       - [If the user chooses "Find a wine":](#if-the-user-chooses-find-a-wine)
+    - [Product Tags](#product-tags)
     - [Research Filters](#research-filters)
+    - [Bar-Code Scanner](#bar-code-scanner)
+    - [In-Shop Location of Products](#in-shop-location-of-products)
     - [Recommendation Algorithm](#recommendation-algorithm)
+      - [Client's Origin](#clients-origin)
+    - [Local Product Spotlight](#local-product-spotlight)
   - [Non-Functional Requirements](#non-functional-requirements)
   - [Recommended Minimum Hardware Requirements](#recommended-minimum-hardware-requirements)
   - [Future Improvements](#future-improvements)
@@ -143,12 +157,12 @@ The product is developed using the no-code tool Bubble.io.
 
 #### Project Representatives
 
-| Entities                           | Representative                                                   |
-| ---------------------------------- | ---------------------------------------------------------------- |
-| Intermarché's Representative       | Célia Moustier                                                   |
-| Intern Aisle Responsible           | Chrys Cadeau                                                     |
-| [ALGOSUP](https://www.algosup.com) | Franck Jeannin                                                   |
-| Team 4                             | [Clementine Curel](https://www.linkedin.com/in/clementinecurel/) |
+| Entities                           | Representative                                                                     |
+| ---------------------------------- | ---------------------------------------------------------------------------------- |
+| Intermarché's Representative       | [Célia Moustier](moustier09@hotmail.fr)                                            |
+| Intern Aisle Responsible           | [Chrys Cadeau](chryscadeau13@gmail.com)                                            |
+| [ALGOSUP](https://www.algosup.com) | [Franck Jeannin](franck.jeannin@algosup.com)                                       |
+| Team 4                             | [Clementine Curel](https://www.linkedin.com/in/clementinecurel/) - Project Manager |
 
 #### Team & Roles
 
@@ -252,7 +266,11 @@ Anna is a tourist visiting France, eager to explore French culture through its g
 **How They’ll Use the App:**
 Anna opens the app in-store, sets her preferred language to English, and browses local wine and cheese pairings recommended for regional dishes. She filters by “local products” and gets insights into producers, allowing her to bring a taste of France home.
 
-![anna](./images/anna.png)
+<div align="center">
+
+<img src="./images/personas/anna.png" width=200px>
+
+</div>
 
 ---
 
@@ -268,7 +286,11 @@ Marc is a working parent who shops weekly at Intermarché. He’s not a wine con
 **How They’ll Use the App:**
 Marc uses the app to quickly match wine or cheese with meals he already plans to cook. He appreciates the simple interface, no-login access, and dish-based suggestions like “Which wine goes with lasagna?”
 
-![marc](./images/marc.png)
+<div align="center">
+
+<img src="./images/personas/marc.png" width=200px>
+
+</div>
 
 ---
 
@@ -284,7 +306,11 @@ Claire has a deep appreciation for wine and occasionally hosts tastings. She val
 **How They’ll Use the App:**
 Claire uses advanced filters to explore pairing combinations, discover hidden gems from local producers, and save preferred pairings. She might share her recommendations with friends and even plan tasting menus with the help of the app.
 
-![Claire](./images/claire.png)
+<div align="center">
+
+<img src="./images/personas/claire.png" width=200px>
+
+</div>
 
 ---
 
@@ -300,13 +326,143 @@ Lucas is new to wine and cheese culture but wants to learn. He’s open to tryin
 **How They’ll Use the App:**
 Lucas enters a few taste preferences (fruity, light, etc.) and selects a dish he plans to cook with friends. The app gives him easy, beginner-friendly pairings with short descriptions and explanations — helping him gain confidence with each use.
 
+<div align="center">
+
+<img src="./images/personas/lucas.png" width=200px>
+
+</div>
+
 ---
 
 ## UI/UX
 
+### Graphic Charter
+
+This project follows the official Intermarché graphic charter to ensure visual consistency and brand recognition. The following elements reflect the branding guidelines.
+
+---
+
+### Logotype
+
+The application uses official Intermarché logos provided under the brand’s existing identity. Below are the logos available for use:
+
+---
+
+#### Base Logo
+
+<div align="center">
+
+<img src="./images/logo/LogoIntermarcheBase.jpg" alt="Intermarché Base Logo">
+
+</div>
+
+This is the main Intermarché logo, used primarily for branding, advertising, and digital applications.
+
+---
+
+#### Intermarché Super Logo
+
+<div align="center">
+
+<img src="./images/logo/LogoIntermarcheSuper.png" alt="Intermarché Super Logo">
+
+</div>
+
+This logo represents **Intermarché Super**, supermarkets with a strong focus on fresh food products, tailored to local clientele.
+It is the **primary logo** for this project, as the main client is **Intermarché Super in Saint-Rémy-de-Provence**.
+
+---
+
+#### Round Intermarché Logo
+
+<div align="center">
+
+<img src="./images/logo/LogoIntermarcheRound.jpg" alt="Round Intermarché Logo" width="300px">
+
+</div>
+
+This round version of the logo is ideal for **loading pages** or compact areas where a circular design is more fitting.
+
+---
+
+### Logo Usage Guidelines
+
+According to Intermarché’s official branding policy:
+
+* The logo must **not** be altered in shape, proportions, or color.
+* A **minimum usage size of 25mm** is required for optimal readability.
+* Logos must be displayed on a **white background** to maintain visual clarity.
+
+---
+
+### Logo Liability Disclaimer
+
+> **Disclaimer:**
+> All logos used in this project are the intellectual property of **Intermarché** and its affiliates.
+> They are used **exclusively** for educational, prototyping, or demonstrative purposes, and **not for commercial redistribution**.
+> Our team claims **no ownership** over these visual assets.
+
+---
+
+### Color Palette
+
+The application’s color scheme aligns with Intermarché’s official brand colors to maintain consistency.
+
+| Color     | RGBA Value         | Example                                       |
+| --------- | ------------------ | --------------------------------------------- |
+| **Red**   | 226, 0, 26, 100    | ![Red](./images/color/IntermarcheRed.png)     |
+| **Black** | 26, 23, 26, 100    | ![Black](./images/color/IntermarcheBlack.png) |
+| **Grey**  | 220, 220, 220, 100 | ![Grey](./images/color/IntermarcheGrey.png)   |
+
+
+---
+
 ### Mockups
 
-_To be defined – include visual prototypes or wireframes illustrating the app's layout and interaction flow._
+A visual prototype of the application has been designed using Figma. You can view the interactive mockup [here](https://www.figma.com/design/FiDisAv5pKKYsvQBODIIYx/BUBBLE-INTER?node-id=0-1&t=5USWv2xX2utpUy6t-1).
+
+This mockup outlines the core user flows and primary pages of the application, with a focus on intuitive navigation and an engaging user experience.
+
+---
+
+#### Sign-Up Page
+
+Although not a traditional user sign-up, this onboarding process helps tailor the experience by understanding the user’s background. The choices made here are essential for personalized recommendations — for instance, a user from the United Kingdom might receive different pairings than one from Germany. More details can be found in the [Recommendation Algorithm](#recommendation-algorithm) section.
+
+**Information Collected:**
+
+* The user's country of origin — used to refine recommendation logic
+* The language spoken — used for full interface translation
+
+<div align="center">
+
+<img src="./images/pages/SignUpPage.png" width="200px" alt="Sign-Up Page Mockup">
+
+</div>
+
+**UI Elements:**
+
+* Two dropdown fields: one for selecting the country, and one for the preferred language
+* A "Continue" button that is **disabled** by default and becomes **active** only when both fields are filled
+
+**Available Countries:**
+
+* France
+* United Kingdom
+* Spain
+* Germany
+* Italy
+* China
+* Other
+
+Supported languages can be found in the [Multilingual Support](#multilingual-support) section.
+
+**Button Behavior:**
+
+* **Disabled state:** Grey background, inactive
+* **Enabled state:** Red background, active
+
+These button colors are defined in the [Color Palette](#color-palette) section.
 
 ---
 
@@ -354,7 +510,7 @@ When the user scans the QR code near the **wine aisle**, the following screen ap
 
 <div align="center">
 
-![Scan QR Code Welcome Page](./images/ScanQrCodeWelcomePage.png)
+<img src="./images/pages/ScanQrCodeWelcomePage.png" width=200px>
 
 </div>
 
@@ -391,9 +547,19 @@ The user is presented with two options:
 > [!NOTE]
 > Details about filtering options can be found in the [Research Filters](#research-filters) section.
 
+### Product Tags
+
 ### Research Filters
 
+### Bar-Code Scanner
+
+### In-Shop Location of Products
+
 ### Recommendation Algorithm
+
+#### Client's Origin
+
+### Local Product Spotlight
 
 ## Non-Functional Requirements
 
