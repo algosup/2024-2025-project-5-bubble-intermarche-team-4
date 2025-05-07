@@ -45,12 +45,15 @@
     - [Color Palette](#color-palette)
     - [Mockups](#mockups)
       - [Sign-Up Page](#sign-up-page)
+      - [Menu Page](#menu-page)
   - [Functional Requirements](#functional-requirements)
     - [Multilingual Support](#multilingual-support)
     - [QR Code Accessibility](#qr-code-accessibility)
       - [Example: Wine Aisle QR Code Flow](#example-wine-aisle-qr-code-flow)
       - [If the user chooses "Something to accompany my wine"](#if-the-user-chooses-something-to-accompany-my-wine)
       - [If the user chooses "Find a wine"](#if-the-user-chooses-find-a-wine)
+    - [Search Mechanic](#search-mechanic)
+    - [List Of Products](#list-of-products)
     - [Product Tags](#product-tags)
     - [Research Filters](#research-filters)
     - [Bar-Code Scanner](#bar-code-scanner)
@@ -59,11 +62,16 @@
       - [Client's Origin](#clients-origin)
     - [Local Product Spotlight](#local-product-spotlight)
   - [Non-Functional Requirements](#non-functional-requirements)
+    - [Performance](#performance)
+    - [Scalability](#scalability)
+    - [Reliability](#reliability)
+    - [Accessibility](#accessibility)
   - [Recommended Minimum Hardware Requirements](#recommended-minimum-hardware-requirements)
   - [Future Improvements](#future-improvements)
+    - [Product Opinion](#product-opinion)
   - [Legal \& Compliance](#legal--compliance)
     - [Data Protection and Privacy](#data-protection-and-privacy)
-    - [Accessibility](#accessibility)
+    - [Accessibility](#accessibility-1)
   - [Conclusion](#conclusion)
 
 </details>
@@ -72,12 +80,12 @@
 
 ## Introduction
 
-This document outlines the **functional specifications** for the development of a mobile application for [Intermarché](https://www.intermarche.com/?srsltid=AfmBOop3uKBkrZ9x8Szj8EtpgHOqzuk_bHP3x1af4_9TrFf_640On9RY).
+This document outlines the **functional specifications** for the development of a mobile web application for [Intermarché](https://www.intermarche.com/?srsltid=AfmBOop3uKBkrZ9x8Szj8EtpgHOqzuk_bHP3x1af4_9TrFf_640On9RY).
 Its purpose is to clearly define the project's requirements, scope, and objectives, ensuring that all stakeholders share a unified understanding of what is being developed.
 
 ### Project Overview
 
-The goal of this project is to deliver a user-friendly **mobile application** for Intermarché customers, providing personalized assistance when choosing wine and/or cheese upon entering the store.
+The goal of this project is to deliver a user-friendly **mobile web application** for Intermarché customers, providing personalized assistance when choosing wine and/or cheese upon entering the store.
 The app will suggest the most suitable wine or cheese based on the user's dish, taste preferences, or filters. It aims to simplify the selection process and enhance customer satisfaction by offering tailored recommendations.
 
 ---
@@ -86,7 +94,7 @@ The app will suggest the most suitable wine or cheese based on the user's dish, 
 
 #### Vision
 
-Our vision is to develop an **open-source mobile application** as a proof of concept for Intermarché, designed to:
+Our vision is to develop an **open-source mobile web application** as a proof of concept for Intermarché, designed to:
 
 - Simplify the pairing of food with wine and cheese
 - Highlight and promote **local producers**
@@ -100,11 +108,11 @@ Our vision is to develop an **open-source mobile application** as a proof of con
 
 #### Market Analysis
 
-A similar recommendation system already exists on Intermarché’s official website: [Wine Selection Tool](https://www.intermarche.com/recherche/vin). However, after evaluating its current features, we have identified several areas where our mobile application can offer significant improvements and differentiation:
+A similar recommendation system already exists on Intermarché’s official website: [Wine Selection Tool](https://www.intermarche.com/recherche/vin). However, after evaluating its current features, we have identified several areas where our mobile web application can offer significant improvements and differentiation:
 
 - **No Account Required** – Users can access recommendations without the need to create an account, lowering the barrier to entry.
 - **Enhanced User Experience** – A more intuitive and streamlined interface optimized for mobile devices.
-- **Multilingual Support** – The application will be accessible in multiple languages, ensuring usability for a wider audience, including tourists and non-native speakers.
+- **Multilingual Support** – The web application will be accessible in multiple languages, ensuring usability for a wider audience, including tourists and non-native speakers.
 - **Personalized Recommendations** – Tailored suggestions based on individual preferences, tastes, and user input.
 - **Value-Added Features** – Additional options such as pairing suggestions, local producer highlights, and dish-based recommendations that go beyond the existing tool.
 - **Bar-code scanner** - Bar-code reader that sends the user to the product page.
@@ -113,11 +121,11 @@ These improvements aim to create a unique, user-focused experience that not only
 
 #### Scope
 
-This project focuses on developing a **mobile application** for Intermarché that enhances the customer shopping experience by helping users select the most appropriate wine and/or cheese based on their dish, preferences, or filters. The application will serve as a **proof of concept** and prioritize ease of use, personalization, and support for local products.
+This project focuses on developing a **mobile web application** for Intermarché that enhances the customer shopping experience by helping users select the most appropriate wine and/or cheese based on their dish, preferences, or filters. The web application will serve as a **proof of concept** and prioritize ease of use, personalization, and support for local products.
 
 **In Scope:**
 
-- Development of a **mobile-first application** for Android and iOS
+- Development of a **mobile-first web application** for Android and iOS
 - **Recommendation engine** for pairing wine and cheese with dishes
 - **User preference filtering** (taste, region, type, etc.)
 - **Multilingual support** (French, English, German, Spanish)
@@ -172,7 +180,7 @@ The product is developed using the no-code tool Bubble.io.
 | Thibaud Marlier  | Program Manager   | Ensures project meets expectations; oversees design and functional specs | [LinkedIn](https://www.linkedin.com/in/thibaudmarlier/)           |
 | Jason Grosso     | Technical Lead    | Oversees technical aspects, including architecture and implementation    | [LinkedIn](https://www.linkedin.com/in/jason-grosso-847b39251/)   |
 | Elone Delille    | Quality Assurance | Ensures quality of deliverables and adherence to requirements            | [LinkedIn](https://www.linkedin.com/in/elonedelille/)             |
-| Emilien Chinsy   | Software Engineer | Develops the mobile application and the algorithm                        | [LinkedIn](https://www.linkedin.com/in/emilien-chinsy-5a794632b/) |
+| Emilien Chinsy   | Software Engineer | Develops the mobile web application and the algorithm                    | [LinkedIn](https://www.linkedin.com/in/emilien-chinsy-5a794632b/) |
 | Robin Goumy      | Technical Writer  | Responsible for the User Manual and UX                                   | [LinkedIn](https://www.linkedin.com/in/robin-goumy-66452832a/)    |
 
 #### Stakeholders
@@ -204,6 +212,8 @@ A team of 6 members, each with clearly defined roles and responsibilities.
 
 #### Database
 
+You can find the database [here](../../data/Data%20-%20Wine%20and%20Cheese.xlsx)
+
 - The client has provided an Excel database containing detailed information about wines and cheeses available in-store.
 
 The database includes:
@@ -234,7 +244,7 @@ The database includes:
 
 - The client will provide timely feedback during key development milestones.
 - The database provided is accurate, up-to-date, and reflective of actual stock.
-- Users will access the application primarily on modern web browsers with internet connectivity.
+- Users will access the web application primarily on modern web browsers with internet connectivity.
 - Bubble.io offers all the required features to build the desired functionalities without needing external integrations.
 - The test environments provided by Intermarché (Issoudun and Saint-Rémy-de-Provence) will support functional validation of the prototype.
 - Product classifications (e.g., wine types, milk types) are consistent across all entries in the database.
@@ -344,7 +354,7 @@ This project follows the official Intermarché graphic charter to ensure visual 
 
 ### Logotype
 
-The application uses official Intermarché logos provided under the brand’s existing identity. Below are the logos available for use:
+The web application uses official Intermarché logos provided under the brand’s existing identity. Below are the logos available for use:
 
 ---
 
@@ -356,7 +366,7 @@ The application uses official Intermarché logos provided under the brand’s ex
 
 </div>
 
-This is the main Intermarché logo, used primarily for branding, advertising, and digital applications.
+This is the main Intermarché logo, used primarily for branding, advertising, and digital web applications.
 
 ---
 
@@ -459,9 +469,34 @@ Supported languages can be found in the [Multilingual Support](#multilingual-sup
 **Button Behavior:**
 
 - **Disabled state:** Grey background, inactive
+
 - **Enabled state:** Red background, active
 
+<div align="center">
+
+![alt](./images/pages/buttons/ButtonDisabled.png)
+
+</div>
+
+- **Enabled state:** Red background, active
+
+<div align="center">
+
+![alt](./images/pages/buttons/ButtonActive.png)
+
+</div>
+
+
 These button colors are defined in the [Color Palette](#color-palette) section.
+
+**Button Values**
+
+- Height: 30px
+- Width: 195px
+- Centered
+- Padding: 15px
+
+#### Menu Page
 
 ---
 
@@ -546,6 +581,10 @@ The user is presented with two options:
 > [!NOTE]
 > Details about filtering options can be found in the [Research Filters](#research-filters) section.
 
+### Search Mechanic
+
+### List Of Products
+
 ### Product Tags
 
 ### Research Filters
@@ -587,9 +626,42 @@ The user is presented with two options:
 
 ### Local Product Spotlight
 
+---
+
 ## Non-Functional Requirements
 
-_To be defined – include performance, scalability, reliability, accessibility, etc._
+### Performance
+
+- The application must provide a smooth and responsive user experience across all supported devices.
+- Page load times should not exceed **2 seconds** under normal network conditions.
+- Recommendations and search results must be generated within **1 second** of user input.
+- The backend must be capable of handling up to **100 concurrent users** without degradation in performance.
+
+### Scalability
+
+- The system must be scalable to support future growth, including:
+
+  - An increasing number of users (up to 10,000+ active users).
+  - Additional products (e.g., regional additions to wine and cheese).
+  - Expansion into new countries or language support.
+
+- The application architecture should support easy deployment to new shops or regions without structural changes.
+
+### Reliability
+
+- The system must achieve **99.5% uptime** on a monthly basis.
+- All critical user data (e.g., preferences, search history, selections) should be saved reliably, even in case of crashes.
+- A fallback mechanism must be in place to handle third-party service failures (e.g., translation, barcode scanning).
+
+### Accessibility
+
+- All functionalities should be usable by people with visual impairments, including support for:
+
+  - Screen readers
+  - High contrast modes
+  - Keyboard navigation
+
+- Texts should be legible across various screen sizes, and interactions must be intuitive and user-friendly.
 
 ---
 
@@ -601,7 +673,7 @@ _To be defined – specify device compatibility (e.g., iOS/Android, minimum OS v
 
 ## Future Improvements
 
-_To be defined – outline features planned for future iterations (e.g., integration with loyalty cards, recipe suggestions)._
+### Product Opinion
 
 ---
 
