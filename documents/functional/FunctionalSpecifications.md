@@ -21,23 +21,35 @@
       - [Project Representatives](#project-representatives)
       - [Team \& Roles](#team--roles)
       - [Stakeholders](#stakeholders)
-      - [Resources](#resources)
-      - [Assumptions](#assumptions)
-      - [Constraints](#constraints)
+    - [Resources](#resources)
+      - [Team](#team)
+      - [Client](#client)
+      - [Technology](#technology)
+      - [Database](#database)
+    - [Assumptions](#assumptions)
+    - [Constraints](#constraints)
   - [Audience \& Use Cases](#audience--use-cases)
-  - [Audience \& Use Cases](#audience--use-cases-1)
     - [Target Audience](#target-audience)
       - [Tourists](#tourists)
       - [Casual Shoppers](#casual-shoppers)
       - [Wine Lovers](#wine-lovers)
       - [Wine Newbies](#wine-newbies)
-  - [Functional Requirements](#functional-requirements)
   - [UI/UX](#uiux)
     - [Mockups](#mockups)
+  - [Functional Requirements](#functional-requirements)
+    - [Multilingual Support](#multilingual-support)
+    - [QR Code Accessibility](#qr-code-accessibility)
+      - [Example: Wine Aisle QR Code Flow](#example-wine-aisle-qr-code-flow)
+      - [If the user chooses "Something to accompany my wine":](#if-the-user-chooses-something-to-accompany-my-wine)
+      - [If the user chooses "Find a wine":](#if-the-user-chooses-find-a-wine)
+    - [Research Filters](#research-filters)
+    - [Recommendation Algorithm](#recommendation-algorithm)
   - [Non-Functional Requirements](#non-functional-requirements)
   - [Recommended Minimum Hardware Requirements](#recommended-minimum-hardware-requirements)
   - [Future Improvements](#future-improvements)
   - [Legal \& Compliance](#legal--compliance)
+    - [Data Protection and Privacy](#data-protection-and-privacy)
+    - [Accessibility](#accessibility)
   - [Conclusion](#conclusion)
 
 </details>
@@ -111,6 +123,10 @@ This project focuses on developing a **mobile application** for Intermarché tha
 
 This scope ensures a focused and achievable MVP (Minimum Viable Product), allowing Intermarché to evaluate the concept's value and gather user feedback for future development.
 
+**Technology Used:**
+
+The product is developed using the no-code tool Bubble.io.
+
 #### Deliverables
 
 | Deliverables             | Date       |
@@ -154,23 +170,69 @@ This scope ensures a focused and achievable MVP (Minimum Viable Product), allowi
 | ALGOSUP                | Technology provider, second project initiator           |
 | ALGOSUP's students     | Project contributors, developers, testers, designers... |
 
-#### Resources
+### Resources
 
-_To be defined – include tools, platforms, data sources, and other technical or human resources._
+#### Team
 
-#### Assumptions
+A team of 6 members, each with clearly defined roles and responsibilities.
 
-_To be defined – list any assumed conditions necessary for project success._
+- **Estimated Project Duration:** 110 hours
+- **Estimated Total Workload:** 660 man-hours
 
-#### Constraints
+#### Client
 
-_To be defined – include limitations such as time, budget, technology, or regulations._
+- Contact has been established with the **Intermarché store in Issoudun** to test the product on site.
+- Communication is also in progress with the **department manager at Saint-Rémy-de-Provence** for further product validation.
+
+#### Technology
+
+- Supervised access to **Bubble.io** with support from an instructor for guidance and troubleshooting.
+
+#### Database
+
+- The client has provided an Excel database containing detailed information about wines and cheeses available in-store.
+
+The database includes:
+
+- Product barcodes in the following formats:
+
+  - `ITM8`
+  - `EAN PRIO`
+
+- Product name
+- Region of origin
+- Country of origin
+- Product type:
+
+  - Cheese
+  - Yogurt
+  - Red Wine
+  - White Wine
+  - Rosé Wine
+  - Sparkling Wine
+  - Other dairy products
+
+- Milk type (for cheese/dairy products)
 
 ---
 
-## Audience & Use Cases
+### Assumptions
 
-Absolutely! Here's a detailed breakdown of the **Target Audience** section with descriptions, age ranges, persona names, and usage scenarios for each type of user. If you’d like, I can also generate illustrated persona cards afterward.
+- The client will provide timely feedback during key development milestones.
+- The database provided is accurate, up-to-date, and reflective of actual stock.
+- Users will access the application primarily on modern web browsers with internet connectivity.
+- Bubble.io offers all the required features to build the desired functionalities without needing external integrations.
+- The test environments provided by Intermarché (Issoudun and Saint-Rémy-de-Provence) will support functional validation of the prototype.
+- Product classifications (e.g., wine types, milk types) are consistent across all entries in the database.
+
+---
+
+### Constraints
+
+- The project must be developed using **Bubble.io**, as per the client’s technological preference.
+- It must remain **open-source** to ensure transparency and encourage community contributions.
+- All features must be aligned with the **client’s functional and aesthetic requirements**.
+- The final product must adhere to **Intermarché’s brand values**, including quality, simplicity, and accessibility.
 
 ---
 
@@ -240,12 +302,6 @@ Lucas enters a few taste preferences (fruity, light, etc.) and selects a dish he
 
 ---
 
-## Functional Requirements
-
-_To be defined – list features the app must support (e.g., product filtering, recommendation engine)._
-
----
-
 ## UI/UX
 
 ### Mockups
@@ -253,6 +309,91 @@ _To be defined – list features the app must support (e.g., product filtering, 
 _To be defined – include visual prototypes or wireframes illustrating the app's layout and interaction flow._
 
 ---
+
+## Functional Requirements
+
+### Multilingual Support
+
+- **Functionality:**
+  The mobile application must be available in multiple languages.
+
+- **Details:**
+
+  - The following languages must be supported:
+
+    - French
+    - English
+    - Spanish
+    - German
+    - Italian
+    - Chinese
+
+  - Additional languages can be supported, but are not mandatory.
+  - The entire application interface must be fully translated automatically when a language is selected.
+
+---
+
+### QR Code Accessibility
+
+- **Functionality:**
+  The application should be accessible by scanning a QR code.
+
+- **Details:**
+
+  - Three QR codes will be placed in the store:
+
+    - At the store entrance
+    - Near the wine aisle
+    - Near the cheese aisle
+
+  - Each QR code will redirect users to a **personalized interface** based on their location.
+
+#### Example: Wine Aisle QR Code Flow
+
+When the user scans the QR code near the **wine aisle**, the following screen appears:
+
+<div align="center">
+
+![Scan QR Code Welcome Page](./images/ScanQrCodeWelcomePage.png)
+
+</div>
+
+The user is presented with two options:
+
+1. **Find a wine** based on their preferences
+2. **Something to accompany my wine** (such as food or cheese) for a wine they already have
+
+---
+
+#### If the user chooses "Something to accompany my wine":
+
+- The user is prompted to input the **name of the wine** they have selected.
+- After submission, they are redirected to the product page, which includes:
+
+  - Suggested **dishes** that pair well with the wine
+  - Recommended **cheeses** that complement both the wine and the chosen dish
+
+> [!NOTE]
+> More information about the recommendation system can be found in the [Recommendation Algorithm](#recommendation-algorithm) section.
+
+---
+
+#### If the user chooses "Find a wine":
+
+- The user can apply filters to refine their search, including:
+
+  - **Price range**
+  - **Country of origin**
+  - **Selected dish**
+  - **Selected cheese**
+  - **Additional preferences**
+
+> [!NOTE]
+> Details about filtering options can be found in the [Research Filters](#research-filters) section.
+
+### Research Filters
+
+### Recommendation Algorithm
 
 ## Non-Functional Requirements
 
@@ -274,7 +415,13 @@ _To be defined – outline features planned for future iterations (e.g., integra
 
 ## Legal & Compliance
 
-_To be defined – ensure GDPR, accessibility, and other legal standards are considered._
+### Data Protection and Privacy
+
+- Do not store any data related to the user.
+
+### Accessibility
+
+- The mobile application must comply with accessibility standards to accommodate all types of disabilities.
 
 ---
 
