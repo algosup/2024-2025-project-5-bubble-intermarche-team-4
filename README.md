@@ -38,5 +38,3 @@ Team 4:
 - [Elone DELILLE](https://www.linkedin.com/in/elonedelille/) - Quality Assurance
 - [Emilien CHINSY](https://www.linkedin.com/in/emilien-chinsy-5a794632b/) - Software Engineer
 - [Robin GOUMY](https://www.linkedin.com/in/robin-goumy-66452832a/) - Technical Writer
-
-
