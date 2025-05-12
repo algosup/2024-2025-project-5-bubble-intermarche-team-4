@@ -45,7 +45,7 @@ Bubble.io is built on a robust architecture that supports scalability, security,
 
 ### Plugins
 
-Bubble.io supports a wide range of plugins that extend the functionality of the platform. 
+Bubble.io supports a wide range of plugins that extend the functionality of the platform.
 These plugins can be used to integrate third-party services, add new features, and enhance the user experience. Some of the key plugins used in this project include:
 
 - **Barcode Scanner**: A plugin that allows users to scan barcodes using their device's camera. This is useful to scan products.
@@ -56,6 +56,22 @@ These plugins can be used to integrate third-party services, add new features, a
 ---
 
 ## Architecture
+
+### Application Architecture
+
+### Database Design
+
+The database contains infomation about wines, cheeses and meals; includings their names, origin and other relevant details.
+
+The database contains the following files:
+
+- **wines.json**: Specify the wines available in the store, including their ITM8, EAN, name, region, country, year, type, grape, price, rating, description(fr and en), image and indicating if the wine is a best seller,
+- **cheeses.json**: Specify the cheeses available in the store, including their ITM8, EAN, name, region, country, type, milk, price, rating, description(fr and en), image and indicating if the cheese is a best seller,
+- **meal.json**: Specify a selection of French meals that can be paired with wine and cheese, including their name, recipe, description(fr and en), image, a list of allergens and a list of wines and cheeses that they can be paired with,
+- **Data - Wine and Cheese.xlsx**: A spreadsheet given by Intermarché containing the wines and cheeses available in the store, including their ITM8, EAN, name, prix de vente
+
+> The database can be found in the [data](../../data/) folder.
+> Some additional information about the database can be found in the [README](../../data/README.md) of the database.
 
 ---
 
