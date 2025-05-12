@@ -17,7 +17,7 @@
             "hard cheese",
             "cow cheese"
         ],
-        "image": "/images-meals/Boeuf_Bourguignon.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-meals/Boeuf_Bourguignon.jpg"
     },
     {
         "id": "2",
@@ -38,7 +38,7 @@
             "soft cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Quiche_Lorraine.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Quiche_Lorraine.jpg"
     },
     {
         "id": "3",
@@ -58,7 +58,7 @@
             "fresh cheese",
             "goat cheese"
         ],
-        "image": "/images-meal/Ratatouille.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Ratatouille.jpg"
     },
     {
         "id": "4",
@@ -78,7 +78,7 @@
             "semi-hard cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Coq_au_Vin.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Coq_au_Vin.jpg"
     },
     {
         "id": "5",
@@ -97,7 +97,7 @@
             "hard cheese",
             "sheep cheese"
         ],
-        "image": "/images-meal/Cassoulet.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Cassoulet.jpg"
     },
     {
         "id": "6",
@@ -116,7 +116,7 @@
             "soft cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Blanquette_de_Veau.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Blanquette_de_Veau.jpg"
     },
     {
         "id": "7",
@@ -137,7 +137,7 @@
             "AOP semi-soft cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Gratin_Dauphinois.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_Dauphinois.jpg"
     },
     {
         "id": "8",
@@ -156,7 +156,7 @@
             "AOP semi-hard cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Choucroute_Garnie.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Choucroute_Garnie.jpg"
     },
     {
         "id": "9",
@@ -176,7 +176,7 @@
             "semi-hard cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Hachis_Parmentier.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Hachis_Parmentier.jpg"
     },
     {
         "id": "10",
@@ -196,7 +196,7 @@
             "fresh cheese",
             "goat cheese"
         ],
-        "image": "/images-meal/Poulet_Basquaise.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Poulet_Basquaise.jpg"
     },
     {
         "id": "11",
@@ -215,7 +215,7 @@
             "AOP semi-soft cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Tartiflette.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tartiflette.jpg"
     },
     {
         "id": "12",
@@ -234,7 +234,7 @@
             "aged/dried cheese",
             "sheep cheese"
         ],
-        "image": "/images-meal/Magret_de_canard.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Magret_de_Canard.jpg"
     },
     {
         "id": "13",
@@ -254,7 +254,7 @@
             "floral tomme cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Boudin_Noir_aux_Pommes.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Boudin_Noir_au_Pommes.jpg"
     },
     {
         "id": "14",
@@ -273,7 +273,7 @@
             "hard cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Pot_au_Feu.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Pot_au_Feu.jpg"
     },
     {
         "id": "15",
@@ -294,7 +294,7 @@
             "sheep cheese",
             "mixed cheese"
         ],
-        "image": "/images-meal/Couscous_Royal.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Couscous_Royal.jpg"
     },
     {
         "id": "16",
@@ -313,7 +313,7 @@
             "AOP goat cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Tête_de_Veau.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tête_de_Veau.jpg"
     },
     {
         "id": "17",
@@ -332,7 +332,7 @@
             "aged/dried cheese",
             "sheep cheese"
         ],
-        "image": "/images-meal/Gigot_d'Agneau.jpg"
+        "image": "/images-meal/Gigot_d'Agneau.jpghttps://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gigot_d'Agneau.jpg"
     },
     {
         "id": "18",
@@ -351,7 +351,7 @@
             "semi-hard cheese",
             "sheep cheese"
         ],
-        "image": "/images-meal/Navarin_d'Agneau.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Navarin_d'Agneau.jpg"
     },
     {
         "id": "19",
@@ -371,7 +371,7 @@
             "fresh cheese",
             "fresh farm cheese"
         ],
-        "image": "/images-meal/Sole_Meunière.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Sole_Meunière.jpg"
     },
     {
         "id": "20",
@@ -392,7 +392,7 @@
             "soft cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Filet_Mignon_à_la_Moutarde.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Filet_Mignon_à_la_Moutarde.jpg"
     },
     {
         "id": "21",
@@ -413,7 +413,7 @@
             "soft cheese",
             "goat cheese"
         ],
-        "image": "/images-meal/Lapin_à_la_Moutarde.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Lapin_à_la_Moutarde.jpg"
     },
     {
         "id": "22",
@@ -433,7 +433,7 @@
             "triple cream cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Escalope_Normande.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Escalope_Normande.jpg"
     },
     {
         "id": "23",
@@ -454,7 +454,7 @@
             "AOP semi-hard cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Côte_de_Boeuf.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Côte_de_Boeuf.jpg"
     },
     {
         "id": "24",
@@ -474,7 +474,7 @@
             "soft cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Poule_au_Pot.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Poule_au_Pot.jpg"
     },
     {
         "id": "25",
@@ -495,7 +495,7 @@
             "sheep cheese",
             "goat cheese"
         ],
-        "image": "/images-meal/Confit_de_Canard.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Confit_de_Canard.jpg"
     },
     {
         "id": "26",
@@ -516,7 +516,7 @@
             "semi-hard cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Andouillette.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Andouillette.jpg"
     },
     {
         "id": "27",
@@ -538,7 +538,7 @@
             "AOP semi-soft cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Caille_Rôtie.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Caille_Rôtie.jpg"
     },
     {
         "id": "28",
@@ -560,7 +560,7 @@
             "goat cheese",
             "fresh log cheese"
         ],
-        "image": "/images-meal/Gratin_de_courgettes.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_de_courgettes.jpg"
     },
     {
         "id": "29",
@@ -580,7 +580,7 @@
             "semi-hard cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Bœuf_aux_carottes.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Bœuf_aux_carottes.jpg"
     },
     {
         "id": "30",
@@ -600,7 +600,7 @@
             "fresh cheese",
             "buffalo cheese"
         ],
-        "image": "/images-meal/Gratin_de_poisson.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_de_poisson.jpg"
     },
     {
         "id": "31",
@@ -622,7 +622,7 @@
             "fresh farm cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Lotte_à_l'armoricaine.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Lotte_à_l'armoricaine.jpg"
     },
     {
         "id": "32",
@@ -642,7 +642,7 @@
             "AOP semi-soft cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Gratin_savoyard.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_savoyard.jpg"
     },
     {
         "id": "33",
@@ -663,7 +663,7 @@
             "AOP semi-soft cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Civet_de_lièvre.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Civet_de_lièvre.jpg"
     },
     {
         "id": "34",
@@ -685,7 +685,7 @@
             "fresh farm cheese",
             "goat cheese"
         ],
-        "image": "/images-meal/Pavé_de_saumon.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Pavé_de_saumon.jpg"
     },
     {
         "id": "35",
@@ -706,7 +706,7 @@
             "AOP semi-hard cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Langue_de_bœuf.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Langue_de_bœuf.jpg"
     },
     {
         "id": "36",
@@ -727,7 +727,7 @@
             "soft cheese",
             "goat cheese"
         ],
-        "image": "/images-meal/Poulet_rôti.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Poulet_rôti.jpg"
     },
     {
         "id": "37",
@@ -748,7 +748,7 @@
             "fresh cheese",
             "floral tomme cheese"
         ],
-        "image": "/images-meal/Gratin_de_légumes.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_de_légumes.jpg"
     },
     {
         "id": "38",
@@ -769,7 +769,7 @@
             "AOP semi-hard cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Rôti_de_porc.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Rôti_de_porc.jpg"
     },
     {
         "id": "39",
@@ -789,7 +789,7 @@
             "fresh cheese",
             "buffalo cheese"
         ],
-        "image": "/images-meal/Brandade_de_morue.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Brandade_de_morue.jpg"
     },
     {
         "id": "40",
@@ -810,7 +810,7 @@
             "fresh cheese",
             "goat cheese"
         ],
-        "image": "/images-meal/Tielle_sétoise.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tielle_sétoise.jpg"
     },
     {
         "id": "41",
@@ -831,7 +831,7 @@
             "fresh farm cheese",
             "goat cheese"
         ],
-        "image": "/images-meal/Soupe_au_Pistou.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Soupe_au_Pistou.jpg"
     },
     {
         "id": "42",
@@ -852,7 +852,7 @@
             "yogurt",
             "goat cheese"
         ],
-        "image": "/images-meal/Saumon_en_papillote.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Saumon_en_papillote.jpg"
     },
     {
         "id": "43",
@@ -873,7 +873,7 @@
             "fresh cheese",
             "buffalo cheese"
         ],
-        "image": "/images-meal/Tartare_de_saumon.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tartare_de_saumon.jpg"
     },
     {
         "id": "44",
@@ -894,7 +894,7 @@
             "fresh cheese",
             "AOP goat cheese"
         ],
-        "image": "/images-meal/Salade_nicoise.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Salade_nicoise.jpg"
     },
     {
         "id": "45",
@@ -914,7 +914,7 @@
             "soft cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Boeuf_Stroganoff.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Boeuf_Stroganoff.jpg"
     },
     {
         "id": "46",
@@ -934,6 +934,6 @@
             "AOP semi-soft cheese",
             "cow cheese"
         ],
-        "image": "/images-meal/Boeuf_Wellington.jpg"
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Boeuf_Wellington.jpg"
     }
 ]
