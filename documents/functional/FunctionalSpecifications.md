@@ -21,6 +21,7 @@
       - [Project Representatives](#project-representatives)
       - [Team \& Roles](#team--roles)
       - [Stakeholders](#stakeholders)
+    - [Timeline](#timeline)
     - [Risks](#risks)
     - [Resources](#resources)
       - [Team](#team)
@@ -213,6 +214,8 @@ The product is developed using the no-code tool Bubble.io.
 | Intermarché            | Project initiator and secondary beneficiary             |
 | ALGOSUP                | Technology provider, second project initiator           |
 | ALGOSUP's students     | Project contributors, developers, testers, designers... |
+
+### Timeline
 
 ### Risks
 
