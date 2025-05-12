@@ -573,8 +573,27 @@ This section is designed to guide the user through available options and include
 
 3. **Mix & Match**
 
-_To be defined._
-This section will allow users to combine products (e.g., wine and cheese) for personalized pairings.
+- **Functionality:**
+
+  The Mix & Match section offers complete tasting suggestions for users who are curious or unsure about what to try. Each suggestion includes a curated combination of:
+  - one meal
+  - one wine
+  - one cheese
+
+- **Details:**
+  - Combinations are created by specialists to ensure balance and quality.
+  - Only local products are used in these pairings.
+  - Users cannot generate new suggestions—combinations are fixed and manually curated.
+  - Tapping on a Mix & Match opens a dedicated page with detailed descriptions of the three selected products.
+  - This feature is designed to guide users who:
+    - Want inspiration from experts
+    - Are looking for a full food and wine experience
+    - Prefer ready-made, high-quality recommendations
+
+- **Example:**
+  - *Ratatouille*
+  - *Domaine Grand Mas de Lansac Rosé*
+  - *Fresh goat cheese*
 
 4. **Recommendations**
 
