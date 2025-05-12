@@ -13,6 +13,10 @@
         "wine": [
             "Red"
         ],
+        "cheese": [
+            "hard cheese",
+            "cow cheese"
+        ],
         "image": "/images-meals/Boeuf_Bourguignon.jpg"
     },
     {
@@ -30,6 +34,10 @@
             "White",
             "Sparkling"
         ],
+        "cheese": [
+            "soft cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Quiche_Lorraine.jpg"
     },
     {
@@ -45,6 +53,10 @@
         "wine": [
             "Rosé",
             "Red"
+        ],
+        "cheese": [
+            "fresh cheese",
+            "goat cheese"
         ],
         "image": "/images-meal/Ratatouille.jpg"
     },
@@ -62,6 +74,10 @@
         "wine": [
             "Red"
         ],
+        "cheese": [
+            "semi-hard cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Coq_au_Vin.jpg"
     },
     {
@@ -77,6 +93,10 @@
         "wine": [
             "Red"
         ],
+        "cheese": [
+            "hard cheese",
+            "sheep cheese"
+        ],
         "image": "/images-meal/Cassoulet.jpg"
     },
     {
@@ -91,6 +111,10 @@
         ],
         "wine": [
             "White"
+        ],
+        "cheese": [
+            "soft cheese",
+            "cow cheese"
         ],
         "image": "/images-meal/Blanquette_de_Veau.jpg"
     },
@@ -108,6 +132,11 @@
             "White",
             "Red"
         ],
+        "cheese": [
+            "soft cheese",
+            "AOP semi-soft cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Gratin_Dauphinois.jpg"
     },
     {
@@ -122,6 +151,10 @@
         ],
         "wine": [
             "White"
+        ],
+        "cheese": [
+            "AOP semi-hard cheese",
+            "cow cheese"
         ],
         "image": "/images-meal/Choucroute_Garnie.jpg"
     },
@@ -139,6 +172,10 @@
         "wine": [
             "Red"
         ],
+        "cheese": [
+            "semi-hard cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Hachis_Parmentier.jpg"
     },
     {
@@ -155,6 +192,10 @@
             "White",
             "Rosé"
         ],
+        "cheese": [
+            "fresh cheese",
+            "goat cheese"
+        ],
         "image": "/images-meal/Poulet_Basquaise.jpg"
     },
     {
@@ -170,6 +211,10 @@
         "wine": [
             "White"
         ],
+        "cheese": [
+            "AOP semi-soft cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Tartiflette.jpg"
     },
     {
@@ -184,6 +229,10 @@
         ],
         "wine": [
             "Red"
+        ],
+        "cheese": [
+            "aged/dried cheese",
+            "sheep cheese"
         ],
         "image": "/images-meal/Magret_de_canard.jpg"
     },
@@ -201,6 +250,10 @@
         "wine": [
             "Red"
         ],
+        "cheese": [
+            "floral tomme cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Boudin_Noir_aux_Pommes.jpg"
     },
     {
@@ -215,6 +268,10 @@
         ],
         "wine": [
             "Red"
+        ],
+        "cheese": [
+            "hard cheese",
+            "cow cheese"
         ],
         "image": "/images-meal/Pot_au_Feu.jpg"
     },
@@ -232,6 +289,11 @@
             "Red",
             "Rosé"
         ],
+        "cheese": [
+            "fresh cheese",
+            "sheep cheese",
+            "mixed cheese"
+        ],
         "image": "/images-meal/Couscous_Royal.jpg"
     },
     {
@@ -246,6 +308,10 @@
         ],
         "wine": [
             "White"
+        ],
+        "cheese": [
+            "AOP goat cheese",
+            "cow cheese"
         ],
         "image": "/images-meal/Tête_de_Veau.jpg"
     },
@@ -262,6 +328,10 @@
         "wine": [
             "Red"
         ],
+        "cheese": [
+            "aged/dried cheese",
+            "sheep cheese"
+        ],
         "image": "/images-meal/Gigot_d'Agneau.jpg"
     },
     {
@@ -276,6 +346,10 @@
         ],
         "wine": [
             "Red"
+        ],
+        "cheese": [
+            "semi-hard cheese",
+            "sheep cheese"
         ],
         "image": "/images-meal/Navarin_d'Agneau.jpg"
     },
@@ -292,6 +366,10 @@
         ],
         "wine": [
             "White"
+        ],
+        "cheese": [
+            "fresh cheese",
+            "fresh farm cheese"
         ],
         "image": "/images-meal/Sole_Meunière.jpg"
     },
@@ -310,6 +388,10 @@
             "Red",
             "White"
         ],
+        "cheese": [
+            "soft cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Filet_Mignon_à_la_Moutarde.jpg"
     },
     {
@@ -327,6 +409,10 @@
             "Red",
             "White"
         ],
+        "cheese": [
+            "soft cheese",
+            "goat cheese"
+        ],
         "image": "/images-meal/Lapin_à_la_Moutarde.jpg"
     },
     {
@@ -342,6 +428,10 @@
         ],
         "wine": [
             "White"
+        ],
+        "cheese": [
+            "triple cream cheese",
+            "cow cheese"
         ],
         "image": "/images-meal/Escalope_Normande.jpg"
     },
@@ -359,6 +449,11 @@
         "wine": [
             "Red"
         ],
+        "cheese": [
+            "hard cheese",
+            "AOP semi-hard cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Côte_de_Boeuf.jpg"
     },
     {
@@ -375,6 +470,10 @@
         "wine": [
             "White"
         ],
+        "cheese": [
+            "soft cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Poule_au_Pot.jpg"
     },
     {
@@ -390,6 +489,11 @@
         ],
         "wine": [
             "Red"
+        ],
+        "cheese": [
+            "floral tomme cheese",
+            "sheep cheese",
+            "goat cheese"
         ],
         "image": "/images-meal/Confit_de_Canard.jpg"
     },
@@ -408,6 +512,10 @@
             "Red",
             "White"
         ],
+        "cheese": [
+            "semi-hard cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Andouillette.jpg"
     },
     {
@@ -424,6 +532,11 @@
         "wine": [
             "Red",
             "White"
+        ],
+        "cheese": [
+            "hard cheese",
+            "AOP semi-soft cheese",
+            "cow cheese"
         ],
         "image": "/images-meal/Caille_Rôtie.jpg"
     },
@@ -442,6 +555,11 @@
             "White",
             "Rosé"
         ],
+        "cheese": [
+            "soft cheese",
+            "goat cheese",
+            "fresh log cheese"
+        ],
         "image": "/images-meal/Gratin_de_courgettes.jpg"
     },
     {
@@ -458,6 +576,10 @@
         "wine": [
             "Red"
         ],
+        "cheese": [
+            "semi-hard cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Bœuf_aux_carottes.jpg"
     },
     {
@@ -473,6 +595,10 @@
         ],
         "wine": [
             "White"
+        ],
+        "cheese": [
+            "fresh cheese",
+            "buffalo cheese"
         ],
         "image": "/images-meal/Gratin_de_poisson.jpg"
     },
@@ -491,6 +617,11 @@
             "White",
             "Rosé"
         ],
+        "cheese": [
+            "fresh cheese",
+            "fresh farm cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Lotte_à_l'armoricaine.jpg"
     },
     {
@@ -507,6 +638,10 @@
         "wine": [
             "White"
         ],
+        "cheese": [
+            "AOP semi-soft cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Gratin_savoyard.jpg"
     },
     {
@@ -522,6 +657,11 @@
         ],
         "wine": [
             "Red"
+        ],
+        "cheese": [
+            "aged/dried cheese",
+            "AOP semi-soft cheese",
+            "cow cheese"
         ],
         "image": "/images-meal/Civet_de_lièvre.jpg"
     },
@@ -540,6 +680,11 @@
             "White",
             "Rosé"
         ],
+        "cheese": [
+            "fresh cheese",
+            "fresh farm cheese",
+            "goat cheese"
+        ],
         "image": "/images-meal/Pavé_de_saumon.jpg"
     },
     {
@@ -555,6 +700,11 @@
         ],
         "wine": [
             "Red"
+        ],
+        "cheese": [
+            "hard cheese",
+            "AOP semi-hard cheese",
+            "cow cheese"
         ],
         "image": "/images-meal/Langue_de_bœuf.jpg"
     },
@@ -573,6 +723,10 @@
             "Red",
             "White"
         ],
+        "cheese": [
+            "soft cheese",
+            "goat cheese"
+        ],
         "image": "/images-meal/Poulet_rôti.jpg"
     },
     {
@@ -589,6 +743,10 @@
         "wine": [
             "White",
             "Rosé"
+        ],
+        "cheese": [
+            "fresh cheese",
+            "floral tomme cheese"
         ],
         "image": "/images-meal/Gratin_de_légumes.jpg"
     },
@@ -607,6 +765,10 @@
             "Red",
             "White"
         ],
+        "cheese": [
+            "AOP semi-hard cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Rôti_de_porc.jpg"
     },
     {
@@ -622,6 +784,10 @@
         ],
         "wine": [
             "White"
+        ],
+        "cheese": [
+            "fresh cheese",
+            "buffalo cheese"
         ],
         "image": "/images-meal/Brandade_de_morue.jpg"
     },
@@ -640,6 +806,10 @@
             "White",
             "Rosé"
         ],
+        "cheese": [
+            "fresh cheese",
+            "goat cheese"
+        ],
         "image": "/images-meal/Tielle_sétoise.jpg"
     },
     {
@@ -657,6 +827,10 @@
             "White",
             "Rosé"
         ],
+        "cheese": [
+            "fresh farm cheese",
+            "goat cheese"
+        ],
         "image": "/images-meal/Soupe_au_Pistou.jpg"
     },
     {
@@ -672,6 +846,11 @@
         ],
         "wine": [
             "White"
+        ],
+        "cheese": [
+            "fresh cheese",
+            "yogurt",
+            "goat cheese"
         ],
         "image": "/images-meal/Saumon_en_papillote.jpg"
     },
@@ -690,6 +869,10 @@
             "White",
             "Sparkling"
         ],
+        "cheese": [
+            "fresh cheese",
+            "buffalo cheese"
+        ],
         "image": "/images-meal/Tartare_de_saumon.jpg"
     },
     {
@@ -707,6 +890,10 @@
             "White",
             "Rosé"
         ],
+        "cheese": [
+            "fresh cheese",
+            "AOP goat cheese"
+        ],
         "image": "/images-meal/Salade_nicoise.jpg"
     },
     {
@@ -723,6 +910,10 @@
         "wine": [
             "Red"
         ],
+        "cheese": [
+            "soft cheese",
+            "cow cheese"
+        ],
         "image": "/images-meal/Boeuf_Stroganoff.jpg"
     },
     {
@@ -738,6 +929,10 @@
         ],
         "wine": [
             "Red"
+        ],
+        "cheese": [
+            "AOP semi-soft cheese",
+            "cow cheese"
         ],
         "image": "/images-meal/Boeuf_Wellington.jpg"
     }
