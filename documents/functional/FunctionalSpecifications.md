@@ -47,10 +47,18 @@
     - [Color Palette](#color-palette)
     - [Mockups](#mockups)
       - [Sign-Up Page](#sign-up-page)
+      - [QR Code Pages](#qr-code-pages)
+        - [Scanned QR Code Page](#scanned-qr-code-page)
+        - [Product Selection](#product-selection)
+        - [Accompany Page](#accompany-page)
+        - [Accompany Page Following](#accompany-page-following)
+        - [Recommendation Page](#recommendation-page)
       - [Menu Page](#menu-page)
       - [Discovery Pages](#discovery-pages)
       - [Product Card](#product-card)
       - [Product Page](#product-page)
+      - [Search Page](#search-page)
+      - [Bar-Code Page](#bar-code-page)
   - [Functional Requirements](#functional-requirements)
     - [Multilingual Support](#multilingual-support)
     - [QR Code Accessibility](#qr-code-accessibility)
@@ -58,6 +66,10 @@
       - [If the user chooses "Something to accompany my wine"](#if-the-user-chooses-something-to-accompany-my-wine)
       - [If the user chooses "Find a wine"](#if-the-user-chooses-find-a-wine)
     - [Search Mechanic](#search-mechanic)
+      - [Functional Scope](#functional-scope)
+      - [Integration with the Filtering System](#integration-with-the-filtering-system)
+      - [Simplified User Flow](#simplified-user-flow)
+      - [Benefits](#benefits)
     - [List Of Products](#list-of-products)
       - [Meals](#meals)
       - [Wines](#wines)
@@ -385,8 +397,6 @@ The web application uses official Intermarché logos provided under the brand’
 
 #### Cheerish Logo
 
-Here's a corrected and improved version of your section, with added explanation for the design elements of the logo:
-
 Cheerish is the name and logo our team created specifically for this project.
 
 <div align="center">
@@ -541,6 +551,132 @@ These button colors are defined in the [Color Palette](#color-palette) section.
 - Centered
 - Padding: 15px
 
+#### QR Code Pages
+
+This section outlines the design of the QR code-related pages. For in-depth functionality and technical details, refer to the dedicated [QR Code Accessibility](#qr-code-accessibility) section.
+
+##### Scanned QR Code Page
+
+This introductory page appears after scanning a QR code and includes:
+
+- The location where the QR code was scanned, which may be:
+
+  - At the **shop entrance**
+  - In the **wine aisle**
+  - In the **cheese aisle**
+
+- A first button prompts the user to:
+
+  - Find a **cheese**, if the QR code was scanned in the **cheese aisle**
+  - Find a **wine**, if the QR code was scanned in the **wine aisle**
+
+- A second button prompts the user to:
+
+  - Find a **product to accompany their wine**, if the scan occurred in the **wine aisle**
+  - Find a **product to accompany their cheese**, if the scan occurred in the **cheese aisle**
+
+- If the QR code was scanned at the **shop entrance**, the user is redirected directly to the [Sign-Up Page](#sign-up-page).
+
+<div align="center">
+
+![Scanned QR Code Page](./images/pages/ScanQrCodeWelcomePage.png)
+
+</div>
+
+##### Product Selection
+
+If the user selects to find a cheese or a wine, they are redirected directly to the appropriate [Discovery Pages](#discovery-pages).
+
+##### Accompany Page
+
+This page allows the user to enter the name of the wine or cheese they are looking to pair.
+
+**Page Elements:**
+
+1. **Back Button**
+
+   - Navigates back to the [QR Code Pages](#qr-code-pages)
+
+2. **Instructional Text**
+
+   - Prompts the user to input the wine or cheese they have selected
+
+3. **Input Box**
+
+   - Allows the user to type in the name of the product
+
+4. **Confirmation Button**
+
+   - Confirms the selection and redirects to the [Accompany Page Following](#accompany-page-following)
+   - Styled and functions similarly to the button described in the [Sign-Up Page](#sign-up-page)
+
+<div align="center">
+
+![Accompany Page](./images/pages/AccompanyPage1.png)
+
+</div>
+
+##### Accompany Page Following
+
+This page allows the user to choose what kind of pairing they are looking for.
+
+**Page Elements:**
+
+1. **Back Button**
+
+   - Navigates back to the [Accompany Page](#accompany-page)
+
+2. **Instructional Text**
+
+   - Asks the user what they would like to pair with their selected product
+
+3. **Dropdown Menu**
+
+   - Options include:
+
+     - **Cheese/Wine**
+     - **Dish**
+     - **Both**
+
+4. **Confirmation Button**
+
+   - Same style and behavior as described in the [Sign-Up Page](#sign-up-page)
+   - Leads the user to the [Recommendation Page](#recommendation-page)
+
+<div align="center">
+
+![Accompany Page Following](./images/pages/AccompanyPageFollowing.png)
+
+</div>
+
+##### Recommendation Page
+
+This page displays product recommendations based on the user's previously selected product and pairing preferences.
+
+**Page Elements:**
+
+1. **Header**
+   Includes:
+
+   - The Cheerish logo
+   - A search icon linked to the [Search Mechanic](#search-mechanic)
+   - A language selection button as described in the [Multilingual Support](#multilingual-support) section
+
+2. **Contextual Text**
+
+   - For example: _“With your \[product]”_
+
+3. **Product Carousels**
+
+   - If the user requested a **dish**, **wine**, or **cheese**, a single carousel appears showing suggested products based on [Product Tags](#product-tags)
+   - If the user requested **both**, two carousels are displayed
+
+<div align="center">
+
+![Recommendation Page](./images/pages/RecommendationPage.png)
+
+</div>
+
 #### Menu Page
 
 The Menu Page serves as the **Home Page** of the application. It is the main interface the user interacts with and offers quick access to key features and content.
@@ -576,11 +712,13 @@ This section is designed to guide the user through available options and include
 - **Functionality:**
 
   The Mix & Match section offers complete tasting suggestions for users who are curious or unsure about what to try. Each suggestion includes a curated combination of:
+
   - one meal
   - one wine
   - one cheese
 
 - **Details:**
+
   - Combinations are created by specialists to ensure balance and quality.
   - Only local products are used in these pairings.
   - Users cannot generate new suggestions—combinations are fixed and manually curated.
@@ -592,14 +730,13 @@ This section is designed to guide the user through available options and include
 
 - **Examples:**
 
-| # | Meal                  | Wine                                                   | Cheese                                          |
-|---|-----------------------|--------------------------------------------------------|-------------------------------------------------|
-| 1 | Cod Brandade          | Roche Mazet Cinsault–Grenache Rosé                     | Figou (goat cheese with fig)                    |
-| 2 | Salmon Steak          | Cave Terra Ventoux Secret de Truffle Red               | Flower-coated Tomme                             |
-| 3 | Tartiflette           | Roche Mazet Merlot                                     | Cranberry-coated Goat Cheese (80 g)             |
-| 4 | Shepherd’s Pie        | Domaine de Lagoy White Organic Cuvée Classique         | Saint-Félicien Faisselle – Saint-Marcel (260 g) |
-| 5 | Beef Stew (Pot-au-feu)| Val de L'Oule Red Frisson                              | Tome of Provence                                |
-
+| #   | Meal                   | Wine                                           | Cheese                                          |
+| --- | ---------------------- | ---------------------------------------------- | ----------------------------------------------- |
+| 1   | Cod Brandade           | Roche Mazet Cinsault–Grenache Rosé             | Figou (goat cheese with fig)                    |
+| 2   | Salmon Steak           | Cave Terra Ventoux Secret de Truffle Red       | Flower-coated Tomme                             |
+| 3   | Tartiflette            | Roche Mazet Merlot                             | Cranberry-coated Goat Cheese (80 g)             |
+| 4   | Shepherd’s Pie         | Domaine de Lagoy White Organic Cuvée Classique | Saint-Félicien Faisselle – Saint-Marcel (260 g) |
+| 5   | Beef Stew (Pot-au-feu) | Val de L'Oule Red Frisson                      | Tome of Provence                                |
 
 4. **Recommendations**
 
@@ -705,6 +842,55 @@ Each card includes:
 
 #### Product Page
 
+The Product Page is where users can view detailed information about a selected product, whether it is a wine or a cheese.
+
+This page is composed of the following elements:
+
+1. **Header**
+
+   - Consistent with the header described in the [Menu Page](#menu-page) section.
+   - Includes the application logo, a search icon, and a language selection button.
+
+2. **Back Button**
+
+   - Allows users to return to the Discovery Page corresponding to the product's category (wine or cheese).
+
+3. **Product Name**
+
+   - Displayed prominently at the top of the page to highlight the product.
+
+4. **Product Image**
+
+   - A visual of the product shown in a dedicated image container.
+
+5. **Descriptive Card**
+
+   - Provides comprehensive product information, including:
+
+     - Product description
+     - Vintage (for wines) or cheese type
+     - Country of origin
+     - Region
+     - Appellation (e.g., PDO, AOC)
+     - Grape variety or type of milk used
+     - Price
+
+6. **Recommendations**
+
+   - Displays suggested products that pair well with the selected item.
+   - These recommendations are **predefined (hard-coded)** and not based on dynamic algorithms.
+   - Each suggested product appears as a card, following the structure described in the [Product Card](#product-card) section.
+
+<div align="center">
+
+![Product Page](./images/pages/ProductPage.png)
+
+</div>
+
+#### Search Page
+
+#### Bar-Code Page
+
 ---
 
 ## Functional Requirements
@@ -789,6 +975,49 @@ The user is presented with two options:
 > Details about filtering options can be found in the [Research Filters](#research-filters) section.
 
 ### Search Mechanic
+
+The search feature enables users to quickly find products—either wines or cheeses—within the application using keyword-based input. It is designed to be fast, intuitive, and responsive to user queries.
+
+#### Functional Scope
+
+- **Search by Name**
+  Users can locate a product by entering part or all of its name. The search engine supports:
+
+  - Partial matches
+  - Case insensitivity
+  - Accented character recognition
+    This ensures a user-friendly and accessible experience.
+
+- **Instant Results**
+  As users type, the interface dynamically displays results in real time, enabling a faster and smoother search experience.
+
+- **Error Tolerance**
+  The system handles minor typos or alternate spellings (e.g., “camember” returns **Camembert**) to improve accuracy and usability.
+
+#### Integration with the Filtering System
+
+In addition to keyword search, users can refine results using the application's built-in filtering and tagging systems. Filters may include:
+
+- Product category
+- Region of origin
+- Price range
+- Type of wine or cheese
+
+**See:** [Product Tags](#product-tags), [Research Filters](#research-filters)
+
+#### Simplified User Flow
+
+1. The user accesses the search bar from the Home Screen or Product List view.
+2. They input a product name or relevant keyword.
+3. A list of dynamically updated matching results is displayed.
+4. The user can apply filters and tags to further narrow the results.
+5. Selecting a product redirects the user to its detailed Product Page.
+
+#### Benefits
+
+- Enables quick access for returning users or those with specific goals.
+- Increases user satisfaction through fast, intelligent search behavior.
+- Encourages exploration and discovery of related products via tags and filters.
 
 ### List Of Products
 
