@@ -590,10 +590,16 @@ This section is designed to guide the user through available options and include
     - Are looking for a full food and wine experience
     - Prefer ready-made, high-quality recommendations
 
-- **Example:**
-  - *Ratatouille*
-  - *Domaine Grand Mas de Lansac Rosé*
-  - *Fresh goat cheese*
+- **Examples:**
+
+| # | Meal                  | Wine                                                   | Cheese                                          |
+|---|-----------------------|--------------------------------------------------------|-------------------------------------------------|
+| 1 | Cod Brandade          | Roche Mazet Cinsault–Grenache Rosé                     | Figou (goat cheese with fig)                    |
+| 2 | Salmon Steak          | Cave Terra Ventoux Secret de Truffle Red               | Flower-coated Tomme                             |
+| 3 | Tartiflette           | Roche Mazet Merlot                                     | Cranberry-coated Goat Cheese (80 g)             |
+| 4 | Shepherd’s Pie        | Domaine de Lagoy White Organic Cuvée Classique         | Saint-Félicien Faisselle – Saint-Marcel (260 g) |
+| 5 | Beef Stew (Pot-au-feu)| Val de L'Oule Red Frisson                              | Tome of Provence                                |
+
 
 4. **Recommendations**
 
