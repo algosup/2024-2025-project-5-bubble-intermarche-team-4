@@ -46,6 +46,9 @@
     - [Mockups](#mockups)
       - [Sign-Up Page](#sign-up-page)
       - [Menu Page](#menu-page)
+      - [Discovery Pages](#discovery-pages)
+      - [Product Card](#product-card)
+      - [Product Page](#product-page)
   - [Functional Requirements](#functional-requirements)
     - [Multilingual Support](#multilingual-support)
     - [QR Code Accessibility](#qr-code-accessibility)
@@ -57,7 +60,6 @@
     - [Product Tags](#product-tags)
     - [Research Filters](#research-filters)
     - [Bar-Code Scanner](#bar-code-scanner)
-    - [In-Shop Location of Products](#in-shop-location-of-products)
     - [Recommendation Algorithm](#recommendation-algorithm)
       - [Client's Origin](#clients-origin)
     - [Local Product Spotlight](#local-product-spotlight)
@@ -68,7 +70,9 @@
     - [Accessibility](#accessibility)
   - [Recommended Minimum Hardware Requirements](#recommended-minimum-hardware-requirements)
   - [Future Improvements](#future-improvements)
+    - [Special Offers](#special-offers)
     - [Product Opinion](#product-opinion)
+    - [In-Shop Location of Products](#in-shop-location-of-products)
   - [Legal \& Compliance](#legal--compliance)
     - [Data Protection and Privacy](#data-protection-and-privacy)
     - [Accessibility](#accessibility-1)
@@ -493,7 +497,148 @@ These button colors are defined in the [Color Palette](#color-palette) section.
 - Centered
 - Padding: 15px
 
+Here's a corrected and polished version of your **Menu Page** section, improving grammar, clarity, structure, and flow:
+
+---
+
 #### Menu Page
+
+The Menu Page serves as the **Home Page** of the application. It is the main interface the user interacts with and offers quick access to key features and content.
+
+The page is composed of four main sections:
+
+1. **Header**
+
+The header includes the following elements:
+
+- The application’s logo
+- A magnifying glass icon representing the [Search Mechanic](#search-mechanic) functionality
+- A language switcher button, as described in the [Multilingual Support](#multilingual-support) section
+
+2. **Browse Categories**
+
+This section is designed to guide the user through available options and includes:
+
+- A friendly welcome message
+- A brief explanatory sentence encouraging exploration of the platform
+- Four action buttons leading to various discovery pages:
+
+  1. **See Menus** – Redirects to a complete list of available menus
+  2. **Discover Our Wines** – Displays the full wine selection
+  3. **Cheese Selection** – Presents the complete list of cheeses
+  4. **View Catalogue** – Shows all available products, including menus, cheeses, and wines
+
+> **Note:**
+> These four buttons lead to what are referred to as **Discovery Pages**. You can find more information in the [Discovery Pages](#discovery-pages) section.
+
+3. **Mix & Match**
+
+_To be defined._
+This section will allow users to combine products (e.g., wine and cheese) for personalized pairings.
+
+4. **Recommendations**
+
+This section includes personalized product suggestions based on user preferences, as detailed in the [Recommendation Algorithm](#recommendation-algorithm) section. It contains:
+
+- A horizontally scrollable carousel with 2–5 product recommendations
+- Product cards that include:
+
+  - [Product Tags](#product-tags)
+  - Product price
+  - A brief description
+  - A call-to-action button linking to the full [Product Page](#product-page)
+
+<div align="center">
+  <img src="./images/pages/MenuPage.png" alt="Menu Page Mockup">
+</div>
+
+#### Discovery Pages
+
+Discovery Pages serve as the main category pages for product browsing. These categories include:
+
+- Meals
+- Wines
+- Cheeses
+
+Each page acts as a showcase for the respective category, displaying all available products along with relevant information.
+
+The pages are composed of the following sections:
+
+1. **Header**
+
+   - Identical to the header described in the [Menu Page](#menu-page) section.
+   - Contains the logo, search icon, and language selection button.
+
+2. **Back Button**
+
+   - A simple button that returns the user to the Menu Page.
+
+3. **Search Bar**
+
+   - A minimal design with a magnifying glass icon and input field.
+   - Enables users to search for specific products or refine results alongside filter options.
+   - Example: typing "white wine" returns only white wines.
+
+4. **Filters**
+   Filters allow users to narrow down their product search. Filter options include:
+
+   - **Type of Wine** or **Type of Milk (for cheeses)** – See [Research Filters](#research-filters) for more details
+
+   - **Price Range**
+
+     - €0 to €5
+     - €5 to €15
+     - Over €15
+
+   - **Country of Origin**
+
+   - **Selected Dish** – The user selects a dish they wish to prepare; the system recommends suitable wines or cheeses.
+
+   - **Selected Cheese** – The user selects a cheese they have; the system suggests compatible dishes or wines.
+
+   - **Selected Wine** – The user selects a wine they have; the system recommends complementary dishes or cheeses.
+
+   - **Reset Button** – Reinitializes all filters to their default state.
+
+   > **Note:**
+   > The "Selected ..." filters require the user to choose from products already present in the database (external products are not supported).
+   > These filters will appear as dropdowns with search functionality to simplify selection.
+
+5. **Recommendations Section**
+
+   - Displays product cards based on the applied filters.
+   - If no filters are applied, the full list of products in the selected category is shown.
+
+<div align="center">
+  <img src="./images/pages/DiscoveryWinePage.png" alt="Discovery Page - Wine Category">
+</div>
+
+#### Product Card
+
+Product Cards highlight individual products across various pages. They are designed to present essential information clearly and attractively. Below is the design reference:
+
+<div align="center">
+  <img src="./images/pages/ProductCard.png" alt="Product Card Design">
+</div>
+
+Each card includes:
+
+- An image of the product
+- Product name
+- [Product Tags](#product-tags)
+- A short description (maximum 30 words)
+- Price
+- A **See Details** button that links to the product’s dedicated page
+
+**Design Specifications:**
+
+- Rounded corners: 7°
+- Black drop shadow
+- Height: 40% of the screen height
+- Width: 80% of the screen width
+- Background color: Grey
+
+#### Product Page
 
 ---
 
@@ -590,7 +735,7 @@ The user is presented with two options:
   The mobile application must allow users to apply filters when searching for products
 
 - **Details:**
-  
+
   The Users can use the following filters to refine their search:
 
   - the type of product,
@@ -598,7 +743,8 @@ The user is presented with two options:
   - the seasonality of the product,
   - the region or country of origin
 
-  If the Users specified the type of of product they are looking for, they will have access to secific filters for that type of product:
+  If the Users specified the type of of product they are looking for, they will have access to specific filters for that type of product:
+
   - for the **wine** type, the user unlock the following filters:
     - the color of the wine (red, white, rosé, sparkling),
     - the grape variety,
@@ -612,10 +758,8 @@ The user is presented with two options:
   - for the **meal** type, the user unlock the following filters:
     - the dieatary restrictions (vegetarian, vegan, gluten-free),
     - the region of origin (Provence, Bordeaux, ...)
-  
-### Bar-Code Scanner
 
-### In-Shop Location of Products
+### Bar-Code Scanner
 
 ### Recommendation Algorithm
 
@@ -670,7 +814,11 @@ _To be defined – specify device compatibility (e.g., iOS/Android, minimum OS v
 
 ## Future Improvements
 
+### Special Offers
+
 ### Product Opinion
+
+### In-Shop Location of Products
 
 ---
 
