@@ -1,6 +1,6 @@
 <div align="center">
 
-# Functional Specifications – Team 4
+# Functional Specifications – Team 4 - Cheerish
 
 </div>
 
@@ -8,7 +8,7 @@
 
 <details>
 
-- [Functional Specifications – Team 4](#functional-specifications--team-4)
+- [Functional Specifications – Team 4 - Cheerish](#functional-specifications--team-4---cheerish)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
     - [Project Overview](#project-overview)
@@ -21,6 +21,7 @@
       - [Project Representatives](#project-representatives)
       - [Team \& Roles](#team--roles)
       - [Stakeholders](#stakeholders)
+    - [Risks](#risks)
     - [Resources](#resources)
       - [Team](#team)
       - [Client](#client)
@@ -37,6 +38,7 @@
   - [UI/UX](#uiux)
     - [Graphic Charter](#graphic-charter)
     - [Logotype](#logotype)
+      - [Cheerish Logo](#cheerish-logo)
       - [Base Logo](#base-logo)
       - [Intermarché Super Logo](#intermarché-super-logo)
       - [Round Intermarché Logo](#round-intermarché-logo)
@@ -64,7 +66,10 @@
     - [Research Filters](#research-filters)
     - [Bar-Code Scanner](#bar-code-scanner)
     - [Recommendation Algorithm](#recommendation-algorithm)
-      - [Client's Origin](#clients-origin)
+      - [Functional Criteria](#functional-criteria)
+      - [Example Use Case](#example-use-case)
+      - [Recommendation Flow](#recommendation-flow)
+      - [Cultural Taste Preferences](#cultural-taste-preferences)
     - [Local Product Spotlight](#local-product-spotlight)
   - [Non-Functional Requirements](#non-functional-requirements)
     - [Performance](#performance)
@@ -73,12 +78,11 @@
     - [Accessibility](#accessibility)
   - [Recommended Minimum Hardware Requirements](#recommended-minimum-hardware-requirements)
   - [Future Improvements](#future-improvements)
-    - [Special Offers](#special-offers)
-    - [Product Opinion](#product-opinion)
-    - [In-Shop Location of Products](#in-shop-location-of-products)
+    - [Integration of Special Offers](#integration-of-special-offers)
+    - [User Reviews and Product Ratings](#user-reviews-and-product-ratings)
+    - [In-Store Product Location Guidance](#in-store-product-location-guidance)
   - [Legal \& Compliance](#legal--compliance)
     - [Data Protection and Privacy](#data-protection-and-privacy)
-    - [Accessibility](#accessibility-1)
   - [Conclusion](#conclusion)
 
 </details>
@@ -87,7 +91,7 @@
 
 ## Introduction
 
-This document outlines the **functional specifications** for the development of a mobile web application for [Intermarché](https://www.intermarche.com/?srsltid=AfmBOop3uKBkrZ9x8Szj8EtpgHOqzuk_bHP3x1af4_9TrFf_640On9RY).
+This document outlines the **functional specifications** for the development of a mobile web application for [Intermarché](https://www.intermarche.com/?srsltid=AfmBOop3uKBkrZ9x8Szj8EtpgHOqzuk_bHP3x1af4_9TrFf_640On9RY) named Cheerish.
 Its purpose is to clearly define the project's requirements, scope, and objectives, ensuring that all stakeholders share a unified understanding of what is being developed.
 
 ### Project Overview
@@ -111,7 +115,6 @@ Our vision is to develop an **open-source mobile web application** as a proof of
 - Attract more customers and **increase in-store sales**
 - Feature an **intuitive and inclusive interface** for all adult users
 - No-need to **create an account**
-- **No internet dependency** (if possible)
 
 #### Market Analysis
 
@@ -198,6 +201,21 @@ The product is developed using the no-code tool Bubble.io.
 | Intermarché            | Project initiator and secondary beneficiary             |
 | ALGOSUP                | Technology provider, second project initiator           |
 | ALGOSUP's students     | Project contributors, developers, testers, designers... |
+
+### Risks
+
+| Risk                               | Consequences                                       | Likelihood | Impact | Mitigation                                                                                       |
+| ---------------------------------- | -------------------------------------------------- | ---------- | ------ | ------------------------------------------------------------------------------------------------ |
+| Delayed Client's Response          | Deadlines not respected                            | High       | High   | Plan messages in advance, schedule regular meetings, and consolidate questions into one message. |
+| Limited Technology Stack           | Functionalities hard/impossible to implement       | High       | High   | Plan development in advance, close collaboration with Technical Leader                           |
+| Inaccurate Pairing Recommendations | Poor user experience, low app credibility          | Medium     | High   | Use validated data sources, enable user feedback, consult domain experts                         |
+| Ambiguity in Feature Definitions   | Misaligned expectations, rework and delays         | Medium     | High   | Clearly define user stories and acceptance criteria                                              |
+| Overcomplexity in UI               | Users abandon app due to confusion                 | Medium     | Medium | Prioritize simplicity, offer "basic" and "advanced" modes                                        |
+| Incorrect or Missing Product Data  | Unreliable results, limited functionality          | Medium     | High   | Use reliable databases, allow user corrections with moderation                                   |
+| Lack of Domain Expertise           | Incorrect pairing logic, user mistrust             | Medium     | High   | Consult culinary experts or trusted sources                                                      |
+| Performance Bottlenecks            | Slow app performance, especially on mobile         | Medium     | Medium | Optimize database and API calls, test on low-spec devices                                        |
+| Feature Creep                      | Project delays, diluted focus                      | Medium     | High   | Stick to MoSCoW prioritization, defer non-core features                                          |
+| No Mechanism for Feedback/Updates  | App becomes outdated or unresponsive to user needs | Low        | Medium | Add user feedback forms, analytics, and data update mechanisms                                   |
 
 ### Resources
 
@@ -365,6 +383,27 @@ The web application uses official Intermarché logos provided under the brand’
 
 ---
 
+#### Cheerish Logo
+
+Here's a corrected and improved version of your section, with added explanation for the design elements of the logo:
+
+Cheerish is the name and logo our team created specifically for this project.
+
+<div align="center">
+
+![Cheerish Logo](./images/logo/CheerishLogo.png)
+
+</div>
+
+The logo was designed to visually represent the core values and purpose of the application. It includes:
+
+- **A piece of cheese**, symbolizing one of the two main product categories the app focuses on.
+- **A wine glass**, representing the second core product and evoking moments of tasting and enjoyment.
+- **A heart**, placed above the glass to express warmth, appreciation, and the emotional connection people often have with good food and shared experiences.
+- **The name _Cheerish_**, a blend of the words _cheer_ and _cherish_, captures the spirit of celebration, discovery, and the appreciation of fine wine and cheese.
+
+Together, these elements embody the user experience we aim to deliver—personalized, joyful, and rooted in cultural and culinary appreciation.
+
 #### Base Logo
 
 <div align="center">
@@ -439,6 +478,8 @@ A visual prototype of the application has been designed using Figma. You can vie
 
 This mockup outlines the core user flows and primary pages of the application, with a focus on intuitive navigation and an engaging user experience.
 
+Though, screenshots taken from such mockup are subject to change and are explanatory, do not focus too much on the visuals but rather on the functionalities.
+
 ---
 
 #### Sign-Up Page
@@ -499,10 +540,6 @@ These button colors are defined in the [Color Palette](#color-palette) section.
 - Width: 195px
 - Centered
 - Padding: 15px
-
-Here's a corrected and polished version of your **Menu Page** section, improving grammar, clarity, structure, and flow:
-
----
 
 #### Menu Page
 
@@ -733,10 +770,12 @@ The user is presented with two options:
 #### Meals
 
 - **Functionality**:
+
   - Display traditional meals with matching wine and cheese recommendations.
   - [meal.json](../../data/meal.json)
 
 - **Details**:
+
   - name
   - region
   - allergens
@@ -746,17 +785,19 @@ The user is presented with two options:
   - recommended cheese tags
 
 - **Example**:
-  *Boeuf Bourguignon*
+  _Boeuf Bourguignon_
   → Wine: `Red`
   → Cheese: `hard cheese`, `cow cheese`
 
 #### Wines
 
 - **Functionality**:
+
   - Display wines and allow filtering by type, region, country, grape, or price.
   - [wines.json](../../data/wines.json)
 
 - **Details**:
+
   - name
   - year
   - type (e.g. Red, White, Rosé)
@@ -767,19 +808,20 @@ The user is presented with two options:
   - image
 
 - **Example**:
-  *Domaine de Valdition Rosé Tradition*
+  _Domaine de Valdition Rosé Tradition_
   → Type: `Rosé`, Year: `2023`
   → Grapes: `Vermentino, Syrah, Grenache...`
   → Price: `10.5 €`
 
-
 #### Cheeses
 
 - **Functionality**:
+
   - Display cheeses and allow filtering by type, milk, region, or country.
   - [cheese.json](../../data/cheese.json)
 
 - **Details**:
+
   - name
   - type (e.g. soft, hard, AOP...)
   - milk (e.g. cow, goat, sheep)
@@ -789,10 +831,9 @@ The user is presented with two options:
   - image
 
 - **Example**:
-  *Tomme de Savoie*
+  _Tomme de Savoie_
   → Type: `semi-hard cheese`, Milk: `cow`
   → Region: `Savoie`
-
 
 ### Product Tags
 
@@ -804,17 +845,16 @@ The user is presented with two options:
   - The tags must be **color-coded** to indicate the type of product they represent.
 - **List of tags:**
 
-| Category         | Tags    | Color Code   |
-|------------------|---------|--------------|
-| **Region**        | Alpilles, Alsace, Ardèche, Auvergne, Bandol, Basque Country, Bourgogne, Brittany, Camargue, Cévennes (Languedoc-Roussillon), Côtes de Provence, Dauphiné, EU, France, Gard, Île-de-France, Languedoc, Les Baux-de-Provence, Loire Valley, Lorraine, Luberon, Méditerranée, Normandie, Nord de l'Afrique, Pays Basque, Pays d'Oc, Périgord – Quercy, Poitou, Poitou–Charentes, Provence, Quercy, Rhône-Alpes, Savoie, South-West, Spain, Sud-Ouest, Var, Veneto, Ventoux | `#FFA07A` (Light Salmon) |
-| **Country**       | Cyprus, France, Greece, Italy, Spain  | `#FFD700` (Gold) |
-| **Meal Allergen** | Gluten, Lactose  | `#FF4500` (Orange Red)   |
-| **Wine Type**     | Rosé, White, Red, Sparkling, Fuzzy, Champagne | `#BA55D3` (Medium Orchid)|
-| **Wine Grape**    | Aligoté, Blend blanc espagnol, Blend blanc générique, Cabernet Sauvignon, Caladoc, Carignan, Cinsault, Chardonnay, Glera, Grenache, Grenache Blanc, Grenache Noir, Loin de l’Oeil, Mauzac, Merlot, Mourvèdre, Muscadelle, Pineau d’Aunis, Rolle, Roussanne, Shiraz/Syrah, Syrah, Tibouren, Ugni Blanc | `#8FBC8F` (Dark Sea Green)|
-| **Cheese Type**   | AOP goat cheese, AOP semi-soft cheese, Fresh cheese, Fresh goat cheese, Fresh log cheese, Goat cheese, Semi-hard cheese, Soft cheese, Triple-cream cheese, Yogurt  | `#87CEFA` (Light Sky Blue)|
-| **Cheese Milk**   | Buffalo, Cow, Goat   | `#F4A460` (Sandy Brown)  |
-| **Season**        |Summer, Spring, Winter, Automn| `#DAB!DA` (Light Purple) |
-
+| Category          | Tags                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Color Code                 |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| **Region**        | Alpilles, Alsace, Ardèche, Auvergne, Bandol, Basque Country, Bourgogne, Brittany, Camargue, Cévennes (Languedoc-Roussillon), Côtes de Provence, Dauphiné, EU, France, Gard, Île-de-France, Languedoc, Les Baux-de-Provence, Loire Valley, Lorraine, Luberon, Méditerranée, Normandie, Nord de l'Afrique, Pays Basque, Pays d'Oc, Périgord – Quercy, Poitou, Poitou–Charentes, Provence, Quercy, Rhône-Alpes, Savoie, South-West, Spain, Sud-Ouest, Var, Veneto, Ventoux | `#FFA07A` (Light Salmon)   |
+| **Country**       | Cyprus, France, Greece, Italy, Spain                                                                                                                                                                                                                                                                                                                                                                                                                                    | `#FFD700` (Gold)           |
+| **Meal Allergen** | Gluten, Lactose                                                                                                                                                                                                                                                                                                                                                                                                                                                         | `#FF4500` (Orange Red)     |
+| **Wine Type**     | Rosé, White, Red, Sparkling, Fuzzy, Champagne                                                                                                                                                                                                                                                                                                                                                                                                                           | `#BA55D3` (Medium Orchid)  |
+| **Wine Grape**    | Aligoté, Blend blanc espagnol, Blend blanc générique, Cabernet Sauvignon, Caladoc, Carignan, Cinsault, Chardonnay, Glera, Grenache, Grenache Blanc, Grenache Noir, Loin de l’Oeil, Mauzac, Merlot, Mourvèdre, Muscadelle, Pineau d’Aunis, Rolle, Roussanne, Shiraz/Syrah, Syrah, Tibouren, Ugni Blanc                                                                                                                                                                   | `#8FBC8F` (Dark Sea Green) |
+| **Cheese Type**   | AOP goat cheese, AOP semi-soft cheese, Fresh cheese, Fresh goat cheese, Fresh log cheese, Goat cheese, Semi-hard cheese, Soft cheese, Triple-cream cheese, Yogurt                                                                                                                                                                                                                                                                                                       | `#87CEFA` (Light Sky Blue) |
+| **Cheese Milk**   | Buffalo, Cow, Goat                                                                                                                                                                                                                                                                                                                                                                                                                                                      | `#F4A460` (Sandy Brown)    |
+| **Season**        | Summer, Spring, Winter, Automn                                                                                                                                                                                                                                                                                                                                                                                                                                          | `#DAB1DA` (Light Purple)   |
 
 ### Research Filters
 
@@ -848,9 +888,97 @@ The user is presented with two options:
 
 ### Bar-Code Scanner
 
+- **Functionality:**
+
+The application allows users to scan a product (wine or cheese) using its barcode. Upon scanning, the app automatically identifies the product and redirects the user to its associated product page. This page includes relevant information such as the product’s name, description, price, origin, and tasting suggestions.
+
+- **User Flow:**
+
+```mermaid
+flowchart TD
+    A[Start Barcode Scan] --> B[Activate camera or scanner]
+    B --> C[Scan barcode on product]
+    C --> D{Is the barcode recognized?}
+    D -- Yes --> E[Display product details page]
+    D -- No --> F[Show error message]
+    F --> G[Option to retry or search manually]
+    G --> B
+```
+
+- **Benefits:**
+
+  - Fast and intuitive access to product information.
+  - Enhanced customer experience in-store or during demonstrations.
+  - Time-saving and efficient browsing.
+
+<div align="center">
+
+![Barcode Scan Example](images/bar-code/BarCodeScan.png)
+
+</div>
+
+<div align="center">
+
+![Barcode Scan Error](images/bar-code/BarCodeError.png)
+
+</div>
+
+Once the product is successfully scanned, the user is redirected to the corresponding product page. For more information, refer to the [Product Page](#product-page) section.
+
 ### Recommendation Algorithm
 
-#### Client's Origin
+The recommendation system provides personalized product suggestions based on contextual factors related to the user and their environment. Its goal is to enhance the relevance of the product discovery experience by suggesting items that align with user preferences and seasonal trends.
+
+#### Functional Criteria
+
+The algorithm will take the following criteria into account:
+
+- **User's Origin**
+  Regional and cultural backgrounds can influence taste preferences, consumption habits, and openness to new products.
+
+- **Product Price Range**
+  Recommendations will respect the user's purchasing habits or declared price sensitivity, offering items within a familiar or preferred price range.
+
+- **Current Season**
+  The system adapts to seasonal trends (e.g., lighter wines in summer, hearty cheeses in winter) to promote more timely and appropriate suggestions.
+
+#### Example Use Case
+
+A user from the South of France scans a mid-range cheese during winter. Based on this context, the app may suggest:
+
+- A robust red wine from the same region.
+- Other regional cheeses typically consumed in winter.
+- Ongoing promotions for similar products within the same price range.
+
+#### Recommendation Flow
+
+```mermaid
+flowchart TD
+    A[Start: Product Scan or App Open]
+    A --> C[Determine User Origin]
+    A --> D[Check Price Preferences]
+    A --> E[Identify Current Season]
+    C --> F[Filter Products by Regional Affinity]
+    D --> G[Filter Products by Price Range]
+    E --> H[Filter Products by Seasonal Match]
+    F --> I[Combine All Filters]
+    G --> I
+    H --> I
+    I --> J[Generate Top Suggestions]
+    J --> K[Display Recommended Products]
+```
+
+#### Cultural Taste Preferences
+
+The following table is based on market research and reflects general wine and cheese preferences by nationality:
+
+| Nationality | Wine Preferences                                                                                         | Cheese Preferences                                                                                                                      |
+| ----------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **British** | - Favor red wines (especially Bordeaux) <br> - Open to white and rosé during warmer months               | - Soft classics: Brie, Camembert <br> - Curious about strong types: Époisses, Roquefort <br> - Trend: Fromage Blanc, Chèvre             |
+| **Spanish** | - Prefer red wines due to cultural familiarity <br> - Choose rosé or white wines in summer               | - Cheeses similar to Manchego: Comté, Tomme de Savoie, Ossau-Iraty                                                                      |
+| **German**  | - Prefer white and rosé wines, especially dry varieties <br> - Enjoy Alsace wines like Riesling          | - Mild alpine cheeses: Emmental, Raclette, Munster                                                                                      |
+| **Italian** | - Mainly red wines <br> - Also open to white and sparkling wines (e.g., Champagne)                       | - Soft and flavorful cheeses: Brie de Meaux, Roquefort, Reblochon                                                                       |
+| **Chinese** | - Strong preference for red wines (especially Bordeaux) <br> - Growing interest in white/sparkling wines | - Prefer mild, approachable options: Brie, Camembert, Fromage Blanc <br> - Rising interest among youth in more diverse cheese varieties |
 
 ### Local Product Spotlight
 
@@ -901,23 +1029,41 @@ _To be defined – specify device compatibility (e.g., iOS/Android, minimum OS v
 
 ## Future Improvements
 
-### Special Offers
+### Integration of Special Offers
 
-### Product Opinion
+To enhance the value of the barcode scanning feature, the application could integrate real-time promotional offers. When a user scans a product, the system would display:
 
-### In-Shop Location of Products
+- Active promotions
+- Available discounts
+- Loyalty program benefits linked to that item
 
----
+This enhancement would encourage immediate purchasing decisions and deliver a more personalized shopping experience. Offers could be configured to be time-sensitive, user-specific, or part of store-wide campaigns, with management handled through an internal administrative interface.
+
+### User Reviews and Product Ratings
+
+Adding a product review and rating system would increase user engagement and foster trust in product quality. After scanning or searching for an item, users would be able to access community feedback such as:
+
+- Star ratings
+- Written reviews
+- Usage tips and personal preferences
+
+This feature would be particularly valuable for wine and cheese products, where individual taste plays a significant role. User-generated content would assist others in making informed choices and introduce a social, community-driven aspect to the application.
+
+### In-Store Product Location Guidance
+
+To streamline the in-store shopping experience, the application could indicate the physical location of scanned or searched products within a specific Intermarché store. This may include details such as:
+
+- Aisle number
+- Shelf location
+- Section indicators
+
+By integrating with the store’s planogram system, this feature would reduce the time customers spend locating items, increase overall satisfaction, and improve accessibility—especially during peak hours or for first-time visitors.
 
 ## Legal & Compliance
 
 ### Data Protection and Privacy
 
 - Do not store any data related to the user.
-
-### Accessibility
-
-- The mobile application must comply with accessibility standards to accommodate all types of disabilities.
 
 ---
 
