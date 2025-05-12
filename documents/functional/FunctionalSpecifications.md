@@ -57,6 +57,9 @@
       - [If the user chooses "Find a wine"](#if-the-user-chooses-find-a-wine)
     - [Search Mechanic](#search-mechanic)
     - [List Of Products](#list-of-products)
+      - [Meals](#meals)
+      - [Wines](#wines)
+      - [Cheeses](#cheeses)
     - [Product Tags](#product-tags)
     - [Research Filters](#research-filters)
     - [Bar-Code Scanner](#bar-code-scanner)
@@ -727,7 +730,91 @@ The user is presented with two options:
 
 ### List Of Products
 
+#### Meals
+
+- **Functionality**:
+  - Display traditional meals with matching wine and cheese recommendations.
+  - [meal.json](../../data/meal.json)
+
+- **Details**:
+  - name
+  - region
+  - allergens
+  - image
+  - short description (FR/EN)
+  - recommended wine types
+  - recommended cheese tags
+
+- **Example**:
+  *Boeuf Bourguignon*
+  → Wine: `Red`
+  → Cheese: `hard cheese`, `cow cheese`
+
+#### Wines
+
+- **Functionality**:
+  - Display wines and allow filtering by type, region, country, grape, or price.
+  - [wines.json](../../data/wines.json)
+
+- **Details**:
+  - name
+  - year
+  - type (e.g. Red, White, Rosé)
+  - region, country
+  - grape varieties
+  - price, rating
+  - description (FR/EN)
+  - image
+
+- **Example**:
+  *Domaine de Valdition Rosé Tradition*
+  → Type: `Rosé`, Year: `2023`
+  → Grapes: `Vermentino, Syrah, Grenache...`
+  → Price: `10.5 €`
+
+
+#### Cheeses
+
+- **Functionality**:
+  - Display cheeses and allow filtering by type, milk, region, or country.
+  - [cheese.json](../../data/cheese.json)
+
+- **Details**:
+  - name
+  - type (e.g. soft, hard, AOP...)
+  - milk (e.g. cow, goat, sheep)
+  - region, country
+  - price
+  - description
+  - image
+
+- **Example**:
+  *Tomme de Savoie*
+  → Type: `semi-hard cheese`, Milk: `cow`
+  → Region: `Savoie`
+
+
 ### Product Tags
+
+- **Functionality:**
+  - The mobile application must display product tags to regroup products based on their type.
+  - The tags must be **clickable** to filter the product list based on the selected tag.
+- **Details:**
+  - The tags must be displayed in a **horizontal list** format.
+  - The tags must be **color-coded** to indicate the type of product they represent.
+- **List of tags:**
+
+| Category         | Tags    | Color Code   |
+|------------------|---------|--------------|
+| **Region**        | Alpilles, Alsace, Ardèche, Auvergne, Bandol, Basque Country, Bourgogne, Brittany, Camargue, Cévennes (Languedoc-Roussillon), Côtes de Provence, Dauphiné, EU, France, Gard, Île-de-France, Languedoc, Les Baux-de-Provence, Loire Valley, Lorraine, Luberon, Méditerranée, Normandie, Nord de l'Afrique, Pays Basque, Pays d'Oc, Périgord – Quercy, Poitou, Poitou–Charentes, Provence, Quercy, Rhône-Alpes, Savoie, South-West, Spain, Sud-Ouest, Var, Veneto, Ventoux | `#FFA07A` (Light Salmon) |
+| **Country**       | Cyprus, France, Greece, Italy, Spain  | `#FFD700` (Gold) |
+| **Meal Allergen** | Gluten, Lactose  | `#FF4500` (Orange Red)   |
+| **Wine Type**     | Rosé, White, Red, Sparkling, Fuzzy, Champagne | `#BA55D3` (Medium Orchid)|
+| **Wine Grape**    | Aligoté, Blend blanc espagnol, Blend blanc générique, Cabernet Sauvignon, Caladoc, Carignan, Cinsault, Chardonnay, Glera, Grenache, Grenache Blanc, Grenache Noir, Loin de l’Oeil, Mauzac, Merlot, Mourvèdre, Muscadelle, Pineau d’Aunis, Rolle, Roussanne, Shiraz/Syrah, Syrah, Tibouren, Ugni Blanc | `#8FBC8F` (Dark Sea Green)|
+| **Cheese Type**   | AOP goat cheese, AOP semi-soft cheese, Fresh cheese, Fresh goat cheese, Fresh log cheese, Goat cheese, Semi-hard cheese, Soft cheese, Triple-cream cheese, Yogurt  | `#87CEFA` (Light Sky Blue)|
+| **Cheese Milk**   | Buffalo, Cow, Goat   | `#F4A460` (Sandy Brown)  |
+| **Season**        |Summer, Spring, Winter, Automn| `#DAB!DA` (Light Purple) |
+
 
 ### Research Filters
 
