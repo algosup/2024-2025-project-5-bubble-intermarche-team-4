@@ -8,7 +8,29 @@
 
 <details>
 
+<summary>Click to expand</summary>
+- [Overview](#overview)
+  - [Context](#context)
+  - [Conventions](#conventions)
+  - [Bubble.io](#bubbleio)
+    - [Plugins](#plugins)
+    - [Limitations](#limitations)
+  - [Architecture](#architecture)
+    - [Application Architecture](#application-architecture)
+    - [Page Architecture](#page-architecture)
+      - [Repeating Groups](#repeating-groups)
+    - [Database Design](#database-design)
+  - [Security](#security)
+  - [Accessibility](#accessibility)
+  - [Backup and Recovery](#backup-and-recovery)
+  - [Performance Optimization](#performance-optimization)
+  - [Testing and Quality Assurance](#testing-and-quality-assurance)
+  - [Deployment and Maintenance](#deployment-and-maintenance)
+  - [Future Enhancements](#future-enhancements)
+
 </details>
+
+---
 
 ## Overview
 
@@ -53,6 +75,28 @@ These plugins can be used to integrate third-party services, add new features, a
 - **Google Material Icons**: A plugin that provides access to a library of icons for use in the application, enhancing the visual design and user interface.
 - **Language Translation**: A plugin that enables translation of text within the application, allowing for multilingual support and accessibility for users in different regions.
 
+### Limitations
+
+While Bubble.io is a powerful platform, it does have some limitations that developers should be aware of:
+
+- **Performance**: Bubble.io applications can experience performance issues with large datasets or complex workflows. Developers should optimize their applications to minimize load times and improve responsiveness.
+- **Customization**: While Bubble.io allows for a high degree of customization, there may be limitations in terms of advanced features or specific design elements that require custom code.
+- **Vendor Lock-In**: Applications built on Bubble.io are tied to the platform, which may limit flexibility and portability in the future. Developers should consider this when planning for long-term maintenance and scalability.
+- **Learning Curve**: While Bubble.io is designed to be user-friendly, there may still be a learning curve for new users, especially those who are not familiar with web development concepts. Developers should invest time in learning the platform and its features to maximize its potential.
+- **Cost**: Bubble.io operates on a subscription model, and costs can increase as the application scales or requires additional features. Developers should carefully consider their budget and plan for future expenses.
+- **Limited Control Over Infrastructure**: As a no-code platform, developers have limited control over the underlying infrastructure and may not be able to implement certain optimizations or configurations that are possible with traditional development approaches.
+- **Integration Challenges**: While Bubble.io supports API integrations, there may be challenges in connecting with certain third-party services or handling complex data structures. Developers should thoroughly test integrations to ensure compatibility and reliability.
+- **Security Concerns**: While Bubble.io provides security features, developers should be aware of potential vulnerabilities and take necessary precautions to protect user data and privacy. This includes implementing secure authentication, data encryption, and regular security audits.
+- **Limited Offline Support**: Bubble.io applications are primarily web-based and may not provide robust offline support. Developers should consider this when designing features that require offline access or functionality.
+- **Dependency on Bubble.io**: The application is dependent on the Bubble.io platform, which means that any changes or updates to the platform may impact the application's functionality or performance. Developers should stay informed about platform updates and be prepared to adapt their applications as needed.
+- **Limited Custom Code**: While Bubble.io allows for some custom code, it may not support all programming languages or frameworks. Developers should be aware of these limitations when planning for advanced features or integrations.
+- **Limited Testing and Debugging Tools**: Bubble.io provides some testing and debugging tools, but they may not be as comprehensive as those available in traditional development environments. Developers should be prepared to rely on manual testing and troubleshooting to identify and resolve issues.
+- **Limited Community Support**: While Bubble.io has a growing community, it may not have the same level of support and resources as more established development platforms. Developers should be proactive in seeking help and sharing knowledge within the community.
+- **Limited Scalability**: While Bubble.io is designed to handle a wide range of applications, there may be limitations in terms of scalability for very large or complex applications. Developers should carefully consider their application's growth potential and plan accordingly.
+- **Limited Control Over Updates**: Bubble.io regularly updates its platform, which may introduce changes that affect existing applications. Developers should stay informed about updates and be prepared to adapt their applications as needed.
+- **Limited Customization of User Interface**: While Bubble.io provides a range of design options, there may be limitations in terms of customizing the user interface to match specific branding or design requirements. Developers should carefully consider their design needs and explore available options within the platform.
+- **Limited Support for Advanced Features**: While Bubble.io supports a wide range of features, there may be limitations in terms of implementing advanced functionality such as machine learning, artificial intelligence, or complex data processing. Developers should carefully consider their application's requirements and explore available options within the platform.
+
 ---
 
 ## Architecture
@@ -94,7 +138,6 @@ graph TD
 
     C --> F
     C --> G
-    C --> H
 
     D --> F
     D --> G
@@ -104,7 +147,6 @@ graph TD
     E <--> I
     F <--> I
     G <--> I
-    H <--> I
 
     I --> B
     
@@ -251,6 +293,28 @@ The database contains the following files:
 ## Security
 
 Our Application does not keep any data from the users. As such we are compliant with the GDPR and CCPA regulations.
+
+---
+
+## Accessibility
+
+To ensure the application is accessible to all users, including those with disabilities, the following accessibility features have been implemented:
+
+- **Screen Reader Support**: The application is compatible with screen readers, providing descriptive labels for all interactive elements.
+- **Color Contrast**: The color scheme has been designed to meet WCAG 2.1 AA standards for contrast, ensuring readability for users with visual impairments.
+- **Resizable Text**: Users can resize text without breaking the layout or functionality of the application.
+- **Alt Text for Images**: All images include descriptive alt text to provide context for users who rely on screen readers.
+
+---
+
+## Backup and Recovery
+
+To ensure data integrity and availability, a robust backup and recovery strategy has been implemented:
+
+- **Automated Backups**: Regular automated backups of the database and application files.
+- **Redundant Storage**: Backups are stored in multiple locations to prevent data loss.
+- **Disaster Recovery Plan**: A comprehensive disaster recovery plan is in place to restore services quickly in case of an outage.
+- **Testing**: Regular testing of backup and recovery procedures to ensure reliability.
 
 ---
 
