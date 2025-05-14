@@ -2,6 +2,8 @@
 
 # Functional Specifications – Team 4 - Cheerish
 
+<img src="./images/logo/CheerishLogo.png">
+
 </div>
 
 ## Table of Contents
@@ -19,23 +21,28 @@
       - [Deliverables](#deliverables)
   - [Project Organization](#project-organization)
       - [Project Representatives](#project-representatives)
-      - [Team \& Roles](#team--roles)
-      - [Stakeholders](#stakeholders)
-    - [Timeline](#timeline)
-    - [Risks](#risks)
+      - [Development Team](#development-team)
+    - [Project Stakeholders](#project-stakeholders)
+    - [Project Planning](#project-planning)
+      - [Timeline and Task Management](#timeline-and-task-management)
+      - [Risk Management](#risk-management)
     - [Resources](#resources)
       - [Team](#team)
-      - [Client](#client)
-      - [Technology](#technology)
-      - [Database](#database)
-    - [Assumptions](#assumptions)
-    - [Constraints](#constraints)
+      - [Technical Resources](#technical-resources)
+      - [Data Resources](#data-resources)
+    - [Project Parameters](#project-parameters)
+      - [Core Assumptions](#core-assumptions)
+      - [Project Constraints](#project-constraints)
+    - [Product Matching Strategy](#product-matching-strategy)
+      - [Expert Consultation Plan](#expert-consultation-plan)
+      - [Research Methodology](#research-methodology)
   - [Audience \& Use Cases](#audience--use-cases)
     - [Target Audience](#target-audience)
-      - [Tourists](#tourists)
-      - [Casual Shoppers](#casual-shoppers)
-      - [Wine Lovers](#wine-lovers)
-      - [Wine Newbies](#wine-newbies)
+      - [1. International Tourists](#1-international-tourists)
+      - [2. Time-Conscious Shoppers](#2-time-conscious-shoppers)
+      - [3. Wine Enthusiasts](#3-wine-enthusiasts)
+      - [4. Culinary Beginners](#4-culinary-beginners)
+    - [Usage Patterns Matrix](#usage-patterns-matrix)
   - [UI/UX](#uiux)
     - [Graphic Charter](#graphic-charter)
     - [Logotype](#logotype)
@@ -59,7 +66,9 @@
       - [Product Card](#product-card)
       - [Product Page](#product-page)
       - [Search Page](#search-page)
+        - [Page Composition](#page-composition)
       - [Bar-Code Page](#bar-code-page)
+        - [Page Composition](#page-composition-1)
   - [Functional Requirements](#functional-requirements)
     - [Multilingual Support](#multilingual-support)
     - [QR Code Accessibility](#qr-code-accessibility)
@@ -84,6 +93,7 @@
       - [Recommendation Flow](#recommendation-flow)
       - [Cultural Taste Preferences](#cultural-taste-preferences)
     - [Local Product Spotlight](#local-product-spotlight)
+      - [Mix \& Match](#mix--match)
   - [Non-Functional Requirements](#non-functional-requirements)
     - [Performance](#performance)
     - [Scalability](#scalability)
@@ -96,7 +106,13 @@
     - [In-Store Product Location Guidance](#in-store-product-location-guidance)
   - [Legal \& Compliance](#legal--compliance)
     - [Data Protection and Privacy](#data-protection-and-privacy)
+    - [Intellectual Property Rights](#intellectual-property-rights)
+    - [License and Usage Terms](#license-and-usage-terms)
+    - [Legal Considerations and Disclaimer](#legal-considerations-and-disclaimer)
+      - [Commercial Usage](#commercial-usage)
+      - [Usage Disclaimer](#usage-disclaimer)
   - [Conclusion](#conclusion)
+  - [Glossary](#glossary)
 
 </details>
 
@@ -104,13 +120,12 @@
 
 ## Introduction
 
-This document outlines the **functional specifications** for the development of a mobile web application for [Intermarché](https://www.intermarche.com/?srsltid=AfmBOop3uKBkrZ9x8Szj8EtpgHOqzuk_bHP3x1af4_9TrFf_640On9RY) named Cheerish.
-Its purpose is to clearly define the project's requirements, scope, and objectives, ensuring that all stakeholders share a unified understanding of what is being developed.
+This document outlines the **functional specifications** for the development of a mobile web application for [Intermarché](https://www.intermarche.com/?srsltid=AfmBOop3uKBkrZ9x8Szj8EtpgHOqzuk_bHP3x1af4_9TrFf_640On9RY), titled **Cheerish**.
+Its objective is to define the project’s functional requirements, scope, and goals, ensuring all stakeholders share a unified understanding of what is being developed.
 
 ### Project Overview
 
-The goal of this project is to deliver a user-friendly **mobile web application** for Intermarché customers, providing personalized assistance when choosing wine and/or cheese upon entering the store.
-The app will suggest the most suitable wine or cheese based on the user's dish, taste preferences, or filters. It aims to simplify the selection process and enhance customer satisfaction by offering tailored recommendations.
+The primary aim of this project is to deliver a user-friendly **mobile web application** for Intermarché customers. Upon entering the store, users will be guided in choosing the most suitable wine and/or cheese based on their preferences, planned dishes, or applied filters. The application is designed to simplify the selection process, promote local products, and improve customer satisfaction by offering tailored and context-aware recommendations.
 
 ---
 
@@ -118,69 +133,77 @@ The app will suggest the most suitable wine or cheese based on the user's dish, 
 
 #### Vision
 
-Our vision is to develop an **open-source mobile web application** as a proof of concept for Intermarché, designed to:
+Our vision is to develop an **open-source mobile web application** as a proof of concept for Intermarché, with the following objectives:
 
-- Simplify the pairing of food with wine and cheese
-- Highlight and promote **local producers**
+- Simplify food pairing with wine and cheese
+- Promote and support **local producers**
 - Encourage discovery of **regional specialties**
-- Provide **personalized recommendations** based on user preferences and origin
-- Be accessible to a **multilingual audience**
-- Attract more customers and **increase in-store sales**
-- Feature an **intuitive and inclusive interface** for all adult users
-- No-need to **create an account**
+- Deliver **personalized recommendations** based on user origin, preferences, and budget
+- Support a **multilingual audience** to enhance accessibility
+- Increase **in-store engagement and sales**
+- Provide a **simple, inclusive, and intuitive user interface**
+- Allow usage **without requiring user accounts or sign-up**
+
+---
 
 #### Market Analysis
 
-A similar recommendation system already exists on Intermarché’s official website: [Wine Selection Tool](https://www.intermarche.com/recherche/vin). However, after evaluating its current features, we have identified several areas where our mobile web application can offer significant improvements and differentiation:
+Intermarché currently offers a wine recommendation tool via its official website: [Wine Selection Tool](https://www.intermarche.com/recherche/vin). While functional, the existing solution is limited in interactivity and personalization. The Cheerish application aims to address these limitations by offering the following enhancements:
 
-- **No Account Required** – Users can access recommendations without the need to create an account, lowering the barrier to entry.
-- **Enhanced User Experience** – A more intuitive and streamlined interface optimized for mobile devices.
-- **Multilingual Support** – The web application will be accessible in multiple languages, ensuring usability for a wider audience, including tourists and non-native speakers.
-- **Personalized Recommendations** – Tailored suggestions based on individual preferences, tastes, and user input.
-- **Value-Added Features** – Additional options such as pairing suggestions, local producer highlights, and dish-based recommendations that go beyond the existing tool.
-- **Bar-code scanner** - Bar-code reader that sends the user to the product page.
+- **No Account Required** – Users can access full functionality without creating an account, reducing entry barriers.
+- **Optimized UX for Mobile** – A mobile-first design tailored for on-the-go in-store use.
+- **Multilingual Accessibility** – Interface and suggestions are available in multiple languages, enhancing usability for tourists and non-native speakers.
+- **Context-Aware Personalization** – Suggestions are tailored based on user preferences, origin, season, and product data.
+- **Additional Features** – Including cheese/wine pairing suggestions, filters by dish, and local producer highlights.
+- **Barcode Scanner Integration** – Users can scan a product to access detailed information and pairing suggestions.
 
-These improvements aim to create a unique, user-focused experience that not only enhances customer satisfaction but also strengthens Intermarché’s digital ecosystem.
+These improvements aim to create a richer, more engaging customer experience and further enhance Intermarché’s in-store digital offering.
+
+---
 
 #### Scope
 
-This project focuses on developing a **mobile web application** for Intermarché that enhances the customer shopping experience by helping users select the most appropriate wine and/or cheese based on their dish, preferences, or filters. The web application will serve as a **proof of concept** and prioritize ease of use, personalization, and support for local products.
+This project focuses on building a functional **mobile web application** that assists users in selecting wines and cheeses based on their preferences, shopping context, or meal plans. The application will serve as a **proof of concept** and prioritize ease of use, personalization, and local product promotion.
 
 **In Scope:**
 
-- Development of a **mobile-first web application** for Android and iOS
-- **Recommendation engine** for pairing wine and cheese with dishes
-- **User preference filtering** (taste, region, type, etc.)
-- **Multilingual support** (French, English, German, Spanish)
-- **Highlighting local producers** and regional specialties
-- Simple **onboarding without requiring an account**
-- Basic **mockups and UI/UX design**
-- Integration with a **test database** of wine, and cheese provided by Saint-Rémy de Florence Intermarché
-- Delivery of an **open-source proof of concept**
+- Development of a **mobile-first web application** (accessible on Android and iOS)
+- A **recommendation engine** to assist with wine and cheese pairings
+- **User filtering options** (taste, type, region, seasonality, etc.)
+- **Multilingual interface support** (French, English, German, Spanish)
+- Emphasis on **local and regional producers**
+- Lightweight **onboarding process** without account creation
+- Basic **UI/UX mockups and implementation**
+- Use of a **test database** provided by Intermarché Saint-Rémy de Provence
+- Delivery of an **open-source prototype** for future iteration
 
 **Out of Scope:**
 
-- Full integration with Intermarché’s existing database or e-commerce system
-- Loyalty program integration or account-based features
-- Payment or ordering functionality
-- Advanced AI or machine learning recommendation systems
-- Offline mode or heavy caching for disconnected environments
+- Full integration with Intermarché’s internal databases or e-commerce systems
+- Loyalty card or account-specific features
+- Direct payment or product ordering functionalities
+- AI-powered or machine learning-driven recommendation logic
+- Full offline functionality or extensive local caching
 
-This scope ensures a focused and achievable MVP (Minimum Viable Product), allowing Intermarché to evaluate the concept's value and gather user feedback for future development.
+This clearly defined scope helps ensure a realistic and focused MVP, enabling feedback collection and evaluation by stakeholders.
+
+---
 
 **Technology Used:**
 
-The product is developed using the no-code tool Bubble.io.
+The application is being developed using **Bubble.io**, a no-code platform chosen for its agility and suitability for MVP development.
+
+---
 
 #### Deliverables
 
-| Deliverables             | Date       |
-| ------------------------ | ---------- |
-| Functional Specification | 16/05/2025 |
-| Technical Specification  | 28/05/2025 |
-| Test Plan                | 06/06/2025 |
-| User Manual              | 16/06/2025 |
-| Code                     | 16/06/2025 |
+| **Deliverable**           | **Planned Delivery Date** |
+| ------------------------- | ------------------------- |
+| Functional Specifications | 16/05/2025                |
+| Technical Specifications  | 28/05/2025                |
+| Test Plan                 | 06/06/2025                |
+| User Manual               | 16/06/2025                |
+| Final Code                | 16/06/2025                |
 
 ---
 
@@ -188,36 +211,40 @@ The product is developed using the no-code tool Bubble.io.
 
 #### Project Representatives
 
-| Entities                           | Representative                                                                     |
-| ---------------------------------- | ---------------------------------------------------------------------------------- |
-| Intermarché's Representative       | [Célia Moustier](moustier09@hotmail.fr)                                            |
-| Intern Aisle Responsible           | [Chrys Cadeau](chryscadeau13@gmail.com)                                            |
-| [ALGOSUP](https://www.algosup.com) | [Franck Jeannin](franck.jeannin@algosup.com)                                       |
-| Team 4                             | [Clementine Curel](https://www.linkedin.com/in/clementinecurel/) - Project Manager |
+| Entity                             | Representative                                                   | Role                   |
+| ---------------------------------- | ---------------------------------------------------------------- | ---------------------- |
+| Intermarché's Representative       | [Célia Moustier](moustier09@hotmail.fr)                          | Primary client contact |
+| Intern Aisle Responsible           | [Chrys Cadeau](chryscadeau13@gmail.com)                          | In-store coordination  |
+| [ALGOSUP](https://www.algosup.com) | [Franck Jeannin](franck.jeannin@algosup.com)                     | Technical advisor      |
+| Team 4                             | [Clementine Curel](https://www.linkedin.com/in/clementinecurel/) | Project Manager        |
 
-#### Team & Roles
+#### Development Team
 
-| Full Name        | Role              | Role Description                                                         | Contact                                                           |
-| ---------------- | ----------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------- |
-| Clementine Curel | Project Manager   | Responsible for project planning, coordination, and communication        | [LinkedIn](https://www.linkedin.com/in/clementinecurel/)          |
-| Thibaud Marlier  | Program Manager   | Ensures project meets expectations; oversees design and functional specs | [LinkedIn](https://www.linkedin.com/in/thibaudmarlier/)           |
-| Jason Grosso     | Technical Lead    | Oversees technical aspects, including architecture and implementation    | [LinkedIn](https://www.linkedin.com/in/jason-grosso-847b39251/)   |
-| Elone Delille    | Quality Assurance | Ensures quality of deliverables and adherence to requirements            | [LinkedIn](https://www.linkedin.com/in/elonedelille/)             |
-| Emilien Chinsy   | Software Engineer | Develops the mobile web application and the algorithm                    | [LinkedIn](https://www.linkedin.com/in/emilien-chinsy-5a794632b/) |
-| Robin Goumy      | Technical Writer  | Responsible for the User Manual and UX                                   | [LinkedIn](https://www.linkedin.com/in/robin-goumy-66452832a/)    |
+| Team Member      | Role              | Primary Responsibilities                                         | Contact                                                           |
+| ---------------- | ----------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------- |
+| Clementine Curel | Project Manager   | Project planning, stakeholder communication, timeline management | [LinkedIn](https://www.linkedin.com/in/clementinecurel/)          |
+| Thibaud Marlier  | Program Manager   | Requirements definition, functional specs, scope management      | [LinkedIn](https://www.linkedin.com/in/thibaudmarlier/)           |
+| Jason Grosso     | Technical Lead    | Technical architecture, implementation oversight, development    | [LinkedIn](https://www.linkedin.com/in/jason-grosso-847b39251/)   |
+| Elone Delille    | Quality Assurance | Testing strategy, quality control, requirements validation       | [LinkedIn](https://www.linkedin.com/in/elonedelille/)             |
+| Emilien Chinsy   | Software Engineer | Application development, algorithm implementation                | [LinkedIn](https://www.linkedin.com/in/emilien-chinsy-5a794632b/) |
+| Robin Goumy      | Technical Writer  | Documentation, user experience design, interface guidelines      | [LinkedIn](https://www.linkedin.com/in/robin-goumy-66452832a/)    |
 
-#### Stakeholders
+### Project Stakeholders
 
-| Stakeholders           | Interest                                                |
-| ---------------------- | ------------------------------------------------------- |
-| Intermarché's customer | Primary beneficiary                                     |
-| Intermarché            | Project initiator and secondary beneficiary             |
-| ALGOSUP                | Technology provider, second project initiator           |
-| ALGOSUP's students     | Project contributors, developers, testers, designers... |
+| Stakeholder           | Role                | Primary Interest                                       |
+| --------------------- | ------------------- | ------------------------------------------------------ |
+| Intermarché Customers | End Users           | Intuitive wine/cheese pairing assistance               |
+| Intermarché           | Primary Client      | Enhanced customer experience, increased sales          |
+| ALGOSUP               | Technology Partner  | Educational project delivery, technical implementation |
+| Development Team      | Implementation Team | Successful project delivery, technical excellence      |
 
-### Timeline
+### Project Planning
 
-### Risks
+#### Timeline and Task Management
+
+The project follows an agile methodology with regular sprints and deliverables. A detailed breakdown of tasks, milestones, and deadlines is maintained in our [Trello Project Board](https://trello.com/invite/b/6821a8c3bb16b11da77cd461/ATTI34cce339a8d487fb31dcacb58015e989D1CB4FC3/cheerish).
+
+#### Risk Management
 
 | Risk                               | Consequences                                       | Likelihood | Impact | Mitigation                                                                                       |
 | ---------------------------------- | -------------------------------------------------- | ---------- | ------ | ------------------------------------------------------------------------------------------------ |
@@ -241,62 +268,97 @@ A team of 6 members, each with clearly defined roles and responsibilities.
 - **Estimated Project Duration:** 110 hours
 - **Estimated Total Workload:** 660 man-hours
 
-#### Client
+#### Technical Resources
 
-- Contact has been established with the **Intermarché store in Issoudun** to test the product on site.
-- Communication is also in progress with the **department manager at Saint-Rémy-de-Provence** for further product validation.
+- **Development Platform:** Bubble.io (no-code platform)
+- **Support:** Technical guidance from ALGOSUP instructor
+- **Testing Environments:**
+  - Intermarché store in Issoudun
 
-#### Technology
+#### Data Resources
 
-- Supervised access to **Bubble.io** with support from an instructor for guidance and troubleshooting.
-
-#### Database
-
-You can find the database [here](../../data/Data%20-%20Wine%20and%20Cheese.xlsx)
-
-- The client has provided an Excel database containing detailed information about wines and cheeses available in-store.
-
-The database includes:
+A comprehensive product database has been provided by Intermarché containing:
 
 - Product barcodes in the following formats:
 
-  - `ITM8`
-  - `EAN PRIO`
+- **Product Identifiers:**
+  - ITM8 codes
+  - EAN PRIO barcodes
+- **Product Details:**
+  - Names and descriptions
+  - Origins (region/country)
+  - Categories and types
+  - Pricing information
 
-- Product name
-- Region of origin
-- Country of origin
-- Product type:
-
-  - Cheese
-  - Yogurt
-  - Red Wine
-  - White Wine
-  - Rosé Wine
-  - Sparkling Wine
-  - Other dairy products
-
-- Milk type (for cheese/dairy products)
+Complete database specifications can be found [here](../../data/Data%20-%20Wine%20and%20Cheese.xlsx).
 
 ---
 
-### Assumptions
+### Project Parameters
 
-- The client will provide timely feedback during key development milestones.
-- The database provided is accurate, up-to-date, and reflective of actual stock.
-- Users will access the web application primarily on modern web browsers with internet connectivity.
-- Bubble.io offers all the required features to build the desired functionalities without needing external integrations.
-- The test environments provided by Intermarché (Issoudun and Saint-Rémy-de-Provence) will support functional validation of the prototype.
-- Product classifications (e.g., wine types, milk types) are consistent across all entries in the database.
+#### Core Assumptions
 
----
+1. **Client Engagement**
 
-### Constraints
+   - Timely feedback from stakeholders
+   - Access to subject matter experts
 
-- The project must be developed using **Bubble.io**, as per the client’s technological preference.
-- It must remain **open-source** to ensure transparency and encourage community contributions.
-- All features must be aligned with the **client’s functional and aesthetic requirements**.
-- The final product must adhere to **Intermarché’s brand values**, including quality, simplicity, and accessibility.
+2. **Technical Viability**
+
+   - Bubble.io platform capabilities
+   - Modern browser compatibility
+   - Reliable internet connectivity
+
+3. **Data Quality**
+   - Accurate product information
+   - Consistent classification system
+   - Regular updates possible
+
+#### Project Constraints
+
+1. **Technical Constraints**
+
+   - Exclusive use of Bubble.io platform
+   - Web-based mobile application
+   - Open-source requirement
+
+2. **Business Constraints**
+
+   - Alignment with Intermarché brand
+   - Compliance with retail standards
+   - User privacy requirements
+
+3. **Resource Constraints**
+   - Fixed team size
+   - Defined project timeline
+   - Limited budget
+
+### Product Matching Strategy
+
+#### Expert Consultation Plan
+
+- **Wine Specialists:** Professional sommeliers for wine characteristics
+- **Cheese Experts:** Artisanal cheese makers for pairing insights
+- **Culinary Professionals:** Regional cuisine experts for traditional pairings
+
+#### Research Methodology
+
+1. **Literature Review**
+
+   - Academic sources
+   - Industry publications
+   - Cultural references
+
+2. **Expert Interviews**
+
+   - Structured questionnaires
+   - Pairing workshops
+   - Validation sessions
+
+3. **Documentation**
+   - Comprehensive pairing guidelines
+   - Expert recommendations
+   - Regional considerations
 
 ---
 
@@ -304,85 +366,138 @@ The database includes:
 
 ### Target Audience
 
-#### Tourists
+#### 1. International Tourists
 
-**Age Range:** 25–60
+**Demographics**
 
-**Persona Name:** _Anna, the Curious Traveler_
+- **Age Range:** 25–60
+- **Persona:** _Anna, the Curious Traveler_
+- **Language:** Non-French speaking
+- **Shopping Context:** Vacation/tourism
 
-**Description:**
-Anna is a tourist visiting France, eager to explore French culture through its gastronomy. She doesn’t speak fluent French and is unfamiliar with local wine or cheese. She often shops at Intermarché for convenience and wants help choosing authentic regional products.
+**Key Characteristics**
 
-**How They’ll Use the App:**
-Anna opens the app in-store, sets her preferred language to English, and browses local wine and cheese pairings recommended for regional dishes. She filters by “local products” and gets insights into producers, allowing her to bring a taste of France home.
+- Eager to explore French gastronomy
+- Limited knowledge of local products
+- May face language barriers
+- Interested in authentic experiences
+
+**User Story**
+
+> As a tourist visiting France, Anna wants to discover authentic regional products and understand French wine-cheese pairings, even though she doesn't speak French fluently.
+
+**App Usage Pattern**
+
+- Sets interface to preferred language
+- Explores local and regional products
+- Uses visual guides and translations
+- Seeks cultural context in recommendations
 
 <div align="center">
-
 <img src="./images/personas/anna.png" width=200px>
-
 </div>
 
----
+#### 2. Time-Conscious Shoppers
 
-#### Casual Shoppers
+**Demographics**
 
-**Age Range:** 30–55
+- **Age Range:** 30–55
+- **Persona:** _Marc, the Busy Parent_
+- **Shopping Frequency:** Weekly
+- **Time Availability:** Limited
 
-**Persona Name:** _Marc, the Busy Parent_
+**Key Characteristics**
 
-**Description:**
-Marc is a working parent who shops weekly at Intermarché. He’s not a wine connoisseur but wants to make nice meals for his family. Convenience and speed matter most to him.
+- Values efficiency and convenience
+- Basic wine/cheese knowledge
+- Focused on practical choices
+- Price-conscious decisions
 
-**How They’ll Use the App:**
-Marc uses the app to quickly match wine or cheese with meals he already plans to cook. He appreciates the simple interface, no-login access, and dish-based suggestions like “Which wine goes with lasagna?”
+**User Story**
+
+> As a busy parent, Marc needs quick and reliable recommendations for wine and cheese that will complement his planned family meals.
+
+**App Usage Pattern**
+
+- Quick meal-based searches
+- Straightforward filtering
+- Price-range focused
+- Efficient decision-making
 
 <div align="center">
-
 <img src="./images/personas/marc.png" width=200px>
-
 </div>
 
----
+#### 3. Wine Enthusiasts
 
-#### Wine Lovers
+**Demographics**
 
-**Age Range:** 35–65
+- **Age Range:** 35–65
+- **Persona:** _Claire, the Wine Expert_
+- **Knowledge Level:** Advanced
+- **Interest:** High engagement
 
-**Persona Name:** _Claire, the Wine Enthusiast_
+**Key Characteristics**
 
-**Description:**
-Claire has a deep appreciation for wine and occasionally hosts tastings. She values quality, regional authenticity, and food pairing precision. She enjoys exploring lesser-known wines and artisanal cheeses.
+- Deep wine knowledge
+- Appreciates quality and authenticity
+- Interest in artisanal products
+- Values detailed information
 
-**How They’ll Use the App:**
-Claire uses advanced filters to explore pairing combinations, discover hidden gems from local producers, and save preferred pairings. She might share her recommendations with friends and even plan tasting menus with the help of the app.
+**User Story**
+
+> As a wine enthusiast, Claire wants to discover unique local wines and artisanal cheeses, while understanding their origins and pairing possibilities.
+
+**App Usage Pattern**
+
+- Advanced filtering options
+- Detailed product information
+- Regional/terroir focus
+- Expert-level recommendations
 
 <div align="center">
-
 <img src="./images/personas/claire.png" width=200px>
-
 </div>
 
----
+#### 4. Culinary Beginners
 
-#### Wine Newbies
+**Demographics**
 
-**Age Range:** 18–30
+- **Age Range:** 18–30
+- **Persona:** _Lucas, the Curious Student_
+- **Experience Level:** Novice
+- **Learning Style:** Experimental
 
-**Persona Name:** _Lucas, the Curious Student_
+**Key Characteristics**
 
-**Description:**
-Lucas is new to wine and cheese culture but wants to learn. He’s open to trying new things but often feels overwhelmed by the selection in-store.
+- Open to learning
+- Limited experience
+- Budget-conscious
+- Social consumption context
 
-**How They’ll Use the App:**
-Lucas enters a few taste preferences (fruity, light, etc.) and selects a dish he plans to cook with friends. The app gives him easy, beginner-friendly pairings with short descriptions and explanations — helping him gain confidence with each use.
+**User Story**
+
+> As someone new to wine and cheese, Lucas wants beginner-friendly guidance that helps him make confident choices within his budget.
+
+**App Usage Pattern**
+
+- Basic preference selection
+- Educational content
+- Simple language
+- Budget-friendly options
 
 <div align="center">
-
 <img src="./images/personas/lucas.png" width=200px>
-
 </div>
 
----
+### Usage Patterns Matrix
+
+| User Type        | Primary Goals           | Key Features Used               | Success Metrics         |
+| ---------------- | ----------------------- | ------------------------------- | ----------------------- |
+| Tourists         | Cultural discovery      | Language selection, local focus | Cultural authenticity   |
+| Busy Parents     | Quick, reliable choices | Meal-based recommendations      | Time to decision        |
+| Wine Enthusiasts | Detailed exploration    | Advanced filters, origin info   | Product knowledge depth |
+| Beginners        | Learning and confidence | Basic guidance, education       | Confidence in choices   |
 
 ## UI/UX
 
@@ -710,38 +825,7 @@ This section is designed to guide the user through available options and include
 > **Note:**
 > These four buttons lead to what are referred to as **Discovery Pages**. You can find more information in the [Discovery Pages](#discovery-pages) section.
 
-3. **Mix & Match**
-
-- **Functionality:**
-
-  The Mix & Match section offers complete tasting suggestions for users who are curious or unsure about what to try. Each suggestion includes a curated combination of:
-
-  - one meal
-  - one wine
-  - one cheese
-
-- **Details:**
-
-  - Combinations are created by specialists to ensure balance and quality.
-  - Only local products are used in these pairings.
-  - Users cannot generate new suggestions—combinations are fixed and manually curated.
-  - Tapping on a Mix & Match opens a dedicated page with detailed descriptions of the three selected products.
-  - This feature is designed to guide users who:
-    - Want inspiration from experts
-    - Are looking for a full food and wine experience
-    - Prefer ready-made, high-quality recommendations
-
-- **Examples:**
-
-| #   | Meal                   | Wine                                           | Cheese                                          |
-| --- | ---------------------- | ---------------------------------------------- | ----------------------------------------------- |
-| 1   | Cod Brandade           | Roche Mazet Cinsault–Grenache Rosé             | Figou (goat cheese with fig)                    |
-| 2   | Salmon Steak           | Cave Terra Ventoux Secret de Truffle Red       | Flower-coated Tomme                             |
-| 3   | Tartiflette            | Roche Mazet Merlot                             | Cranberry-coated Goat Cheese (80 g)             |
-| 4   | Shepherd’s Pie         | Domaine de Lagoy White Organic Cuvée Classique | Saint-Félicien Faisselle – Saint-Marcel (260 g) |
-| 5   | Beef Stew (Pot-au-feu) | Val de L'Oule Red Frisson                      | Tome of Provence                                |
-
-4. **Recommendations**
+3. **Recommendations**
 
 This section includes personalized product suggestions based on user preferences, as detailed in the [Recommendation Algorithm](#recommendation-algorithm) section. It contains:
 
@@ -892,7 +976,68 @@ This page is composed of the following elements:
 
 #### Search Page
 
+The Search Page is dedicated to helping users find specific products or refine their search using various filters. It is accessed by clicking the search icon located in the header.
+
+##### Page Composition
+
+1. **Search Bar**
+
+   - An input field that allows users to search for a product by name.
+   - Supports partial input and smart matching, as detailed in the [Search Mechanic](#search-mechanic) section.
+
+2. **Language Dropdown**
+
+   - Enables the user to switch languages.
+   - Available options are defined in the [Multilingual Support](#multilingual-support) section.
+
+3. **Filter Box**
+
+   - Provides advanced filtering options to refine search results:
+
+     - **Price**
+     - **Product Type** (Cheese, Wine, Dish)
+     - **Country of Origin**
+     - **Seasonality** (for seasonal products)
+
+   - Includes a **Reset Button** to clear all selected filters and return to default values.
+
+4. **Product Output Section**
+
+   - Displayed below the filter box.
+   - Shows matching products using the same card layout as described in the [Discovery Pages](#discovery-pages).
+
+![alt text](./images/pages/SearchPage.png)
+
+---
+
+For more information about the underlying mechanics of search and filtering, refer to:
+
+- [Search Mechanic](#search-mechanic)
+- [Research Filters](#research-filters)
+- [Product Tags](#product-tags)
+
 #### Bar-Code Page
+
+This page is dedicated to accessing the barcode scanner feature. It can be accessed from the [Search Page](#search-page).
+
+##### Page Composition
+
+1. **Header**
+
+   - Matches the design of the header described in the [Menu Page](#menu-page) section.
+   - Contains the application logo and a language selection button.
+   - **Note**: The search icon is intentionally excluded on this page.
+
+2. **Barcode Scan Button**
+
+   - A large, central button occupying 80% of the page’s width and height.
+   - When pressed, it activates the device’s camera to scan the barcode of a product.
+
+![alt text](./images/pages/BarCodePage.png)
+
+---
+
+For more information about the barcode scanner’s functionality, refer to the [Barcode Scanner](#bar-code-scanner) section.
 
 ---
 
@@ -1239,6 +1384,37 @@ The following table is based on market research and reflects general wine and ch
 
 ### Local Product Spotlight
 
+#### Mix & Match
+
+- **Functionality:**
+
+  The Mix & Match section offers complete tasting suggestions for users who are curious or unsure about what to try. Each suggestion includes a curated combination of:
+
+  - one meal
+  - one wine
+  - one cheese
+
+- **Details:**
+
+  - Combinations are created by specialists to ensure balance and quality.
+  - Only local products are used in these pairings.
+  - Users cannot generate new suggestions—combinations are fixed and manually curated.
+  - Tapping on a Mix & Match opens a dedicated page with detailed descriptions of the three selected products.
+  - This feature is designed to guide users who:
+    - Want inspiration from experts
+    - Are looking for a full food and wine experience
+    - Prefer ready-made, high-quality recommendations
+
+- **Examples:**
+
+| #   | Meal                   | Wine                                           | Cheese                                          |
+| --- | ---------------------- | ---------------------------------------------- | ----------------------------------------------- |
+| 1   | Cod Brandade           | Roche Mazet Cinsault–Grenache Rosé             | Figou (goat cheese with fig)                    |
+| 2   | Salmon Steak           | Cave Terra Ventoux Secret de Truffle Red       | Flower-coated Tomme                             |
+| 3   | Tartiflette            | Roche Mazet Merlot                             | Cranberry-coated Goat Cheese (80 g)             |
+| 4   | Shepherd’s Pie         | Domaine de Lagoy White Organic Cuvée Classique | Saint-Félicien Faisselle – Saint-Marcel (260 g) |
+| 5   | Beef Stew (Pot-au-feu) | Val de L'Oule Red Frisson                      | Tome of Provence                                |
+
 ---
 
 ## Non-Functional Requirements
@@ -1280,7 +1456,17 @@ The following table is based on market research and reflects general wine and ch
 
 ## Recommended Minimum Hardware Requirements
 
-_To be defined – specify device compatibility (e.g., iOS/Android, minimum OS versions)._
+To ensure a smooth and enjoyable experience with the Cheerish mobile web application, users should access the app on reasonably modern portable devices. The application is designed to be compatible with most smartphones and tablets currently in use, while excluding very outdated models.
+
+| **Requirement**         | **Details**                                                                                    |
+| ----------------------- | ---------------------------------------------------------------------------------------------- |
+| **Device Type**         | Smartphone or tablet with touchscreen                                                          |
+| **Operating System**    | A device running a recent version of Android (Android 9 Pie or later) or iOS (iOS 12 or later) |
+| **Internet Connection** | Must have access to mobile data (3G/4G/5G) or Wi-Fi                                            |
+| **Screen Size**         | A standard screen size that allows comfortable reading and navigation                          |
+| **Camera Access**       | Needed for scanning QR codes and barcodes                                                      |
+
+> The application is not designed for use on very old smartphones or devices without internet access or camera functionality.
 
 ---
 
@@ -1320,12 +1506,67 @@ By integrating with the store’s planogram system, this feature would reduce th
 
 ### Data Protection and Privacy
 
-- Do not store any data related to the user.
+The application follows strict data protection and privacy guidelines:
+
+- **No User Data Storage**: The application does not store any personal data related to users. All preferences and settings are maintained only for the duration of the session.
+
+- **GDPR Compliance**: Although no personal data is stored, the application adheres to GDPR principles by:
+
+  - Not collecting unnecessary information
+  - Being transparent about data usage
+  - Not sharing any user information with third parties
+
+- **Cookie Policy**: The application uses no tracking or marketing cookies.
+
+### Intellectual Property Rights
+
+- **Product Data**: All product information, including images and descriptions, is the property of Intermarché and is used with permission.
+- **App Content**: The application's content, including the recommendation algorithm and pairing suggestions, is protected by copyright.
+
+### License and Usage Terms
+
+- **Open Source**: The application is open-source software, allowing for community contributions and transparency.
+- **Commercial Use**: The implementation is specific to Intermarché's requirements and may not be used commercially without explicit permission.
+
+### Legal Considerations and Disclaimer
+
+#### Commercial Usage
+
+- This implementation is specific to Intermarché's requirements
+- Commercial use or redistribution requires explicit written permission
+- The project's source code is available for inspection under applicable open-source terms
+
+#### Usage Disclaimer
+
+- The application provides recommendations based on general guidelines and predefined rules
+- Users must exercise their own judgment regarding:
+  - Alcohol consumption
+  - Dietary restrictions and allergies
+  - Product selection and purchases
+- Recommendations are suggestions only and do not constitute professional advice
 
 ---
 
 ## Conclusion
 
-_To be defined – summarize the document and next steps._
+The Cheerish mobile web application aims to transform the in-store experience for Intermarché customers by offering intuitive, personalized wine and cheese pairing suggestions. Designed with accessibility, simplicity, and discovery in mind, the app supports a multilingual audience and encourages the promotion of local and regional products. By clearly outlining the functional and non-functional requirements, design principles, and target use cases, this document ensures that all project stakeholders share a common understanding of the goals and expectations.
 
----
+This functional specification serves as a guiding foundation for the development team and partners, enabling focused collaboration throughout the implementation process. As a proof of concept, Cheerish has the potential to evolve through future enhancements such as user reviews, in-store guidance, and promotional integration, contributing to a richer and more connected shopping experience.
+
+## Glossary
+
+| **Term**                             | **Definition**                                                                                                                          |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **Cheerish**                         | The project’s mobile-first web application designed to recommend wine and cheese pairings within Intermarché stores.                    |
+| **Functional Specification**         | A document outlining the features, behavior, and structure of a system from a user-centric perspective.                                 |
+| **Intermarché**                      | The retail client commissioning the proof-of-concept, part of the French Les Mousquetaires group.                                       |
+| **Mobile Web Application**           | A responsive web-based application optimized for mobile use, accessible through browsers on smartphones and tablets.                    |
+| **Bubble.io**                        | A no-code development platform used to build web applications without traditional programming.                                          |
+| **Proof of Concept (PoC)**           | A prototype developed to validate an idea’s feasibility and gather stakeholder feedback prior to full-scale development.                |
+| **QR Code**                          | A 2D scannable code used to direct customers to specific app interfaces based on store location (e.g., aisle-based context).            |
+| **Tagging System**                   | Structured keywords or attributes (e.g., wine color, milk type) associated with products to support filtering and recommendation logic. |
+| **Filtering System**                 | UI/UX feature enabling dynamic narrowing of product results based on structured metadata such as origin, type, or season.               |
+| **Planogram Integration** _(future)_ | Potential feature mapping product locations in-store (aisles/shelves), enabling in-shop navigation assistance.                          |
+| **Onboarding Flow**                  | Lightweight user setup process used to collect language and country-of-origin inputs to personalize recommendations.                    |
+| **Carousel**                         | A horizontally scrollable UI pattern presenting grouped items, such as product suggestions or related content.                          |
+| **Open Source**                      | The project’s licensing model—source code is publicly available for inspection, reuse, or contribution under applicable terms.          |
