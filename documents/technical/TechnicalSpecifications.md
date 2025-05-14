@@ -59,6 +59,141 @@ These plugins can be used to integrate third-party services, add new features, a
 
 ### Application Architecture
 
+The application follows a modular archtecture, with each page (in Bubble) reprsenting a page in the app.
+All pages in the application are interconnected, ensuring seamless navigation.
+
+#### Flowchart
+
+```mermaid
+graph TD
+    %% Main Flow
+    subgraph MainFlow [Main Flow]
+        A[Welcome]
+        B[Home]
+        C[Scan]
+        D[Search Page]
+    end
+
+    %% Product Pages
+    subgraph ProductPages [Product Pages]
+        E[Mix & Match]
+        F[Wine]
+        G[Cheese]
+        H[Meal]
+        I[Product Page]
+    end
+
+    %% Connections
+    A --> B
+    B <--> C
+    B <--> D
+    B <--> E
+    B <--> F
+    B <--> G
+    B <--> H
+
+    C --> F
+    C --> G
+    C --> H
+
+    D --> F
+    D --> G
+    D --> H
+    D <--> I
+
+    E <--> I
+    F <--> I
+    G <--> I
+    H <--> I
+
+    I --> B
+    
+```
+
+The Users arrive on the **Welcome** page, here they can choose their language (by default French) and then they are redirected to the **Home** page.
+Once on the **Home** page, they have access to multiple features:
+
+- **Scan**: Users can scan a product's barcode to get more information about it.
+- **Search Page**: Users can search for a product by name or filter by type (wine, cheese, meal).
+- **The Different Product Pages**: Users can access the different product pages (wine, cheese, meal) to explore the available products.
+- **Mix & Match**: Users can explore the different combinations of wine, cheese and meal.
+
+If the User wants more information on a specific product, he can click on it and he will be redirected onto the corresponding **Product Page**.
+
+### Page Architecture
+
+The application being built using Bubble.io, the pages are built following the Bubble.io conventions; as such, each page has a main group that encapsulates the entire page.
+The main group contains the different sections of the page, which are further divided into groups and again into elements.
+The page architecture is as follows:
+
+```mermaid
+graph TD
+    %% Page Structure
+    A[Page]
+    B[Main Group]
+
+    %% Section Groups
+    C[Section Group]
+    D[Section Group]
+    E[Section Group]
+
+    %% Object Groups
+    F[Object Group]
+    G[Object Group]
+    H[Object Group]
+    I[Object Group]
+    J[Object Group]
+    K[Object Group]
+    L[Object Group]
+    M[Object Group]
+    N[Object Group]
+
+    %% Elements
+    O[Element]
+    P[Element]
+    Q[Element]
+    R[Element]
+    S[Element]
+    T[Element]
+    U[Element]
+    V[Element]
+    W[Element]
+
+    %% Connections
+    A --> B
+
+    B --> C
+    B --> D
+    B --> E
+
+    C --> F
+    C --> G
+    C --> H
+
+    D --> I
+    D --> J
+    D --> K
+
+    E --> L
+    E --> M
+    E --> N
+
+    F --> O
+    G --> P
+    H --> Q
+    I --> R
+    J --> S
+    K --> T
+    L --> U
+    M --> V
+    N --> W
+```
+
+This page architecture clearly defines the hierarchy of the page, with the main group containing all the sections and objects.
+Each section group contains multiple object groups, which in turn contain various elements.
+
+>The structure is different for pages containing repreating groups: the repeating group is encapsulated in a group, and contains a group that contains the different sections and objects of the repeating group.
+
 ### Database Design
 
 The database contains infomation about wines, cheeses and meals; includings their names, origin and other relevant details.
