@@ -62,7 +62,7 @@ These plugins can be used to integrate third-party services, add new features, a
 The application follows a modular archtecture, with each page (in Bubble) reprsenting a page in the app.
 All pages in the application are interconnected, ensuring seamless navigation.
 
-#### Flowchart
+#### Flow
 
 ```mermaid
 graph TD
@@ -191,8 +191,46 @@ graph TD
 
 This page architecture clearly defines the hierarchy of the page, with the main group containing all the sections and objects.
 Each section group contains multiple object groups, which in turn contain various elements.
+The elements can be buttons, text, images, inputs, etc. This modular approach allows for easy maintenance and updates to the application.
 
->The structure is different for pages containing repreating groups: the repeating group is encapsulated in a group, and contains a group that contains the different sections and objects of the repeating group.
+#### Repeating Groups
+
+In Bubble.io, repeating groups are used to display lists of items dynamically. Each repeating group contains a group that encapsulates the different sections and objects of the repeating group.
+
+The structure is different for pages containing repreating groups: the repeating group is encapsulated in a group, and contains a group that contains the different sections and objects of the repeating group.
+
+```mermaid
+
+graph TD
+    %% Repeating Group Structure
+    A[Section Group]
+    B[Encapsulating Group]
+    C[Repeating Group]
+
+    D[Section Group]
+
+    E[Object Group]
+    F[Object Group]
+    G[Object Group]
+
+    H[Element]
+    I[Element]
+    J[Element]
+
+    %% Connections
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    D --> F
+    D --> G
+    E --> H
+    F --> I
+    G --> J
+    
+```
+
+> Note: In the case that the repeating group only contains one element(e.g. a text), their is no need to have a section group and an object group inside the reeating group.
 
 ### Database Design
 
