@@ -31,3 +31,6 @@ The project regained structure with the return of the project manager. The team 
 - Try to obtain client validation to unlock development    
 - Push further discussion on switching tech stack
 
+### Conclusion
+
+This week marked strong organisational progress, with clearer roles and deliverables. Technical feasibility concerns around Bubble introduced some strategic uncertainty. While the timeline is still on track, client validation is urgently needed to lock in technical decisions and move forward with implementation.

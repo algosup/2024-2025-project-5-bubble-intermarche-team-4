@@ -114,3 +114,10 @@ The team made strong progress in documentation, finalising most of the functiona
 ### Conclusion
 
 The team demonstrated focus and productivity, making significant strides on documentation and the prototype. However, progress is approaching a ceiling due to the absence of client validation. Without timely feedback, technical and design work may need revisions, putting the overall schedule at risk. Next week’s success hinges on unlocking this input.
+
+
+### KPIs
+
+<img src="../images/hours.png" alt="Hours worked" width="400"/>
+<img src="../images/doc.png" alt="Kanban board" width="400"/>
+<img src="../images/dev.png" alt="Kanban board" width="400"/>

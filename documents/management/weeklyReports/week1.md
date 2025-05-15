@@ -33,3 +33,9 @@ The project began with a joint kickoff that included all eight teams, the client
 - Set up GitHub for version control
 - Begin creating a Kanban workflow
 - Seek client validation on draft ideas
+
+### Conclusion
+
+The first week laid a solid foundation with shared goals and early design ideas. While some coordination issues emerged due to the absence of a project manager, the team stayed aligned with the overall timeline. Clarifying expectations and validating with the client will be crucial in the coming week to ensure smooth progression
+
+
