@@ -1,28 +1,35 @@
-# Weekly Report - Week 1
+## Week 1 Report (April 22–25)
 
-Start: 22nd April 2025
+### Summary  
+The project began with a joint kickoff that included all eight teams, the client, and the director. The team clarified project objectives and started shaping the user vision for the Intermarché wine and cheese recommendation app. Early work focused on brainstorming and drafting feature ideas.
 
-End: 25th April 2025
+### Accomplishments
 
-## Overview
+- Project kickoff with all stakeholders
+- Brainstorming clarified the core vision:
+    - Personalised food & wine pairing
+    - Promotion of regional specialities and local producers
+    - User-friendly interface, no login required
+    - Multilingual access to boost inclusivity
+- Feature list exploration and first design ideas
+- Technical feasibility research began
+- Functional specification drafting initiated
 
-This week marked the beginning of our new project, which involves developing a web application for a client in the retail. The team has been working on kick-off and design concepts.
+### Challenges
 
+- No project manager present early on, which slowed decision-making
+- Confusion within the team about what was a requirement vs. a “nice-to-have”
+- Mockups were only started — not yet completed
+    
+### Status
 
-## Accomplishments
+- On schedule for the May 16 functional spec deadline
+- Early-stage alignment and vision completed    
 
-- Completed the project kick-off meeting with the client.
-- Established a clear understanding of the project scope and objectives.
-- Created initial mockups and design concepts for the application/website.
-- Conducted a brainstorming session with the team to gather ideas and feedback on the design.
+### Planned Next Week
 
-## Challenges
-
-- Limited availability of the client for questions.
-- Absence of the project manager for the week. 
-
-## Next Steps
-
-
-
-## Summary
+- Finalise mockup design
+- Create a clickable prototype in Figma
+- Set up GitHub for version control
+- Begin creating a Kanban workflow
+- Seek client validation on draft ideas
