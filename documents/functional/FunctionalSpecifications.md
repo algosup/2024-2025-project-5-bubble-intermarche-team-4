@@ -38,10 +38,10 @@
       - [Research Methodology](#research-methodology)
   - [Audience \& Use Cases](#audience--use-cases)
     - [Target Audience](#target-audience)
-      - [1. International Tourists](#1-international-tourists)
-      - [2. Time-Conscious Shoppers](#2-time-conscious-shoppers)
-      - [3. Wine Enthusiasts](#3-wine-enthusiasts)
-      - [4. Culinary Beginners](#4-culinary-beginners)
+      - [The Curious Traveler](#the-curious-traveler)
+      - [The Time-Conscious Shopper](#the-time-conscious-shopper)
+      - [The Wine Enthusiast](#the-wine-enthusiast)
+      - [The Culinary Beginner](#the-culinary-beginner)
     - [Usage Patterns Matrix](#usage-patterns-matrix)
   - [UI/UX](#uiux)
     - [Graphic Charter](#graphic-charter)
@@ -61,7 +61,7 @@
         - [Accompany Page](#accompany-page)
         - [Accompany Page Following](#accompany-page-following)
         - [Recommendation Page](#recommendation-page)
-      - [Menu Page](#menu-page)
+      - [Home Page](#home-page)
       - [Discovery Pages](#discovery-pages)
       - [Product Card](#product-card)
       - [Product Page](#product-page)
@@ -108,26 +108,23 @@
     - [Data Protection and Privacy](#data-protection-and-privacy)
     - [Intellectual Property Rights](#intellectual-property-rights)
     - [License and Usage Terms](#license-and-usage-terms)
-    - [Legal Considerations and Disclaimer](#legal-considerations-and-disclaimer)
-      - [Commercial Usage](#commercial-usage)
-      - [Usage Disclaimer](#usage-disclaimer)
+    - [Legal \& Compliance](#legal--compliance-1)
+      - [Usage Rights \& Licensing](#usage-rights--licensing)
+      - [Liability \& Disclaimer](#liability--disclaimer)
+      - [Legal Responsibility](#legal-responsibility)
   - [Conclusion](#conclusion)
   - [Glossary](#glossary)
 
 </details>
 
----
-
 ## Introduction
 
-This document outlines the **functional specifications** for the development of a mobile web application for [Intermarché](https://www.intermarche.com/?srsltid=AfmBOop3uKBkrZ9x8Szj8EtpgHOqzuk_bHP3x1af4_9TrFf_640On9RY), titled **Cheerish**.
+This document outlines the **functional specifications** for developing a mobile web application for [Intermarché](https://www.intermarche.com), titled **Cheerish**.
 Its objective is to define the project’s functional requirements, scope, and goals, ensuring all stakeholders share a unified understanding of what is being developed.
 
 ### Project Overview
 
 The primary aim of this project is to deliver a user-friendly **mobile web application** for Intermarché customers. Upon entering the store, users will be guided in choosing the most suitable wine and/or cheese based on their preferences, planned dishes, or applied filters. The application is designed to simplify the selection process, promote local products, and improve customer satisfaction by offering tailored and context-aware recommendations.
-
----
 
 ### Project Definition
 
@@ -144,22 +141,17 @@ Our vision is to develop an **open-source mobile web application** as a proof of
 - Provide a **simple, inclusive, and intuitive user interface**
 - Allow usage **without requiring user accounts or sign-up**
 
----
-
 #### Market Analysis
 
-Intermarché currently offers a wine recommendation tool via its official website: [Wine Selection Tool](https://www.intermarche.com/recherche/vin). While functional, the existing solution is limited in interactivity and personalization. The Cheerish application aims to address these limitations by offering the following enhancements:
+Intermarché offers a wine recommendation tool via its official website: [Wine Selection Tool](https://www.intermarche.com/recherche/vin). While functional, the existing solution is limited in interactivity and personalization. The Cheerish application aims to address these limitations by offering the following enhancements:
 
 - **No Account Required** – Users can access full functionality without creating an account, reducing entry barriers.
-- **Optimized UX for Mobile** – A mobile-first design tailored for on-the-go in-store use.
 - **Multilingual Accessibility** – Interface and suggestions are available in multiple languages, enhancing usability for tourists and non-native speakers.
 - **Context-Aware Personalization** – Suggestions are tailored based on user preferences, origin, season, and product data.
 - **Additional Features** – Including cheese/wine pairing suggestions, filters by dish, and local producer highlights.
 - **Barcode Scanner Integration** – Users can scan a product to access detailed information and pairing suggestions.
 
 These improvements aim to create a richer, more engaging customer experience and further enhance Intermarché’s in-store digital offering.
-
----
 
 #### Scope
 
@@ -170,7 +162,6 @@ This project focuses on building a functional **mobile web application** that as
 - Development of a **mobile-first web application** (accessible on Android and iOS)
 - A **recommendation engine** to assist with wine and cheese pairings
 - **User filtering options** (taste, type, region, seasonality, etc.)
-- **Multilingual interface support** (French, English, German, Spanish)
 - Emphasis on **local and regional producers**
 - Lightweight **onboarding process** without account creation
 - Basic **UI/UX mockups and implementation**
@@ -187,13 +178,9 @@ This project focuses on building a functional **mobile web application** that as
 
 This clearly defined scope helps ensure a realistic and focused MVP, enabling feedback collection and evaluation by stakeholders.
 
----
-
 **Technology Used:**
 
-The application is being developed using **Bubble.io**, a no-code platform chosen for its agility and suitability for MVP development.
-
----
+The application is being developed using **Bubble.io**, a no-code platform chosen for its agility and suitability for MVP development, for a deeper understanding of Bubble.io, please follow the [link](https://forum.bubble.io).
 
 #### Deliverables
 
@@ -205,24 +192,22 @@ The application is being developed using **Bubble.io**, a no-code platform chose
 | User Manual               | 16/06/2025                |
 | Final Code                | 16/06/2025                |
 
----
-
 ## Project Organization
 
 #### Project Representatives
 
-| Entity                             | Representative                                                   | Role                   |
-| ---------------------------------- | ---------------------------------------------------------------- | ---------------------- |
-| Intermarché's Representative       | [Célia Moustier](moustier09@hotmail.fr)                          | Primary client contact |
-| Intern Aisle Responsible           | [Chrys Cadeau](chryscadeau13@gmail.com)                          | In-store coordination  |
-| [ALGOSUP](https://www.algosup.com) | [Franck Jeannin](franck.jeannin@algosup.com)                     | Technical advisor      |
-| Team 4                             | [Clementine Curel](https://www.linkedin.com/in/clementinecurel/) | Project Manager        |
+| Entity                             | Representative                                           | Role                   |
+| ---------------------------------- | -------------------------------------------------------- | ---------------------- |
+| Intermarché's Representative       | [Célia Moustier](mailto:moustier09@hotmail.fr)           | Primary client contact |
+| Intern Aisle Responsible           | [Chrys Cadeau](mailto:chryscadeau13@gmail.com)           | In-store coordination  |
+| [ALGOSUP](https://www.algosup.com) | [Franck Jeannin](mailto:franck.jeannin@algosup.com)      | Technical advisor      |
+| Team 4                             | [ Clémentine Curel](mailto:clementine.curel@algosup.com) | Project Manager        |
 
 #### Development Team
 
 | Team Member      | Role              | Primary Responsibilities                                         | Contact                                                           |
 | ---------------- | ----------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------- |
-| Clementine Curel | Project Manager   | Project planning, stakeholder communication, timeline management | [LinkedIn](https://www.linkedin.com/in/clementinecurel/)          |
+| Clémentine Curel | Project Manager   | Project planning, stakeholder communication, timeline management | [LinkedIn](https://www.linkedin.com/in/clementinecurel/)          |
 | Thibaud Marlier  | Program Manager   | Requirements definition, functional specs, scope management      | [LinkedIn](https://www.linkedin.com/in/thibaudmarlier/)           |
 | Jason Grosso     | Technical Lead    | Technical architecture, implementation oversight, development    | [LinkedIn](https://www.linkedin.com/in/jason-grosso-847b39251/)   |
 | Elone Delille    | Quality Assurance | Testing strategy, quality control, requirements validation       | [LinkedIn](https://www.linkedin.com/in/elonedelille/)             |
@@ -231,12 +216,12 @@ The application is being developed using **Bubble.io**, a no-code platform chose
 
 ### Project Stakeholders
 
-| Stakeholder           | Role                | Primary Interest                                       |
-| --------------------- | ------------------- | ------------------------------------------------------ |
-| Intermarché Customers | End Users           | Intuitive wine/cheese pairing assistance               |
-| Intermarché           | Primary Client      | Enhanced customer experience, increased sales          |
-| ALGOSUP               | Technology Partner  | Educational project delivery, technical implementation |
-| Development Team      | Implementation Team | Successful project delivery, technical excellence      |
+| Stakeholder | Role | Primary Interest |
+| | - | |
+| Intermarché Customers | End Users | Intuitive wine/cheese pairing assistance |
+| Intermarché | Primary Client | Enhanced customer experience, increased sales |
+| ALGOSUP | Technology Partner | Educational project delivery, technical implementation |
+| Development Team | Implementation Team | Successful project delivery, technical excellence |
 
 ### Project Planning
 
@@ -246,18 +231,18 @@ The project follows an agile methodology with regular sprints and deliverables. 
 
 #### Risk Management
 
-| Risk                               | Consequences                                       | Likelihood | Impact | Mitigation                                                                                       |
-| ---------------------------------- | -------------------------------------------------- | ---------- | ------ | ------------------------------------------------------------------------------------------------ |
-| Delayed Client's Response          | Deadlines not respected                            | High       | High   | Plan messages in advance, schedule regular meetings, and consolidate questions into one message. |
-| Limited Technology Stack           | Functionalities hard/impossible to implement       | High       | High   | Plan development in advance, close collaboration with Technical Leader                           |
-| Inaccurate Pairing Recommendations | Poor user experience, low app credibility          | Medium     | High   | Use validated data sources, enable user feedback, consult domain experts                         |
-| Ambiguity in Feature Definitions   | Misaligned expectations, rework and delays         | Medium     | High   | Clearly define user stories and acceptance criteria                                              |
-| Overcomplexity in UI               | Users abandon app due to confusion                 | Medium     | Medium | Prioritize simplicity, offer "basic" and "advanced" modes                                        |
-| Incorrect or Missing Product Data  | Unreliable results, limited functionality          | Medium     | High   | Use reliable databases, allow user corrections with moderation                                   |
-| Lack of Domain Expertise           | Incorrect pairing logic, user mistrust             | Medium     | High   | Consult culinary experts or trusted sources                                                      |
-| Performance Bottlenecks            | Slow app performance, especially on mobile         | Medium     | Medium | Optimize database and API calls, test on low-spec devices                                        |
-| Feature Creep                      | Project delays, diluted focus                      | Medium     | High   | Stick to MoSCoW prioritization, defer non-core features                                          |
-| No Mechanism for Feedback/Updates  | App becomes outdated or unresponsive to user needs | Low        | Medium | Add user feedback forms, analytics, and data update mechanisms                                   |
+| Risk | Consequences | Likelihood | Impact | Mitigation |
+| - | -- | - | | |
+| Delayed Client's Response | Deadlines not respected | High | High | Plan messages in advance, schedule regular meetings, and consolidate questions into one message. |
+| Limited Technology Stack | Functionalities hard/impossible to implement | High | High | Plan development in advance, close collaboration with Technical Leader |
+| Inaccurate Pairing Recommendations | Poor user experience, low app credibility | Medium | High | Use validated data sources, enable user feedback, consult domain experts |
+| Ambiguity in Feature Definitions | Misaligned expectations, rework and delays | Medium | High | Clearly define user stories and acceptance criteria |
+| Overcomplexity in UI | Users abandon app due to confusion | Medium | Medium | Prioritize simplicity, offer "basic" and "advanced" modes |
+| Incorrect or Missing Product Data | Unreliable results, limited functionality | Medium | High | Use reliable databases, allow user corrections with moderation |
+| Lack of Domain Expertise | Incorrect pairing logic, user mistrust | Medium | High | Consult culinary experts or trusted sources |
+| Performance Bottlenecks | Slow app performance, especially on mobile | Medium | Medium | Optimize database and API calls, test on low-spec devices |
+| Feature Creep | Project delays, diluted focus | Medium | High | Stick to MoSCoW prioritization, defer non-core features |
+| No Mechanism for Feedback/Updates | App becomes outdated or unresponsive to user needs | Low | Medium | Add user feedback forms, analytics, and data update mechanisms |
 
 ### Resources
 
@@ -279,59 +264,58 @@ A team of 6 members, each with clearly defined roles and responsibilities.
 
 A comprehensive product database has been provided by Intermarché containing:
 
-- Product barcodes in the following formats:
+- Product bar-codes in the following formats:
 
-- **Product Identifiers:**
-  - ITM8 codes
-  - EAN PRIO barcodes
-- **Product Details:**
-  - Names and descriptions
-  - Origins (region/country)
-  - Categories and types
-  - Pricing information
+- **Product database includes:**
+  - **Identifiers:**
+    - ITM8 codes
+    - EAN PRIO bar-codes
+  - **Details:**
+    - Names and descriptions
+    - Origins (region/country)
+    - Categories and types
+    - Pricing information
 
-Complete database specifications can be found [here](../../data/Data%20-%20Wine%20and%20Cheese.xlsx).
-
----
+Complete specifications are available in the [Wine & Cheese Database (Excel)](../../data/Data%20-%20Wine%20and%20Cheese.xlsx).
 
 ### Project Parameters
 
 #### Core Assumptions
 
-1. **Client Engagement**
+- **Client Engagement**
 
-   - Timely feedback from stakeholders
-   - Access to subject matter experts
+  - Timely feedback from stakeholders
+  - Access to subject matter experts
 
-2. **Technical Viability**
+- **Technical Viability**
 
-   - Bubble.io platform capabilities
-   - Modern browser compatibility
-   - Reliable internet connectivity
+  - [Bubble.io](#scope) platform capabilities
+  - Modern browser compatibility
+  - Reliable internet connectivity
 
-3. **Data Quality**
-   - Accurate product information
-   - Consistent classification system
-   - Regular updates possible
+- **Data Quality**
+  - Accurate product information
+  - Consistent classification system
+  - Regular updates possible
 
 #### Project Constraints
 
-1. **Technical Constraints**
+- **Technical Constraints**
 
-   - Exclusive use of Bubble.io platform
-   - Web-based mobile application
-   - Open-source requirement
+  - Exclusive use of the Bubble.io platform
+  - Web-based mobile application
+  - Open-source requirement
 
-2. **Business Constraints**
+- **Business Constraints**
 
-   - Alignment with Intermarché brand
-   - Compliance with retail standards
-   - User privacy requirements
+  - Alignment with Intermarché brand
+  - Compliance with retail standards
+  - User privacy requirements
 
-3. **Resource Constraints**
-   - Fixed team size
-   - Defined project timeline
-   - Limited budget
+- **Resource Constraints**
+  - Fixed team size
+  - Defined project timeline
+  - Limited budget
 
 ### Product Matching Strategy
 
@@ -343,30 +327,33 @@ Complete database specifications can be found [here](../../data/Data%20-%20Wine%
 
 #### Research Methodology
 
-1. **Literature Review**
+- **Literature Review**
 
-   - Academic sources
-   - Industry publications
-   - Cultural references
+  - Academic sources
+  - Industry publications
+  - Cultural references
 
-2. **Expert Interviews**
+- **Expert Interviews**
 
-   - Structured questionnaires
-   - Pairing workshops
-   - Validation sessions
+  - Structured questionnaires
+  - Pairing workshops
+  - Validation sessions
 
-3. **Documentation**
-   - Comprehensive pairing guidelines
-   - Expert recommendations
-   - Regional considerations
+- **Documentation**
+  - Comprehensive pairing guidelines
+  - Expert recommendations
+  - Regional considerations
 
----
+Research and interviews will be conducted by Thibaud Marlier and Clémentine Curel throughout the project.
 
 ## Audience & Use Cases
 
 ### Target Audience
 
-#### 1. International Tourists
+The application is designed for diverse customer types who commonly shop at Intermarché.
+**These four personas illustrate the core multilingual, time-sensitive, and curiosity-driven user groups envisioned in our [Vision](#vision) section.** Each represents a key use case for the app in a real in-store context.
+
+#### The Curious Traveler
 
 **Demographics**
 
@@ -384,7 +371,7 @@ Complete database specifications can be found [here](../../data/Data%20-%20Wine%
 
 **User Story**
 
-> As a tourist visiting France, Anna wants to discover authentic regional products and understand French wine-cheese pairings, even though she doesn't speak French fluently.
+> As a Curious Traveler, Anna wants to discover authentic regional products and understand French wine-cheese pairings, even though she doesn't speak French fluently.
 
 **App Usage Pattern**
 
@@ -397,12 +384,12 @@ Complete database specifications can be found [here](../../data/Data%20-%20Wine%
 <img src="./images/personas/anna.png" width=200px>
 </div>
 
-#### 2. Time-Conscious Shoppers
+#### The Time-Conscious Shopper
 
 **Demographics**
 
 - **Age Range:** 30–55
-- **Persona:** _Marc, the Busy Parent_
+- **Persona:** _Marc, the Time-Conscious Shopper_
 - **Shopping Frequency:** Weekly
 - **Time Availability:** Limited
 
@@ -415,7 +402,7 @@ Complete database specifications can be found [here](../../data/Data%20-%20Wine%
 
 **User Story**
 
-> As a busy parent, Marc needs quick and reliable recommendations for wine and cheese that will complement his planned family meals.
+> As a Time-Conscious Shopper, Marc needs quick and reliable recommendations for wine and cheese that will complement his planned family meals.
 
 **App Usage Pattern**
 
@@ -428,12 +415,12 @@ Complete database specifications can be found [here](../../data/Data%20-%20Wine%
 <img src="./images/personas/marc.png" width=200px>
 </div>
 
-#### 3. Wine Enthusiasts
+#### The Wine Enthusiast
 
 **Demographics**
 
 - **Age Range:** 35–65
-- **Persona:** _Claire, the Wine Expert_
+- **Persona:** _Claire, the Wine Enthusiast_
 - **Knowledge Level:** Advanced
 - **Interest:** High engagement
 
@@ -446,7 +433,7 @@ Complete database specifications can be found [here](../../data/Data%20-%20Wine%
 
 **User Story**
 
-> As a wine enthusiast, Claire wants to discover unique local wines and artisanal cheeses, while understanding their origins and pairing possibilities.
+> As a Wine Enthusiast, Claire wants to discover unique local wines and artisanal cheeses, while understanding their origins and pairing possibilities.
 
 **App Usage Pattern**
 
@@ -459,12 +446,12 @@ Complete database specifications can be found [here](../../data/Data%20-%20Wine%
 <img src="./images/personas/claire.png" width=200px>
 </div>
 
-#### 4. Culinary Beginners
+#### The Culinary Beginner
 
 **Demographics**
 
 - **Age Range:** 18–30
-- **Persona:** _Lucas, the Curious Student_
+- **Persona:** _Lucas, the Culinary Beginner_
 - **Experience Level:** Novice
 - **Learning Style:** Experimental
 
@@ -477,7 +464,7 @@ Complete database specifications can be found [here](../../data/Data%20-%20Wine%
 
 **User Story**
 
-> As someone new to wine and cheese, Lucas wants beginner-friendly guidance that helps him make confident choices within his budget.
+> As a Culinary Beginner, Lucas wants beginner-friendly guidance that helps him make confident choices within his budget.
 
 **App Usage Pattern**
 
@@ -505,13 +492,9 @@ Complete database specifications can be found [here](../../data/Data%20-%20Wine%
 
 This project follows the official Intermarché graphic charter to ensure visual consistency and brand recognition. The following elements reflect the branding guidelines.
 
----
-
 ### Logotype
 
 The web application uses official Intermarché logos provided under the brand’s existing identity. Below are the logos available for use:
-
----
 
 #### Cheerish Logo
 
@@ -542,8 +525,6 @@ Together, these elements embody the user experience we aim to deliver—personal
 
 This is the main Intermarché logo, used primarily for branding, advertising, and digital web applications.
 
----
-
 #### Intermarché Super Logo
 
 <div align="center">
@@ -555,8 +536,6 @@ This is the main Intermarché logo, used primarily for branding, advertising, an
 This logo represents **Intermarché Super**, supermarkets with a strong focus on fresh food products, tailored to local clientele.
 It is the **primary logo** for this project, as the main client is **Intermarché Super in Saint-Rémy-de-Provence**.
 
----
-
 #### Round Intermarché Logo
 
 <div align="center">
@@ -567,8 +546,6 @@ It is the **primary logo** for this project, as the main client is **Intermarch�
 
 This round version of the logo is ideal for **loading pages** or compact areas where a circular design is more fitting.
 
----
-
 ### Logo Usage Guidelines
 
 According to Intermarché’s official branding policy:
@@ -577,28 +554,19 @@ According to Intermarché’s official branding policy:
 - A **minimum usage size of 25mm** is required for optimal readability.
 - Logos must be displayed on a **white background** to maintain visual clarity.
 
----
-
 ### Logo Liability Disclaimer
 
-> **Disclaimer:**
-> All logos used in this project are the intellectual property of **Intermarché** and its affiliates.
-> They are used **exclusively** for educational, prototyping, or demonstrative purposes, and **not for commercial redistribution**.
-> Our team claims **no ownership** over these visual assets.
-
----
+For information about logo liability see [Legal \& Compliance](#legal--compliance) → Intellectual Property Rights.
 
 ### Color Palette
 
 The application’s color scheme aligns with Intermarché’s official brand colors to maintain consistency.
 
-| Color     | RGBA Value         | Example                                       |
-| --------- | ------------------ | --------------------------------------------- |
-| **Red**   | 226, 0, 26, 100    | ![Red](./images/color/IntermarcheRed.png)     |
-| **Black** | 26, 23, 26, 100    | ![Black](./images/color/IntermarcheBlack.png) |
-| **Grey**  | 220, 220, 220, 100 | ![Grey](./images/color/IntermarcheGrey.png)   |
-
----
+| Color | RGBA Value | Example |
+| | | |
+| **Red** | 226, 0, 26, 100 | ![Red](./images/color/IntermarcheRed.png) |
+| **Black** | 26, 23, 26, 100 | ![Black](./images/color/IntermarcheBlack.png) |
+| **Grey** | 220, 220, 220, 100 | ![Grey](./images/color/IntermarcheGrey.png) |
 
 ### Mockups
 
@@ -606,9 +574,7 @@ A visual prototype of the application has been designed using Figma. You can vie
 
 This mockup outlines the core user flows and primary pages of the application, with a focus on intuitive navigation and an engaging user experience.
 
-Though, screenshots taken from such mockup are subject to change and are explanatory, do not focus too much on the visuals but rather on the functionalities.
-
----
+Note: Screenshots are for illustration only; focus on the described functionality rather than visual polish.
 
 #### Sign-Up Page
 
@@ -711,22 +677,22 @@ This page allows the user to enter the name of the wine or cheese they are looki
 
 **Page Elements:**
 
-1. **Back Button**
+- **Back Button**
 
-   - Navigates back to the [QR Code Pages](#qr-code-pages)
+  - Navigates back to the [QR Code Pages](#qr-code-pages)
 
-2. **Instructional Text**
+- **Instructional Text**
 
-   - Prompts the user to input the wine or cheese they have selected
+  - Prompts the user to input the wine or cheese they have selected
 
-3. **Input Box**
+- **Input Box**
 
-   - Allows the user to type in the name of the product
+  - Allows the user to type in the name of the product
 
-4. **Confirmation Button**
+- **Confirmation Button**
 
-   - Confirms the selection and redirects to the [Accompany Page Following](#accompany-page-following)
-   - Styled and functions similarly to the button described in the [Sign-Up Page](#sign-up-page)
+  - Confirms the selection and redirects to the [Accompany Page Following](#accompany-page-following)
+  - Styled and functions similarly to the button described in the [Sign-Up Page](#sign-up-page)
 
 <div align="center">
 
@@ -740,26 +706,26 @@ This page allows the user to choose what kind of pairing they are looking for.
 
 **Page Elements:**
 
-1. **Back Button**
+- **Back Button**
 
-   - Navigates back to the [Accompany Page](#accompany-page)
+  - Navigates back to the [Accompany Page](#accompany-page)
 
-2. **Instructional Text**
+- **Instructional Text**
 
-   - Asks the user what they would like to pair with their selected product
+  - Ask the user what they would like to pair with their selected product
 
-3. **Dropdown Menu**
+- **Dropdown Menu**
 
-   - Options include:
+  - Options include:
 
-     - **Cheese/Wine**
-     - **Dish**
-     - **Both**
+    - **Cheese/Wine**
+    - **Dish**
+    - **Both**
 
-4. **Confirmation Button**
+- **Confirmation Button**
 
-   - Same style and behavior as described in the [Sign-Up Page](#sign-up-page)
-   - Leads the user to the [Recommendation Page](#recommendation-page)
+  - Same style and behavior as described in the [Sign-Up Page](#sign-up-page)
+  - Leads the user to the [Recommendation Page](#recommendation-page)
 
 <div align="center">
 
@@ -773,21 +739,21 @@ This page displays product recommendations based on the user's previously select
 
 **Page Elements:**
 
-1. **Header**
-   Includes:
+- **Header**
+  Includes:
 
-   - The Cheerish logo
-   - A search icon linked to the [Search Mechanic](#search-mechanic)
-   - A language selection button as described in the [Multilingual Support](#multilingual-support) section
+  - The Cheerish logo
+  - A search icon linked to the [Search Mechanic](#search-mechanic)
+  - A language selection button as described in the [Multilingual Support](#multilingual-support) section
 
-2. **Contextual Text**
+- **Contextual Text**
 
-   - For example: _“With your \[product]”_
+  - For example: _"With your \[product]"_
 
-3. **Product Carousels**
+- **Product Carousels**
 
-   - If the user requested a **dish**, **wine**, or **cheese**, a single carousel appears showing suggested products based on [Product Tags](#product-tags)
-   - If the user requested **both**, two carousels are displayed
+  - If the user requested a **dish**, **wine**, or **cheese**, a single carousel appears showing suggested products based on [Product Tags](#product-tags)
+  - If the user requested **both**, two carousels are displayed
 
 <div align="center">
 
@@ -795,13 +761,13 @@ This page displays product recommendations based on the user's previously select
 
 </div>
 
-#### Menu Page
+#### Home Page
 
-The Menu Page serves as the **Home Page** of the application. It is the main interface the user interacts with and offers quick access to key features and content.
+The Home Page serves as the main page of the application. It is the main interface the user interacts with and offers quick access to key features and content.
 
 The page is composed of four main sections:
 
-1. **Header**
+- **Header**
 
 The header includes the following elements:
 
@@ -809,7 +775,7 @@ The header includes the following elements:
 - A magnifying glass icon representing the [Search Mechanic](#search-mechanic) functionality
 - A language switcher button, as described in the [Multilingual Support](#multilingual-support) section
 
-2. **Browse Categories**
+- **Browse Categories**
 
 This section is designed to guide the user through available options and includes:
 
@@ -817,15 +783,15 @@ This section is designed to guide the user through available options and include
 - A brief explanatory sentence encouraging exploration of the platform
 - Four action buttons leading to various discovery pages:
 
-  1. **See Menus** – Redirects to a complete list of available menus
-  2. **Discover Our Wines** – Displays the full wine selection
-  3. **Cheese Selection** – Presents the complete list of cheeses
-  4. **View Catalogue** – Shows all available products, including menus, cheeses, and wines
+  - **See Menus** – Redirects to a complete list of available menus
+  - **Discover Our Wines** – Displays the full wine selection
+  - **Cheese Selection** – Presents the complete list of cheeses
+  - **View Catalogue** – Shows all available products, including menus, cheeses, and wines
 
 > **Note:**
 > These four buttons lead to what are referred to as **Discovery Pages**. You can find more information in the [Discovery Pages](#discovery-pages) section.
 
-3. **Recommendations**
+- **Recommendations**
 
 This section includes personalized product suggestions based on user preferences, as detailed in the [Recommendation Algorithm](#recommendation-algorithm) section. It contains:
 
@@ -853,50 +819,50 @@ Each page acts as a showcase for the respective category, displaying all availab
 
 The pages are composed of the following sections:
 
-1. **Header**
+- **Header**
 
-   - Identical to the header described in the [Menu Page](#menu-page) section.
-   - Contains the logo, search icon, and language selection button.
+  - Identical to the header described in the [Menu Page](#menu-page) section.
+  - Contains the logo, search icon, and language selection button.
 
-2. **Back Button**
+- **Back Button**
 
-   - A simple button that returns the user to the Menu Page.
+  - A simple button that returns the user to the Menu Page.
 
-3. **Search Bar**
+- **Search Bar**
 
-   - A minimal design with a magnifying glass icon and input field.
-   - Enables users to search for specific products or refine results alongside filter options.
-   - Example: typing "white wine" returns only white wines.
+  - A minimal design with a magnifying glass icon and input field.
+  - Enables users to search for specific products or refine results alongside filter options.
+  - Example: typing "white wine" returns only white wines.
 
-4. **Filters**
-   Filters allow users to narrow down their product search. Filter options include:
+- **Filters**
+  Filters allow users to narrow down their product search. Filter options include:
 
-   - **Type of Wine** or **Type of Milk (for cheeses)** – See [Research Filters](#research-filters) for more details
+  - **Type of Wine** or **Type of Milk (for cheeses)** – See [Research Filters](#research-filters) for more details
 
-   - **Price Range**
+  - **Price Range**
 
-     - €0 to €5
-     - €5 to €15
-     - Over €15
+    - €0 to €5
+    - €5 to €15
+    - Over €15
 
-   - **Country of Origin**
+  - **Country of Origin**
 
-   - **Selected Dish** – The user selects a dish they wish to prepare; the system recommends suitable wines or cheeses.
+  - **Selected Dish** – The user selects a dish they wish to prepare; the system recommends suitable wines or cheeses.
 
-   - **Selected Cheese** – The user selects a cheese they have; the system suggests compatible dishes or wines.
+  - **Selected Cheese** – The user selects a cheese they have; the system suggests compatible dishes or wines.
 
-   - **Selected Wine** – The user selects a wine they have; the system recommends complementary dishes or cheeses.
+  - **Selected Wine** – The user selects a wine they have; the system recommends complementary dishes or cheeses.
 
-   - **Reset Button** – Reinitializes all filters to their default state.
+  - **Reset Button** – Reinitializes all filters to their default state.
 
-   > **Note:**
-   > The "Selected ..." filters require the user to choose from products already present in the database (external products are not supported).
-   > These filters will appear as dropdowns with search functionality to simplify selection.
+  > **Note:**
+  > The "Selected ..." filters require the user to choose from products already present in the database (external products are not supported).
+  > These filters will appear as dropdowns with search functionality to simplify selection.
 
-5. **Recommendations Section**
+- **Recommendations Section**
 
-   - Displays product cards based on the applied filters.
-   - If no filters are applied, the full list of products in the selected category is shown.
+  - Displays product cards based on the applied filters.
+  - If no filters are applied, the full list of products in the selected category is shown.
 
 <div align="center">
   <img src="./images/pages/DiscoveryWinePage.png" alt="Discovery Page - Wine Category">
@@ -933,40 +899,40 @@ The Product Page is where users can view detailed information about a selected p
 
 This page is composed of the following elements:
 
-1. **Header**
+- **Header**
 
-   - Consistent with the header described in the [Menu Page](#menu-page) section.
-   - Includes the application logo, a search icon, and a language selection button.
+  - Consistent with the header described in the [Menu Page](#menu-page) section.
+  - Includes the application logo, a search icon, and a language selection button.
 
-2. **Back Button**
+- **Back Button**
 
-   - Allows users to return to the Discovery Page corresponding to the product's category (wine or cheese).
+  - Allows users to return to the Discovery Page corresponding to the product's category (wine or cheese).
 
-3. **Product Name**
+- **Product Name**
 
-   - Displayed prominently at the top of the page to highlight the product.
+  - Displayed prominently at the top of the page to highlight the product.
 
-4. **Product Image**
+- **Product Image**
 
-   - A visual of the product shown in a dedicated image container.
+  - A visual of the product shown in a dedicated image container.
 
-5. **Descriptive Card**
+- **Descriptive Card**
 
-   - Provides comprehensive product information, including:
+  - Provides comprehensive product information, including:
 
-     - Product description
-     - Vintage (for wines) or cheese type
-     - Country of origin
-     - Region
-     - Appellation (e.g., PDO, AOC)
-     - Grape variety or type of milk used
-     - Price
+    - Product description
+    - Vintage (for wines) or cheese type
+    - Country of origin
+    - Region
+    - Appellation (e.g., PDO, AOC)
+    - Grape variety or type of milk used
+    - Price
 
-6. **Recommendations**
+- **Recommendations**
 
-   - Displays suggested products that pair well with the selected item.
-   - These recommendations are **predefined (hard-coded)** and not based on dynamic algorithms.
-   - Each suggested product appears as a card, following the structure described in the [Product Card](#product-card) section.
+  - Displays suggested products that pair well with the selected item.
+  - These recommendations are **pre-defined (hard-coded)** and not based on dynamic algorithms.
+  - Each suggested product appears as a card, following the structure described in the [Product Card](#product-card) section.
 
 <div align="center">
 
@@ -980,35 +946,33 @@ The Search Page is dedicated to helping users find specific products or refine t
 
 ##### Page Composition
 
-1. **Search Bar**
+- **Search Bar**
 
-   - An input field that allows users to search for a product by name.
-   - Supports partial input and smart matching, as detailed in the [Search Mechanic](#search-mechanic) section.
+  - An input field that allows users to search for a product by name.
+  - Supports partial input and smart matching, as detailed in the [Search Mechanic](#search-mechanic) section.
 
-2. **Language Dropdown**
+- **Language Dropdown**
 
-   - Enables the user to switch languages.
-   - Available options are defined in the [Multilingual Support](#multilingual-support) section.
+  - Enables the user to switch languages.
+  - Available options are defined in the [Multilingual Support](#multilingual-support) section.
 
-3. **Filter Box**
+- **Filter Box**
 
-   - Provides advanced filtering options to refine search results:
+  - Provides advanced filtering options to refine search results:
 
-     - **Price**
-     - **Product Type** (Cheese, Wine, Dish)
-     - **Country of Origin**
-     - **Seasonality** (for seasonal products)
+    - **Price**
+    - **Product Type** (Cheese, Wine, Dish)
+    - **Country of Origin**
+    - **Seasonality** (for seasonal products)
 
-   - Includes a **Reset Button** to clear all selected filters and return to default values.
+  - Includes a **Reset Button** to clear all selected filters and return to default values.
 
-4. **Product Output Section**
+- **Product Output Section**
 
-   - Displayed below the filter box.
-   - Shows matching products using the same card layout as described in the [Discovery Pages](#discovery-pages).
+  - Displayed below the filter box.
+  - Shows matching products using the same card layout as described in the [Discovery Pages](#discovery-pages).
 
 ![alt text](./images/pages/SearchPage.png)
-
----
 
 For more information about the underlying mechanics of search and filtering, refer to:
 
@@ -1022,24 +986,20 @@ This page is dedicated to accessing the barcode scanner feature. It can be acces
 
 ##### Page Composition
 
-1. **Header**
+- **Header**
 
-   - Matches the design of the header described in the [Menu Page](#menu-page) section.
-   - Contains the application logo and a language selection button.
-   - **Note**: The search icon is intentionally excluded on this page.
+  - Matches the design of the header described in the [Menu Page](#menu-page) section.
+  - Contains the application logo and a language selection button.
+  - **Note**: The search icon is intentionally excluded on this page.
 
-2. **Barcode Scan Button**
+- **Barcode Scan Button**
 
-   - A large, central button occupying 80% of the page’s width and height.
-   - When pressed, it activates the device’s camera to scan the barcode of a product.
+  - A large, central button occupying 80% of the page’s width and height.
+  - When pressed, it activates the device’s camera to scan the barcode of a product.
 
 ![alt text](./images/pages/BarCodePage.png)
 
----
-
 For more information about the barcode scanner’s functionality, refer to the [Barcode Scanner](#bar-code-scanner) section.
-
----
 
 ## Functional Requirements
 
@@ -1061,8 +1021,6 @@ For more information about the barcode scanner’s functionality, refer to the [
 
   - Additional languages can be supported, but are not mandatory.
   - The entire application interface must be fully translated automatically when a language is selected.
-
----
 
 ### QR Code Accessibility
 
@@ -1091,10 +1049,8 @@ When the user scans the QR code near the **wine aisle**, the following screen ap
 
 The user is presented with two options:
 
-1. **Find a wine** based on their preferences
-2. **Something to accompany my wine** (such as food or cheese) for a wine they already have
-
----
+- **Find a wine** based on their preferences
+- **Something to accompany my wine** (such as food or cheese) for a wine they already have
 
 #### If the user chooses "Something to accompany my wine"
 
@@ -1106,8 +1062,6 @@ The user is presented with two options:
 
 > [!NOTE]
 > More information about the recommendation system can be found in the [Recommendation Algorithm](#recommendation-algorithm) section.
-
----
 
 #### If the user chooses "Find a wine"
 
@@ -1137,10 +1091,10 @@ The search feature enables users to quickly find products—either wines or chee
     This ensures a user-friendly and accessible experience.
 
 - **Instant Results**
-  As users type, the interface dynamically displays results in real time, enabling a faster and smoother search experience.
+  As users type, the interface dynamically displays results in real-time, enabling a faster and smoother search experience.
 
 - **Error Tolerance**
-  The system handles minor typos or alternate spellings (e.g., “camember” returns **Camembert**) to improve accuracy and usability.
+  The system handles minor typos or alternate spellings (e.g., "camember" returns **Camembert**) to improve accuracy and usability.
 
 #### Integration with the Filtering System
 
@@ -1256,12 +1210,12 @@ In addition to keyword search, users can refine results using the application's 
 | **Wine Grape**    | Aligoté, Blend blanc espagnol, Blend blanc générique, Cabernet Sauvignon, Caladoc, Carignan, Cinsault, Chardonnay, Glera, Grenache, Grenache Blanc, Grenache Noir, Loin de l’Oeil, Mauzac, Merlot, Mourvèdre, Muscadelle, Pineau d’Aunis, Rolle, Roussanne, Shiraz/Syrah, Syrah, Tibouren, Ugni Blanc                                                                                                                                                                   | `#8FBC8F` (Dark Sea Green) |
 | **Cheese Type**   | AOP goat cheese, AOP semi-soft cheese, Fresh cheese, Fresh goat cheese, Fresh log cheese, Goat cheese, Semi-hard cheese, Soft cheese, Triple-cream cheese, Yogurt                                                                                                                                                                                                                                                                                                       | `#87CEFA` (Light Sky Blue) |
 | **Cheese Milk**   | Buffalo, Cow, Goat                                                                                                                                                                                                                                                                                                                                                                                                                                                      | `#F4A460` (Sandy Brown)    |
-| **Season**        | Summer, Spring, Winter, Automn                                                                                                                                                                                                                                                                                                                                                                                                                                          | `#DAB1DA` (Light Purple)   |
+| **Season**        | Summer, Spring, Winter, Autumn                                                                                                                                                                                                                                                                                                                                                                                                                                          | `#DAB1DA` (Light Purple)   |
 
 ### Research Filters
 
 - **Functionality:**
-  The mobile application must allow users to apply filters when searching for products
+  The mobile application must allow users to apply filters when searching for products.
 
 - **Details:**
 
@@ -1272,20 +1226,20 @@ In addition to keyword search, users can refine results using the application's 
   - the seasonality of the product,
   - the region or country of origin
 
-  If the Users specified the type of of product they are looking for, they will have access to specific filters for that type of product:
+  If the Users specify the type of product they are looking for, they will have access to specific filters for that type of product:
 
-  - for the **wine** type, the user unlock the following filters:
+  - for the **wine** type, the user unlocks the following filters:
     - the color of the wine (red, white, rosé, sparkling),
     - the grape variety,
     - the sweetness level (dry, semi-dry, sweet),
     - the alcohol content
-  - for the **cheese** type, the user unlock the following filters:
+  - for the **cheese** type, the user unlocks the following filters:
     - the milk type (cow, goat, sheep),
     - the texture (soft, hard, semi-soft),
     - the aging process (fresh, aged, blue-veined),
     - the flavor profile (mild, strong, spicy)
-  - for the **meal** type, the user unlock the following filters:
-    - the dieatary restrictions (vegetarian, vegan, gluten-free),
+  - for the **meal** type, the user unlocks the following filters:
+    - the dietary restrictions (vegetarian, vegan, gluten-free),
     - the region of origin (Provence, Bordeaux, ...)
 
 ### Bar-Code Scanner
@@ -1315,13 +1269,13 @@ flowchart TD
 
 <div align="center">
 
-![Barcode Scan Example](images/bar-code/BarCodeScan.png)
+![Barcode Scan Example](./images/bar-code/BarCodeScan.png)
 
 </div>
 
 <div align="center">
 
-![Barcode Scan Error](images/bar-code/BarCodeError.png)
+![Barcode Scan Error](./images/bar-code/BarCodeError.png)
 
 </div>
 
@@ -1349,7 +1303,7 @@ The algorithm will take the following criteria into account:
 A user from the South of France scans a mid-range cheese during winter. Based on this context, the app may suggest:
 
 - A robust red wine from the same region.
-- Other regional cheeses typically consumed in winter.
+- Other regional cheeses are typically consumed in winter.
 - Ongoing promotions for similar products within the same price range.
 
 #### Recommendation Flow
@@ -1374,12 +1328,12 @@ flowchart TD
 
 The following table is based on market research and reflects general wine and cheese preferences by nationality:
 
-| Nationality | Wine Preferences                                                                                         | Cheese Preferences                                                                                                                      |
-| ----------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **British** | - Favor red wines (especially Bordeaux) <br> - Open to white and rosé during warmer months               | - Soft classics: Brie, Camembert <br> - Curious about strong types: Époisses, Roquefort <br> - Trend: Fromage Blanc, Chèvre             |
-| **Spanish** | - Prefer red wines due to cultural familiarity <br> - Choose rosé or white wines in summer               | - Cheeses similar to Manchego: Comté, Tomme de Savoie, Ossau-Iraty                                                                      |
-| **German**  | - Prefer white and rosé wines, especially dry varieties <br> - Enjoy Alsace wines like Riesling          | - Mild alpine cheeses: Emmental, Raclette, Munster                                                                                      |
-| **Italian** | - Mainly red wines <br> - Also open to white and sparkling wines (e.g., Champagne)                       | - Soft and flavorful cheeses: Brie de Meaux, Roquefort, Reblochon                                                                       |
+| Nationality | Wine Preferences | Cheese Preferences |
+| -- | -- | |
+| **British** | - Favor red wines (especially Bordeaux) <br> - Open to white and rosé during warmer months | - Soft classics: Brie, Camembert <br> - Curious about strong types: Époisses, Roquefort <br> - Trend: Fromage Blanc, Chèvre |
+| **Spanish** | - Prefer red wines due to cultural familiarity <br> - Choose rosé or white wines in summer | - Cheeses similar to Manchego: Comté, Tomme de Savoie, Ossau-Iraty |
+| **German** | - Prefer white and rosé wines, especially dry varieties <br> - Enjoy Alsace wines like Riesling | - Mild alpine cheeses: Emmental, Raclette, Munster |
+| **Italian** | - Mainly red wines <br> - Also open to white and sparkling wines (e.g., Champagne) | - Soft and flavorful cheeses: Brie de Meaux, Roquefort, Reblochon |
 | **Chinese** | - Strong preference for red wines (especially Bordeaux) <br> - Growing interest in white/sparkling wines | - Prefer mild, approachable options: Brie, Camembert, Fromage Blanc <br> - Rising interest among youth in more diverse cheese varieties |
 
 ### Local Product Spotlight
@@ -1407,24 +1361,33 @@ The following table is based on market research and reflects general wine and ch
 
 - **Examples:**
 
-| #   | Meal                   | Wine                                           | Cheese                                          |
-| --- | ---------------------- | ---------------------------------------------- | ----------------------------------------------- |
-| 1   | Cod Brandade           | Roche Mazet Cinsault–Grenache Rosé             | Figou (goat cheese with fig)                    |
-| 2   | Salmon Steak           | Cave Terra Ventoux Secret de Truffle Red       | Flower-coated Tomme                             |
-| 3   | Tartiflette            | Roche Mazet Merlot                             | Cranberry-coated Goat Cheese (80 g)             |
-| 4   | Shepherd’s Pie         | Domaine de Lagoy White Organic Cuvée Classique | Saint-Félicien Faisselle – Saint-Marcel (260 g) |
-| 5   | Beef Stew (Pot-au-feu) | Val de L'Oule Red Frisson                      | Tome of Provence                                |
-
----
+| # | Meal | Wine | Cheese |
+| | - | - | -- |
+| 1 | Cod Brandade | Roche Mazet Cinsault–Grenache Rosé | Figou (goat cheese with fig) |
+| 2 | Salmon Steak | Cave Terra Ventoux Secret de Truffle Red | Flower-coated Tomme |
+| 3 | Tartiflette | Roche Mazet Merlot | Cranberry-coated Goat Cheese (80 g) |
+| 4 | Shepherd’s Pie | Domaine de Lagoy White Organic Cuvée Classique | Saint-Félicien Faisselle – Saint-Marcel (260 g) |
+| 5 | Beef Stew (Pot-au-feu) | Val de L'Oule Red Frisson | Tome of Provence |
 
 ## Non-Functional Requirements
 
 ### Performance
 
-- The application must provide a smooth and responsive user experience across all supported devices.
-- Page load times should not exceed **2 seconds** under normal network conditions.
-- Recommendations and search results must be generated within **1 second** of user input.
-- The backend must be capable of handling up to **100 concurrent users** without degradation in performance.
+- The application must offer a **fluid and responsive user experience** across supported mobile devices and modern web browsers.
+
+- **Page load time** should not exceed **2 seconds** under typical usage conditions.
+  This benchmark is based on industry standards (e.g., [Google Web Vitals](https://web.dev/vitals/)) which suggest that users begin to perceive delays and friction when pages take longer than 2–3 seconds to load. A 2-second target balances performance with realism for a mobile-first web application.
+
+- **Normal network conditions** refer to a mobile user with:
+
+  - A **4G connection** (or equivalent Wi-Fi),
+  - Minimum **5 Mbps download speed**,
+  - **Latency** under **100 ms**.
+    These reflect common network conditions in France and Europe during in-store usage.
+
+- **Search queries** and **recommendation results** should be returned within **1 second** to maintain the perception of responsiveness and encourage exploration.
+
+- The backend architecture must be capable of serving **at least 100 concurrent users** simultaneously without performance degradation—appropriate for a mid-sized Intermarché store or proof-of-concept deployment.
 
 ### Scalability
 
@@ -1452,11 +1415,9 @@ The following table is based on market research and reflects general wine and ch
 
 - Texts should be legible across various screen sizes, and interactions must be intuitive and user-friendly.
 
----
-
 ## Recommended Minimum Hardware Requirements
 
-To ensure a smooth and enjoyable experience with the Cheerish mobile web application, users should access the app on reasonably modern portable devices. The application is designed to be compatible with most smartphones and tablets currently in use, while excluding very outdated models.
+To ensure a smooth and enjoyable experience with the Cheerish mobile web application, users should access the app on reasonably modern portable devices. The application is designed to be compatible with most smartphones and tablets currently in use while excluding very outdated models.
 
 | **Requirement**         | **Details**                                                                                    |
 | ----------------------- | ---------------------------------------------------------------------------------------------- |
@@ -1468,13 +1429,11 @@ To ensure a smooth and enjoyable experience with the Cheerish mobile web applica
 
 > The application is not designed for use on very old smartphones or devices without internet access or camera functionality.
 
----
-
 ## Future Improvements
 
 ### Integration of Special Offers
 
-To enhance the value of the barcode scanning feature, the application could integrate real-time promotional offers. When a user scans a product, the system would display:
+To enhance the value of the barcode scanning feature, the application could integrate real-time promotional offers. When a user scans a product, the system displays:
 
 - Active promotions
 - Available discounts
@@ -1500,7 +1459,7 @@ To streamline the in-store shopping experience, the application could indicate t
 - Shelf location
 - Section indicators
 
-By integrating with the store’s planogram system, this feature would reduce the time customers spend locating items, increase overall satisfaction, and improve accessibility—especially during peak hours or for first-time visitors.
+Integrating with the store’s planogram system, this feature would reduce the time customers spend locating items, increase overall satisfaction, and improve accessibility—especially during peak hours or for first-time visitors.
 
 ## Legal & Compliance
 
@@ -1523,29 +1482,40 @@ The application follows strict data protection and privacy guidelines:
 - **Product Data**: All product information, including images and descriptions, is the property of Intermarché and is used with permission.
 - **App Content**: The application's content, including the recommendation algorithm and pairing suggestions, is protected by copyright.
 
+> **Disclaimer:**
+> All logos used in this project are the intellectual property of **Intermarché** and its affiliates.
+> They are used **exclusively** for educational, prototyping, or demonstrative purposes, and **not for commercial redistribution**.
+> Our team claims **no ownership** over these visual assets.
+
 ### License and Usage Terms
 
 - **Open Source**: The application is open-source software, allowing for community contributions and transparency.
 - **Commercial Use**: The implementation is specific to Intermarché's requirements and may not be used commercially without explicit permission.
 
-### Legal Considerations and Disclaimer
+### Legal & Compliance
 
-#### Commercial Usage
+This application is developed as part of a proof-of-concept for **Intermarché** and is governed by both open-source and commercial usage considerations.
 
-- This implementation is specific to Intermarché's requirements
-- Commercial use or redistribution requires explicit written permission
-- The project's source code is available for inspection under applicable open-source terms
+#### Usage Rights & Licensing
 
-#### Usage Disclaimer
+- The project is published as an **open-source prototype**, intended for educational, demonstrative, and non-commercial use.
+- The **source code is available for inspection** under the terms of the applicable open-source license.
+- Any **commercial use**, **adaptation**, or **redistribution** of the application, in whole or in part, requires **explicit written permission** from Intermarché or the owning stakeholders.
 
-- The application provides recommendations based on general guidelines and predefined rules
-- Users must exercise their own judgment regarding:
-  - Alcohol consumption
-  - Dietary restrictions and allergies
-  - Product selection and purchases
-- Recommendations are suggestions only and do not constitute professional advice
+#### Liability & Disclaimer
 
----
+- The application provides **automated recommendations** (e.g., wine and cheese pairings) based on predefined filters, general culinary guidelines, and basic matching logic.
+- These recommendations are **suggestions only** and do **not constitute professional advice**.
+- Users are responsible for evaluating all product recommendations based on their personal needs, including:
+
+  - **Alcohol consumption** (legal age, moderation, context)
+  - **Dietary restrictions**, **allergies**, or **cultural practices**
+  - **Product accuracy**, availability, and final purchase decisions
+
+#### Legal Responsibility
+
+- Neither Intermarché nor the development team can be held liable for any **misuse**, **misinterpretation**, or **consequences** resulting from the use of this application.
+- Users should exercise sound judgment and comply with **local laws**, including those related to alcohol and nutrition.
 
 ## Conclusion
 
@@ -1555,18 +1525,18 @@ This functional specification serves as a guiding foundation for the development
 
 ## Glossary
 
-| **Term**                             | **Definition**                                                                                                                          |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **Cheerish**                         | The project’s mobile-first web application designed to recommend wine and cheese pairings within Intermarché stores.                    |
-| **Functional Specification**         | A document outlining the features, behavior, and structure of a system from a user-centric perspective.                                 |
-| **Intermarché**                      | The retail client commissioning the proof-of-concept, part of the French Les Mousquetaires group.                                       |
-| **Mobile Web Application**           | A responsive web-based application optimized for mobile use, accessible through browsers on smartphones and tablets.                    |
-| **Bubble.io**                        | A no-code development platform used to build web applications without traditional programming.                                          |
-| **Proof of Concept (PoC)**           | A prototype developed to validate an idea’s feasibility and gather stakeholder feedback prior to full-scale development.                |
-| **QR Code**                          | A 2D scannable code used to direct customers to specific app interfaces based on store location (e.g., aisle-based context).            |
-| **Tagging System**                   | Structured keywords or attributes (e.g., wine color, milk type) associated with products to support filtering and recommendation logic. |
-| **Filtering System**                 | UI/UX feature enabling dynamic narrowing of product results based on structured metadata such as origin, type, or season.               |
-| **Planogram Integration** _(future)_ | Potential feature mapping product locations in-store (aisles/shelves), enabling in-shop navigation assistance.                          |
-| **Onboarding Flow**                  | Lightweight user setup process used to collect language and country-of-origin inputs to personalize recommendations.                    |
-| **Carousel**                         | A horizontally scrollable UI pattern presenting grouped items, such as product suggestions or related content.                          |
-| **Open Source**                      | The project’s licensing model—source code is publicly available for inspection, reuse, or contribution under applicable terms.          |
+| **Term** | **Definition** |
+| | |
+| **Cheerish** | The project’s mobile-first web application is designed to recommend wine and cheese pairings within Intermarché stores. |
+| **Functional Specification** | A document outlining the features, behavior, and structure of a system from a user-centric perspective. |
+| **Intermarché** | The retail client commissioning the proof-of-concept, part of the French Les Mousquetaires group. |
+| **Mobile Web Application** | A responsive web-based application optimized for mobile use, accessible through browsers on smartphones and tablets. |
+| **Bubble.io** | A no-code development platform used to build web applications without traditional programming. |
+| **Proof of Concept (PoC)** | A prototype developed to validate an idea’s feasibility and gather stakeholder feedback before full-scale development. |
+| **QR Code** | A 2D scannable code used to direct customers to specific app interfaces based on store location (e.g., aisle-based context). |
+| **Tagging System** | Structured keywords or attributes (e.g., wine color, milk type) associated with products to support filtering and recommendation logic. |
+| **Filtering System** | UI/UX feature enabling dynamic narrowing of product results based on structured metadata such as origin, type, or season. |
+| **Planogram Integration** _(future)_ | Potential feature mapping product locations in-store (aisles/shelves), enabling in-shop navigation assistance. |
+| **Onboarding Flow** | Lightweight user setup process used to collect language and country-of-origin inputs to personalize recommendations. |
+| **Carousel** | A horizontally scrollable UI pattern presenting grouped items, such as product suggestions or related content. |
+| **Open Source** | The project’s licensing model—source code is publicly available for inspection, reuse, or contribution under applicable terms. |
