@@ -18,7 +18,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 2,
@@ -39,7 +40,8 @@
     "cheese": [
       "cow cheese",
       "soft cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 3,
@@ -60,7 +62,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 4,
@@ -81,7 +84,8 @@
     "cheese": [
       "cow cheese",
       "soft cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 5,
@@ -102,7 +106,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 6,
@@ -123,7 +128,8 @@
     "cheese": [
       "cow cheese",
       "soft cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 7,
@@ -144,7 +150,8 @@
     "cheese": [
       "sheep cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 8,
@@ -165,7 +172,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 9,
@@ -186,7 +194,8 @@
     "cheese": [
       "cow cheese",
       "soft cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 10,
@@ -207,7 +216,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 11,
@@ -228,7 +238,8 @@
     "cheese": [
       "goat cheese",
       "AOP soft cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 12,
@@ -249,7 +260,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 13,
@@ -270,7 +282,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 14,
@@ -291,7 +304,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 15,
@@ -312,7 +326,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 16,
@@ -333,7 +348,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 17,
@@ -354,7 +370,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 18,
@@ -375,7 +392,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 19,
@@ -396,7 +414,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 20,
@@ -417,7 +436,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 21,
@@ -438,7 +458,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 22,
@@ -459,7 +480,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 23,
@@ -480,7 +502,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 11.5
   },
   {
     "id": 24,
@@ -501,7 +524,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 25,
@@ -522,7 +546,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 26,
@@ -543,7 +568,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 27,
@@ -564,7 +590,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 28,
@@ -585,7 +612,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 29,
@@ -606,7 +634,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 30,
@@ -627,7 +656,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 31,
@@ -648,7 +678,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 32,
@@ -669,7 +700,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 33,
@@ -690,7 +722,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 34,
@@ -711,7 +744,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 35,
@@ -732,7 +766,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 36,
@@ -753,7 +788,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 37,
@@ -774,7 +810,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 38,
@@ -795,7 +832,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 39,
@@ -816,7 +854,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 40,
@@ -837,7 +876,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 41,
@@ -858,7 +898,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 42,
@@ -879,7 +920,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 43,
@@ -900,7 +942,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 44,
@@ -921,7 +964,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 45,
@@ -942,7 +986,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 46,
@@ -963,7 +1008,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 47,
@@ -984,7 +1030,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 48,
@@ -1005,7 +1052,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 49,
@@ -1026,7 +1074,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 50,
@@ -1047,7 +1096,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 51,
@@ -1068,7 +1118,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 52,
@@ -1089,7 +1140,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 53,
@@ -1110,7 +1162,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 54,
@@ -1131,7 +1184,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 55,
@@ -1152,7 +1206,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 56,
@@ -1173,7 +1228,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 57,
@@ -1194,7 +1250,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 58,
@@ -1215,7 +1272,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 59,
@@ -1236,7 +1294,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 60,
@@ -1257,7 +1316,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 61,
@@ -1278,7 +1338,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 62,
@@ -1299,7 +1360,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 63,
@@ -1320,7 +1382,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 64,
@@ -1341,7 +1404,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 65,
@@ -1362,7 +1426,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 66,
@@ -1383,7 +1448,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 67,
@@ -1404,7 +1470,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 68,
@@ -1425,7 +1492,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 69,
@@ -1446,7 +1514,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 70,
@@ -1467,7 +1536,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 71,
@@ -1488,7 +1558,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 72,
@@ -1509,7 +1580,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 73,
@@ -1530,7 +1602,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 74,
@@ -1551,7 +1624,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 75,
@@ -1572,7 +1646,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 76,
@@ -1593,7 +1668,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 77,
@@ -1614,7 +1690,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 78,
@@ -1635,7 +1712,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 79,
@@ -1656,7 +1734,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 80,
@@ -1677,7 +1756,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 81,
@@ -1698,7 +1778,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 82,
@@ -1719,7 +1800,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 83,
@@ -1740,7 +1822,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 84,
@@ -1761,7 +1844,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 85,
@@ -1782,7 +1866,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 86,
@@ -1803,7 +1888,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 87,
@@ -1824,7 +1910,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 88,
@@ -1845,7 +1932,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 89,
@@ -1866,7 +1954,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.5
   },
   {
     "id": 90,
@@ -1887,7 +1976,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 91,
@@ -1908,7 +1998,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 92,
@@ -1929,7 +2020,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 93,
@@ -1950,7 +2042,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 94,
@@ -1971,7 +2064,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 95,
@@ -1992,7 +2086,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 96,
@@ -2013,7 +2108,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 97,
@@ -2034,7 +2130,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   },
   {
     "id": 98,
@@ -2055,7 +2152,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 99,
@@ -2076,7 +2174,8 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 12.0
   },
   {
     "id": 100,
@@ -2097,6 +2196,7 @@
     "cheese": [
       "goat cheese",
       "hard cheese"
-    ]
+    ],
+    "alcohol_percentage": 13.5
   }
 ]
