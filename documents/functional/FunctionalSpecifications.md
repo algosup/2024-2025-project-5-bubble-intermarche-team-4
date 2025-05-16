@@ -216,12 +216,12 @@ The application is being developed using **Bubble.io**, a no-code platform chose
 
 ### Project Stakeholders
 
-| Stakeholder | Role | Primary Interest |
-| | - | |
-| Intermarché Customers | End Users | Intuitive wine/cheese pairing assistance |
-| Intermarché | Primary Client | Enhanced customer experience, increased sales |
-| ALGOSUP | Technology Partner | Educational project delivery, technical implementation |
-| Development Team | Implementation Team | Successful project delivery, technical excellence |
+| Stakeholder           | Role                | Primary Interest                                       |
+| --------------------- | ------------------- | ------------------------------------------------------ |
+| Intermarché Customers | End Users           | Intuitive wine/cheese pairing assistance               |
+| Intermarché           | Primary Client      | Enhanced customer experience, increased sales          |
+| ALGOSUP               | Technology Partner  | Educational project delivery, technical implementation |
+| Development Team      | Implementation Team | Successful project delivery, technical excellence      |
 
 ### Project Planning
 
@@ -231,18 +231,18 @@ The project follows an agile methodology with regular sprints and deliverables. 
 
 #### Risk Management
 
-| Risk | Consequences | Likelihood | Impact | Mitigation |
-| - | -- | - | | |
-| Delayed Client's Response | Deadlines not respected | High | High | Plan messages in advance, schedule regular meetings, and consolidate questions into one message. |
-| Limited Technology Stack | Functionalities hard/impossible to implement | High | High | Plan development in advance, close collaboration with Technical Leader |
-| Inaccurate Pairing Recommendations | Poor user experience, low app credibility | Medium | High | Use validated data sources, enable user feedback, consult domain experts |
-| Ambiguity in Feature Definitions | Misaligned expectations, rework and delays | Medium | High | Clearly define user stories and acceptance criteria |
-| Overcomplexity in UI | Users abandon app due to confusion | Medium | Medium | Prioritize simplicity, offer "basic" and "advanced" modes |
-| Incorrect or Missing Product Data | Unreliable results, limited functionality | Medium | High | Use reliable databases, allow user corrections with moderation |
-| Lack of Domain Expertise | Incorrect pairing logic, user mistrust | Medium | High | Consult culinary experts or trusted sources |
-| Performance Bottlenecks | Slow app performance, especially on mobile | Medium | Medium | Optimize database and API calls, test on low-spec devices |
-| Feature Creep | Project delays, diluted focus | Medium | High | Stick to MoSCoW prioritization, defer non-core features |
-| No Mechanism for Feedback/Updates | App becomes outdated or unresponsive to user needs | Low | Medium | Add user feedback forms, analytics, and data update mechanisms |
+| Risk                               | Consequences                                       | Likelihood | Impact | Mitigation                                                                                       |
+| ---------------------------------- | -------------------------------------------------- | ---------- | ------ | ------------------------------------------------------------------------------------------------ |
+| Delayed Client's Response          | Deadlines not respected                            | High       | High   | Plan messages in advance, schedule regular meetings, and consolidate questions into one message. |
+| Limited Technology Stack           | Functionalities hard/impossible to implement       | High       | High   | Plan development in advance, close collaboration with Technical Leader                           |
+| Inaccurate Pairing Recommendations | Poor user experience, low app credibility          | Medium     | High   | Use validated data sources, enable user feedback, consult domain experts                         |
+| Ambiguity in Feature Definitions   | Misaligned expectations, rework and delays         | Medium     | High   | Clearly define user stories and acceptance criteria                                              |
+| Overcomplexity in UI               | Users abandon app due to confusion                 | Medium     | Medium | Prioritize simplicity, offer "basic" and "advanced" modes                                        |
+| Incorrect or Missing Product Data  | Unreliable results, limited functionality          | Medium     | High   | Use reliable databases, allow user corrections with moderation                                   |
+| Lack of Domain Expertise           | Incorrect pairing logic, user mistrust             | Medium     | High   | Consult culinary experts or trusted sources                                                      |
+| Performance Bottlenecks            | Slow app performance, especially on mobile         | Medium     | Medium | Optimize database and API calls, test on low-spec devices                                        |
+| Feature Creep                      | Project delays, diluted focus                      | Medium     | High   | Stick to MoSCoW prioritization, defer non-core features                                          |
+| No Mechanism for Feedback/Updates  | App becomes outdated or unresponsive to user needs | Low        | Medium | Add user feedback forms, analytics, and data update mechanisms                                   |
 
 ### Resources
 
@@ -562,11 +562,11 @@ For information about logo liability see [Legal \& Compliance](#legal--complianc
 
 The application’s color scheme aligns with Intermarché’s official brand colors to maintain consistency.
 
-| Color | RGBA Value | Example |
-| | | |
-| **Red** | 226, 0, 26, 100 | ![Red](./images/color/IntermarcheRed.png) |
-| **Black** | 26, 23, 26, 100 | ![Black](./images/color/IntermarcheBlack.png) |
-| **Grey** | 220, 220, 220, 100 | ![Grey](./images/color/IntermarcheGrey.png) |
+| Color     | RGBA Value         | Example                                       |
+| --------- | ------------------ | --------------------------------------------- |
+| **Red**   | 226, 0, 26, 100    | ![Red](./images/color/IntermarcheRed.png)     |
+| **Black** | 26, 23, 26, 100    | ![Black](./images/color/IntermarcheBlack.png) |
+| **Grey**  | 220, 220, 220, 100 | ![Grey](./images/color/IntermarcheGrey.png)   |
 
 ### Mockups
 
@@ -1328,12 +1328,12 @@ flowchart TD
 
 The following table is based on market research and reflects general wine and cheese preferences by nationality:
 
-| Nationality | Wine Preferences | Cheese Preferences |
-| -- | -- | |
-| **British** | - Favor red wines (especially Bordeaux) <br> - Open to white and rosé during warmer months | - Soft classics: Brie, Camembert <br> - Curious about strong types: Époisses, Roquefort <br> - Trend: Fromage Blanc, Chèvre |
-| **Spanish** | - Prefer red wines due to cultural familiarity <br> - Choose rosé or white wines in summer | - Cheeses similar to Manchego: Comté, Tomme de Savoie, Ossau-Iraty |
-| **German** | - Prefer white and rosé wines, especially dry varieties <br> - Enjoy Alsace wines like Riesling | - Mild alpine cheeses: Emmental, Raclette, Munster |
-| **Italian** | - Mainly red wines <br> - Also open to white and sparkling wines (e.g., Champagne) | - Soft and flavorful cheeses: Brie de Meaux, Roquefort, Reblochon |
+| Nationality | Wine Preferences                                                                                         | Cheese Preferences                                                                                                                      |
+| ----------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **British** | - Favor red wines (especially Bordeaux) <br> - Open to white and rosé during warmer months               | - Soft classics: Brie, Camembert <br> - Curious about strong types: Époisses, Roquefort <br> - Trend: Fromage Blanc, Chèvre             |
+| **Spanish** | - Prefer red wines due to cultural familiarity <br> - Choose rosé or white wines in summer               | - Cheeses similar to Manchego: Comté, Tomme de Savoie, Ossau-Iraty                                                                      |
+| **German**  | - Prefer white and rosé wines, especially dry varieties <br> - Enjoy Alsace wines like Riesling          | - Mild alpine cheeses: Emmental, Raclette, Munster                                                                                      |
+| **Italian** | - Mainly red wines <br> - Also open to white and sparkling wines (e.g., Champagne)                       | - Soft and flavorful cheeses: Brie de Meaux, Roquefort, Reblochon                                                                       |
 | **Chinese** | - Strong preference for red wines (especially Bordeaux) <br> - Growing interest in white/sparkling wines | - Prefer mild, approachable options: Brie, Camembert, Fromage Blanc <br> - Rising interest among youth in more diverse cheese varieties |
 
 ### Local Product Spotlight
@@ -1361,13 +1361,13 @@ The following table is based on market research and reflects general wine and ch
 
 - **Examples:**
 
-| # | Meal | Wine | Cheese |
-| | - | - | -- |
-| 1 | Cod Brandade | Roche Mazet Cinsault–Grenache Rosé | Figou (goat cheese with fig) |
-| 2 | Salmon Steak | Cave Terra Ventoux Secret de Truffle Red | Flower-coated Tomme |
-| 3 | Tartiflette | Roche Mazet Merlot | Cranberry-coated Goat Cheese (80 g) |
-| 4 | Shepherd’s Pie | Domaine de Lagoy White Organic Cuvée Classique | Saint-Félicien Faisselle – Saint-Marcel (260 g) |
-| 5 | Beef Stew (Pot-au-feu) | Val de L'Oule Red Frisson | Tome of Provence |
+| #   | Meal                   | Wine                                           | Cheese                                          |
+| --- | ---------------------- | ---------------------------------------------- | ----------------------------------------------- |
+| 1   | Cod Brandade           | Roche Mazet Cinsault–Grenache Rosé             | Figou (goat cheese with fig)                    |
+| 2   | Salmon Steak           | Cave Terra Ventoux Secret de Truffle Red       | Flower-coated Tomme                             |
+| 3   | Tartiflette            | Roche Mazet Merlot                             | Cranberry-coated Goat Cheese (80 g)             |
+| 4   | Shepherd’s Pie         | Domaine de Lagoy White Organic Cuvée Classique | Saint-Félicien Faisselle – Saint-Marcel (260 g) |
+| 5   | Beef Stew (Pot-au-feu) | Val de L'Oule Red Frisson                      | Tome of Provence                                |
 
 ## Non-Functional Requirements
 
@@ -1525,18 +1525,18 @@ This functional specification serves as a guiding foundation for the development
 
 ## Glossary
 
-| **Term** | **Definition** |
-| | |
-| **Cheerish** | The project’s mobile-first web application is designed to recommend wine and cheese pairings within Intermarché stores. |
-| **Functional Specification** | A document outlining the features, behavior, and structure of a system from a user-centric perspective. |
-| **Intermarché** | The retail client commissioning the proof-of-concept, part of the French Les Mousquetaires group. |
-| **Mobile Web Application** | A responsive web-based application optimized for mobile use, accessible through browsers on smartphones and tablets. |
-| **Bubble.io** | A no-code development platform used to build web applications without traditional programming. |
-| **Proof of Concept (PoC)** | A prototype developed to validate an idea’s feasibility and gather stakeholder feedback before full-scale development. |
-| **QR Code** | A 2D scannable code used to direct customers to specific app interfaces based on store location (e.g., aisle-based context). |
-| **Tagging System** | Structured keywords or attributes (e.g., wine color, milk type) associated with products to support filtering and recommendation logic. |
-| **Filtering System** | UI/UX feature enabling dynamic narrowing of product results based on structured metadata such as origin, type, or season. |
-| **Planogram Integration** _(future)_ | Potential feature mapping product locations in-store (aisles/shelves), enabling in-shop navigation assistance. |
-| **Onboarding Flow** | Lightweight user setup process used to collect language and country-of-origin inputs to personalize recommendations. |
-| **Carousel** | A horizontally scrollable UI pattern presenting grouped items, such as product suggestions or related content. |
-| **Open Source** | The project’s licensing model—source code is publicly available for inspection, reuse, or contribution under applicable terms. |
+| **Term**                             | **Definition**                                                                                                                          |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **Cheerish**                         | The project’s mobile-first web application is designed to recommend wine and cheese pairings within Intermarché stores.                 |
+| **Functional Specification**         | A document outlining the features, behavior, and structure of a system from a user-centric perspective.                                 |
+| **Intermarché**                      | The retail client commissioning the proof-of-concept, part of the French Les Mousquetaires group.                                       |
+| **Mobile Web Application**           | A responsive web-based application optimized for mobile use, accessible through browsers on smartphones and tablets.                    |
+| **Bubble.io**                        | A no-code development platform used to build web applications without traditional programming.                                          |
+| **Proof of Concept (PoC)**           | A prototype developed to validate an idea’s feasibility and gather stakeholder feedback before full-scale development.                  |
+| **QR Code**                          | A 2D scannable code used to direct customers to specific app interfaces based on store location (e.g., aisle-based context).            |
+| **Tagging System**                   | Structured keywords or attributes (e.g., wine color, milk type) associated with products to support filtering and recommendation logic. |
+| **Filtering System**                 | UI/UX feature enabling dynamic narrowing of product results based on structured metadata such as origin, type, or season.               |
+| **Planogram Integration** _(future)_ | Potential feature mapping product locations in-store (aisles/shelves), enabling in-shop navigation assistance.                          |
+| **Onboarding Flow**                  | Lightweight user setup process used to collect language and country-of-origin inputs to personalize recommendations.                    |
+| **Carousel**                         | A horizontally scrollable UI pattern presenting grouped items, such as product suggestions or related content.                          |
+| **Open Source**                      | The project’s licensing model—source code is publicly available for inspection, reuse, or contribution under applicable terms.          |
