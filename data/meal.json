@@ -1,939 +1,938 @@
 [
-    {
-        "id": "1",
-        "name": "Boeuf Bourguignon",
-        "link": "https://www.allrecipes.com/recipe/256165/boeuf-bourguignon/",
-        "descriptionFr": "Un plat traditionnel français à base de bœuf mijoté dans du vin rouge, des oignons et des champignons.",
-        "descriptionEng": "A traditional French dish made with beef stewed in red wine, onions, and mushrooms.",
-        "region": "Bourgogne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "hard cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-meals/Boeuf_Bourguignon.jpg"
-    },
-    {
-        "id": "2",
-        "name": "Quiche Lorraine",
-        "link": "https://www.allrecipes.com/recipe/17515/quiche-lorraine-i/",
-        "descriptionFr": "Une tarte salée emblématique de la Lorraine, garnie de lardons, de crème fraîche et d'œufs.",
-        "descriptionEng": "An iconic savory tart from Lorraine, filled with bacon, cream, and eggs.",
-        "region": "Lorraine",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White",
-            "Sparkling"
-        ],
-        "cheese": [
-            "soft cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Quiche_Lorraine.jpg"
-    },
-    {
-        "id": "3",
-        "name": "Ratatouille",
-        "link": "https://www.allrecipes.com/recipe/18411/ratatouille/",
-        "descriptionFr": "Un plat provençal mijoté à base de légumes méditerranéens : aubergines, courgettes, poivrons, tomates et oignons.",
-        "descriptionEng": "A Provençal stew made with Mediterranean vegetables: eggplant, zucchini, bell peppers, tomatoes, and onions.",
-        "region": "Provence",
-        "allergenes": [
-            "gluten"
-        ],
-        "wine": [
-            "Rosé",
-            "Red"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "goat cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Ratatouille.jpg"
-    },
-    {
-        "id": "4",
-        "name": "Coq au Vin",
-        "link": "https://www.allrecipes.com/recipe/239230/chef-johns-coq-au-vin/",
-        "descriptionFr": "Un classique de la cuisine française : du poulet mijoté dans du vin rouge avec des champignons, des oignons et des lardons.",
-        "descriptionEng": "A classic French dish: chicken stewed in red wine with mushrooms, onions, and bacon.",
-        "region": "Bourgogne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "semi-hard cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Coq_au_Vin.jpg"
-    },
-    {
-        "id": "5",
-        "name": "Cassoulet",
-        "link": "https://www.allrecipes.com/recipe/75818/quick-cassoulet/",
-        "descriptionFr": "Un plat du sud-ouest composé de haricots blancs mijotés avec du confit de canard, de la saucisse et du porc.",
-        "descriptionEng": "A southwestern dish made with white beans stewed with duck confit, sausage, and pork.",
-        "region": "Languedoc",
-        "allergenes": [
-            "gluten"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "hard cheese",
-            "sheep cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Cassoulet.jpg"
-    },
-    {
-        "id": "6",
-        "name": "Blanquette de veau",
-        "link": "https://www.cuisineaz.com/recettes/blanquette-de-veau-a-l-ancienne-1548.aspx",
-        "descriptionFr": "Un ragoût de veau mijoté dans une sauce blanche crémeuse avec des carottes, des champignons et des oignons.",
-        "descriptionEng": "A veal stew simmered in a creamy white sauce with carrots, mushrooms, and onions.",
-        "region": "Île-de-France",
-        "allergenes": [
-            "lactose"
-        ],
-        "wine": [
-            "White"
-        ],
-        "cheese": [
-            "soft cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Blanquette_de_Veau.jpg"
-    },
-    {
-        "id": "7",
-        "name": "Gratin dauphinois",
-        "link": "https://www.marmiton.org/recettes/recette_gratin-dauphinois_13809.aspx",
-        "descriptionFr": "Un plat à base de pommes de terre tranchées finement et cuites au four avec de la crème et de l’ail.",
-        "descriptionEng": "A dish made with thinly sliced potatoes baked in cream and garlic.",
-        "region": "Dauphiné",
-        "allergenes": [
-            "lactose"
-        ],
-        "wine": [
-            "White",
-            "Red"
-        ],
-        "cheese": [
-            "soft cheese",
-            "AOP semi-soft cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_Dauphinois.jpg"
-    },
-    {
-        "id": "8",
-        "name": "Choucroute garnie",
-        "link": "https://www.marmiton.org/recettes/recette_choucroute-alsacienne_29865.aspx",
-        "descriptionFr": "Une spécialité alsacienne composée de chou fermenté, de saucisses, de viandes fumées et de pommes de terre.",
-        "descriptionEng": "An Alsatian specialty made with fermented cabbage, sausages, smoked meats, and potatoes.",
-        "region": "Alsace",
-        "allergenes": [
-            "gluten"
-        ],
-        "wine": [
-            "White"
-        ],
-        "cheese": [
-            "AOP semi-hard cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Choucroute_Garnie.jpg"
-    },
-    {
-        "id": "9",
-        "name": "Hachis Parmentier",
-        "link": "https://www.marmiton.org/recettes/recette_hachis-parmentier_19445.aspx",
-        "descriptionFr": "Un gratin de purée de pommes de terre et de viande hachée, souvent du bœuf, inspiré du shepherd's pie britannique.",
-        "descriptionEng": "A gratin of mashed potatoes and minced meat, often beef, inspired by the British shepherd's pie.",
-        "region": "Île-de-France",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "semi-hard cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Hachis_Parmentier.jpg"
-    },
-    {
-        "id": "10",
-        "name": "Poulet Basquaise",
-        "link": "https://www.marmiton.org/recettes/recette_poulet-basquaise_22678.aspx",
-        "descriptionFr": "Un plat typique du Pays Basque où le poulet est mijoté avec des poivrons, des tomates, des oignons et de l'ail.",
-        "descriptionEng": "A typical dish from the Basque Country where chicken is stewed with peppers, tomatoes, onions, and garlic.",
-        "region": "Pays Basque",
-        "allergenes": [
-            "gluten"
-        ],
-        "wine": [
-            "White",
-            "Rosé"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "goat cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Poulet_Basquaise.jpg"
-    },
-    {
-        "id": "11",
-        "name": "Tartiflette",
-        "link": "https://www.marmiton.org/recettes/recette_tartiflette_17566.aspx",
-        "descriptionFr": "Une recette de cuisine à base de gratin de pommes de terre, d'oignons et de lardons, le tout gratiné au reblochon",
-        "descriptionEng": "A recipe for a gratin of potatoes, onions, and bacon, all topped with reblochon cheese.",
-        "region": "Savoie",
-        "allergenes": [
-            "lactose"
-        ],
-        "wine": [
-            "White"
-        ],
-        "cheese": [
-            "AOP semi-soft cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tartiflette.jpg"
-    },
-    {
-        "id": "12",
-        "name": "Magret de canard",
-        "link": "https://www.cuisineaz.com/recettes/magret-de-canard-au-miel-et-vinaigre-balsamique-27577.aspx",
-        "descriptionFr": "Un filet de viande maigre, originaire de la cuisine gersoise, qui est souvent servi avec une sauce aux fruits.",
-        "descriptionEng": "A lean meat fillet, originating from Gers cuisine, often served with a fruit sauce.",
-        "region": "Sud-Ouest",
-        "allergenes": [
-            "gluten"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "aged/dried cheese",
-            "sheep cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Magret_de_Canard.jpg"
-    },
-    {
-        "id": "13",
-        "name": "Boudin noir aux pommes",
-        "link": "https://www.cuisineaz.com/recettes/boudin-noir-aux-pommes-30185.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de boudin noir, souvent servi avec des pommes sautées.",
-        "descriptionEng": "A traditional French dish made with black pudding, often served with sautéed apples.",
-        "region": "Normandie",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "floral tomme cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Boudin_Noir_au_Pommes.jpg"
-    },
-    {
-        "id": "14",
-        "name": "Pot-au-feu",
-        "link": "https://www.cuisineaz.com/recettes/pot-au-feu-traditionnel-5620.aspx",
-        "descriptionFr": "A base de viande de bœuf cuisant longuement à feu très doux dans un bouillon de légumes",
-        "descriptionEng": "Made with beef simmered slowly in a vegetable broth.",
-        "region": "Île-de-France",
-        "allergenes": [
-            "gluten"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "hard cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Pot_au_Feu.jpg"
-    },
-    {
-        "id": "15",
-        "name": "Couscous royal",
-        "link": "https://www.allrecipes.com/recipe/102411/couscous-royale/",
-        "descriptionFr": "Un plat traditionnel du Maghreb à base de semoule de blé, de légumes et de viandes variées.",
-        "descriptionEng": "A traditional Maghreb dish made with wheat semolina, vegetables, and various meats.",
-        "region": "Nord de l'Afrique",
-        "allergenes": [
-            "gluten"
-        ],
-        "wine": [
-            "Red",
-            "Rosé"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "sheep cheese",
-            "mixed cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Couscous_Royal.jpg"
-    },
-    {
-        "id": "16",
-        "name": "Tête de veau",
-        "link": "https://www.cuisineaz.com/recettes/tete-de-veau-sauce-gribiche-2237.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de tête de veau cuite, souvent servie avec une sauce gribiche.",
-        "descriptionEng": "A traditional French dish made with cooked veal head, often served with a gribiche sauce.",
-        "region": "Île-de-France",
-        "allergenes": [
-            "gluten"
-        ],
-        "wine": [
-            "White"
-        ],
-        "cheese": [
-            "AOP goat cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tête_de_Veau.jpg"
-    },
-    {
-        "id": "17",
-        "name": "Gigot d'agneau",
-        "link": "https://www.cuisineaz.com/recettes/gigot-d-agneau-a-l-ail-6468.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de gigot d'agneau rôti, souvent servi avec des légumes.",
-        "descriptionEng": "A traditional French dish made with roasted leg of lamb, often served with vegetables.",
-        "region": "Provence",
-        "allergenes": [
-            "gluten"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "aged/dried cheese",
-            "sheep cheese"
-        ],
-        "image": "/images-meal/Gigot_d'Agneau.jpghttps://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gigot_d'Agneau.jpg"
-    },
-    {
-        "id": "18",
-        "name": "Navarin d'agneau",
-        "link": "https://www.cuisineaz.com/recettes/navarin-d-agneau-60428.aspx",
-        "descriptionFr": "Un plat traditionnel français à base d'agneau mijoté avec des légumes de saison.",
-        "descriptionEng": "A traditional French dish made with lamb stewed with seasonal vegetables.",
-        "region": "Provence",
-        "allergenes": [
-            "gluten"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "semi-hard cheese",
-            "sheep cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Navarin_d'Agneau.jpg"
-    },
-    {
-        "id": "19",
-        "name": "Sole meunière",
-        "link": "https://www.cuisineaz.com/recettes/la-sole-meuniere-et-ballotine-94374.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de sole cuite à la poêle avec du beurre, du citron et du persil.",
-        "descriptionEng": "A traditional French dish made with sole cooked in a pan with butter, lemon, and parsley.",
-        "region": "Bretagne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "fresh farm cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Sole_Meunière.jpg"
-    },
-    {
-        "id": "20",
-        "name": "Filet mignon à la moutarde",
-        "link": "https://www.cuisineaz.com/recettes/filet-mignon-a-la-moutarde-facile-56218.aspx",
-        "descriptionFr": "Le Filet mignon est un morceau de viande tendre et savoureux, souvent préparé avec une sauce à la moutarde.",
-        "descriptionEng": "The filet mignon is a tender and flavorful cut of meat, often prepared with a mustard sauce.",
-        "region": "Bourgogne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red",
-            "White"
-        ],
-        "cheese": [
-            "soft cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Filet_Mignon_à_la_Moutarde.jpg"
-    },
-    {
-        "id": "21",
-        "name": "Lapin à la moutarde",
-        "link": "https://www.cuisineaz.com/recettes/lapin-a-la-moutarde-a-l-ancienne-1604.aspx",
-        "descriptionFr": "Le Lapin à la moutarde est un plat traditionnel français, souvent préparé avec de la moutarde de Dijon.",
-        "descriptionEng": "Rabbit with mustard is a traditional French dish, often prepared with Dijon mustard.",
-        "region": "Bourgogne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red",
-            "White"
-        ],
-        "cheese": [
-            "soft cheese",
-            "goat cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Lapin_à_la_Moutarde.jpg"
-    },
-    {
-        "id": "22",
-        "name": "Escalope normande",
-        "link": "https://www.cuisineaz.com/recettes/escalopes-normandes-11218.aspx",
-        "descriptionFr": "Un plat traditionnel français à base d'escalope de veau, souvent préparé avec des champignons et de la crème.",
-        "descriptionEng": "A traditional French dish made with veal escalope, often prepared with mushrooms and cream.",
-        "region": "Normandie",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White"
-        ],
-        "cheese": [
-            "triple cream cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Escalope_Normande.jpg"
-    },
-    {
-        "id": "23",
-        "name": "Côte de boeuf",
-        "link": "https://www.cuisineaz.com/recettes/cote-de-boeuf-au-barbecue-117485.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de côte de bœuf grillée, souvent servie avec des frites ou des légumes.",
-        "descriptionEng": "A traditional French dish made with grilled rib steak, often served with fries or vegetables.",
-        "region": "Bourgogne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "hard cheese",
-            "AOP semi-hard cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Côte_de_Boeuf.jpg"
-    },
-    {
-        "id": "24",
-        "name": "Poule au pot",
-        "link": "https://www.cuisineaz.com/recettes/poule-au-pot-et-riz-long-54790.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de poule cuite dans un bouillon avec des légumes.",
-        "descriptionEng": "A traditional French dish made with hen cooked in broth with vegetables.",
-        "region": "Île-de-France",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White"
-        ],
-        "cheese": [
-            "soft cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Poule_au_Pot.jpg"
-    },
-    {
-        "id": "25",
-        "name": "Confit de canard",
-        "link": "https://www.cuisineaz.com/recettes/confit-de-canard-speciale-31162.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de canard cuit lentement dans sa propre graisse.",
-        "descriptionEng": "A traditional French dish made with duck slowly cooked in its own fat.",
-        "region": "Sud-Ouest",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "floral tomme cheese",
-            "sheep cheese",
-            "goat cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Confit_de_Canard.jpg"
-    },
-    {
-        "id": "26",
-        "name": "Andouillette",
-        "link": "https://www.cuisineaz.com/recettes/andouillette-au-barbecue-112928.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de saucisse de porc, souvent servie avec des frites ou de la moutarde.",
-        "descriptionEng": "A traditional French dish made with pork sausage, often served with fries or mustard.",
-        "region": "Lyon",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red",
-            "White"
-        ],
-        "cheese": [
-            "semi-hard cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Andouillette.jpg"
-    },
-    {
-        "id": "27",
-        "name": "Caille rôtie",
-        "link": "https://www.cuisineaz.com/recettes/caillles-roties-58413.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de caille rôtie, souvent servie avec des légumes ou des pommes de terre.",
-        "descriptionEng": "A traditional French dish made with roasted quail, often served with vegetables or potatoes.",
-        "region": "Bourgogne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red",
-            "White"
-        ],
-        "cheese": [
-            "hard cheese",
-            "AOP semi-soft cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Caille_Rôtie.jpg"
-    },
-    {
-        "id": "28",
-        "name": "Gratin de courgettes",
-        "link": "https://www.cuisineaz.com/recettes/gratin-de-courgettes-simple-49574.aspx",
-        "descriptionFr": "Le Gratin de courgettes est un plat savoureux à base de courgettes, de crème et de fromage.",
-        "descriptionEng": "Zucchini gratin is a tasty dish made with zucchini, cream, and cheese.",
-        "region": "Provence",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White",
-            "Rosé"
-        ],
-        "cheese": [
-            "soft cheese",
-            "goat cheese",
-            "fresh log cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_de_courgettes.jpg"
-    },
-    {
-        "id": "29",
-        "name": "Bœuf aux carottes",
-        "link": "https://www.cuisineaz.com/recettes/boeuf-aux-carottes-54888.aspx",
-        "descriptionFr": "Le Boeuf aux carottes est un plat mijoté à base de bœuf, de carottes et d'oignons.",
-        "descriptionEng": "Beef with carrots is a stew made with beef, carrots, and onions.",
-        "region": "Île-de-France",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "semi-hard cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Bœuf_aux_carottes.jpg"
-    },
-    {
-        "id": "30",
-        "name": "Gratin de poisson",
-        "link": "https://www.cuisineaz.com/recettes/gratin-de-poisson-56091.aspx",
-        "descriptionFr": "Le Gratin de poisson est un plat savoureux à base de poisson, de crème et de fromage.",
-        "descriptionEng": "Fish gratin is a tasty dish made with fish, cream, and cheese.",
-        "region": "Bretagne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "buffalo cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_de_poisson.jpg"
-    },
-    {
-        "id": "31",
-        "name": "Lotte à l'armoricaine",
-        "link": "https://www.cuisineaz.com/recettes/lotte-a-l-armoricaine-42185.aspx",
-        "descriptionFr": "Un plat traditionnel breton à base de lotte cuite dans une sauce tomate épicée.",
-        "descriptionEng": "A traditional Breton dish made with monkfish cooked in a spicy tomato sauce.",
-        "region": "Bretagne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White",
-            "Rosé"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "fresh farm cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Lotte_à_l'armoricaine.jpg"
-    },
-    {
-        "id": "32",
-        "name": "Gratin savoyard",
-        "link": "https://www.cuisineaz.com/recettes/gratin-savoyard-7195.aspx",
-        "descriptionFr": "Le gratin savoyard est un plat savoureux à base de pommes de terre, de crème et de fromage.",
-        "descriptionEng": "Savoyard gratin is a tasty dish made with potatoes, cream, and cheese.",
-        "region": "Savoie",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White"
-        ],
-        "cheese": [
-            "AOP semi-soft cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_savoyard.jpg"
-    },
-    {
-        "id": "33",
-        "name": "Civet de lièvre",
-        "link": "https://www.cuisineaz.com/recettes/civet-de-lievre-14419.aspx",
-        "descriptionFr": "Le civet de lièvre est un plat traditionnel français à base de lièvre mijoté dans une sauce au vin rouge.",
-        "descriptionEng": "Hare stew is a traditional French dish made with hare stewed in a red wine sauce.",
-        "region": "Bourgogne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "aged/dried cheese",
-            "AOP semi-soft cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Civet_de_lièvre.jpg"
-    },
-    {
-        "id": "34",
-        "name": "Pavé de saumon",
-        "link": "https://www.cuisineaz.com/recettes/paves-de-saumon-53595.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de pavé de saumon grillé, souvent servi avec des légumes.",
-        "descriptionEng": "A traditional French dish made with grilled salmon steak, often served with vegetables.",
-        "region": "Bretagne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White",
-            "Rosé"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "fresh farm cheese",
-            "goat cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Pavé_de_saumon.jpg"
-    },
-    {
-        "id": "35",
-        "name": "Langue de bœuf",
-        "link": "https://www.cuisineaz.com/recettes/langue-de-boeuf-a-la-sauce-madere-42093.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de langue de bœuf cuite, souvent servie avec une sauce piquante.",
-        "descriptionEng": "A traditional French dish made with cooked beef tongue, often served with a spicy sauce.",
-        "region": "Île-de-France",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "hard cheese",
-            "AOP semi-hard cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Langue_de_bœuf.jpg"
-    },
-    {
-        "id": "36",
-        "name": "Poulet rôti",
-        "link": "https://www.cuisineaz.com/recettes/poulet-roti-au-raisin-42978.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de poulet rôti, souvent servi avec des pommes de terre et des légumes.",
-        "descriptionEng": "A traditional French dish made with roasted chicken, often served with potatoes and vegetables.",
-        "region": "Île-de-France",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red",
-            "White"
-        ],
-        "cheese": [
-            "soft cheese",
-            "goat cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Poulet_rôti.jpg"
-    },
-    {
-        "id": "37",
-        "name": "Gratin de légumes",
-        "link": "https://www.cuisineaz.com/recettes/gratin-aux-legumes-53244.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de légumes cuits au four avec de la crème et du fromage.",
-        "descriptionEng": "A traditional French dish made with vegetables baked in cream and cheese.",
-        "region": "Provence",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White",
-            "Rosé"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "floral tomme cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_de_légumes.jpg"
-    },
-    {
-        "id": "38",
-        "name": "Rôti de porc",
-        "link": "https://www.cuisineaz.com/recettes/roti-de-porc-91574.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de rôti de porc cuit lentement au four, souvent servi avec des légumes.",
-        "descriptionEng": "A traditional French dish made with pork roast slowly cooked in the oven, often served with vegetables.",
-        "region": "Île-de-France",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red",
-            "White"
-        ],
-        "cheese": [
-            "AOP semi-hard cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Rôti_de_porc.jpg"
-    },
-    {
-        "id": "39",
-        "name": "Brandade de morue",
-        "link": "https://www.cuisineaz.com/recettes/brandade-de-morue-a-la-puree-de-pomme-de-terre-6598.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de morue salée, de pommes de terre et d'huile d'olive.",
-        "descriptionEng": "A traditional French dish made with salted cod, potatoes, and olive oil.",
-        "region": "Provence",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "buffalo cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Brandade_de_morue.jpg"
-    },
-    {
-        "id": "40",
-        "name": "Tielle sétoise",
-        "link": "https://www.cuisineaz.com/recettes/tielles-setoises-allegees-56274.aspx",
-        "descriptionFr": "Une spécialité de Sète, une tarte salée à base de pâte brisée garnie de poulpe et de tomates.",
-        "descriptionEng": "A specialty from Sète, a savory pie made with shortcrust pastry filled with octopus and tomatoes.",
-        "region": "Languedoc",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White",
-            "Rosé"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "goat cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tielle_sétoise.jpg"
-    },
-    {
-        "id": "41",
-        "name": "Soupe au Pistou",
-        "link": "https://www.marmiton.org/recettes/recette_soupe-au-pistou-de-ma-grand-mere_92782.aspx",
-        "descriptionFr": "Une soupe provençale à base de légumes, de haricots et de pistou, une sauce à base de basilic.",
-        "descriptionEng": "A Provençal soup made with vegetables, beans, and pistou, a sauce made with basil.",
-        "region": "Provence",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White",
-            "Rosé"
-        ],
-        "cheese": [
-            "fresh farm cheese",
-            "goat cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Soupe_au_Pistou.jpg"
-    },
-    {
-        "id": "42",
-        "name": "Saumon en papillote",
-        "link": "https://www.cuisineaz.com/recettes/salmon-en-papillote-56275.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de saumon cuit en papillote avec des légumes.",
-        "descriptionEng": "A traditional French dish made with salmon cooked in parchment paper with vegetables.",
-        "region": "Bretagne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "yogurt",
-            "goat cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Saumon_en_papillote.jpg"
-    },
-    {
-        "id": "43",
-        "name": "Tartare de saumon",
-        "link": "https://www.cuisineaz.com/recettes/tartare-de-saumon-56276.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de saumon cru mariné, souvent servi avec des légumes.",
-        "descriptionEng": "A traditional French dish made with marinated raw salmon, often served with vegetables.",
-        "region": "Bretagne",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White",
-            "Sparkling"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "buffalo cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tartare_de_saumon.jpg"
-    },
-    {
-        "id": "44",
-        "name": "Salade niçoise",
-        "link": "https://www.cuisineaz.com/recettes/salade-nicoise-56277.aspx",
-        "descriptionFr": "Une salade provençale à base de tomates, de thon, d'œufs durs et d'olives.",
-        "descriptionEng": "A Provençal salad made with tomatoes, tuna, hard-boiled eggs, and olives.",
-        "region": "Provence",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "White",
-            "Rosé"
-        ],
-        "cheese": [
-            "fresh cheese",
-            "AOP goat cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Salade_nicoise.jpg"
-    },
-    {
-        "id": "45",
-        "name": "Boeuf Stroganoff",
-        "link": "https://www.cuisineaz.com/recettes/boeuf-stroganoff-56279.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de bœuf sauté avec des champignons et de la crème.",
-        "descriptionEng": "A traditional French dish made with sautéed beef, mushrooms, and cream.",
-        "region": "Île-de-France",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "soft cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Boeuf_Stroganoff.jpg"
-    },
-    {
-        "id": "46",
-        "name": "Boeuf Wellington",
-        "link": "https://www.cuisineaz.com/recettes/boeuf-wellington-56280.aspx",
-        "descriptionFr": "Un plat traditionnel français à base de bœuf en croûte, souvent servi avec des légumes.",
-        "descriptionEng": "A traditional French dish made with beef in a crust, often served with vegetables.",
-        "region": "Île-de-France",
-        "allergenes": [
-            "gluten",
-            "lactose"
-        ],
-        "wine": [
-            "Red"
-        ],
-        "cheese": [
-            "AOP semi-soft cheese",
-            "cow cheese"
-        ],
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Boeuf_Wellington.jpg"
-    }
+  {
+    "id": "1",
+    "name": "Boeuf Bourguignon",
+    "link": "https://www.allrecipes.com/recipe/256165/boeuf-bourguignon/",
+    "descriptionFr": "Un plat traditionnel français à base de bœuf mijoté dans du vin rouge, des oignons et des champignons.",
+    "descriptionEng": "A traditional French dish made with beef stewed in red wine, onions, and mushrooms.",
+    "region": "Bourgogne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-meals/Boeuf_Bourguignon.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Quiche Lorraine",
+    "link": "https://www.allrecipes.com/recipe/17515/quiche-lorraine-i/",
+    "descriptionFr": "Une tarte salée emblématique de la Lorraine, garnie de lardons, de crème fraîche et d'œufs.",
+    "descriptionEng": "An iconic savory tart from Lorraine, filled with bacon, cream, and eggs.",
+    "region": "Lorraine",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White",
+      "Sparkling"
+    ],
+    "cheese": [
+      "Soft cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Quiche_Lorraine.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Ratatouille",
+    "link": "https://www.allrecipes.com/recipe/18411/ratatouille/",
+    "descriptionFr": "Un plat provençal mijoté à base de légumes méditerranéens : aubergines, courgettes, poivrons, tomates et oignons.",
+    "descriptionEng": "A Provençal stew made with Mediterranean vegetables: eggplant, zucchini, bell peppers, tomatoes, and onions.",
+    "region": "Provence",
+    "allergenes": [
+      "gluten"
+    ],
+    "wine": [
+      "Rosé",
+      "Red"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Goat's cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Ratatouille.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Coq au Vin",
+    "link": "https://www.allrecipes.com/recipe/239230/chef-johns-coq-au-vin/",
+    "descriptionFr": "Un classique de la cuisine française : du poulet mijoté dans du vin rouge avec des champignons, des oignons et des lardons.",
+    "descriptionEng": "A classic French dish: chicken stewed in red wine with mushrooms, onions, and bacon.",
+    "region": "Bourgogne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Semi-hard cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Coq_au_Vin.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Cassoulet",
+    "link": "https://www.allrecipes.com/recipe/75818/quick-cassoulet/",
+    "descriptionFr": "Un plat du sud-ouest composé de haricots blancs mijotés avec du confit de canard, de la saucisse et du porc.",
+    "descriptionEng": "A southwestern dish made with white beans stewed with duck confit, sausage, and pork.",
+    "region": "Languedoc",
+    "allergenes": [
+      "gluten"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Cassoulet.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Blanquette de veau",
+    "link": "https://www.cuisineaz.com/recettes/blanquette-de-veau-a-l-ancienne-1548.aspx",
+    "descriptionFr": "Un ragoût de veau mijoté dans une sauce blanche crémeuse avec des carottes, des champignons et des oignons.",
+    "descriptionEng": "A veal stew simmered in a creamy white sauce with carrots, mushrooms, and onions.",
+    "region": "Île-de-France",
+    "allergenes": [
+      "lactose"
+    ],
+    "wine": [
+      "White"
+    ],
+    "cheese": [
+      "Soft cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Blanquette_de_Veau.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Gratin dauphinois",
+    "link": "https://www.marmiton.org/recettes/recette_gratin-dauphinois_13809.aspx",
+    "descriptionFr": "Un plat à base de pommes de terre tranchées finement et cuites au four avec de la crème et de l’ail.",
+    "descriptionEng": "A dish made with thinly sliced potatoes baked in cream and garlic.",
+    "region": "Dauphiné",
+    "allergenes": [
+      "lactose"
+    ],
+    "wine": [
+      "White",
+      "Red"
+    ],
+    "cheese": [
+      "Soft cheese",
+      "Soft cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_Dauphinois.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Choucroute garnie",
+    "link": "https://www.marmiton.org/recettes/recette_choucroute-alsacienne_29865.aspx",
+    "descriptionFr": "Une spécialité alsacienne composée de chou fermenté, de saucisses, de viandes fumées et de pommes de terre.",
+    "descriptionEng": "An Alsatian specialty made with fermented cabbage, sausages, smoked meats, and potatoes.",
+    "region": "Alsace",
+    "allergenes": [
+      "gluten"
+    ],
+    "wine": [
+      "White"
+    ],
+    "cheese": [
+      "Semi-hard cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Choucroute_Garnie.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Hachis Parmentier",
+    "link": "https://www.marmiton.org/recettes/recette_hachis-parmentier_19445.aspx",
+    "descriptionFr": "Un gratin de purée de pommes de terre et de viande hachée, souvent du bœuf, inspiré du shepherd's pie britannique.",
+    "descriptionEng": "A gratin of mashed potatoes and minced meat, often beef, inspired by the British shepherd's pie.",
+    "region": "Île-de-France",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Semi-hard cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Hachis_Parmentier.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Poulet Basquaise",
+    "link": "https://www.marmiton.org/recettes/recette_poulet-basquaise_22678.aspx",
+    "descriptionFr": "Un plat typique du Pays Basque où le poulet est mijoté avec des poivrons, des tomates, des oignons et de l'ail.",
+    "descriptionEng": "A typical dish from the Basque Country where chicken is stewed with peppers, tomatoes, onions, and garlic.",
+    "region": "Pays Basque",
+    "allergenes": [
+      "gluten"
+    ],
+    "wine": [
+      "White",
+      "Rosé"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Goat's cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Poulet_Basquaise.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Tartiflette",
+    "link": "https://www.marmiton.org/recettes/recette_tartiflette_17566.aspx",
+    "descriptionFr": "Une recette de cuisine à base de gratin de pommes de terre, d'oignons et de lardons, le tout gratiné au reblochon",
+    "descriptionEng": "A recipe for a gratin of potatoes, onions, and bacon, all topped with reblochon cheese.",
+    "region": "Savoie",
+    "allergenes": [
+      "lactose"
+    ],
+    "wine": [
+      "White"
+    ],
+    "cheese": [
+      "Soft cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tartiflette.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Magret de canard",
+    "link": "https://www.cuisineaz.com/recettes/magret-de-canard-au-miel-et-vinaigre-balsamique-27577.aspx",
+    "descriptionFr": "Un filet de viande maigre, originaire de la cuisine gersoise, qui est souvent servi avec une sauce aux fruits.",
+    "descriptionEng": "A lean meat fillet, originating from Gers cuisine, often served with a fruit sauce.",
+    "region": "Sud-Ouest",
+    "allergenes": [
+      "gluten"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Aged/Dried cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Magret_de_Canard.jpg"
+  },
+  {
+    "id": "13",
+    "name": "Boudin noir aux pommes",
+    "link": "https://www.cuisineaz.com/recettes/boudin-noir-aux-pommes-30185.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de boudin noir, souvent servi avec des pommes sautées.",
+    "descriptionEng": "A traditional French dish made with black pudding, often served with sautéed apples.",
+    "region": "Normandie",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Boudin_Noir_au_Pommes.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Pot-au-feu",
+    "link": "https://www.cuisineaz.com/recettes/pot-au-feu-traditionnel-5620.aspx",
+    "descriptionFr": "A base de viande de bœuf cuisant longuement à feu très doux dans un bouillon de légumes",
+    "descriptionEng": "Made with beef simmered slowly in a vegetable broth.",
+    "region": "Île-de-France",
+    "allergenes": [
+      "gluten"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Pot_au_Feu.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Couscous royal",
+    "link": "https://www.allrecipes.com/recipe/102411/couscous-royale/",
+    "descriptionFr": "Un plat traditionnel du Maghreb à base de semoule de blé, de légumes et de viandes variées.",
+    "descriptionEng": "A traditional Maghreb dish made with wheat semolina, vegetables, and various meats.",
+    "region": "Nord de l'Afrique",
+    "allergenes": [
+      "gluten"
+    ],
+    "wine": [
+      "Red",
+      "Rosé"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Couscous_Royal.jpg"
+  },
+  {
+    "id": "16",
+    "name": "Tête de veau",
+    "link": "https://www.cuisineaz.com/recettes/tete-de-veau-sauce-gribiche-2237.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de tête de veau cuite, souvent servie avec une sauce gribiche.",
+    "descriptionEng": "A traditional French dish made with cooked veal head, often served with a gribiche sauce.",
+    "region": "Île-de-France",
+    "allergenes": [
+      "gluten"
+    ],
+    "wine": [
+      "White"
+    ],
+    "cheese": [
+      "Goat's cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tête_de_Veau.jpg"
+  },
+  {
+    "id": "17",
+    "name": "Gigot d'agneau",
+    "link": "https://www.cuisineaz.com/recettes/gigot-d-agneau-a-l-ail-6468.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de gigot d'agneau rôti, souvent servi avec des légumes.",
+    "descriptionEng": "A traditional French dish made with roasted leg of lamb, often served with vegetables.",
+    "region": "Provence",
+    "allergenes": [
+      "gluten"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Aged/Dried cheese",
+      "Fresh cheese"
+    ],
+    "image": "/images-meal/Gigot_d'Agneau.jpghttps://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gigot_d'Agneau.jpg"
+  },
+  {
+    "id": "18",
+    "name": "Navarin d'agneau",
+    "link": "https://www.cuisineaz.com/recettes/navarin-d-agneau-60428.aspx",
+    "descriptionFr": "Un plat traditionnel français à base d'agneau mijoté avec des légumes de saison.",
+    "descriptionEng": "A traditional French dish made with lamb stewed with seasonal vegetables.",
+    "region": "Provence",
+    "allergenes": [
+      "gluten"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Semi-hard cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Navarin_d'Agneau.jpg"
+  },
+  {
+    "id": "19",
+    "name": "Sole meunière",
+    "link": "https://www.cuisineaz.com/recettes/la-sole-meuniere-et-ballotine-94374.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de sole cuite à la poêle avec du beurre, du citron et du persil.",
+    "descriptionEng": "A traditional French dish made with sole cooked in a pan with butter, lemon, and parsley.",
+    "region": "Bretagne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Sole_Meunière.jpg"
+  },
+  {
+    "id": "20",
+    "name": "Filet mignon à la moutarde",
+    "link": "https://www.cuisineaz.com/recettes/filet-mignon-a-la-moutarde-facile-56218.aspx",
+    "descriptionFr": "Le Filet mignon est un morceau de viande tendre et savoureux, souvent préparé avec une sauce à la moutarde.",
+    "descriptionEng": "The filet mignon is a tender and flavorful cut of meat, often prepared with a mustard sauce.",
+    "region": "Bourgogne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red",
+      "White"
+    ],
+    "cheese": [
+      "Soft cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Filet_Mignon_à_la_Moutarde.jpg"
+  },
+  {
+    "id": "21",
+    "name": "Lapin à la moutarde",
+    "link": "https://www.cuisineaz.com/recettes/lapin-a-la-moutarde-a-l-ancienne-1604.aspx",
+    "descriptionFr": "Le Lapin à la moutarde est un plat traditionnel français, souvent préparé avec de la moutarde de Dijon.",
+    "descriptionEng": "Rabbit with mustard is a traditional French dish, often prepared with Dijon mustard.",
+    "region": "Bourgogne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red",
+      "White"
+    ],
+    "cheese": [
+      "Soft cheese",
+      "Goat's cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Lapin_à_la_Moutarde.jpg"
+  },
+  {
+    "id": "22",
+    "name": "Escalope normande",
+    "link": "https://www.cuisineaz.com/recettes/escalopes-normandes-11218.aspx",
+    "descriptionFr": "Un plat traditionnel français à base d'escalope de veau, souvent préparé avec des champignons et de la crème.",
+    "descriptionEng": "A traditional French dish made with veal escalope, often prepared with mushrooms and cream.",
+    "region": "Normandie",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White"
+    ],
+    "cheese": [
+      "Triple-cream cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Escalope_Normande.jpg"
+  },
+  {
+    "id": "23",
+    "name": "Côte de boeuf",
+    "link": "https://www.cuisineaz.com/recettes/cote-de-boeuf-au-barbecue-117485.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de côte de bœuf grillée, souvent servie avec des frites ou des légumes.",
+    "descriptionEng": "A traditional French dish made with grilled rib steak, often served with fries or vegetables.",
+    "region": "Bourgogne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Semi-hard cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Côte_de_Boeuf.jpg"
+  },
+  {
+    "id": "24",
+    "name": "Poule au pot",
+    "link": "https://www.cuisineaz.com/recettes/poule-au-pot-et-riz-long-54790.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de poule cuite dans un bouillon avec des légumes.",
+    "descriptionEng": "A traditional French dish made with hen cooked in broth with vegetables.",
+    "region": "Île-de-France",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White"
+    ],
+    "cheese": [
+      "Soft cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Poule_au_Pot.jpg"
+  },
+  {
+    "id": "25",
+    "name": "Confit de canard",
+    "link": "https://www.cuisineaz.com/recettes/confit-de-canard-speciale-31162.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de canard cuit lentement dans sa propre graisse.",
+    "descriptionEng": "A traditional French dish made with duck slowly cooked in its own fat.",
+    "region": "Sud-Ouest",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese",
+      "Goat's cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Confit_de_Canard.jpg"
+  },
+  {
+    "id": "26",
+    "name": "Andouillette",
+    "link": "https://www.cuisineaz.com/recettes/andouillette-au-barbecue-112928.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de saucisse de porc, souvent servie avec des frites ou de la moutarde.",
+    "descriptionEng": "A traditional French dish made with pork sausage, often served with fries or mustard.",
+    "region": "Lyon",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red",
+      "White"
+    ],
+    "cheese": [
+      "Semi-hard cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Andouillette.jpg"
+  },
+  {
+    "id": "27",
+    "name": "Caille rôtie",
+    "link": "https://www.cuisineaz.com/recettes/caillles-roties-58413.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de caille rôtie, souvent servie avec des légumes ou des pommes de terre.",
+    "descriptionEng": "A traditional French dish made with roasted quail, often served with vegetables or potatoes.",
+    "region": "Bourgogne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red",
+      "White"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Soft cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Caille_Rôtie.jpg"
+  },
+  {
+    "id": "28",
+    "name": "Gratin de courgettes",
+    "link": "https://www.cuisineaz.com/recettes/gratin-de-courgettes-simple-49574.aspx",
+    "descriptionFr": "Le Gratin de courgettes est un plat savoureux à base de courgettes, de crème et de fromage.",
+    "descriptionEng": "Zucchini gratin is a tasty dish made with zucchini, cream, and cheese.",
+    "region": "Provence",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White",
+      "Rosé"
+    ],
+    "cheese": [
+      "Soft cheese",
+      "Goat's cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_de_courgettes.jpg"
+  },
+  {
+    "id": "29",
+    "name": "Bœuf aux carottes",
+    "link": "https://www.cuisineaz.com/recettes/boeuf-aux-carottes-54888.aspx",
+    "descriptionFr": "Le Boeuf aux carottes est un plat mijoté à base de bœuf, de carottes et d'oignons.",
+    "descriptionEng": "Beef with carrots is a stew made with beef, carrots, and onions.",
+    "region": "Île-de-France",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Semi-hard cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Bœuf_aux_carottes.jpg"
+  },
+  {
+    "id": "30",
+    "name": "Gratin de poisson",
+    "link": "https://www.cuisineaz.com/recettes/gratin-de-poisson-56091.aspx",
+    "descriptionFr": "Le Gratin de poisson est un plat savoureux à base de poisson, de crème et de fromage.",
+    "descriptionEng": "Fish gratin is a tasty dish made with fish, cream, and cheese.",
+    "region": "Bretagne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_de_poisson.jpg"
+  },
+  {
+    "id": "31",
+    "name": "Lotte à l'armoricaine",
+    "link": "https://www.cuisineaz.com/recettes/lotte-a-l-armoricaine-42185.aspx",
+    "descriptionFr": "Un plat traditionnel breton à base de lotte cuite dans une sauce tomate épicée.",
+    "descriptionEng": "A traditional Breton dish made with monkfish cooked in a spicy tomato sauce.",
+    "region": "Bretagne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White",
+      "Rosé"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Lotte_à_l'armoricaine.jpg"
+  },
+  {
+    "id": "32",
+    "name": "Gratin savoyard",
+    "link": "https://www.cuisineaz.com/recettes/gratin-savoyard-7195.aspx",
+    "descriptionFr": "Le gratin savoyard est un plat savoureux à base de pommes de terre, de crème et de fromage.",
+    "descriptionEng": "Savoyard gratin is a tasty dish made with potatoes, cream, and cheese.",
+    "region": "Savoie",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White"
+    ],
+    "cheese": [
+      "Soft cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_savoyard.jpg"
+  },
+  {
+    "id": "33",
+    "name": "Civet de lièvre",
+    "link": "https://www.cuisineaz.com/recettes/civet-de-lievre-14419.aspx",
+    "descriptionFr": "Le civet de lièvre est un plat traditionnel français à base de lièvre mijoté dans une sauce au vin rouge.",
+    "descriptionEng": "Hare stew is a traditional French dish made with hare stewed in a red wine sauce.",
+    "region": "Bourgogne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Aged/Dried cheese",
+      "Soft cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Civet_de_lièvre.jpg"
+  },
+  {
+    "id": "34",
+    "name": "Pavé de saumon",
+    "link": "https://www.cuisineaz.com/recettes/paves-de-saumon-53595.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de pavé de saumon grillé, souvent servi avec des légumes.",
+    "descriptionEng": "A traditional French dish made with grilled salmon steak, often served with vegetables.",
+    "region": "Bretagne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White",
+      "Rosé"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese",
+      "Goat's cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Pavé_de_saumon.jpg"
+  },
+  {
+    "id": "35",
+    "name": "Langue de bœuf",
+    "link": "https://www.cuisineaz.com/recettes/langue-de-boeuf-a-la-sauce-madere-42093.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de langue de bœuf cuite, souvent servie avec une sauce piquante.",
+    "descriptionEng": "A traditional French dish made with cooked beef tongue, often served with a spicy sauce.",
+    "region": "Île-de-France",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Semi-hard cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Langue_de_bœuf.jpg"
+  },
+  {
+    "id": "36",
+    "name": "Poulet rôti",
+    "link": "https://www.cuisineaz.com/recettes/poulet-roti-au-raisin-42978.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de poulet rôti, souvent servi avec des pommes de terre et des légumes.",
+    "descriptionEng": "A traditional French dish made with roasted chicken, often served with potatoes and vegetables.",
+    "region": "Île-de-France",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red",
+      "White"
+    ],
+    "cheese": [
+      "Soft cheese",
+      "Goat's cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Poulet_rôti.jpg"
+  },
+  {
+    "id": "37",
+    "name": "Gratin de légumes",
+    "link": "https://www.cuisineaz.com/recettes/gratin-aux-legumes-53244.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de légumes cuits au four avec de la crème et du fromage.",
+    "descriptionEng": "A traditional French dish made with vegetables baked in cream and cheese.",
+    "region": "Provence",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White",
+      "Rosé"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_de_légumes.jpg"
+  },
+  {
+    "id": "38",
+    "name": "Rôti de porc",
+    "link": "https://www.cuisineaz.com/recettes/roti-de-porc-91574.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de rôti de porc cuit lentement au four, souvent servi avec des légumes.",
+    "descriptionEng": "A traditional French dish made with pork roast slowly cooked in the oven, often served with vegetables.",
+    "region": "Île-de-France",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red",
+      "White"
+    ],
+    "cheese": [
+      "Semi-hard cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Rôti_de_porc.jpg"
+  },
+  {
+    "id": "39",
+    "name": "Brandade de morue",
+    "link": "https://www.cuisineaz.com/recettes/brandade-de-morue-a-la-puree-de-pomme-de-terre-6598.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de morue salée, de pommes de terre et d'huile d'olive.",
+    "descriptionEng": "A traditional French dish made with salted cod, potatoes, and olive oil.",
+    "region": "Provence",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Brandade_de_morue.jpg"
+  },
+  {
+    "id": "40",
+    "name": "Tielle sétoise",
+    "link": "https://www.cuisineaz.com/recettes/tielles-setoises-allegees-56274.aspx",
+    "descriptionFr": "Une spécialité de Sète, une tarte salée à base de pâte brisée garnie de poulpe et de tomates.",
+    "descriptionEng": "A specialty from Sète, a savory pie made with shortcrust pastry filled with octopus and tomatoes.",
+    "region": "Languedoc",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White",
+      "Rosé"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Goat's cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tielle_sétoise.jpg"
+  },
+  {
+    "id": "41",
+    "name": "Soupe au Pistou",
+    "link": "https://www.marmiton.org/recettes/recette_soupe-au-pistou-de-ma-grand-mere_92782.aspx",
+    "descriptionFr": "Une soupe provençale à base de légumes, de haricots et de pistou, une sauce à base de basilic.",
+    "descriptionEng": "A Provençal soup made with vegetables, beans, and pistou, a sauce made with basil.",
+    "region": "Provence",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White",
+      "Rosé"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Goat's cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Soupe_au_Pistou.jpg"
+  },
+  {
+    "id": "42",
+    "name": "Saumon en papillote",
+    "link": "https://www.cuisineaz.com/recettes/salmon-en-papillote-56275.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de saumon cuit en papillote avec des légumes.",
+    "descriptionEng": "A traditional French dish made with salmon cooked in parchment paper with vegetables.",
+    "region": "Bretagne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Goat's cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Saumon_en_papillote.jpg"
+  },
+  {
+    "id": "43",
+    "name": "Tartare de saumon",
+    "link": "https://www.cuisineaz.com/recettes/tartare-de-saumon-56276.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de saumon cru mariné, souvent servi avec des légumes.",
+    "descriptionEng": "A traditional French dish made with marinated raw salmon, often served with vegetables.",
+    "region": "Bretagne",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White",
+      "Sparkling"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tartare_de_saumon.jpg"
+  },
+  {
+    "id": "44",
+    "name": "Salade niçoise",
+    "link": "https://www.cuisineaz.com/recettes/salade-nicoise-56277.aspx",
+    "descriptionFr": "Une salade provençale à base de tomates, de thon, d'œufs durs et d'olives.",
+    "descriptionEng": "A Provençal salad made with tomatoes, tuna, hard-boiled eggs, and olives.",
+    "region": "Provence",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "White",
+      "Rosé"
+    ],
+    "cheese": [
+      "Fresh cheese",
+      "Goat's cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Salade_nicoise.jpg"
+  },
+  {
+    "id": "45",
+    "name": "Boeuf Stroganoff",
+    "link": "https://www.cuisineaz.com/recettes/boeuf-stroganoff-56279.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de bœuf sauté avec des champignons et de la crème.",
+    "descriptionEng": "A traditional French dish made with sautéed beef, mushrooms, and cream.",
+    "region": "Île-de-France",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Soft cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Boeuf_Stroganoff.jpg"
+  },
+  {
+    "id": "46",
+    "name": "Boeuf Wellington",
+    "link": "https://www.cuisineaz.com/recettes/boeuf-wellington-56280.aspx",
+    "descriptionFr": "Un plat traditionnel français à base de bœuf en croûte, souvent servi avec des légumes.",
+    "descriptionEng": "A traditional French dish made with beef in a crust, often served with vegetables.",
+    "region": "Île-de-France",
+    "allergenes": [
+      "gluten",
+      "lactose"
+    ],
+    "wine": [
+      "Red"
+    ],
+    "cheese": [
+      "Soft cheese",
+      "Fresh cheese"
+    ],
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Boeuf_Wellington.jpg"
+  }
 ]
