@@ -982,7 +982,7 @@ For more information about the underlying mechanics of search and filtering, ref
 
 #### Bar-Code Page
 
-This page is dedicated to accessing the barcode scanner feature. It can be accessed from the [Search Page](#search-page).
+This page is dedicated to accessing the bar-code scanner feature. It can be accessed from the [Search Page](#search-page).
 
 ##### Page Composition
 
@@ -995,11 +995,11 @@ This page is dedicated to accessing the barcode scanner feature. It can be acces
 - **Barcode Scan Button**
 
   - A large, central button occupying 80% of the page’s width and height.
-  - When pressed, it activates the device’s camera to scan the barcode of a product.
+  - When pressed, it activates the device’s camera to scan the bar-code of a product.
 
 ![alt text](./images/pages/BarCodePage.png)
 
-For more information about the barcode scanner’s functionality, refer to the [Barcode Scanner](#bar-code-scanner) section.
+For more information about the bar-code scanner’s functionality, refer to the [Barcode Scanner](#bar-code-scanner) section.
 
 ## Functional Requirements
 
@@ -1246,15 +1246,15 @@ In addition to keyword search, users can refine results using the application's 
 
 - **Functionality:**
 
-The application allows users to scan a product (wine or cheese) using its barcode. Upon scanning, the app automatically identifies the product and redirects the user to its associated product page. This page includes relevant information such as the product’s name, description, price, origin, and tasting suggestions.
+The application allows users to scan a product (wine or cheese) using its bar-code. Upon scanning, the app automatically identifies the product and redirects the user to its associated product page. This page includes relevant information such as the product’s name, description, price, origin, and tasting suggestions.
 
 - **User Flow:**
 
 ```mermaid
 flowchart TD
     A[Start Barcode Scan] --> B[Activate camera or scanner]
-    B --> C[Scan barcode on product]
-    C --> D{Is the barcode recognized?}
+    B --> C[Scan  bar-code on product]
+    C --> D{Is the  bar-code recognized?}
     D -- Yes --> E[Display product details page]
     D -- No --> F[Show error message]
     F --> G[Option to retry or search manually]
@@ -1403,7 +1403,7 @@ The following table is based on market research and reflects general wine and ch
 
 - The system must achieve **99.5% uptime** on a monthly basis.
 - All critical user data (e.g., preferences, search history, selections) should be saved reliably, even in case of crashes.
-- A fallback mechanism must be in place to handle third-party service failures (e.g., translation, barcode scanning).
+- A fallback mechanism must be in place to handle third-party service failures (e.g., translation, bar-code scanning).
 
 ### Accessibility
 
@@ -1425,7 +1425,7 @@ To ensure a smooth and enjoyable experience with the Cheerish mobile web applica
 | **Operating System**    | A device running a recent version of Android (Android 9 Pie or later) or iOS (iOS 12 or later) |
 | **Internet Connection** | Must have access to mobile data (3G/4G/5G) or Wi-Fi                                            |
 | **Screen Size**         | A standard screen size that allows comfortable reading and navigation                          |
-| **Camera Access**       | Needed for scanning QR codes and barcodes                                                      |
+| **Camera Access**       | Needed for scanning QR codes and bar-codes                                                     |
 
 > The application is not designed for use on very old smartphones or devices without internet access or camera functionality.
 
@@ -1433,7 +1433,7 @@ To ensure a smooth and enjoyable experience with the Cheerish mobile web applica
 
 ### Integration of Special Offers
 
-To enhance the value of the barcode scanning feature, the application could integrate real-time promotional offers. When a user scans a product, the system displays:
+To enhance the value of the bar-code scanning feature, the application could integrate real-time promotional offers. When a user scans a product, the system displays:
 
 - Active promotions
 - Available discounts
