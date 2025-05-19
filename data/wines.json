@@ -228,7 +228,7 @@
     "rating": 3.3,
     "description": "Robe pâle franche, nez puissant d’agrumes et pamplemousse, vin acidulé en bouche.",
     "description_en": "Pale and bright color with powerful citrus and grapefruit aromas on the nose, zesty palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Evidence_Rose",
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Evidence_Rose.png",
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
@@ -294,7 +294,7 @@
     "rating": null,
     "description": "Un rouge structuré, avec des arômes de fruits noirs mûrs et une belle note épicée, tanins soyeux en finale.",
     "description_en": "A structured red with ripe black fruit and spice aromas, smooth tannins on the finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Rouge",
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Rouge.png",
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
@@ -316,7 +316,7 @@
     "rating": null,
     "description": "Un rosé bio élégant, aux notes de fraise des bois et d’agrumes, bouche fraîche et délicate.",
     "description_en": "An elegant organic rosé with wild strawberry and citrus notes, fresh and delicate palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Bio_Passe_Rose.png",
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Bio_Passe_Rose.jpg",
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
