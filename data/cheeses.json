@@ -12,7 +12,7 @@
         "rating": null,
         "description_fr": "Fromage de chèvre frais fabriqué à partir de lait de chèvre, crémeux et légèrement acidulé, disponible nature ou aromatisé.",
         "description_en": "Fresh goat cheese made from goat's milk, creamy and slightly tangy, available plain or flavored.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/chevre-nature.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/chevre-nature.jpg",
         "bestseller": true,
         "wine": [
             "White"
@@ -31,7 +31,7 @@
         "rating": null,
         "description_fr": "Yaourt à base de lait de vache, fermenté et agrémenté de purées de fruits, texture onctueuse et goût doux et fruité.",
         "description_en": "Yogurt made from cow's milk, fermented and flavored with fruit purée, creamy texture and sweet, fruity taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/yaourt-fruit-mere-richard.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/yaourt-fruit-mere-richard.jpg",
         "bestseller": true,
         "wine": [
             "Red"
@@ -50,7 +50,7 @@
         "rating": null,
         "description_fr": "Fromage de chèvre AOP produit en Périgord et Quercy, pâte fraîche et onctueuse, goût léger et légèrement acidulé.",
         "description_en": "AOP goat cheese produced in Périgord and Quercy, fresh, creamy paste with a light, slightly tangy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/rocamadour-AOP.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/rocamadour-AOP.jpg",
         "bestseller": true,
         "wine": [
             "Rosé"
@@ -69,7 +69,7 @@
         "rating": null,
         "description_fr": "Tomme de Provence est une tomme de lait de vache, pâte pressée non cuite, croûte naturelle, goût doux et fruité.",
         "description_en": "Tomme de Provence is an uncooked pressed cow's milk cheese with a natural rind, offering a mild, fruity flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/tome-de-provence.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/tome-de-provence.jpg",
         "bestseller": true,
         "wine": [
             "Sparkling"
@@ -88,7 +88,7 @@
         "rating": null,
         "description_fr": "Pélardon est un fromage de chèvre AOP du Languedoc-Roussillon, pâte molle à croûte naturelle, goût délicat et légèrement piquant.",
         "description_en": "Pélardon is an AOP goat cheese from Languedoc-Roussillon, soft paste with natural rind, delicate, slightly piquant flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/pelardon.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/pelardon.jpg",
         "bestseller": true,
         "wine": [
             "White"
@@ -107,7 +107,7 @@
         "rating": null,
         "description_fr": "Saint-Marcellin est un fromage de vache molle de la région Dauphiné, texture crémeuse et goût riche et légèrement salé.",
         "description_en": "Saint-Marcellin is a soft cow's milk cheese from the Dauphiné region, with a creamy texture and rich, slightly salty taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/saint-marcellin.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/saint-marcellin.jpg",
         "bestseller": true,
         "wine": [
             "Red"
@@ -126,7 +126,7 @@
         "rating": null,
         "description_fr": "Saint-Félicien est un fromage de vache à pâte molle de la région Rhône-Alpes, texture onctueuse et goût beurré.",
         "description_en": "Saint-Félicien is a soft cow's milk cheese from the Rhône-Alpes region, with a smooth, buttery texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/saint-felicien.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/saint-felicien.jpg",
         "bestseller": true,
         "wine": [
             "White"
@@ -145,7 +145,7 @@
         "rating": null,
         "description_fr": "Fromage de chèvre séché, utilisé souvent en salade ou comme grignotine, texture ferme et saveur concentrée.",
         "description_en": "Dried goat cheese often used in salads or as a snack, with a firm texture and concentrated flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/sechons-de-chevre.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/sechons-de-chevre.jpg",
         "bestseller": true,
         "wine": [
             "Red"
@@ -164,7 +164,7 @@
         "rating": null,
         "description_fr": "Faisselle est un fromage frais non protégé, égoutté dans une faisselle, texture fraîche et légère acidité.",
         "description_en": "Faisselle is an unprotected French fresh cheese drained in a mold, with a fresh texture and mild acidity.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/faisselle-saint-felicien.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/faisselle-saint-felicien.jpg",
         "bestseller": true,
         "wine": [
             "White"
@@ -183,7 +183,7 @@
         "rating": null,
         "description_fr": "Crottin de Chavignol est un fromage de chèvre AOP de la Vallée de la Loire, pâte affinée ferme et saveur persistante.",
         "description_en": "Crottin de Chavignol is an AOP goat cheese from the Loire Valley, with a firm aged paste and lingering flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/crottin-de-chavignol.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/crottin-de-chavignol.jpg",
         "bestseller": true,
         "wine": [
             "Red"
@@ -202,7 +202,7 @@
         "rating": null,
         "description_fr": "Fromage de chèvre IGP du Quercy en forme de pavé, pâte onctueuse et saveur fine et fruitée.",
         "description_en": "IGP goat cheese from Quercy shaped as a pavé, with a creamy paste and fine fruity flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/etoile-quercy.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/etoile-quercy.jpg",
         "bestseller": true,
         "wine": [
             "White"
@@ -221,7 +221,7 @@
         "rating": null,
         "description_fr": "Tomme de lait de vache de la région du Ventoux, pâte pressée semi-cuite, goût doux et crémeux.",
         "description_en": "Cow’s milk tomme from the Ventoux region, semi-cooked pressed paste with a mild, creamy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/le-ventoux.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/le-ventoux.jpg",
         "bestseller": true,
         "wine": [
             "Red"
@@ -240,7 +240,7 @@
         "rating": null,
         "description_fr": "Fromage de chèvre AOP Banon enveloppé dans des feuilles de châtaignier, pâte fondante et goût légèrement relevé.",
         "description_en": "AOP goat cheese Banon wrapped in chestnut leaves, with a melting paste and a slightly spicy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/banon-feuille.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/banon-feuille.jpg",
         "bestseller": true,
         "wine": [
             "White"
@@ -259,7 +259,7 @@
         "rating": null,
         "description_fr": "Saint-Félicien à pâte molle en format gourmand de 200 g, texture onctueuse et goût beurré.",
         "description_en": "Soft Saint-Félicien in a generous 200 g format, with a smooth texture and buttery taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/saint-felicien-tentation.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/saint-felicien-tentation.jpg",
         "bestseller": true,
         "wine": [
             "Red"
@@ -278,7 +278,7 @@
         "rating": null,
         "description_fr": "Petit fromage de chèvre frais en forme de bûchette, arômes délicats de chèvre frais et texture fondante.",
         "description_en": "Small fresh goat cheese log, with delicate fresh goat aromas and a melting texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/bouyguette.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/bouyguette.jpg",
         "bestseller": true,
         "wine": [
             "White"
@@ -297,7 +297,7 @@
         "rating": null,
         "description_fr": "Version affinée du Saint-Félicien, pâte plus ferme et arômes de crème et de champignon.",
         "description_en": "Aged version of Saint-Félicien, firmer paste with cream and mushroom aromas.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/saint-felicien-affine.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/saint-felicien-affine.jpg",
         "bestseller": true,
         "wine": [
             "Red"
@@ -316,7 +316,7 @@
         "rating": null,
         "description_fr": "Petit fromage de chèvre AOP de la Drôme, texture ferme et saveur poivrée.",
         "description_en": "Small AOP goat cheese from the Drôme, with a firm texture and peppery flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/picodon-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/picodon-aop.jpg",
         "bestseller": true,
         "wine": [
             "Red"
@@ -335,7 +335,7 @@
         "rating": null,
         "description_fr": "Faisselle IGP Saint-Marcellin conditionnée en portions de 2×80 g, texture fraîche et goût lacté.",
         "description_en": "IGP Saint-Marcellin faisselle packaged in 2×80 g portions, with a fresh texture and milky taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/faisselle-saint-marcellin.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/faisselle-saint-marcellin.jpg",
         "bestseller": true,
         "wine": [
             "White"
@@ -354,7 +354,7 @@
         "rating": null,
         "description_fr": "Mozzarella de lait de bufflonne, texture élastique et saveur douce et lactée.",
         "description_en": "Buffalo milk mozzarella with an elastic texture and delicate, milky flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/mozzarella-di-bufala.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/mozzarella-di-bufala.jpg",
         "bestseller": true,
         "wine": [
             "White"
@@ -373,7 +373,7 @@
         "rating": null,
         "description_fr": "Fromage au lait de vache à pâte pressée semi-cuite, arômes de noisette et texture fondante.",
         "description_en": "Cow’s milk cheese with semi-cooked pressed paste, offering hazelnut aromas and a melting texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/xv-du-pic.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/xv-du-pic.jpg",
         "bestseller": true,
         "wine": [
             "Red"
@@ -392,7 +392,7 @@
         "rating": null,
         "description_fr": "Fromage frais de chèvre en faisselle, texture crémeuse et goût légèrement acidulé.",
         "description_en": "Fresh goat cheese in faisselle form, creamy texture and slightly tangy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/faisselle-chevre-frais.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/faisselle-chevre-frais.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -411,7 +411,7 @@
         "rating": null,
         "description_fr": "Pâte très onctueuse et fine, arômes de crème fraîche et de champignon, richesse et douceur caractéristiques.",
         "description_en": "Very creamy paste with fresh cream and mushroom aromas, characteristic richness and smoothness.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/demi-brillat-savarin.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/demi-brillat-savarin.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -430,7 +430,7 @@
         "rating": null,
         "description_fr": "Fromage à pâte molle affiné en pot céramique, texture fondante et goût doux légèrement salé.",
         "description_en": "Soft cheese aged in ceramic pot, melting texture and mildly salty, delicate flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/saint-marcellin-en-ceramique.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/saint-marcellin-en-ceramique.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -449,7 +449,7 @@
         "rating": null,
         "description_fr": "Petit fromage de chèvre AOP au lait cru, pâte fraîche et onctueuse, goût franc et légèrement piquant.",
         "description_en": "Small AOP raw-milk goat cheese, fresh creamy paste, honest flavor with a slight tang.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/rigotte-de-condrieu.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/rigotte-de-condrieu.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -468,7 +468,7 @@
         "rating": null,
         "description_fr": "Fromage de chèvre à pâte molle, affinage court, arômes délicats de lait frais et de crème.",
         "description_en": "Soft-ripened goat cheese with short aging, delicate fresh milk and cream aromas.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/quatre-vents.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/quatre-vents.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -487,7 +487,7 @@
         "rating": null,
         "description_fr": "Fromage de chèvre AOP, pâte fraîche légèrement affinée, goût doux et acidulé.",
         "description_en": "AOP goat cheese with lightly aged fresh paste, sweet and tangy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/rocamadour-aop-2.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/rocamadour-aop-2.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -506,7 +506,7 @@
         "rating": null,
         "description_fr": "Petit chèvre frais enrobé de fleurs comestibles, couleur attrayante et saveur délicatement florale.",
         "description_en": "Small fresh goat cheese coated with edible flowers, attractive color and delicately floral taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/chevre-frais-aux-fleurs.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/chevre-frais-aux-fleurs.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -525,7 +525,7 @@
         "rating": null,
         "description_fr": "Fromage de chèvre frais sans croûte, pâte onctueuse et goût frais de lait de chèvre.",
         "description_en": "Fresh rind-less goat cheese, creamy paste and fresh goat’s milk flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/chevrot-nu.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/chevrot-nu.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -544,7 +544,7 @@
         "rating": null,
         "description_fr": "Fromage de chèvre AOP allongé, cendré, pâte ferme et texture soyeuse, arômes de noix et d’herbe fraîche.",
         "description_en": "AOP goat cheese log, ash-coated, firm yet silky paste, aromas of nuts and fresh grass.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/sainte-maure-de-touraine.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/sainte-maure-de-touraine.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -563,7 +563,7 @@
         "rating": null,
         "description_fr": "Fromage italien à pâte filée, cœur crémeux et texture moelleuse, saveur douce de crème fraîche.",
         "description_en": "Italian stretched-curd cheese, creamy core and tender texture, sweet fresh cream flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/vivaldi-burrata.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/vivaldi-burrata.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -582,7 +582,7 @@
         "rating": null,
         "description_fr": "Yaourt nature fermenté à base de lait de vache, texture onctueuse et goût frais légèrement acidulé.",
         "description_en": "Plain yogurt made from cow’s milk, creamy texture with a fresh, mildly tangy taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/yaourt-nature-mere-richard.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/yaourt-nature-mere-richard.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -601,7 +601,7 @@
         "rating": null,
         "description_fr": "Bouchées de mozzarella de lait de bufflonne, cœur tendre et texture moelleuse, saveur douce et lactée.",
         "description_en": "Buffalo milk mozzarella bites with a soft core and tender texture, offering a sweet, milky flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/mozza-di-bufala-bonbon.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/mozza-di-bufala-bonbon.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -620,7 +620,7 @@
         "rating": null,
         "description_fr": "Reblochon de Savoie AOP à pâte pressée non cuite, croûte lavée, arômes de noix et de crème fraîche.",
         "description_en": "AOP Reblochon from Savoie with washed rind, pressed uncooked paste, aromas of nuts and fresh cream.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/reblochon-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/reblochon-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -639,7 +639,7 @@
         "rating": null,
         "description_fr": "Bûchette de chèvre frais, pâte crémeuse et goût finement acidulé, idéale en salade ou tartine.",
         "description_en": "Fresh goat cheese log with creamy paste and delicate tang, perfect for salads or on toast.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/buche-de-chevre.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/buche-de-chevre.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -658,7 +658,7 @@
         "rating": null,
         "description_fr": "Burrata fabriquée à base de lait de chèvre, cœur crémeux et pâte filée, notes douces et acidulées.",
         "description_en": "Goat milk burrata with a creamy core and stretched paste, offering sweet and slightly tangy notes.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/burrata-de-chevre.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/burrata-de-chevre.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -677,7 +677,7 @@
         "rating": null,
         "description_fr": "Fromage de chèvre affiné, forme de brique, enrobé de cendre, pâte onctueuse et goût délicatement fumé.",
         "description_en": "Goat cheese aged in brick shape, coated with ash, creamy paste with a subtle smoky character.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/brique-cendree.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/brique-cendree.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -696,7 +696,7 @@
         "rating": null,
         "description_fr": "Petits fromages frais fermiers, texture lisse et goût franc de lait de chèvre.",
         "description_en": "Two fresh farm goat cheeses with smooth texture and pronounced fresh goat’s milk flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/fromage-de-chevre-fermier.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/fromage-de-chevre-fermier.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -715,7 +715,7 @@
         "rating": null,
         "description_fr": "Demi-meule d’Abondance AOP, pâte pressée cuite, arômes de noisette et de foin, texture fondante.",
         "description_en": "Half wheel of AOP Abondance, cooked pressed paste with hazelnut and hay aromas, melting texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/abondance-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/abondance-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -734,7 +734,7 @@
         "rating": null,
         "description_fr": "Fromage de chèvre AOP cendré à saveur douce, pâte ferme et arôme délicat de noisette.",
         "description_en": "Ash-coated AOP goat cheese with mild flavor, firm paste and delicate hazelnut aroma.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/selles-sur-cher-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/selles-sur-cher-aop.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -753,7 +753,7 @@
         "rating": null,
         "description_fr": "Tomme de vache décorée de fleurs comestibles, pâte pressée non cuite, goût doux et floral.",
         "description_en": "Cow’s milk tomme adorned with edible flowers, uncooked pressed paste, offering a mild, floral flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/tomme-aux-fleurs.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/tomme-aux-fleurs.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -772,7 +772,7 @@
         "rating": null,
         "description_fr": "Mozzarella tressée au lait de bufflonne, texture élastique et saveur délicatement lactée.",
         "description_en": "Braided buffalo milk mozzarella with an elastic texture and delicate, milky flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/mozzarella-di-bufala-tressee.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/mozzarella-di-bufala-tressee.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -791,7 +791,7 @@
         "rating": null,
         "description_fr": "Comté AOP affiné 18 mois, pâte pressée cuite, notes prononcées de noisette, caractère fruité et texture ferme.",
         "description_en": "Comté AOP aged 18 months, cooked pressed paste with pronounced nutty notes, fruity character, and firm texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/comte-extra-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/comte-extra-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -810,7 +810,7 @@
         "rating": null,
         "description_fr": "Petit palet de chèvre cendré AOP, pâte molle et fondante, arômes fins légèrement acidulés.",
         "description_en": "Small ash-coated goat cheese AOP, with a soft, melting paste and fine, slightly tangy aromas.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/chabichou-du-poitou-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/chabichou-du-poitou-aop.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -829,7 +829,7 @@
         "rating": null,
         "description_fr": "Assortiment de trois fromages (frais, demi-sec et affiné) présenté en portions, parfait pour l’apéritif.",
         "description_en": "Assortment of three cheeses (fresh, semi-soft and aged) in single portions, ideal for appetizers.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/plateau-3-fromages.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/plateau-3-fromages.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -848,7 +848,7 @@
         "rating": null,
         "description_fr": "Petits cabécous AOP, pâte légèrement affinée, texture ferme et goût de chèvre frais souligné d’une pointe de sel.",
         "description_en": "Small AOP goat cheeses, lightly aged paste with a firm texture and fresh goat flavor enhanced by a hint of salt.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/cabecou-du-perigord-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/cabecou-du-perigord-aop.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -867,7 +867,7 @@
         "rating": null,
         "description_fr": "Fromage de vache au lait cru, affiné en petits formats, chair crémeuse et saveurs riches pour l’apéritif.",
         "description_en": "Raw cow’s milk cheese, aged in small formats, with a creamy body and rich flavors perfect for appetizers.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/aperitif-bq-lait-cru-vache.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/aperitif-bq-lait-cru-vache.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -886,7 +886,7 @@
         "rating": null,
         "description_fr": "Sélection de fromages tranchés et assortis, prête à servir pour vos plateaux apéritifs.",
         "description_en": "Selection of sliced, assorted cheeses ready to serve for your appetizer platters.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/coupe-fromage-ls.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/coupe-fromage-ls.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -905,7 +905,7 @@
         "rating": null,
         "description_fr": "Pâte persillée douce et crémeuse, à consommer à la cuillère, arômes de crème et de champignon bleuté.",
         "description_en": "Mild, creamy blue-veined cheese meant to be eaten by the spoonful, with aromas of cream and blue mushrooms.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/gorgonzola-a-la-cuillere.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/gorgonzola-a-la-cuillere.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -924,7 +924,7 @@
         "rating": null,
         "description_fr": "Fromage frais de vache aromatisé à la figue, pâte lisse et goût sucré-salé délicat.",
         "description_en": "Fresh cow’s milk cheese flavored with fig, with a smooth paste and delicate sweet-savory taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/figou.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/figou.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -943,7 +943,7 @@
         "rating": null,
         "description_fr": "Chèvre frais parfumé à la lavande, pâte onctueuse et arômes floraux délicats.",
         "description_en": "Fresh goat cheese scented with lavender, with a creamy paste and delicate floral aromas.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/saint-domnin-a-la-lavande.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/saint-domnin-a-la-lavande.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -962,7 +962,7 @@
         "rating": null,
         "description_fr": "Brie de Meaux AOP à pâte molle et onctueuse, croûte fleurie ivoire, arômes de crème et de champignon frais.",
         "description_en": "Brie de Meaux AOP with a soft, creamy interior and ivory bloomy rind, offering aromas of cream and fresh mushroom.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/brie-de-meaux-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/brie-de-meaux-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -981,7 +981,7 @@
         "rating": null,
         "description_fr": "Parmigiano Reggiano AOP affiné au minimum 24 mois et râpé en copeaux, notes intenses de noix et texture granuleuse.",
         "description_en": "Parmigiano Reggiano AOP aged at least 24 months and shaved into flakes, with intense nutty notes and a granular texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/parmigiano-reggiano-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/parmigiano-reggiano-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1000,7 +1000,7 @@
         "rating": null,
         "description_fr": "Petit chèvre frais roulé dans des airelles séchées, mariage de l’acidité fruitée et de la douceur laitière.",
         "description_en": "Small fresh goat cheese rolled in dried cranberries, combining fruity acidity with milky sweetness.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/chevre-enrobe-dairelles.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/chevre-enrobe-dairelles.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -1019,7 +1019,7 @@
         "rating": null,
         "description_fr": "Grande meule AOP affiné 24 mois, arômes profonds de noisette, texture friable et longue finale salée.",
         "description_en": "Large AOP wheel aged 24 months, featuring deep nutty aromas, crumbly texture and a long saline finish.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/parmigiano-reggiano-aop-4,5.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/parmigiano-reggiano-aop-4,5.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1038,7 +1038,7 @@
         "rating": null,
         "description_fr": "Emmental français à pâte pressée cuite, lait cru, arômes doux de beurre et de noisette, texture élastique.",
         "description_en": "French Emmental with cooked pressed paste from raw milk, offering buttery and nutty aromas and an elastic texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/emmental-lait-cru.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/emmental-lait-cru.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1057,7 +1057,7 @@
         "rating": null,
         "description_fr": "Petit fromage de chèvre frais posé sur feuille de châtaignier, pâte onctueuse et goût légèrement noisette.",
         "description_en": "Small fresh goat cheese laid on a chestnut leaf, with a creamy texture and subtle hazelnut flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/mothais-sur-feuille.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/mothais-sur-feuille.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -1076,7 +1076,7 @@
         "rating": null,
         "description_fr": "Morbier AOP à ligne de cendre, pâte onctueuse, arômes fruités et épicés, finale délicate en bouche.",
         "description_en": "Morbier AOP with an ash line, featuring a creamy paste, fruity and spicy aromas, and a delicate finish.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/morbier-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/morbier-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1095,7 +1095,7 @@
         "rating": null,
         "description_fr": "Petit fromage de brebis frais du Périgord, pâte crémeuse et saveur légèrement acidulée de lait de brebis.",
         "description_en": "Small fresh sheep cheese from Périgord, with a creamy paste and a slightly tangy sheep’s milk flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/lou-perain-perail.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/lou-perain-perail.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -1114,7 +1114,7 @@
         "rating": null,
         "description_fr": "Mélange crémeux de mascarpone et Gorgonzola Dolce, texture onctueuse et goût doux-épicé.",
         "description_en": "Creamy blend of mascarpone and Gorgonzola Dolce, offering a smooth texture with sweet-spicy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/mascarpone-gorgonzola.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/mascarpone-gorgonzola.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1133,7 +1133,7 @@
         "rating": null,
         "description_fr": "Fromage fondu en portions snack, goût doux de fromage à pâte pressée, fond facilement à chaud.",
         "description_en": "Portioned processed cheese snack, with a mild pressed-cheese flavor that melts easily when heated.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/galletout.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/galletout.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1152,7 +1152,7 @@
         "rating": null,
         "description_fr": "Fromage italien à pâte filée, cœur crémeux et extérieur lisse, saveur douce et lactée.",
         "description_en": "Italian stretched-curd cheese with a creamy core and smooth exterior, offering a mild, milky flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/burrata.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/burrata.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -1171,7 +1171,7 @@
         "rating": null,
         "description_fr": "Camembert AOP au lait cru d’Isigny, pâte molle et onctueuse, arômes de crème et de champignon.",
         "description_en": "Isigny AOP Camembert made from raw milk, with a soft, creamy paste and aromas of cream and mushroom.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/camembert-pyro-isigny-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/camembert-pyro-isigny-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1190,7 +1190,7 @@
         "rating": null,
         "description_fr": "Camembert AOP à pâte molle et croûte fleurie, goût riche de crème fraîche et note terreuse.",
         "description_en": "AOP Camembert with a soft interior and bloomy rind, featuring rich fresh cream flavor and earthy notes.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/camembert-lait-cru-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/camembert-lait-cru-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1209,7 +1209,7 @@
         "rating": null,
         "description_fr": "Fromage à raclette à pâte pressée non cuite, fondant à la chaleur avec de douces notes de noisette.",
         "description_en": "Raclette cheese with a semi-soft paste that melts when heated, offering mild nutty flavors.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/raclette.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/raclette.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1228,7 +1228,7 @@
         "rating": null,
         "description_fr": "Fromage de pâte molle parfumé à la truffe d’été, texture crémeuse et arômes intenses de champignon.",
         "description_en": "Soft-paste cheese infused with summer truffle, featuring a creamy texture and intense mushroom aromas.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/grand-morin-a-la-truffe.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/grand-morin-a-la-truffe.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1247,7 +1247,7 @@
         "rating": null,
         "description_fr": "Saint-Nectaire fermier à croûte naturelle, pâte onctueuse et goût fruité avec une pointe de noisette.",
         "description_en": "Farm-made Saint-Nectaire with a natural rind, creamy interior and fruity notes with a hint of hazelnut.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/saint-nectaire-fermier.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/saint-nectaire-fermier.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1266,7 +1266,7 @@
         "rating": null,
         "description_fr": "Emmental français au lait cru, pâte pressée cuite, arômes doux de beurre et de foin, texture alvéolée.",
         "description_en": "French raw-milk Emmental with cooked pressed paste, featuring gentle buttery and hay aromas and a holey texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/emmental-lait-cru-meule.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/emmental-lait-cru-meule.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1285,7 +1285,7 @@
         "rating": null,
         "description_fr": "Gruyère IGP français à pâte pressée cuite, arômes prononcés de noisette et légère saveur fruitée.",
         "description_en": "French IGP Gruyère with cooked pressed paste, offering pronounced nutty aromas and a subtle fruity taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/gruyere-france.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/gruyere-france.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1304,7 +1304,7 @@
         "rating": null,
         "description_fr": "Petit chèvre frais roulé dans de l’abricot séché, mêlant douceur fruitée et texture crémeuse.",
         "description_en": "Small fresh goat cheese rolled in dried apricot, blending fruity sweetness and creamy texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/chevre-enrobe-abricot.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/chevre-enrobe-abricot.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -1323,7 +1323,7 @@
         "rating": null,
         "description_fr": "Feta AOP de Grèce en bloc, pâte friable et goût acidulé salé typique.",
         "description_en": "Greek AOP feta block with a crumbly texture and the characteristic salty-tangy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/feta-grecque-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/feta-grecque-aop.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -1342,7 +1342,7 @@
         "rating": null,
         "description_fr": "Fromage à pâte pressée non cuite, texture souple et goût crémeux avec des notes herbacées.",
         "description_en": "Semi-soft pressed cheese with a supple texture and creamy taste featuring herbal notes.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/le-sauvaget.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/le-sauvaget.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1361,7 +1361,7 @@
         "rating": null,
         "description_fr": "Comté AOP affiné 9 à 12 mois, arômes doux de noix et lait cuivré, texture ferme et fondante.",
         "description_en": "AOP Comté aged 9–12 months with gentle nutty and ripe flavors, firm yet melting texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/comte-affine-9-12.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/comte-affine-9-12.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1380,7 +1380,7 @@
         "rating": null,
         "description_fr": "Comté AOP affiné 12 mois, saveurs prononcées de beurre et de fruits secs, texture granuleuse.",
         "description_en": "AOP Comté aged 12 months, pronounced buttery and dried fruit flavors, granular texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/comte-12-mois.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/comte-12-mois.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1399,7 +1399,7 @@
         "rating": null,
         "description_fr": "Beaufort AOP perçé, pâte pressée cuite, arômes puissants de noisette et de foin, texture onctueuse.",
         "description_en": "AOP Beaufort with natural openings, cooked pressed paste, powerful hazelnut and hay aromas, smooth texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/beaufort-aop-perce.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/beaufort-aop-perce.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1418,7 +1418,7 @@
         "rating": null,
         "description_fr": "Petit fromage de chèvre frais en forme de couronne, pâte crémeuse et goût fin et acidulé.",
         "description_en": "Small fresh goat cheese in a crown shape, creamy paste with a fine, tangy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/couronne-lochoise.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/couronne-lochoise.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -1437,7 +1437,7 @@
         "rating": null,
         "description_fr": "Saint-Nectaire AOP au lait entier, croûte naturelle et pâte onctueuse aux arômes de noisette.",
         "description_en": "AOP Saint-Nectaire made with whole milk, natural rind and creamy paste with hazelnut aromas.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/saint-nectaire-laitiere.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/saint-nectaire-laitiere.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1456,7 +1456,7 @@
         "rating": null,
         "description_fr": "Brillat-Savarin IGP à pâte très crémeuse et riche, saveurs de crème fraîche et de champignon.",
         "description_en": "Triple-cream IGP Brillat-Savarin with very rich, creamy paste and flavors of fresh cream and mushroom.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/brillat-savarin-igp.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/brillat-savarin-igp.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1475,7 +1475,7 @@
         "rating": null,
         "description_fr": "Halloumi AOP à pâte ferme qui grille ou frit sans fondre, saveur légèrement salée et lactée.",
         "description_en": "AOP Halloumi with firm paste that grills or fries without melting, offering a slightly salty, milky taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/halloumi-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/halloumi-aop.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -1494,7 +1494,7 @@
         "rating": null,
         "description_fr": "Petit fromage de chèvre AOP à pâte ferme et goût poivré, à savourer frais ou légèrement affiné.",
         "description_en": "Small AOP goat cheese with firm paste and peppery flavor, best enjoyed fresh or lightly aged.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/picodon-aop-60.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/picodon-aop-60.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -1513,7 +1513,7 @@
         "rating": null,
         "description_fr": "Époisses AOP à croûte lavée, arômes puissants de sous-bois et de crème, pâte onctueuse et fondante.",
         "description_en": "AOP Époisses with washed rind, powerful aromas of forest floor and cream, smooth and melting paste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/epoisses-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/epoisses-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1532,7 +1532,7 @@
         "rating": null,
         "description_fr": "Fromage à pâte pressée non cuite, orné d’une ligne de cendre, texture souple et goût fruité avec une pointe de noisette.",
         "description_en": "Pressed uncooked cheese marked by an ash line, with a supple texture and fruity, hazelnut-tinged flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/morbier-aop-lc.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/morbier-aop-lc.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1551,7 +1551,7 @@
         "rating": null,
         "description_fr": "Fromage à pâte pressée cuite, affiné 1 à 2 mois, arômes doux de beurre frais et de foin, texture ferme et fondante.",
         "description_en": "Cooked pressed cheese aged 1–2 months, offering gentle fresh butter and hay aromas, with a firm yet melting texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/cantal-jeune.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/cantal-jeune.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1570,7 +1570,7 @@
         "rating": null,
         "description_fr": "Tomme de brebis à pâte pressée non cuite, parfum lacté et notes de beurre frais, texture souple et crémeuse.",
         "description_en": "Pressed uncooked sheep’s cheese with milky, buttery aromas and a supple, creamy texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/tomme-cazelles.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/tomme-cazelles.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1589,7 +1589,7 @@
         "rating": null,
         "description_fr": "Tomme de montagne à pâte pressée non cuite, arômes de sous-bois et de foin, texture ferme avec une pointe fondante.",
         "description_en": "Mountain tomme with pressed uncooked paste, offering forest-floor and hay aromas, firm with a slight melting quality.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/tomme-de-montagne-chartreuse.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/tomme-de-montagne-chartreuse.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1608,7 +1608,7 @@
         "rating": null,
         "description_fr": "Olives noires de Nyons à chair ferme, saveur fruitée et légèrement croquante, idéales à l’apéritif.",
         "description_en": "Firm black Nyons olives with a fruity flavor and slight crunch, perfect for appetizers.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/olives-de-nyons.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/olives-de-nyons.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1627,7 +1627,7 @@
         "rating": null,
         "description_fr": "Crème au chocolat onctueuse en pot individuel, texture veloutée et goût intense de cacao.",
         "description_en": "Velvety chocolate cream in a single-serve pot, with a smooth texture and intense cocoa flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/petit-pot-creme-chocolat.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/petit-pot-creme-chocolat.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1646,7 +1646,7 @@
         "rating": null,
         "description_fr": "Fromage de brebis à pâte pressée non cuite, croûte lavée, texture fondante et arômes doux de lait frais.",
         "description_en": "Pressed uncooked sheep’s cheese with a washed rind, melting texture and sweet fresh-milk aromas.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/ptit-basque.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/ptit-basque.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1665,7 +1665,7 @@
         "rating": null,
         "description_fr": "Reblochon fermier à croûte lavée, pâte onctueuse et arômes de crème, légèrement fruités et terreux.",
         "description_en": "Farm-made Reblochon with washed rind, creamy paste and aromas of cream with subtle fruity and earthy notes.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/reblochon-fermier-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/reblochon-fermier-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1684,7 +1684,7 @@
         "rating": null,
         "description_fr": "Fromage basque mêlant lait de chèvre et de brebis, pâte ferme et parfumée, notes de foin et de fruits secs.",
         "description_en": "Basque cheese blending goat and sheep milk, with a firm, flavorful paste featuring hay and dried-fruit notes.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/itchebai-chevre-brebis.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/itchebai-chevre-brebis.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1703,7 +1703,7 @@
         "rating": null,
         "description_fr": "Olives Picholine vertes, chair croquante et saveur fruitée, sélectionnées pour leur amertume modérée.",
         "description_en": "Green Picholine olives with a crisp flesh and fruity flavor, selected for their moderate bitterness.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/picholines-naturelles.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/picholines-naturelles.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1722,7 +1722,7 @@
         "rating": null,
         "description_fr": "Fromage à pâte molle et croûte fleurie, onctueux et crémeux avec des arômes de crème fraîche et de champignon.",
         "description_en": "Soft bloomy-rind cheese with a creamy interior and aromas of fresh cream and mushroom.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/chaource-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/chaource-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1741,7 +1741,7 @@
         "rating": null,
         "description_fr": "Fromage de vache à pâte pressée non cuite, texture ferme et goût fruité avec une légère note épicée.",
         "description_en": "Pressed uncooked cow’s milk cheese with a firm texture and fruity flavor with a hint of spice.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/pelissonne-ardeche.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/pelissonne-ardeche.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1760,7 +1760,7 @@
         "rating": null,
         "description_fr": "Tomme de montagne à pâte pressée non cuite, arômes de foin et de fruits secs, texture fondante et légèrement souple.",
         "description_en": "Mountain tomme with pressed uncooked paste, offering hay and dried fruit aromas, melting yet slightly firm texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/tomme-de-tarentaise.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/tomme-de-tarentaise.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1779,7 +1779,7 @@
         "rating": null,
         "description_fr": "Comté AOP affiné 24 mois, saveurs intenses de noisette et de fruits secs, texture granuleuse et friable.",
         "description_en": "AOP Comté aged 24 months, with intense nutty and dried fruit flavors, granular and crumbly texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/comte-24-mois.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/comte-24-mois.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1798,7 +1798,7 @@
         "rating": null,
         "description_fr": "Comté AOP affiné 18 mois, arômes doux de beurre et de lait cuit, texture souple et onctueuse.",
         "description_en": "AOP Comté aged 18 months, offering gentle buttery and cooked milk aromas, supple and creamy texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/comte-vagne-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/comte-vagne-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1817,7 +1817,7 @@
         "rating": null,
         "description_fr": "Fromage frais corse de lactosérum de brebis et chèvre, texture onctueuse et goût légèrement acidulé.",
         "description_en": "Corsican fresh whey cheese made from sheep and goat milk, with a creamy texture and slight tang.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/brocciu-frais-fermier-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/brocciu-frais-fermier-aop.jpg",
         "bestseller": false,
         "wine": [
             "White"
@@ -1836,7 +1836,7 @@
         "rating": null,
         "description_fr": "Crème dessert onctueuse aromatisée au café, texture veloutée et goût riche en arômes de torréfaction.",
         "description_en": "Velvety coffee-flavored cream dessert, smooth texture with rich roasted coffee notes.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/petit-pot-creme-cafe.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/petit-pot-creme-cafe.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1855,7 +1855,7 @@
         "rating": null,
         "description_fr": "Brie affiné à pâte molle, croûte fleurie, saveurs de crème et de champignon, texture fondante.",
         "description_en": "Aged Brie with a soft interior and bloomy rind, offering cream and mushroom flavors and a melting texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/roitelet-brie.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/roitelet-brie.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1874,7 +1874,7 @@
         "rating": null,
         "description_fr": "Fromage de brebis AOP, pâte pressée non cuite, arômes de fruits secs et foin, texture souple.",
         "description_en": "AOP sheep’s milk cheese with pressed uncooked paste, featuring dried fruit and hay aromas and a supple texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/pave-du-larzac-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/pave-du-larzac-aop.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1893,7 +1893,7 @@
         "rating": null,
         "description_fr": "Crème dessert onctueuse aromatisée au caramel, texture veloutée et goût sucré profond.",
         "description_en": "Velvety caramel-flavored cream dessert, smooth texture and deep sweet flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-cheeses/petit-pot-creme-caramel.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/petit-pot-creme-caramel.jpg",
         "bestseller": false,
         "wine": [
             "Red"
