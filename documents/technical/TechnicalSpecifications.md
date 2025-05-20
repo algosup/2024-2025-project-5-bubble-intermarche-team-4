@@ -8,26 +8,6 @@
 
 <details>
 
-<summary>Click to expand</summary>
-- [Overview](#overview)
-  - [Context](#context)
-  - [Conventions](#conventions)
-  - [Bubble.io](#bubbleio)
-    - [Plugins](#plugins)
-    - [Limitations](#limitations)
-  - [Architecture](#architecture)
-    - [Application Architecture](#application-architecture)
-    - [Page Architecture](#page-architecture)
-      - [Repeating Groups](#repeating-groups)
-    - [Database Design](#database-design)
-  - [Security](#security)
-  - [Accessibility](#accessibility)
-  - [Backup and Recovery](#backup-and-recovery)
-  - [Performance Optimization](#performance-optimization)
-  - [Testing and Quality Assurance](#testing-and-quality-assurance)
-  - [Deployment and Maintenance](#deployment-and-maintenance)
-  - [Future Enhancements](#future-enhancements)
-
 </details>
 
 ---
@@ -70,32 +50,36 @@ Bubble.io is built on a robust architecture that supports scalability, security,
 Bubble.io supports a wide range of plugins that extend the functionality of the platform.
 These plugins can be used to integrate third-party services, add new features, and enhance the user experience. Some of the key plugins used in this project include:
 
-- **Barcode Scanner**: A plugin that allows users to scan barcodes using their device's camera. This is useful to scan products.
-- **API Connector**: A plugin that enables integration with external APIs, allowing the application to communicate with other services and retrieve data.
-- **Google Material Icons**: A plugin that provides access to a library of icons for use in the application, enhancing the visual design and user interface.
-- **Language Translation**: A plugin that enables translation of text within the application, allowing for multilingual support and accessibility for users in different regions.
+| Plugin | Description |
+| --- | --- |
+| **Bubble API Connector** | A plugin that allows the application to connect to external APIs, enabling data retrieval and integration with other services. |
+| **Barcode Scanner** | A plugin that enables the application to scan barcodes using the device's camera, allowing users to quickly access product information. |
+| **Google Material Icons** | A plugin that provides access to a library of icons for use in the application, enhancing the visual design and user interface. |
+| **Language Translation** | A plugin that enables the application to translate text into different languages, allowing for multilingual support and accessibility. |
 
 ### Limitations
 
 While Bubble.io is a powerful platform, it does have some limitations that developers should be aware of:
 
-- **Performance**: Bubble.io applications can experience performance issues with large datasets or complex workflows. Developers should optimize their applications to minimize load times and improve responsiveness.
-- **Customization**: While Bubble.io allows for a high degree of customization, there may be limitations in terms of advanced features or specific design elements that require custom code.
-- **Vendor Lock-In**: Applications built on Bubble.io are tied to the platform, which may limit flexibility and portability in the future. Developers should consider this when planning for long-term maintenance and scalability.
-- **Learning Curve**: While Bubble.io is designed to be user-friendly, there may still be a learning curve for new users, especially those who are not familiar with web development concepts. Developers should invest time in learning the platform and its features to maximize its potential.
-- **Cost**: Bubble.io operates on a subscription model, and costs can increase as the application scales or requires additional features. Developers should carefully consider their budget and plan for future expenses.
-- **Limited Control Over Infrastructure**: As a no-code platform, developers have limited control over the underlying infrastructure and may not be able to implement certain optimizations or configurations that are possible with traditional development approaches.
-- **Integration Challenges**: While Bubble.io supports API integrations, there may be challenges in connecting with certain third-party services or handling complex data structures. Developers should thoroughly test integrations to ensure compatibility and reliability.
-- **Security Concerns**: While Bubble.io provides security features, developers should be aware of potential vulnerabilities and take necessary precautions to protect user data and privacy. This includes implementing secure authentication, data encryption, and regular security audits.
-- **Limited Offline Support**: Bubble.io applications are primarily web-based and may not provide robust offline support. Developers should consider this when designing features that require offline access or functionality.
-- **Dependency on Bubble.io**: The application is dependent on the Bubble.io platform, which means that any changes or updates to the platform may impact the application's functionality or performance. Developers should stay informed about platform updates and be prepared to adapt their applications as needed.
-- **Limited Custom Code**: While Bubble.io allows for some custom code, it may not support all programming languages or frameworks. Developers should be aware of these limitations when planning for advanced features or integrations.
-- **Limited Testing and Debugging Tools**: Bubble.io provides some testing and debugging tools, but they may not be as comprehensive as those available in traditional development environments. Developers should be prepared to rely on manual testing and troubleshooting to identify and resolve issues.
-- **Limited Community Support**: While Bubble.io has a growing community, it may not have the same level of support and resources as more established development platforms. Developers should be proactive in seeking help and sharing knowledge within the community.
-- **Limited Scalability**: While Bubble.io is designed to handle a wide range of applications, there may be limitations in terms of scalability for very large or complex applications. Developers should carefully consider their application's growth potential and plan accordingly.
-- **Limited Control Over Updates**: Bubble.io regularly updates its platform, which may introduce changes that affect existing applications. Developers should stay informed about updates and be prepared to adapt their applications as needed.
-- **Limited Customization of User Interface**: While Bubble.io provides a range of design options, there may be limitations in terms of customizing the user interface to match specific branding or design requirements. Developers should carefully consider their design needs and explore available options within the platform.
-- **Limited Support for Advanced Features**: While Bubble.io supports a wide range of features, there may be limitations in terms of implementing advanced functionality such as machine learning, artificial intelligence, or complex data processing. Developers should carefully consider their application's requirements and explore available options within the platform.
+| **Limitations** | **Description** |
+| --- | --- |
+| **Performance** | Bubble.io applications can experience performance issues with large datasets or complex workflows. Developers should optimize their applications to minimize load times and improve responsiveness. |
+| **Customization** | While Bubble.io allows for a high degree of customization, there may be limitations in terms of advanced features or specific design elements that require custom code. |
+| **Vendor Lock-In** | Applications built on Bubble.io are tied to the platform, which may limit flexibility and portability in the future. Developers should consider this when planning for long-term maintenance and scalability. |
+| **Learning Curve** | While Bubble.io is designed to be user-friendly, there may still be a learning curve for new users, especially those who are not familiar with web development concepts. Developers should invest time in learning the platform and its features to maximize its potential. |
+| **Cost** | Bubble.io operates on a subscription model, and costs can increase as the application scales or requires additional features. Developers should carefully consider their budget and plan for future expenses. |
+| **Limited Control Over Infrastructure** | As a no-code platform, developers have limited control over the underlying infrastructure and may not be able to implement certain optimizations or configurations that are possible with traditional development approaches. |
+| **Integration Challenges** | While Bubble.io supports API integrations, there may be challenges in connecting with certain third-party services or handling complex data structures. Developers should thoroughly test integrations to ensure compatibility and reliability. |
+| **Security Concerns** | While Bubble.io provides security features, developers should be aware of potential vulnerabilities and take necessary precautions to protect user data and privacy. This includes implementing secure authentication, data encryption, and regular security audits. |
+| **Limited Offline Support** | Bubble.io applications are primarily web-based and may not provide robust offline support. Developers should consider this when designing features that require offline access or functionality. |
+| **Dependency on Bubble.io** | The application is dependent on the Bubble.io platform, which means that any changes or updates to the platform may impact the application's functionality or performance. Developers should stay informed about platform updates and be prepared to adapt their applications as needed. |
+| **Limited Custom Code** | While Bubble.io allows for some custom code, it may not support all programming languages or frameworks. Developers should be aware of these limitations when planning for advanced features or integrations. |
+| **Limited Testing and Debugging Tools** | Bubble.io provides some testing and debugging tools, but they may not be as comprehensive as those available in traditional development environments. Developers should be prepared to rely on manual testing and troubleshooting to identify and resolve issues. |
+| **Limited Community Support** | While Bubble.io has a growing community, it may not have the same level of support and resources as more established development platforms. Developers should be proactive in seeking help and sharing knowledge within the community. |
+| **Limited Scalability** | While Bubble.io is designed to handle a wide range of applications, there may be limitations in terms of scalability for very large or complex applications. Developers should carefully consider their application's growth potential and plan accordingly. |
+| **Limited Control Over Updates** | Bubble.io regularly updates its platform, which may introduce changes that affect existing applications. Developers should stay informed about updates and be prepared to adapt their applications as needed. |
+| **Limited Customization of User Interface** | While Bubble.io provides a range of design options, there may be limitations in terms of customizing the user interface to match specific branding or design requirements. Developers should carefully consider their design needs and explore available options within the platform. |
+| **Limited Support for Advanced Features** | While Bubble.io supports a wide range of features, there may be limitations in terms of implementing advanced functionality such as machine learning, artificial intelligence, or complex data processing. Developers should carefully consider their application's requirements and explore available options within the platform. |
 
 ---
 
@@ -103,7 +87,7 @@ While Bubble.io is a powerful platform, it does have some limitations that devel
 
 ### Application Architecture
 
-The application follows a modular archtecture, with each page (in Bubble) reprsenting a page in the app.
+The application follows a modular architecture, with each page (in Bubble) representing a page in the app.
 All pages in the application are interconnected, ensuring seamless navigation.
 
 #### Flow
@@ -239,7 +223,7 @@ The elements can be buttons, text, images, inputs, etc. This modular approach al
 
 In Bubble.io, repeating groups are used to display lists of items dynamically. Each repeating group contains a group that encapsulates the different sections and objects of the repeating group.
 
-The structure is different for pages containing repreating groups: the repeating group is encapsulated in a group, and contains a group that contains the different sections and objects of the repeating group.
+The structure is different for pages containing repeating groups: the repeating group is encapsulated in a group, and contains a group that contains the different sections and objects of the repeating group.
 
 ```mermaid
 
@@ -288,33 +272,92 @@ The database contains the following files:
 > The database can be found in the [data](../../data/) folder.
 > Some additional information about the database can be found in the [README](../../data/README.md) of the database.
 
+#### Examples
+
+##### Wine
+
+```json
+{
+  "id": 1,
+  "ITM8": "0000099056669",
+  "EAN": "3760076070020",
+  "name": "Domaine de Valdition Rosé Tradition",
+  "region": "Alpilles",
+  "country": "France",
+  "year": 2023,
+  "type": "Rosé",
+  "grape": "Vermentino, Shiraz/Syrah, Cabernet Sauvignon, Grenache, Cinsault",
+  "price": 10.5,
+  "rating": 3.7,
+  "description": "Couleur pâle aux reflets rosés. Nez floral et élégant avec des arômes de baies rouges. Frais et fruité en bouche.",
+  "description_en": "Pale colour with pink hues. Floral and elegant nose with red berry aromas. Fresh and fruity on the palate.",
+  "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Valdition_Rose.png",
+  "bestseller": false,
+  "cheese": [
+    "Goat's cheese",
+    "Semi-hard cheese"
+  ],
+  "alcohol_percentage": 12.0
+},
+```
+
+##### Cheese
+
+```json
+{
+  "id": 1,
+  "ITM8": "0000099006106",
+  "EAN": "0205010000000",
+  "name": "Chèvre nature ou aromatisé",
+  "region": "France",
+  "country": "France",
+  "type": "Fresh cheese",
+  "milk": "Goat",
+  "price": 3.6,
+  "rating": null,
+  "description_fr": "Fromage de chèvre frais fabriqué à partir de lait de chèvre, crémeux et légèrement acidulé, disponible nature ou aromatisé.",
+  "description_en": "Fresh goat cheese made from goat's milk, creamy and slightly tangy, available plain or flavored.",
+  "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/chevre-nature.jpg",
+  "bestseller": true,
+  "wine": [
+    "White"
+  ]
+},
+
+```
+
+##### Meal
+
+```json
+{
+  "id": "1",
+  "name": "Boeuf Bourguignon",
+  "link": "https://www.allrecipes.com/recipe/256165/boeuf-bourguignon/",
+  "descriptionFr": "Un plat traditionnel français à base de bœuf mijoté dans du vin rouge, des oignons et des champignons.",
+  "descriptionEng": "A traditional French dish made with beef stewed in red wine, onions, and mushrooms.",
+  "region": "Bourgogne",
+  "allergenes": [
+    "gluten",
+    "lactose"
+  ],
+  "wine": [
+    "Red"
+  ],
+  "cheese": [
+    "Fresh cheese",
+    "Fresh cheese"
+  ],
+  "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-meals/Boeuf_Bourguignon.jpg"
+},
+```
+
 ---
 
 ## Security
 
-Our Application does not keep any data from the users. As such we are compliant with the GDPR and CCPA regulations.
-
----
-
-## Accessibility
-
-To ensure the application is accessible to all users, including those with disabilities, the following accessibility features have been implemented:
-
-- **Screen Reader Support**: The application is compatible with screen readers, providing descriptive labels for all interactive elements.
-- **Color Contrast**: The color scheme has been designed to meet WCAG 2.1 AA standards for contrast, ensuring readability for users with visual impairments.
-- **Resizable Text**: Users can resize text without breaking the layout or functionality of the application.
-- **Alt Text for Images**: All images include descriptive alt text to provide context for users who rely on screen readers.
-
----
-
-## Backup and Recovery
-
-To ensure data integrity and availability, a robust backup and recovery strategy has been implemented:
-
-- **Automated Backups**: Regular automated backups of the database and application files.
-- **Redundant Storage**: Backups are stored in multiple locations to prevent data loss.
-- **Disaster Recovery Plan**: A comprehensive disaster recovery plan is in place to restore services quickly in case of an outage.
-- **Testing**: Regular testing of backup and recovery procedures to ensure reliability.
+The Application is a login and cookie free application that does not store any personal data of the users.
+Moreover the application does not use any third-party services that would require the collection of personal data.
+As such The Application is not subject to the GDPR regulations.
 
 ---
 
@@ -332,7 +375,9 @@ To ensure a smooth and responsive user experience, the following performance opt
 
 ## Testing and Quality Assurance
 
-To ensure the reliability and quality of the application, a comprehensive testing strategy has been implemented, find it in the [Test Plan](../QA/TestPLan.md)
+To ensure the reliability and quality of the application, a comprehensive testing strategy has been implemented to ensure that all features and functionalities work as intended and that the application is free of defects before delivery to the client.
+
+You can find the more information about the testing strategy in the [Test Plan](../QA/TestPlan.md) document.
 
 ---
 
@@ -340,8 +385,7 @@ To ensure the reliability and quality of the application, a comprehensive testin
 
 The deployment and maintenance strategy for the application includes:
 
-- **Continuous Integration/Continuous Deployment (CI/CD)**: Automated pipelines are used to build, test, and deploy the application, ensuring rapid and reliable updates.
-- **Monitoring and Logging**: Tools such as AWS CloudWatch and Bubble.io's built-in monitoring features are used to track application performance and identify issues in real-time.
+- **Monitoring and Logging**: Tools such as Bubble.io's built-in monitoring features are used to track application performance and identify issues in real-time.
 - **Regular Updates**: The application is regularly updated to include new features, fix bugs, and address security vulnerabilities.
 - **Documentation**: Comprehensive documentation is maintained to assist developers and stakeholders in understanding the application and its architecture.
 
