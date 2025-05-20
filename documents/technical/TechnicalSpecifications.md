@@ -8,6 +8,26 @@
 
 <details>
 
+<summary>Click to expand</summary>
+- [Overview](#overview)
+  - [Context](#context)
+  - [Conventions](#conventions)
+- [Bubble.io](#bubbleio)
+  - [Plugins](#plugins)
+  - [Limitations](#limitations)
+- [Architecture](#architecture)
+  - [Application Architecture](#application-architecture)
+  - [Page Architecture](#page-architecture)
+    - [Repeating Groups](#repeating-groups)
+  - [Database Design](#database-design)
+    - [Examples](#examples)
+- [Security](#security)
+- [Performance Optimization](#performance-optimization)
+  - [Bubble.io Performance Oprimization](#bubbleio-performance-oprimization)
+- [Testing and Quality Assurance](#testing-and-quality-assurance)
+- [Deployment and Maintenance](#deployment-and-maintenance)
+- [Future Enhancements](#future-enhancements)
+
 </details>
 
 ---
@@ -274,6 +294,10 @@ The database contains the following files:
 
 #### Examples
 
+<details>
+
+<summary>Click to expand</summary>
+
 ##### Wine
 
 ```json
@@ -351,6 +375,10 @@ The database contains the following files:
 },
 ```
 
+> Note: the "image" field's links are in such format for ease of implementation in the application.
+
+</details>
+
 ---
 
 ## Security
@@ -370,6 +398,15 @@ To ensure a smooth and responsive user experience, the following performance opt
 - **Database Indexing**: Indexes have been created on frequently queried fields to speed up database operations.
 - **Content Delivery Network (CDN)**: Static assets such as images, CSS, and JavaScript files are served through a CDN to reduce latency and improve load times.
 - **Real-Time Updates**: WebSockets are used for real-time updates, reducing the need for frequent polling and improving performance.
+
+### Bubble.io Performance Optimization
+
+In order to optimize the performance of the application, the following strategies have been applied:
+
+- **Minimize Workflows**: The number of workflows triggered on page load or user actions has been minimized to reduce server load and improve response times.
+- **Optimize Data Calls**: Data calls to the database have been optimized to retrieve only the necessary data, reducing the amount of data transferred and improving performance.
+- **Use of Custom States**: Custom states are used to store temporary data on the client side, reducing the need for server calls and improving performance.
+- **Nested Repeating Groups**: Nested repeating groups are avoided where possible to reduce complexity and improve performance.
 
 ---
 
