@@ -29,8 +29,9 @@
         - [Cheese](#cheese)
         - [Meal](#meal)
   - [Security](#security)
-  - [Performance Optimization](#performance-optimization)
-    - [Bubble.io Performance Optimization](#bubbleio-performance-optimization)
+  - [Performance](#performance)
+    - [Optimisation](#optimisation)
+    - [Bubble.io Optimization](#bubbleio-optimization)
   - [Testing and Quality Assurance](#testing-and-quality-assurance)
   - [Deployment and Maintenance](#deployment-and-maintenance)
   - [Future Enhancements](#future-enhancements)
@@ -46,8 +47,8 @@ The goal is to provide a comprehensive understanding of the technical aspects of
 
 ### Context
 
-The goal of this project is to deliver a user-friendly **mobile application** for Intermarché customers, providing personalized assistance when choosing wine and/or cheese upon entering the store.
-The app will suggest the most suitable wine or cheese based on the user's dish, taste preferences, or filters. It aims to simplify the selection process and enhance customer satisfaction by offering tailored recommendations.
+The goal of this project is to deliver a users-friendly **mobile application** for Intermarché customers, providing personalized assistance when choosing wine and/or cheese upon entering the store.
+The app will suggest the most suitable wine or cheese based on the users's dish, taste preferences, or filters. It aims to simplify the selection process and enhance customer satisfaction by offering tailored recommendations.
 
 > For more information about the project, please refer to the [Functional Specifications](../functional/FunctionalSpecifications.md) document.
 
@@ -75,13 +76,13 @@ Bubble.io is built on a robust architecture that supports scalability, security,
 ### Plugins
 
 Bubble.io supports a wide range of plugins that extend the functionality of the platform.
-These plugins can be used to integrate third-party services, add new features, and enhance the user experience. Some of the key plugins used in this project include:
+These plugins can be used to integrate third-party services, add new features, and enhance the users experience. Some of the key plugins used in this project include:
 
 | Plugin | Description |
 | --- | --- |
 | **Bubble API Connector** | A plugin that allows the application to connect to external APIs, enabling data retrieval and integration with other services. |
 | **Barcode Scanner** | A plugin that enables the application to scan barcodes using the device's camera, allowing users to quickly access product information. |
-| **Google Material Icons** | A plugin that provides access to a library of icons for use in the application, enhancing the visual design and user interface. |
+| **Google Material Icons** | A plugin that provides access to a library of icons for use in the application, enhancing the visual design and users interface. |
 | **Language Translation** | A plugin that enables the application to translate text into different languages, allowing for multilingual support and accessibility. |
 
 ### Limitations
@@ -93,11 +94,11 @@ While Bubble.io is a powerful platform, it does have some limitations that devel
 | **Performance** | Bubble.io applications can experience performance issues with large datasets or complex workflows. Developers should optimize their applications to minimize load times and improve responsiveness. |
 | **Customization** | While Bubble.io allows for a high degree of customization, there may be limitations in terms of advanced features or specific design elements that require custom code. |
 | **Vendor Lock-In** | Applications built on Bubble.io are tied to the platform, which may limit flexibility and portability in the future. Developers should consider this when planning for long-term maintenance and scalability. |
-| **Learning Curve** | While Bubble.io is designed to be user-friendly, there may still be a learning curve for new users, especially those who are not familiar with web development concepts. Developers should invest time in learning the platform and its features to maximize its potential. |
+| **Learning Curve** | While Bubble.io is designed to be users-friendly, there may still be a learning curve for new users, especially those who are not familiar with web development concepts. Developers should invest time in learning the platform and its features to maximize its potential. |
 | **Cost** | Bubble.io operates on a subscription model, and costs can increase as the application scales or requires additional features. Developers should carefully consider their budget and plan for future expenses. |
 | **Limited Control Over Infrastructure** | As a no-code platform, developers have limited control over the underlying infrastructure and may not be able to implement certain optimizations or configurations that are possible with traditional development approaches. |
 | **Integration Challenges** | While Bubble.io supports API integrations, there may be challenges in connecting with certain third-party services or handling complex data structures. Developers should thoroughly test integrations to ensure compatibility and reliability. |
-| **Security Concerns** | While Bubble.io provides security features, developers should be aware of potential vulnerabilities and take necessary precautions to protect user data and privacy. This includes implementing secure authentication, data encryption, and regular security audits. |
+| **Security Concerns** | While Bubble.io provides security features, developers should be aware of potential vulnerabilities and take necessary precautions to protect users data and privacy. This includes implementing secure authentication, data encryption, and regular security audits. |
 | **Limited Offline Support** | Bubble.io applications are primarily web-based and may not provide robust offline support. Developers should consider this when designing features that require offline access or functionality. |
 | **Dependency on Bubble.io** | The application is dependent on the Bubble.io platform, which means that any changes or updates to the platform may impact the application's functionality or performance. Developers should stay informed about platform updates and be prepared to adapt their applications as needed. |
 | **Limited Custom Code** | While Bubble.io allows for some custom code, it may not support all programming languages or frameworks. Developers should be aware of these limitations when planning for advanced features or integrations. |
@@ -105,7 +106,7 @@ While Bubble.io is a powerful platform, it does have some limitations that devel
 | **Limited Community Support** | While Bubble.io has a growing community, it may not have the same level of support and resources as more established development platforms. Developers should be proactive in seeking help and sharing knowledge within the community. |
 | **Limited Scalability** | While Bubble.io is designed to handle a wide range of applications, there may be limitations in terms of scalability for very large or complex applications. Developers should carefully consider their application's growth potential and plan accordingly. |
 | **Limited Control Over Updates** | Bubble.io regularly updates its platform, which may introduce changes that affect existing applications. Developers should stay informed about updates and be prepared to adapt their applications as needed. |
-| **Limited Customization of User Interface** | While Bubble.io provides a range of design options, there may be limitations in terms of customizing the user interface to match specific branding or design requirements. Developers should carefully consider their design needs and explore available options within the platform. |
+| **Limited Customization of users Interface** | While Bubble.io provides a range of design options, there may be limitations in terms of customizing the users interface to match specific branding or design requirements. Developers should carefully consider their design needs and explore available options within the platform. |
 | **Limited Support for Advanced Features** | While Bubble.io supports a wide range of features, there may be limitations in terms of implementing advanced functionality such as machine learning, artificial intelligence, or complex data processing. Developers should carefully consider their application's requirements and explore available options within the platform. |
 
 ---
@@ -163,15 +164,15 @@ graph TD
     
 ```
 
-The Users arrive on the **Welcome** page, here they can choose their language (by default French) and then they are redirected to the **Home** page.
+The users arrive on the **Welcome** page, here they can choose their language (by default French) and then they are redirected to the **Home** page.
 Once on the **Home** page, they have access to multiple features:
 
-- **Scan**: Users can scan a product's barcode to get more information about it.
-- **Search Page**: Users can search for a product by name or filter by type (wine, cheese, meal).
-- **The Different Product Pages**: Users can access the different product pages (wine, cheese, meal) to explore the available products.
-- **Mix & Match**: Users can explore the different combinations of wine, cheese and meal.
+- **Scan**: users can scan a product's barcode to get more information about it.
+- **Search Page**: users can search for a product by name or filter by type (wine, cheese, meal).
+- **The Different Product Pages**: users can access the different product pages (wine, cheese, meal) to explore the available products.
+- **Mix & Match**: users can explore the different combinations of wine, cheese and meal.
 
-If the User wants more information on a specific product, he can click on it and he will be redirected onto the corresponding **Product Page**.
+If the users wants more information on a specific product, he can click on it and he will be redirected onto the corresponding **Product Page**.
 
 ### Page Architecture
 
@@ -283,11 +284,11 @@ graph TD
     
 ```
 
-> Note: In the case that the repeating group only contains one element(e.g. a text), their is no need to have a section group and an object group inside the reeating group.
+> Note: In the case that the repeating group only contains one element(e.g. a text), their is no need to have a section group and an object group inside the repeating group.
 
 ### Database Design
 
-The database contains infomation about wines, cheeses and meals; includings their names, origin and other relevant details.
+The database contains information about wines, cheeses and meals; including their names, origin and other relevant details.
 
 The database contains the following files:
 
@@ -320,9 +321,9 @@ The database contains the following files:
   "grape": "Vermentino, Shiraz/Syrah, Cabernet Sauvignon, Grenache, Cinsault",
   "price": 10.5,
   "rating": 3.7,
-  "description": "Couleur pâle aux reflets rosés. Nez floral et élégant avec des arômes de baies rouges. Frais et fruité en bouche.",
+  "description_fr": "Couleur pâle aux reflets rosés. Nez floral et élégant avec des arômes de baies rouges. Frais et fruité en bouche.",
   "description_en": "Pale colour with pink hues. Floral and elegant nose with red berry aromas. Fresh and fruity on the palate.",
-  "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Valdition_Rose.png",
+  "image": "https://raw.githubuserscontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Valdition_Rose.png",
   "bestseller": false,
   "cheese": [
     "Goat's cheese",
@@ -348,7 +349,7 @@ The database contains the following files:
   "rating": null,
   "description_fr": "Fromage de chèvre frais fabriqué à partir de lait de chèvre, crémeux et légèrement acidulé, disponible nature ou aromatisé.",
   "description_en": "Fresh goat cheese made from goat's milk, creamy and slightly tangy, available plain or flavored.",
-  "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/chevre-nature.jpg",
+  "image": "https://raw.githubuserscontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/chevre-nature.jpg",
   "bestseller": true,
   "wine": [
     "White"
@@ -364,10 +365,10 @@ The database contains the following files:
   "id": "1",
   "name": "Boeuf Bourguignon",
   "link": "https://www.allrecipes.com/recipe/256165/boeuf-bourguignon/",
-  "descriptionFr": "Un plat traditionnel français à base de bœuf mijoté dans du vin rouge, des oignons et des champignons.",
-  "descriptionEng": "A traditional French dish made with beef stewed in red wine, onions, and mushrooms.",
+  "description_fr": "Un plat traditionnel français à base de bœuf mijoté dans du vin rouge, des oignons et des champignons.",
+  "description_en": "A traditional French dish made with beef stewed in red wine, onions, and mushrooms.",
   "region": "Bourgogne",
-  "allergenes": [
+  "allergen": [
     "gluten",
     "lactose"
   ],
@@ -378,7 +379,7 @@ The database contains the following files:
     "Fresh cheese",
     "Fresh cheese"
   ],
-  "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-meals/Boeuf_Bourguignon.jpg"
+  "image": "https://raw.githubuserscontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/documents/data/images-meals/Boeuf_Bourguignon.jpg"
 },
 ```
 
@@ -392,13 +393,23 @@ The database contains the following files:
 
 The Application is a login and cookie free application that does not store any personal data of the users.
 Moreover the application does not use any third-party services that would require the collection of personal data.
-As such The Application is not subject to the GDPR regulations.
+As such The Application adheres to the GDPR regulations.
 
 ---
 
-## Performance Optimization
+## Performance
 
-To ensure a smooth and responsive user experience, the following performance optimization techniques have been applied:
+The application has to be performant and responsive to ensure a smooth users experience.
+As such we have the following pre-requisites:
+
+- The **search queries** should be kept under 1 seconds,
+- the **recomandation results** should be displayed under 1 seconds.
+
+To achieve this, we have implemented the different stategies as described below.
+
+### Optimisation
+
+To ensure a smooth and responsive users experience, the following performance optimization techniques have been applied:
 
 - **Lazy Loading**: Resources such as images and scripts are loaded only when needed to reduce initial load time.
 - **Caching**: Frequently accessed data is cached on both the client and server sides to minimize database queries and improve response times.
@@ -406,11 +417,11 @@ To ensure a smooth and responsive user experience, the following performance opt
 - **Content Delivery Network (CDN)**: Static assets such as images, CSS, and JavaScript files are served through a CDN to reduce latency and improve load times.
 - **Real-Time Updates**: WebSockets are used for real-time updates, reducing the need for frequent polling and improving performance.
 
-### Bubble.io Performance Optimization
+### Bubble.io Optimization
 
 In order to optimize the performance of the application, the following strategies have been applied:
 
-- **Minimize Workflows**: The number of workflows triggered on page load or user actions has been minimized to reduce server load and improve response times.
+- **Minimize Workflows**: The number of workflows triggered on page load or users actions has been minimized to reduce server load and improve response times.
 - **Optimize Data Calls**: Data calls to the database have been optimized to retrieve only the necessary data, reducing the amount of data transferred and improving performance.
 - **Use of Custom States**: Custom states are used to store temporary data on the client side, reducing the need for server calls and improving performance.
 - **Nested Repeating Groups**: Nested repeating groups are avoided where possible to reduce complexity and improve performance.
@@ -437,11 +448,14 @@ The deployment and maintenance strategy for the application includes:
 
 ## Future Enhancements
 
-To ensure the application remains relevant and continues to meet user needs, the following future enhancements are planned:
+To ensure the application remains relevant and continues to meet users needs, the following future enhancements are planned:
 
 - **AI-Powered Recommendations**: Integrating machine learning algorithms to provide more accurate and personalized wine and cheese recommendations.
 - **Offline Mode**: Allowing users to access certain features of the application without an internet connection.
 - **Expanded Product Database**: Continuously updating the database to include more wine and cheese options.
 - **Enhanced Analytics**: Providing store managers with detailed analytics on customer preferences and trends to improve inventory management.
+- **Special Offers and Promotions**: Implementing a system for notifying users of special offers and promotions on wine and cheese products.
+- **users Feedback and Ratings**: Allowing users to provide feedback and rate products to improve recommendations and users experience.
+- **In Store Guidance**: Implementing a feature that guides users to the location of their selected products within the store.
 
 ---
