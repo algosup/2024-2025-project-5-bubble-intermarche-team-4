@@ -1,34 +1,41 @@
-## Week 4 Report (May 12–16)
-## Draft
+# Weekly Report – Week 4
 
-### Summary  
-Despite continuing uncertainty, the team maintained progress by multiplying task timelines by 3 to accommodate delays. The functional specification is completed, and technical specs have officially started. Work on the prototype was paused until direction is confirmed.
+**Start:** 12th May 2025  
+**End:** 16th May 2025
 
-### Accomplishments
+## Overview
 
-- Functional specification completed
-- Technical specification work officially started
-- The client responded with a meeting scheduled for Friday, 16 May, 2PM.
-- Project documentation completed (timeline, code of conduct, kanban)
-- Risk managed through timeline adjustments
-- Plan a future meeting ahead with the client 
+Despite ongoing uncertainty, steady progress was maintained by applying a 3x buffer to all task timelines to anticipate delays. The functional specification was completed and technical specification work was officially initiated. Prototype development was paused pending confirmation on the project's direction.
 
-### Challenges
+A meeting with the client was held on Friday, 16 May at 2 PM. During the discussion, it was agreed that the technology stack would be changed, as long as the solution remains functional. The addition of an admin side was acknowledged as part of the original scope, and design details were deprioritised.
 
-- Still no validation on mockups or functional document during the week
-- Scope uncertainty caused a halt in prototype development
-- Refinement of mockups is on hold pending client input
+## Accomplishments
 
-### Status
+- The functional specification was completed and delivered on time.
+- Work on the technical specification was officially started.
+- A client meeting was held and key decisions were confirmed regarding technology and scope.
+- Project documentation (timeline, code of conduct, Kanban board) was finalized.
+- Risk was managed through timeline adjustments.
 
-- Still on schedule thanks to adjusted planning
-- Functional spec is ready, but requirements risk becoming outdated if feedback changes them
-- Delivery not at risk, but content validation is
+## Challenges
 
-### Planned Next Week
- 
-- Update mockup and functional spec as needed
-- Continue developing technical specs
-- Resume and refine prototype development
-- Start building the test plan
-- Make a final decision on tech stack based on the client’s input
+- No validation on the mock-ups or functional document was received during the week.
+- Uncertainty in the project scope led to a temporary pause in prototype development.
+- Refinement of mock-ups was postponed pending feedback from the client.
+
+## Status
+
+- The project remains on schedule due to proactive planning and timeline buffering.
+- The functional specification is ready, but its content is at risk of becoming outdated if major feedback is introduced.
+- Delivery deadlines are not currently at risk, but content validation remains a key concern.
+
+## Plan for Next Week
+
+- Continue developing the technical specifications.
+- Resume and refine prototype development based on clarified scope.
+- Begin drafting the test plan.
+- Make a final decision on the technology stack, based on the outcomes of the client meeting.
+
+## Conclusion
+
+Although challenges related to scope and feedback persisted, the team adapted effectively by adjusting timelines and maintaining strong internal coordination. The project is still on track, with key deliverables completed and validated decisions from the client helping to clear the way for resumed development next week.
