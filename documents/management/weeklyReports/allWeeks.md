@@ -117,13 +117,13 @@ The team demonstrated focus and productivity, making significant strides on docu
 
 ## Week 4 Report (May 12 – 16)
 
-## Overview
+### Overview
 
 Despite ongoing uncertainty, steady progress was maintained by applying a 3x buffer to all task timelines to anticipate delays. The functional specification was completed and technical specification work was officially initiated. Prototype development was paused pending confirmation on the project's direction.
 
 A meeting with the client was held on Friday, 16 May at 2 PM. During the discussion, it was agreed that the technology stack would be changed, as long as the solution remains functional. The addition of an admin side was acknowledged as part of the original scope, and design details were deprioritised.
 
-## Accomplishments
+### Accomplishments
 
 - The functional specification was completed and delivered on time.
 - Work on the technical specification was officially started.
@@ -131,31 +131,74 @@ A meeting with the client was held on Friday, 16 May at 2 PM. During the discuss
 - Project documentation (timeline, code of conduct, Kanban board) was finalized.
 - Risk was managed through timeline adjustments.
 
-## Challenges
+### Challenges
 
 - No validation on the mock-ups or functional document was received during the week.
 - Uncertainty in the project scope led to a temporary pause in prototype development.
 - Refinement of mock-ups was postponed pending feedback from the client.
 
-## Status
+### Status
 
 - The project remains on schedule due to proactive planning and timeline buffering.
 - The functional specification is ready, but its content is at risk of becoming outdated if major feedback is introduced.
 - Delivery deadlines are not currently at risk, but content validation remains a key concern.
 
-## Plan for Next Week
+### Plan for Next Week
 
 - Continue developing the technical specifications.
 - Resume and refine prototype development based on clarified scope.
 - Begin drafting the test plan.
 - Make a final decision on the technology stack, based on the outcomes of the client meeting.
 
-## Conclusion
+### Conclusion
 
 Although challenges related to scope and feedback persisted, the team adapted effectively by adjusting timelines and maintaining strong internal coordination. The project is still on track, with key deliverables completed and validated decisions from the client helping to clear the way for resumed development next week.
 
+## Week 5 Report (May 19 – 23)
 
-### KPIs
+### Overview
+
+This week was dedicated to advancing the technical foundation of the project and preparing for the upcoming testing phase. Two proof of concepts, one in Bubble and one using standard web technologies were largely completed, though design elements are still needing improvements. Technical specifications were finalized in structure, though a few deeper implementation details remain to be addressed.
+
+Efforts were made to reach out to multiple Intermarché locations to arrange real-user testing. A physical testing panel was also created to support and guide the test process.
+
+### Accomplishments
+
+- The proof of concept was developed in both Bubble and web technologies and is currently awaiting design review.
+- The technical specifications were completed, with remaining fine details to be finalized.
+- Initial testing materials were produced, including the creation of a physical panel to support real-user testing.
+- Multiple Intermarché stores were contacted for user testing coordination:
+  - **Issoudun**: No response received.
+  - **Vierzon**: A response was received; a follow-up is expected on Monday.
+  - **Bourges (x2)**: Awaiting responses; follow-up emails were sent.
+  - **Mehun-sur-Yèvre**: Declined participation.
+
+### Challenges
+
+- Some fine-grained technical elements still need to be detailed in the specification.
+- A lack of response from several stores has delayed the scheduling of real-user tests.
+- Team motivation remains moderate due to ongoing uncertainty and waiting periods.
+
+## Status
+
+- Proofs of concept are nearly complete and need design validation.
+- Technical specifications are mostly complete but require refinement on a few technical aspects.
+- Testing coordination has been initiated with clients but is awaiting final confirmations.
+
+### Plan for Next Week
+
+- Recontact the Intermarché stores that have not yet responded.
+- Finalize the remaining details in the technical specifications.
+- Make progress on the test plan and define specific test cases.
+- Conduct initial testing with real users, if store confirmations are received.
+- Continue developing the user manual, focusing on structure and basic instructions.
+
+### Conclusion
+
+This week brought significant advancement on both the technical and operational fronts. With most elements in place for testing and development, the focus now shifts toward final validations and real-user engagement. Once store feedback is confirmed, user testing will begin, enabling valuable insights to be gathered in the following phase.
+
+
+## KPIs
 
 <img src="../images/hours.png" alt="Hours worked" width="400"/>
 <img src="../images/doc.png" alt="Kanban board" width="400"/>
