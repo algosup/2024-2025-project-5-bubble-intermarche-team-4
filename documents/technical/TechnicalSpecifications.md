@@ -17,7 +17,6 @@
     - [Conventions](#conventions)
   - [Bubble.io](#bubbleio)
     - [Plugins](#plugins)
-    - [Limitations](#limitations)
   - [Architecture](#architecture)
     - [Website Architecture](#website-architecture)
       - [Flow](#flow)
@@ -35,6 +34,9 @@
     - [Bubble.io Optimization](#bubbleio-optimization)
   - [Testing and Quality Assurance](#testing-and-quality-assurance)
   - [Deployment and Maintenance](#deployment-and-maintenance)
+  - [In-Store Connectivity](#in-store-connectivity)
+    - [NoDogSplash](#nodogsplash)
+  - [Going Beyond the Limitations](#going-beyond-the-limitations)
   - [Future Enhancements](#future-enhancements)
 
 </details>
@@ -75,30 +77,6 @@ These plugins can be used to integrate third-party services, add new features, a
 | **Barcode Scanner** | A plugin that enables the website to scan barcodes using the device's camera, allowing users to quickly access product information. |
 | **Google Material Icons** | A plugin that provides access to a library of icons for use in the website, enhancing the visual design and users interface. |
 | **Language Translation** | A plugin that enables the website to translate text into different languages, allowing for multilingual support and accessibility. |
-
-### Limitations
-
-While Bubble.io is a powerful platform, it does have some limitations that developers should be aware of:
-
-| **Limitations** | **Description** |
-| --- | --- |
-| **Performance** | Bubble.io websites can experience performance issues with large datasets or complex workflows. Developers should optimize their websites to minimize load times and improve responsiveness. |
-| **Customization** | While Bubble.io allows for a high degree of customization, there may be limitations in terms of advanced features or specific design elements that require custom code. |
-| **Vendor Lock-In** | websites built on Bubble.io are tied to the platform, which may limit flexibility and portability in the future. Developers should consider this when planning for long-term maintenance and scalability. |
-| **Learning Curve** | While Bubble.io is designed to be users-friendly, there may still be a learning curve for new users, especially those who are not familiar with web development concepts. Developers should invest time in learning the platform and its features to maximize its potential. |
-| **Cost** | Bubble.io operates on a subscription model, and costs can increase as the website scales or requires additional features. Developers should carefully consider their budget and plan for future expenses. |
-| **Limited Control Over Infrastructure** | As a no-code platform, developers have limited control over the underlying infrastructure and may not be able to implement certain optimizations or configurations that are possible with traditional development approaches. |
-| **Integration Challenges** | While Bubble.io supports API integrations, there may be challenges in connecting with certain third-party services or handling complex data structures. Developers should thoroughly test integrations to ensure compatibility and reliability. |
-| **Security Concerns** | While Bubble.io provides security features, developers should be aware of potential vulnerabilities and take necessary precautions to protect users data and privacy. This includes implementing secure authentication, data encryption, and regular security audits. |
-| **Limited Offline Support** | Bubble.io websites are primarily web-based and may not provide robust offline support. Developers should consider this when designing features that require offline access or functionality. |
-| **Dependency on Bubble.io** | The website is dependent on the Bubble.io platform, which means that any changes or updates to the platform may impact the website's functionality or performance. Developers should stay informed about platform updates and be prepared to adapt their websites as needed. |
-| **Limited Custom Code** | While Bubble.io allows for some custom code, it may not support all programming languages or frameworks. Developers should be aware of these limitations when planning for advanced features or integrations. |
-| **Limited Testing and Debugging Tools** | Bubble.io provides some testing and debugging tools, but they may not be as comprehensive as those available in traditional development environments. Developers should be prepared to rely on manual testing and troubleshooting to identify and resolve issues. |
-| **Limited Community Support** | While Bubble.io has a growing community, it may not have the same level of support and resources as more established development platforms. Developers should be proactive in seeking help and sharing knowledge within the community. |
-| **Limited Scalability** | While Bubble.io is designed to handle a wide range of websites, there may be limitations in terms of scalability for very large or complex websites. Developers should carefully consider their website's growth potential and plan accordingly. |
-| **Limited Control Over Updates** | Bubble.io regularly updates its platform, which may introduce changes that affect existing websites. Developers should stay informed about updates and be prepared to adapt their websites as needed. |
-| **Limited Customization of users Interface** | While Bubble.io provides a range of design options, there may be limitations in terms of customizing the users interface to match specific branding or design requirements. Developers should carefully consider their design needs and explore available options within the platform. |
-| **Limited Support for Advanced Features** | While Bubble.io supports a wide range of features, there may be limitations in terms of implementing advanced functionality such as machine learning, artificial intelligence, or complex data processing. Developers should carefully consider their website's requirements and explore available options within the platform. |
 
 ---
 
@@ -392,6 +370,8 @@ The search page is divided in two sections: a search bar + filters section and a
 
 The first section allows the user to either search for a specific product by name or filter the producs to with specific criterias using an input field and multiple dropdown menus to select prefered characteristics.
 
+>The characteristics are defined in the functional specifications document.
+
 The second part displays the products that match the search criteria. The products are displayed in a repeating group, which allows for dynamic loading of products based on the search results.
 
 As for **How** the search is done:
@@ -462,6 +442,43 @@ The deployment and maintenance strategy for the website includes:
 - **Documentation**: Comprehensive documentation is maintained to assist developers and stakeholders in understanding the website and its architecture.
 
 ---
+
+## In-Store Connectivity
+
+Many clients and tourists may not have a 4G connection available while in the store, making Wi-Fi access essential for using the website.
+
+- **Store Wi-Fi Availability:** The store provides a dedicated Wi-Fi network for customers.
+- **Seamless Access via QR Code:** When a user scans the QR code at the store entrance, the NoDogSplash captive portal is triggered. This portal automatically connects the user to the store's Wi-Fi and redirects them to the Cheerish web application.
+- **User Experience:** This setup ensures that all users, regardless of their mobile data availability, can access the website quickly and reliably as soon as they enter the store.
+
+### NoDogSplash
+
+NoDogSplash (NDS) is a captive portal solution that provides a simple way to manage Wi-Fi access for customers in public spaces, such as stores. It allows users to connect to the store's Wi-Fi network and access the Cheerish web application seamlessly.
+
+- **Captive Portal:** When users scan the QR code, they are redirected to the NDS portal, which provides a simple login page.
+- **Automatic Connection:** Once users accept the terms and conditions, they are automatically connected to the store's Wi-Fi network.
+- **Redirection to Cheerish:** After connecting, users are redirected to the Cheerish web application, allowing them to start using the website immediately.
+
+NDS require a server to run and an access to the stores WI-Fi router / dedicated gateway device.
+
+>Note: See the NDS [documentation](https://nodogsplash.readthedocs.io/en/latest/overview.html) for more information.
+
+---
+
+## Going Beyond the Limitations
+
+During the development of the website we have encountered some limitations inherent to the Bubble.io platform, such as:
+
+- **Optimization**: Bubble.io is not as performant as a custom-built website, loading times are long (> 3 secondex) and every second spent on loading is 10% of users lost.
+- **Free Plan Limitations**: The free plan of Bubble.io is very limited in terms of features and performance, making it difficult to build a fully functional website (e.g. loops aren't available in free plan).
+- **Expensive**: Bubble.io paid plans are expensive and not suitable for small projects, making it difficult to justify the cost for a Proof Of Concept.
+
+Due to those limitations, after multiple discussions with the team and a green light from the client, we have decided to in addition to the Bubble.io website, to create a custom built website using the following technologies:
+
+- **Frontend**: Vite.js template Vue.js, a modern JavaScript framework for building user interfaces, allowing for better performance and flexibility.
+- **Backend**: Node.js, a JavaScript runtime for building scalable network applications, allowing for better performance and scalability.
+
+For the database we have decided to use the same database as the one used in the Bubble.io website, as it is already available and contains all the necessary data.
 
 ## Future Enhancements
 
