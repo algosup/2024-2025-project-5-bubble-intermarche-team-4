@@ -1,6 +1,16 @@
-# 2024-2025-project-5-bubble-intermarche-team-4
+<p align="center">
+    <img src="./documents/functional/images/logo/CheerishLogo.png" alt="Cheerish Logo" width="200">
+</p>
 
-## Overview
+<p align="center">
+  <a href="#features">Features</a> • 
+  <a href="#manifest">Manifest</a> • 
+  <a href="#contributing">Contributing</a> • 
+  <a href="#license">License</a> • 
+  <a href="#authors">Authors</a>
+</p>
+
+<br>
 
 This project is a web application developed using Bubble that allows users to match wines and cheese with local dishes. The application provides a user-friendly interface for searching and filtering products, as well as displaying detailed information about each product and product combination.
 
