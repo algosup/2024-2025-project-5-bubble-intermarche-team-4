@@ -2,23 +2,24 @@
 
 ## Overview
 
-This project is a web application develloped using Bubble that allows users to match wines and cheese with local dishes. The application provides a user-friendly interface for searching and filtering products, as well as displaying detailed information about each product and product combination.
+This project is a web application developed using Bubble that allows users to match wines and cheese with local dishes. The application provides a user-friendly interface for searching and filtering products, as well as displaying detailed information about each product and product combination.
 
 ## Features
 
 - Personalised product recommendations based on user preferences and dietary restrictions,
 - Search and filter products by various criteria (e.g., type, region, price),
 - Detailed product information, including images, descriptions, and nutritional information,
-- User-friendly interface with intuitive navigation and layout.
+- User-friendly interface with intuitive navigation and layout,
+- Mix and match feature to suggest wine and cheese pairings with local dishes.
 
 ## Manifest
 
-- [Functional Specification](/documents/functional/FunctionalSpecifications.md)
-- [Technical Specification](/documents/technical/TechnicalSpecifications.md)
-- [Test Plan](/documents/test/TestPlan.md)
-- [Test Cases](/documents/test/TestCases.md)
-- [Management Artifact](/documents/management/)
-- [User Manual](/documents/user-manual/)
+- [Functional Specification](./documents/functional/FunctionalSpecifications.md)
+- [Technical Specification](./documents/technical/TechnicalSpecifications.md)
+- [Test Plan](./documents/QA/TestPLan.md)
+- [Test Cases](./documents/QA/TestCases.md)
+- [Weekly Reports](./documents/management/weeklyReports)
+- [User Manual](./documents/user-manual/)
 
 ## Contributing
 
