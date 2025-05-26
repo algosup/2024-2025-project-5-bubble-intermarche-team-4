@@ -1,7 +1,7 @@
 ## Week 1 Report (April 22–25)
 
 ### Summary  
-The project began with a joint kickoff that included all eight teams, the client, and the director. The team clarified project objectives and started shaping the user vision for the Intermarché wine and cheese recommendation app. Early work focused on brainstorming and drafting feature ideas.
+The project began with a joint kickoff that included all eight teams, the client, and the of ALGOSUP. The team clarified project objectives and started shaping the user vision for the Intermarché wine and cheese recommendation app. Early work focused on brainstorming and drafting feature ideas.
 
 ### Accomplishments
 
@@ -23,9 +23,8 @@ The project began with a joint kickoff that included all eight teams, the client
     
 ### Status
 
-- On schedule for the May 16 functional spec deadline
+- On schedule for the May 16 functional specifications deadline
 - Early-stage alignment and vision completed    
-
 ### Planned Next Week
 
 - Finalise mockup design
@@ -36,6 +35,6 @@ The project began with a joint kickoff that included all eight teams, the client
 
 ### Conclusion
 
-The first week laid a solid foundation with shared goals and early design ideas. While some coordination issues emerged due to the absence of a project manager, the team stayed aligned with the overall timeline. Clarifying expectations and validating with the client will be crucial in the coming week to ensure smooth progression
+The first week laid a solid foundation with shared goals and early design ideas. While some coordination issues emerged due to the absence of a project manager, the team stayed aligned with the overall timeline. Clarifying expectations and validating with the client will be crucial in the coming weeks to ensure a smooth progression.
 
 

@@ -1,7 +1,4 @@
-# Weekly Report – Week 5
-
-**Start:** 19th May 2025  
-**End:** 23rd May 2025
+## Week 5 Report (May 19 – 23)
 
 ## Overview
 
@@ -17,7 +14,7 @@ Efforts were made to reach out to multiple Intermarché locations to arrange rea
 - Multiple Intermarché stores were contacted for user testing coordination:
   - **Issoudun**: No response received.
   - **Vierzon**: A response was received; a follow-up is expected on Monday.
-  - **Bourges (x2)**: Awaiting responses; follow-up emails were sent.
+  - **Bourges**: Awaiting responses; follow-up emails were sent.
   - **Mehun-sur-Yèvre**: Declined participation.
 
 ## Challenges

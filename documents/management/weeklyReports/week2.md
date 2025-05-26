@@ -20,14 +20,14 @@ The project regained structure with the return of the project manager. The team 
 
 ### Status
 
-- Functional spec work is progressing steadily
-- The technology direction is still unclear without client input
-- The team is aligned and productive despite external constraints
+- Work on the functional specifications is progressing steadily and is on track to be completed on time.
+- The current technology direction is still unclear and poses a risk if client input is not provided before the .
+- Despite these uncertainties, the team remains aligned and productive, and key deliverables are not currently delayed.
 
 ### Planned Next Week
 
 - Enhance the prototype
-- Nearly finalise the functional specs
+- Nearly finalise the functional specifications
 - Try to obtain client validation to unlock development    
 - Push further discussion on switching tech stack
 
