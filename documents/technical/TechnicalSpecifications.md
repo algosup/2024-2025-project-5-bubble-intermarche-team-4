@@ -37,6 +37,10 @@
   - [In-Store Connectivity](#in-store-connectivity)
     - [NoDogSplash](#nodogsplash)
   - [Going Beyond the Limitations](#going-beyond-the-limitations)
+    - [Custom Website Architecture](#custom-website-architecture)
+    - [Data Flow](#data-flow)
+    - [Security Measures](#security-measures)
+    - [Comparison with Bubble.io](#comparison-with-bubbleio)
   - [Future Enhancements](#future-enhancements)
 
 </details>
@@ -257,7 +261,7 @@ graph TD
    
 ```
 
-> Note: In the case that the repeating group only contains one element(e.g. a text), their is no need to have a section group and an object group inside the repeating group.
+> Note: In the case that the repeating group only contains one element(e.g. a text), there is no need to have a section group and an object group inside the repeating group.
 
 ### Database Design
 
@@ -372,7 +376,7 @@ The website allows users to search for wines, cheeses and meals using different 
 
 The search page is divided into two sections: a search bar + filters section and a product display section.
 
-The first section allows the user to either search for a specific product by name or filter the producs to with specific criterias using an input field and multiple dropdown menus to select prefered characteristics.
+The first section allows the user to either search for a specific product by name or filter the producs to with specific criteria using an input field and multiple dropdown menus to select prefered characteristics.
 
 >The characteristics are defined in the functional specifications document.
 
@@ -403,7 +407,7 @@ As such the website adheres to the GDPR.
 The website has to be performant and responsive to ensure a smooth user experience.
 As such we have the following pre-requisites:
 
-- The **search queries** should be kept under 1 second,
+- The **search queries** should return results under 1 second,
 - the **recommendation results** should be displayed under 1 second.
 
 To achieve this, we have implemented the different strategies as described below.
@@ -473,7 +477,7 @@ NDS require a server to run and access the store's WI-Fi router / dedicated gate
 
 During the development of the website we encountered some limitations inherent to the Bubble.io platform, such as:
 
-- **Optimization**: Bubble.io is not as performant as a custom-built website, loading times are long (> 3 secondex) and every second spent on loading is 10% of users lost.
+- **Optimization**: Bubble.io is not as performant as a custom-built website, loading times are long (> 3 seconds) and every second spent on loading is 10% of users lost.
 - **Free Plan Limitations**: The free plan of Bubble.io is very limited in terms of features and performance, making it difficult to build a fully functional website (e.g. loops aren't available in free plan).
 - **Expensive**: Bubble.io paid plans are expensive and not suitable for small projects, making it difficult to justify the cost for a Proof Of Concept.
 
@@ -483,6 +487,50 @@ Due to those limitations, after multiple discussions with the team and a green l
 - **Backend**: Node.js, a JavaScript runtime for building scalable network applications, allowing for better performance and scalability.
 
 For the database, we have decided to use the same database as the one used in the Bubble.io website, as it is already available and contains all the necessary data.
+
+### Custom Website Architecture
+
+| Layer | Technology | Purpose |
+| --- | --- | --- |
+| Frontend | Vue.js (via Vite.js) | Modern, reactive web interface with efficient routing and state management |
+| Backend | Node.js + Express.js | RESTful API layer to handle business logic and serve data |
+| Database | JSON files (Flat DB) or Optional DBMS (PostgreSQL) | Same data model as the Bubble.io version for consistency |
+| Hosting | Local, FPHT | For deployment and scalability |
+| Assets | GitHub CDN | Serves static assets like product images |
+
+### Data Flow
+
+```mermaid
+graph TD
+    %% Data Flow Diagram
+    A[Client ]
+    B[Node.js Backend ]
+    C[Data Storage ]
+
+    A -->|HTTP Request| B
+    B -->|Read JSON or Query DB| C
+    C -->|Data Response| B
+    B -->|JSON Response| A
+
+```
+
+### Security Measures
+
+- HTTPS enforced on both frontend and backend
+- CORS headers configured on the backend to restrict origin access
+- Input sanitization and validation (via middleware)
+- Rate limiting and logging for API endpoints
+
+### Comparison with Bubble.io
+
+| Feature | Bubble.io | Vue.js + Node.js |
+| --- | --- | --- |
+| Performance | Limited with large datasets | Optimized, fast response times |
+| Control over code | Minimal | Full control |
+| Advanced logic (e.g., loops) | Restricted in free plan | Fully supported |
+| Third-party integration | Via plugin/API connector | Direct API access and flexibility |
+| Hosting | Managed by Bubble.io | Self-hosted or cloud provider |
+| Scalability | Limited by Bubble.io plan | Highly scalable with Node.js |
 
 ## Future Enhancements
 
