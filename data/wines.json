@@ -13,13 +13,8 @@
     "rating": 3.7,
     "description": "Couleur pâle aux reflets rosés. Nez floral et élégant avec des arômes de baies rouges. Frais et fruité en bouche.",
     "description_en": "Pale colour with pink hues. Floral and elegant nose with red berry aromas. Fresh and fruity on the palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Valdition_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 2,
@@ -35,12 +30,8 @@
     "rating": 3.7,
     "description": "Un rosé équilibré et fruité, avec des notes de petits fruits rouges et une belle fraîcheur.",
     "description_en": "A balanced, fruity rosé with red berry notes and lovely freshness.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Val_Oule_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Soft cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 3,
@@ -56,13 +47,8 @@
     "rating": 3.0,
     "description": "Un blanc frais et fruité, aux notes de pomme et de fleur blanche, avec une légère touche beurrée.",
     "description_en": "A fresh, fruity white with apple and white flower notes and a slight buttery touch.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Blanc.png",
-    "bestseller": true,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": true
   },
   {
     "id": 4,
@@ -78,12 +64,8 @@
     "rating": 3.7,
     "description": "Rosé pâle avec arômes de petits fruits rouges et de fleurs blanches, bouche vive et rafraîchissante.",
     "description_en": "Pale rosé with red berry and white flower aromas, lively and refreshing palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Rougiers_Gris_Rose.png",
-    "bestseller": true,
-    "cheese": [
-      "Soft cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": true
   },
   {
     "id": 5,
@@ -99,13 +81,8 @@
     "rating": 3.3,
     "description": "Rosé léger et élégant, aux notes de fruits rouges et finale saline.",
     "description_en": "Light and elegant rosé with red fruit notes and a saline finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Rose.png",
-    "bestseller": true,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": true
   },
   {
     "id": 6,
@@ -121,12 +98,8 @@
     "rating": 3.8,
     "description": "Nez intense de fruits rouges et d'épices douces, bouche ronde et équilibrée avec une finale fraîche.",
     "description_en": "Intense nose of red fruits and gentle spices, round and balanced palate with a fresh finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Cotes_De_Provence_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Soft cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 7,
@@ -142,12 +115,8 @@
     "rating": 3.3,
     "description": "Conditionné en cubi de 5L, ce rosé offre arômes fruités et fraîcheur saline, idéal pour les grandes tablées.",
     "description_en": "Packaged in a 5L box, this rosé offers fruity aromas and saline freshness, ideal for large gatherings.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Rose.png",
-    "bestseller": true,
-    "cheese": [
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": true
   },
   {
     "id": 8,
@@ -163,13 +132,8 @@
     "rating": 3.8,
     "description": "Un rosé bio frais et gourmand, avec des arômes de fruits blancs et une pointe de rose, suivi de notes d’anis et d’agrumes.",
     "description_en": "A fresh, gourmet organic rosé with white fruit aromas and a hint of rose, followed by anise and citrus notes.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_Lagoy_Rose.png",
-    "bestseller": true,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": true
   },
   {
     "id": 9,
@@ -185,12 +149,8 @@
     "rating": 3.7,
     "description": "Rosé léger et frais, aux notes de fraise et d’agrumes, fin et vif en bouche.",
     "description_en": "A light, fresh rosé with strawberry and citrus notes, crisp and lively on the palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Marignane_Gris.png",
-    "bestseller": false,
-    "cheese": [
-      "Soft cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 10,
@@ -206,13 +166,8 @@
     "rating": 3.8,
     "description": "Un rosé ample et épicé, notes de fruits rouges et herbes aromatiques, finale légèrement tannique.",
     "description_en": "A full-bodied, spicy rosé with red fruit and herbal notes, and a slightly tannic finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Bonnieux_Luberon_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 11,
@@ -228,13 +183,8 @@
     "rating": 3.3,
     "description": "Robe pâle franche, nez puissant d’agrumes et pamplemousse, vin acidulé en bouche.",
     "description_en": "Pale and bright color with powerful citrus and grapefruit aromas on the nose, zesty palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Evidence_Rose.png",
-    "bestseller": true,
-    "cheese": [
-      "Goat's cheese",
-      "Soft cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": true
   },
   {
     "id": 12,
@@ -250,13 +200,8 @@
     "rating": null,
     "description": "Nez intense et complexe sur des notes de pêche, de litchi et de rose. Bouche ronde et volumineuse.",
     "description_en": "Intense and complex nose with peach, lychee and rose notes. Round and voluminous mouth.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Etoile_Alpilles_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 13,
@@ -272,13 +217,8 @@
     "rating": null,
     "description": "Un rosé organique à base de Tibouren et Grenache. Nez de miel et d’acacia, bouche texturée et ample, finale persistante.",
     "description_en": "An organic rosé made from Tibouren and Grenache. Nose of honey and acacia, textured and ample palate with a lingering finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Cuvee_Tradition_Bio_Rose.png",
-    "bestseller": true,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": true
   },
   {
     "id": 14,
@@ -294,13 +234,8 @@
     "rating": null,
     "description": "Un rouge structuré, avec des arômes de fruits noirs mûrs et une belle note épicée, tanins soyeux en finale.",
     "description_en": "A structured red with ripe black fruit and spice aromas, smooth tannins on the finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 15,
@@ -316,13 +251,8 @@
     "rating": null,
     "description": "Un rosé bio élégant, aux notes de fraise des bois et d’agrumes, bouche fraîche et délicate.",
     "description_en": "An elegant organic rosé with wild strawberry and citrus notes, fresh and delicate palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Bio_Passe_Rose.jpg",
-    "bestseller": true,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": true
   },
   {
     "id": 16,
@@ -338,13 +268,8 @@
     "rating": null,
     "description": "Un blanc vif et agrumé, nez floral avec des accents de fleurs blanches, finale minérale.",
     "description_en": "A lively, citrus-driven white with floral aromas and a mineral finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Etoile_Alpilles_Blanc.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 17,
@@ -360,13 +285,8 @@
     "rating": null,
     "description": "Un blanc rond et fruité, notes de poire et de fleurs, bouche équilibrée avec une belle fraîcheur.",
     "description_en": "A round and fruity white with pear and floral notes, balanced palate with nice freshness.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Alpilles_Tradition_Blanc.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 18,
@@ -382,13 +302,8 @@
     "rating": null,
     "description": "Un rosé bio léger, aux notes de fraise et de melon, finale fraîche et saline.",
     "description_en": "A light organic rosé with strawberry and melon notes, fresh and saline finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Terre_De_Camargue_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 19,
@@ -404,13 +319,8 @@
     "rating": null,
     "description": "Un rosé bio élégant, aux arômes de framboise et de rose, bouche aérienne et gourmande.",
     "description_en": "An elegant organic rosé with raspberry and rose aromas, light and indulgent palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Alpilles_Tradition_Blanc.png",
-    "bestseller": true,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": true
   },
   {
     "id": 20,
@@ -426,13 +336,8 @@
     "rating": null,
     "description": "Un rouge puissant, notes de mûre et d’épices, tanins mûrs et finale persistante.",
     "description_en": "A powerful red with blackberry and spice notes, ripe tannins and a persistent finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Alpilles_Tradition_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 21,
@@ -448,13 +353,8 @@
     "rating": 3.9,
     "description": "Robe cerise mûre avec nuances vermillon. Au nez, la garrigue éveille les sens, le romarin et les herbes sèches s’harmonisent. Tanins veloutés et touche réglissée, équilibre élégant.",
     "description_en": "Ripe cherry colour with vermilion hues. On the nose, garrigue awakens the senses with rosemary and dry herbs. Velvety tannins and a licorice twist for an elegant balance.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Gourgonnier_Tradition_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 22,
@@ -470,13 +370,8 @@
     "rating": 3.7,
     "description": "Assemblage expressif de cerises macérées, fumée et garrigue. Bouche dense, notes d’écorce d’orange et de clous de girofle, finale épicée.",
     "description_en": "Expressive blend of macerated cherries, smoke and garrigue. Dense palate with orange peel and clove notes, leading to a spicy finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_Fenouillet_Ventoux_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 23,
@@ -492,13 +387,8 @@
     "rating": 3.8,
     "description": "Prosecco frizzante, parfait pour les célébrations, avec des arômes de pomme et d’agrumes off-dry et une acidité vive.",
     "description_en": "Frizzante-style Prosecco, ideal for celebrations, featuring apple and citrus aromas with an off-dry sweetness and crisp acidity.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Botter_Prosecco_Spumante.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 11.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 24,
@@ -514,13 +404,8 @@
     "rating": 3.8,
     "description": "Un classique épicé de garrigue (thym, romarin), tanins fondus et finale chaleureuse, expression authentique du terroir.",
     "description_en": "A classic spicy garrigue expression (thyme, rosemary), with smooth tannins and a warm finish, true to its terroir.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Dame_Reserve_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 25,
@@ -536,13 +421,8 @@
     "rating": null,
     "description": "Robe rubis clair, nez de framboise et cassis, bouche souple et fruitée avec une pointe épicée.",
     "description_en": "Light ruby colour, aromas of raspberry and blackcurrant, with a supple and fruity palate and a hint of spice.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mediterranee_Terres_Bord_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 26,
@@ -558,13 +438,8 @@
     "rating": 3.7,
     "description": "Rosé léger et croquant, arômes de framboise, rose, orange sanguine et pêche, bouche fraîche et vive.",
     "description_en": "Light, crisp rosé with raspberry, rose petal, blood orange and peach aromas, offering a fresh and lively palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Dame_Gourmande_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 27,
@@ -580,13 +455,8 @@
     "rating": 3.5,
     "description": "Robe grenat, nez de framboise, cerise noire, épices et violette. Bouche ronde, tanins lisses et finale réglissée.",
     "description_en": "Garnet colour, nose of raspberry, black cherry, spice and violet. Round palate, smooth tannins and licorice finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Cave_Terra_Ventoux_Secret_Truffe_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 28,
@@ -602,13 +472,8 @@
     "rating": null,
     "description": "Vin blanc sec générique en format 6×25 cl, polyvalent pour cuisine et apéritif.",
     "description_en": "Generic dry white wine in 6×25 cl format, versatile for cooking and aperitif.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Valrian_Vin_Blanc_Sec.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 29,
@@ -624,13 +489,8 @@
     "rating": null,
     "description": "Vin blanc d’Espagne en 3×25 cl, sec et polyvalent, sans information cépage.",
     "description_en": "Spanish white wine in 3×25 cl format, dry and versatile, with no grape variety specified.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Valrian_Vin_Blanc_Espagne.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 30,
@@ -646,14 +506,9 @@
     "rating": 3.7,
     "description": "Arômes de mûre et notes minérales d’ardoise, bouche fruitée et équilibrée, excellent rapport qualité-prix.",
     "description_en": "Blackberry aromas and slate mineral notes, with a balanced, fruity palate and great value for money.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Cuvee_Gourmande_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
-  },
+    "image": "default-wine.jpg",
+    "bestseller": false
+  },  
   {
     "id": 31,
     "ITM8": "0000052337510",
@@ -668,13 +523,8 @@
     "rating": 3.5,
     "description": "Robe rouge intense avec reflets violet, nez de fruits rouges frais et de fraise épicée, bouche moelleuse et veloutée.",
     "description_en": "Intense red colour with violet hues, nose of fresh red berries and spiced strawberry, soft and velvety palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Roche_Mazet_Merlot.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 32,
@@ -690,13 +540,8 @@
     "rating": 3.8,
     "description": "Assemblage de Grenache Blanc et de Roussanne, arômes de poire, mangue et pamplemousse, bouche souple et finale tendue.",
     "description_en": "A blend of Grenache Blanc and Roussanne, with aromas of pear, mango and grapefruit, supple palate and a firm finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Bonnieux_Luberon_Blanc.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 33,
@@ -712,13 +557,8 @@
     "rating": 3.0,
     "description": "Couleur jaune doré, nez floral de fleurs blanches et de fruits à chair blanche, bouche moelleuse et suave, finale élégante.",
     "description_en": "Golden yellow colour, floral nose of white flowers and white-fleshed fruits, soft and smooth palate with an elegant finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Tarn_Blanc_Moelleux.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 34,
@@ -734,13 +574,8 @@
     "rating": 3.3,
     "description": "Robe pâle aux reflets saumon, nez intense d’agrumes et pamplemousse, bouche acidulée et saline.",
     "description_en": "Pale salmon-hued colour, intense citrus and grapefruit nose, zesty and saline palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Evidence_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 35,
@@ -756,13 +591,8 @@
     "rating": 3.7,
     "description": "Rosé léger et équilibré, arômes de petits fruits rouges et finale fraîche.",
     "description_en": "Light, balanced rosé with red berry aromas and a fresh finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Val_Oule_Rose_Tendresse.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 36,
@@ -778,13 +608,8 @@
     "rating": null,
     "description": "Robe pâle avec reflets verts, nez délicat de fleurs blanches et d’agrumes, bouche vive et équilibrée sur l’abricot et la pêche blanche.",
     "description_en": "Pale colour with green highlights, delicate white flower and citrus aromas, lively palate with apricot and white peach notes.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Gourgonnier_Blanc_Tradition.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 37,
@@ -800,13 +625,8 @@
     "rating": null,
     "description": "Sous une robe rubis, nez épicé et grillé, tanins soyeux et note de réglisse fraîche, finale harmonieuse.",
     "description_en": "Under a ruby robe, spicy and smoky nose, velvety tannins and fresh licorice note, harmonious finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Rouge_5L.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 38,
@@ -822,13 +642,8 @@
     "rating": null,
     "description": "Robe jaune pâle, nez floral et minéral, bouche fraîche et saline.",
     "description_en": "Pale yellow colour, floral and mineral nose, fresh and saline palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Var_Rolle.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 39,
@@ -844,13 +659,8 @@
     "rating": 4.0,
     "description": "Nez ouvert de mûre, olive noire et notes fumées, bouche souple et ronde avec touches d’écorce d’orange.",
     "description_en": "Open nose of blackberry, black olive and smoky notes, supple and round palate with hints of orange zest.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_Amandine_Rhone_Seguret.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 40,
@@ -866,13 +676,8 @@
     "rating": 4.4,
     "description": "Robe rose pâle aux reflets gris, nez intense de fruits rouges, orange sanguine et pêche blanche, bouche fraîche et acidulée.",
     "description_en": "Pale pink colour with grey hues, intense aromas of red berries, blood orange and white peach, fresh and zesty palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Listel_Grain_Gris_Rosé.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 41,
@@ -888,13 +693,8 @@
     "rating": 4.17,
     "description": "Jolie robe gris pâle aux reflets rosés. Nez gourmand de fraise et de litchi, avec une pointe herbacée, bouche onctueuse et finale saline.",
     "description_en": "Pale grey-pink colour. Generous nose of strawberry and lychee with a herbal hint, creamy palate and saline finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Var_Miss_Gris.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 42,
@@ -910,13 +710,8 @@
     "rating": 3.6,
     "description": "Vin rouge charnu et gourmand avec un nez expressif de fruits rouges mûrs et d’épices, bouche dense, tannins ronds et finale légèrement poivrée.",
     "description_en": "A fleshy, generous red wine with an expressive nose of ripe red fruits and spice, dense palate, round tannins and a lightly peppery finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Trois_Oratoires_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 43,
@@ -932,13 +727,8 @@
     "rating": 3.8,
     "description": "Robe pâle à reflets verts, nez frais d’agrumes et de fleurs blanches, bouche vive aux notes citronnées, finale saline et iodée.",
     "description_en": "Pale green-tinged colour, fresh nose of citrus and white flowers, vibrant palate with lemon notes, saline and iodine finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Charmentin_Terre_Camargue_Blanc_Bio.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 44,
@@ -954,13 +744,8 @@
     "rating": 3.8,
     "description": "Un blanc doux et équilibré aux arômes de pêche et de fruits exotiques, bouche souple avec une belle fraîcheur fruitée.",
     "description_en": "A smooth, balanced white with aromas of peach and exotic fruits, supple palate with lovely fruity freshness.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Entre_Terres_Lumieres_Ventoux_Blanc.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 45,
@@ -976,13 +761,8 @@
     "rating": 3.7,
     "description": "Rouge léger et frais servi frais, nez de garrigue et de fruits rouges, bouche ronde et gouleyante avec finale framboisée.",
     "description_en": "Light, fresh red served chilled, nose of garrigue and red fruits, round, juicy palate with a raspberry finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Val_Oule_Rouge_Frisson.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 46,
@@ -998,13 +778,8 @@
     "rating": 3.4,
     "description": "Robe rose pâle brillante, nez de fraise et fleurs, bouche fraîche et fruitée avec une acidité vive et finale florale.",
     "description_en": "Bright pale pink colour, nose of strawberry and florals, fresh, fruity palate with crisp acidity and a floral finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Ventoux_Legende_1911_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 47,
@@ -1020,13 +795,8 @@
     "rating": 3.7,
     "description": "Vin bio méditerranéen typique, nez épicé de garrigue et fruits noirs, bouche riche et complexe aux tanins fins, finale longue.",
     "description_en": "Typical organic Mediterranean red, nose of garrigue spice and dark fruits, rich and complex palate with fine tannins and a long finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Alpilles_Tradition_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 48,
@@ -1042,13 +812,8 @@
     "rating": 3.9,
     "description": "Robe saumonée, nez de petits fruits rouges et rose, bouche vive et élégante avec finale mentholée.",
     "description_en": "Salmon-pink colour, nose of red berries and rose, lively elegant palate with a minty finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Dame_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 49,
@@ -1064,13 +829,8 @@
     "rating": null,
     "description": "Conditionné en cubi de 5 L, ce blanc frais offre des arômes d’agrumes et de fleurs blanches, bouche équilibrée et finale saline.",
     "description_en": "Packaged in a 5 L box, this fresh white offers citrus and white flower aromas, balanced palate and saline finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Blanc_5L.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 50,
@@ -1086,13 +846,8 @@
     "rating": 3.8,
     "description": "Rouge profond aux reflets violets, nez de cerise et fruits rouges, bouche structurée avec tanins soyeux et finale épicée.",
     "description_en": "Deep red with violet highlights, nose of cherry and red fruits, structured palate with silky tannins and a spicy finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_Oule_Rouge_Emotion.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 51,
@@ -1108,13 +863,8 @@
     "rating": null,
     "description": "Couleur saumon intense, nez de petits fruits rouges et d’herbes aromatiques, bouche fraîche et saline avec une belle longueur.",
     "description_en": "Intense salmon hue, aromas of red berries and aromatic herbs, fresh saline palate with good length.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Coeur_Provence_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 52,
@@ -1130,13 +880,8 @@
     "rating": null,
     "description": "Cubi bio de 5 L, équilibre entre rondeur et fraîcheur, arômes de mangue, orange et pêche, finale croquante.",
     "description_en": "5 L organic box, balance of roundness and freshness, aromas of mango, orange and peach, crisp finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_Lagoy_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 53,
@@ -1152,13 +897,8 @@
     "rating": null,
     "description": "Rosé tendre et fruité, notes de fraise et groseille, pointe épicée, finale rafraîchissante.",
     "description_en": "Tender, fruity rosé with strawberry and redcurrant notes, a hint of spice and a refreshing finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Expert_Club_Rose_Anjou.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 54,
@@ -1174,13 +914,8 @@
     "rating": null,
     "description": "Robe saumon pâle, nez délicat de pêche et fleurs, bouche vive avec notes de nectarine et melon.",
     "description_en": "Pale salmon hue, delicate nose of peach and flowers, lively palate with nectarine and melon notes.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Rose_Etoile_Alpilles.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 55,
@@ -1196,13 +931,8 @@
     "rating": null,
     "description": "Arômes de cassis, cèdre et épices douces, bouche structurée et tanins fondus en finale.",
     "description_en": "Aromas of blackcurrant, cedar and gentle spice, structured palate with smooth tannins on the finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Chateau_Marquis_Terme_Bordeaux_Superieur.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 56,
@@ -1218,13 +948,8 @@
     "rating": null,
     "description": "Nez de fruits rouges mûrs, épices et garrigue, bouche dense et veloutée avec tanins soyeux.",
     "description_en": "Nose of ripe red fruits, spice and garrigue, dense velvety palate with silky tannins.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Coteaux_Varois_Restanques_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 57,
@@ -1240,13 +965,8 @@
     "rating": null,
     "description": "Blanc bio rond et fruité, notes de fleur d’aubépine et finale saline rafraîchissante.",
     "description_en": "Round, fruity organic white with hawthorn blossom notes and a refreshing saline finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_Lagoy_Blanc_Cuvee_Classique_Bio.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 58,
@@ -1262,13 +982,8 @@
     "rating": null,
     "description": "Rouge méditerranéen charnu, arômes de fruits noirs et d’épices, bouche juteuse et finale épicée.",
     "description_en": "Hearty Mediterranean red with dark fruit and spice aromas, juicy palate and a lightly spicy finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Expert_Club_Herault_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 59,
@@ -1284,13 +999,8 @@
     "rating": null,
     "description": "Blend GSM équilibré, notes de fruits noirs, épices et garrigue, bouche souple et finale persistante.",
     "description_en": "Balanced GSM blend with dark fruit, spice and garrigue notes, supple palate and lingering finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Famille_Perrin_Cotes_Rhone_Reserve_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 60,
@@ -1306,14 +1016,9 @@
     "rating": 3.4,
     "description": "Rosé frais et rond, arômes de framboise et fraise, bouche légère et finale épicée.",
     "description_en": "Fresh and round rosé with raspberry and strawberry aromas, light palate and spicy finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Roche_Mazet_Cinsault_Grenache_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
-  },
+    "image": "default-wine.jpg",
+    "bestseller": false
+  }, 
   {
     "id": 61,
     "ITM8": "0000052337602",
@@ -1328,13 +1033,8 @@
     "rating": null,
     "description": "Robe pourpre foncé, nez de cassis et myrtille relevé d’épices douces, bouche ample avec tanins riches et finale élégante.",
     "description_en": "Deep ruby hue, aromas of blackcurrant and blueberry with gentle spices, full-bodied palate with rich tannins and an elegant finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Pays_dOc_Cabernet_Sauvignon.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 62,
@@ -1350,13 +1050,8 @@
     "rating": null,
     "description": "Robe paille claire, nez complexe de fleurs blanches et d’agrumes, bouche ronde et équilibrée sur des notes de pamplemousse.",
     "description_en": "Pale straw colour, complex nose of white flowers and citrus, round balanced palate with grapefruit notes.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Val_Oule_Blanc_Plaisir.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 63,
@@ -1372,13 +1067,8 @@
     "rating": null,
     "description": "Robe jaune pâle, nez minéral et floral, bouche vive et saline avec une finale délicate et persistante.",
     "description_en": "Pale yellow colour, mineral and floral nose, crisp saline palate with a delicate, lingering finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Petit_Chablis_Blanc_Expert_Club.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 64,
@@ -1394,13 +1084,8 @@
     "rating": null,
     "description": "Robe rosée pâle aux reflets orangés, nez floréal et fruité, bouche légère et rafraîchissante, parfaite à l’apéritif.",
     "description_en": "Pale pink colour with orange hues, floral and fruity nose, light refreshing palate, perfect for aperitif.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Pays_dOc_Gris_Launes.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 65,
@@ -1416,13 +1101,8 @@
     "rating": null,
     "description": "Robe pourpre profond, nez de fruits noirs, épices et fumée, bouche structurée avec tanins soyeux et finale longue.",
     "description_en": "Deep purple colour, aromas of dark fruit, spice and smoke, structured palate with silky tannins and a long finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/E_Guigal_Cotes_Rhone_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 66,
@@ -1438,13 +1118,8 @@
     "rating": null,
     "description": "Couleur saumon, nez de fruits rouges et agrumes, bouche fraîche et équilibrée avec une acidité vive.",
     "description_en": "Salmon colour, nose of red fruits and citrus, fresh balanced palate with bright acidity.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Val_Oule_Rose_Desir.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 67,
@@ -1460,13 +1135,8 @@
     "rating": null,
     "description": "Robe pourpre intense, nez de mûre et menthe poivrée, bouche ronde et fruitée avec une finale gourmande.",
     "description_en": "Intense purple colour, aromas of blackberry and peppermint, round fruity palate with a delicious finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Pays_dOc_Merlot.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 68,
@@ -1482,13 +1152,8 @@
     "rating": null,
     "description": "Nez expressif d’agrumes et de fruits tropicaux, bouche vive et rafraîchissante, belle minéralité en finale.",
     "description_en": "Expressive nose of citrus and tropical fruits, lively and refreshing palate, lovely minerality on the finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Pays_dOc_Sauvignon_Blanc.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 69,
@@ -1504,13 +1169,8 @@
     "rating": null,
     "description": "Robe pâle, nez d’agrumes et de pierre à fusil, bouche vibrante et minérale avec une finale salivante.",
     "description_en": "Pale colour, aromas of citrus and flint, vibrant mineral palate with a mouth-watering finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Chablis_Blanc_Expert_Club.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 70,
@@ -1526,14 +1186,9 @@
     "rating": null,
     "description": "Nez de fruits noirs et d’épices, bouche ample avec tanins fondus et finale persistante.",
     "description_en": "Aromas of dark fruit and spice, full-bodied palate with smooth tannins and a persistent finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Cotes_Rhone_Rouge_Tradition.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
-  },
+    "image": "default-wine.jpg",
+    "bestseller": false
+  },  
   {
     "id": 71,
     "ITM8": "0000099024946",
@@ -1548,13 +1203,8 @@
     "rating": null,
     "description": "Un rosé sec et croquant, issu d'un assemblage de cépages du Rhône méridional, avec des arômes de fruits rouges frais et une acidité vive.",
     "description_en": "A dry and crisp rosé from a Southern Rhône blend, with fresh red fruit aromas and lively acidity.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Gourgonnier_Rose_Tradition.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 72,
@@ -1570,13 +1220,8 @@
     "rating": null,
     "description": "Un rosé typique du Var, frais et fruité, aux notes de petits fruits rouges et d’herbes de garrigue, avec une finale saline.",
     "description_en": "A classic Var rosé, fresh and fruity with red berry and garrigue herb notes, finishing with a saline touch.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Var_Domaine_Pelisse_Rose_Cuvee.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 73,
@@ -1592,13 +1237,8 @@
     "rating": null,
     "description": "Sa robe pâle dévoile un nez de groseilles et de fleurs blanches, avec une bouche soyeuse et légèrement sucrosée.",
     "description_en": "Pale colour revealing redcurrant and white flower aromas, with a silky and lightly sweet palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Maures_Cuvee_Ane_Volant_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 74,
@@ -1614,13 +1254,8 @@
     "rating": null,
     "description": "Un rouge léger et fruité, aux notes de fruits rouges et d’épices douces, avec une finale légèrement épicée.",
     "description_en": "A light, fruity red wine with red berry and gentle spice notes, finishing with a subtle spicy touch.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Terre_Camargue_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 75,
@@ -1636,13 +1271,8 @@
     "rating": null,
     "description": "Assemblage de Syrah, Grenache et Mourvèdre du Sud de la Vallée du Rhône, offrant un palais ample et épicé.",
     "description_en": "A Southern Rhône blend of Syrah, Grenache and Mourvèdre, offering a full-bodied and spicy palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Cotes_Rhone_Prestige_Le_Serre.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 76,
@@ -1658,13 +1288,8 @@
     "rating": null,
     "description": "Un blanc minéral et fin, aux arômes de pêche, d’abricot et d’anis, avec une élégante tension en bouche.",
     "description_en": "A mineral and refined white wine with peach, apricot and anise aromas, offering elegant tension on the palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Dame_La_Stele_Blanc.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 77,
@@ -1680,13 +1305,8 @@
     "rating": null,
     "description": "Un rouge du Rhône Sud, assemblage Grenache et Syrah, nez épicé et structure soyeuse.",
     "description_en": "A Southern Rhône red blend of Grenache and Syrah, featuring a spicy nose and silky structure.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Cotes_Rhone_Rouge_Joannes.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 78,
@@ -1702,13 +1322,8 @@
     "rating": null,
     "description": "Robe pourpre foncé, nez de cassis et de poivre, bouche puissante avec tanins fermes et finale élégante.",
     "description_en": "Deep purple hue with blackcurrant and pepper aromas, powerful palate with firm tannins and an elegant finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/IGP_Pays_dOc_Cabernet_Sauvignon.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 79,
@@ -1724,13 +1339,8 @@
     "rating": null,
     "description": "Un blanc sec et rafraîchissant, avec une belle acidité et des notes florales délicates.",
     "description_en": "A dry, refreshing white wine with vibrant acidity and delicate floral notes.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Bourgogne_Aligote_Expert_Club.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 80,
@@ -1746,13 +1356,8 @@
     "rating": 3.7,
     "description": "Un rosé du Languedoc-Roussillon, frais avec des notes de fruits rouges et une finale saline.",
     "description_en": "A fresh Languedoc-Roussillon rosé with red fruit notes and a saline finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Le_Gris_Mas_Marignan_Prestige.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 81,
@@ -1768,13 +1373,8 @@
     "rating": null,
     "description": "Nez poivré et notes de chocolat noir, herbes de garrigue, tanins présents et finale moyennement longue.",
     "description_en": "Peppery nose with dark chocolate notes, garrigue herbs, present tannins and a medium-long finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Jean_Berteau_Prestige_Cotes_Rhone_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 82,
@@ -1790,13 +1390,8 @@
     "rating": null,
     "description": "Un blanc frais et direct, aux arômes d’agrumes et de fleurs blanches, bouche vive et nerveuse.",
     "description_en": "A fresh, straightforward white with citrus and white flower aromas, lively and crisp on the palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Marignane_Le_Mas_Blanc.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 83,
@@ -1812,13 +1407,8 @@
     "rating": null,
     "description": "Couleur brillante aux reflets verts, nez floral et fruits blancs, palais riche et équilibré avec tension minérale.",
     "description_en": "Brilliant color with green highlights, floral nose and white fruit aromas, rich balanced palate with mineral tension.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Famille_Perrin_Cotes_Rhone_Reserve_Blanc.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 84,
@@ -1834,13 +1424,8 @@
     "rating": null,
     "description": "Vin blanc vif et convivial, notes d’agrumes et de fleurs, corps léger et frais.",
     "description_en": "Bright, approachable white wine with citrus and floral notes, light fresh body.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/IGP_Mediterranee_Cuvee_Plaisir_Blanc.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 85,
@@ -1856,13 +1441,8 @@
     "rating": null,
     "description": "Rouge méditerranéen aux arômes de fruits rouges et d’épices, palais structuré et finale épicée.",
     "description_en": "Mediterranean red with red fruit and spice aromas, structured palate and spicy finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Val_Oule_Rouge_Seduction.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 86,
@@ -1878,13 +1458,8 @@
     "rating": null,
     "description": "Blanc de Bourgogne aux arômes de pomme mûre et de fleurs blanches, bouche ronde avec jolie acidité.",
     "description_en": "Burgundy white with ripe apple and white flower aromas, round palate with pleasant acidity.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Expert_Club_Macon_Villages.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 87,
@@ -1900,13 +1475,8 @@
     "rating": null,
     "description": "Rosé fruité et gourmand, notes de fruits rouges frais, acidité croquante et finale persistante.",
     "description_en": "Fruity, generous rosé with fresh red fruit notes, crisp acidity and a lingering finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_Mesclances_Romane_Cotes_Provence_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 88,
@@ -1922,13 +1492,8 @@
     "rating": null,
     "description": "Rouge grenat, nez de fruits mûrs et d’épices, bouche veloutée avec tanins fondus.",
     "description_en": "Garnet red color, nose of ripe fruit and spice, velvety palate with smooth tannins.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Cotes_Rhone_Sainte_Roche_Bio.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 89,
@@ -1944,13 +1509,8 @@
     "rating": null,
     "description": "Blanc bio aux arômes de fleurs blanches et de fruits à chair blanche, bouche ronde et fraîche.",
     "description_en": "Organic white with white flower and stone fruit aromas, round and fresh on the palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Dame_Gourmande_Blanc.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 90,
@@ -1966,13 +1526,8 @@
     "rating": null,
     "description": "Vin rouge de table en format 1,5 L, fruité et souple, idéal pour cuisiner ou partager en grand format.",
     "description_en": "Table red wine in 1.5 L format, fruity and smooth, ideal for cooking or sharing at gatherings.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Valrian_VCE_Rouge_1,5L.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 91,
@@ -1988,13 +1543,8 @@
     "rating": null,
     "description": "Ce rosé est charmant, vif et soyeux avec d’intenses arômes de framboise et de mûres, idéal pour des moments de détente à l’apéritif.",
     "description_en": "This rosé is charming, lively and silky with intense aromas of raspberry and blackberry, ideal for relaxing moments as an aperitif.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/IGP_Herault_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 92,
@@ -2010,13 +1560,8 @@
     "rating": null,
     "description": "Un vin rouge classique de Provence, composé de Syrah, Cabernet Sauvignon et Grenache Noir, aux arômes de fruits rouges et d’herbes de garrigue, corps moyen et finale épicée.",
     "description_en": "A classic Provence red wine composed of Syrah, Cabernet Sauvignon and Grenache Noir, with aromas of red fruits and garrigue herbs, medium-bodied with a spicy finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/AOP_Cotes_Provence_Grande_Recolte.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 93,
@@ -2032,13 +1577,8 @@
     "rating": 3.8,
     "description": "Un rosé vivant et précis de Ventoux, libérant des parfums de petits fruits rouges et exotiques, avec une bouche acidulée et nette.",
     "description_en": "A lively and precise rosé from Ventoux, releasing aromas of red and exotic fruits, with an acidulous and precise palate.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/AOC_Ventoux_Mot_dExcuse_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 94,
@@ -2054,13 +1594,8 @@
     "rating": null,
     "description": "Fruité et charnu avec de beaux tanins, c’est un excellent vin de tous les jours élaboré principalement à partir des vignobles de Grand Prébois et de Vinsobres.",
     "description_en": "Fruity and fleshy with beautiful tannins, this is an excellent everyday wine crafted mainly from the Grand Prébois and Vinsobres vineyards.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Famille_Perrin_Cotes_Rhone_Reserve_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 95,
@@ -2076,13 +1611,8 @@
     "rating": null,
     "description": "Ce vin révèle un beau nez épicé et minéral avec des notes de fruits bien mûrs, de réglisse et une légère note finale de poivron grillé.",
     "description_en": "This wine reveals a beautiful spicy and mineral nose with notes of ripe fruit, licorice and a slight final note of grilled pepper.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Dame_La_Stele_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 96,
@@ -2098,13 +1628,8 @@
     "rating": null,
     "description": "Ce rosé puise sa complexité dans la subtilité aromatique du Cinsault, la gourmandise du Grenache et la structure du Mourvèdre.",
     "description_en": "This rosé draws its complexity from the aromatic subtleties of Cinsault, the fruitiness of Grenache and the structure of Mourvèdre.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_lOlivette_Tradition_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 97,
@@ -2120,13 +1645,8 @@
     "rating": null,
     "description": "Un vin rouge de la Vallée du Rhône méridionale, élaboré à partir de Syrah et Grenache, offrant un excellent rapport qualité-prix.",
     "description_en": "A Southern Rhône red wine made from Syrah and Grenache, offering excellent value.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Expert_Club_Costieres_Nimes_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 98,
@@ -2142,13 +1662,8 @@
     "rating": 3.5,
     "description": "Un rosé IGP Méditerranée net et sec, aux arômes vifs et équilibrés, idéal avec des plats à base de tomates.",
     "description_en": "A crisp and dry IGP Méditerranée rosé blend with vibrant aromas, ideal with tomato-based dishes.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Studio_Miraval_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 99,
@@ -2164,13 +1679,8 @@
     "rating": null,
     "description": "Un rosé de Méditerranée frais et rafraîchissant, parfait avec les coquillages, les apéritifs et les poissons maigres.",
     "description_en": "A fresh and refreshing Mediterranean rosé, perfect with shellfish, appetizers and lean fish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Rey_Terre_de_Camargue_Rose.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 12.0
+    "image": "default-wine.jpg",
+    "bestseller": false
   },
   {
     "id": 100,
@@ -2186,12 +1696,7 @@
     "rating": null,
     "description": "Un rouge provençal élaboré à partir de Syrah, Cabernet Sauvignon et Grenache, offrant des arômes élégants de fruits rouges et d’épices.",
     "description_en": "A Provençal red made from Syrah, Cabernet Sauvignon and Grenache, offering elegant aromas of red fruit and spice.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Sainte_Berthe_La_Chapelle_Rouge.png",
-    "bestseller": false,
-    "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
-    ],
-    "alcohol_percentage": 13.5
+    "image": "default-wine.jpg",
+    "bestseller": false
   }
 ]
