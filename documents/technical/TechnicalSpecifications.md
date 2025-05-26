@@ -45,11 +45,11 @@
 
 ## Overview
 
-This document outlines the technical specifications for developing a **mobile web application** for Intermarché, titled Cheerish. Its objective is to define the project’s technical requirements, architecture, and technologies, ensuring all stakeholders share a unified understanding of what is being developed.
+This document outlines the technical specifications for developing a **website** for Intermarché, titled Cheerish. Its objective is to define the project’s technical requirements, architecture, and technologies, ensuring all stakeholders share a unified understanding of what is being developed.
 
 ### Context
 
-The goal of this project is to deliver a user-friendly **mobile web application** for Intermarché customers, providing personalized assistance when choosing wine and/or cheese upon entering the store.
+The goal of this project is to deliver a user-friendly **website** for Intermarché customers, providing personalized assistance when choosing wine and/or cheese upon entering the store.
 The website will suggest the most suitable wine or cheese based on the users's dish, taste preferences, or filters. It aims to simplify the selection process and enhance customer satisfaction by offering tailored recommendations.
 
 > For more information about the project, please refer to the [Functional Specifications](../functional/FunctionalSpecifications.md) document.
@@ -62,8 +62,8 @@ You can find the detailed conventions in the [Conventions](./Conventions.md) doc
 
 ## Bubble.io
 
-The website was created on Bubble.io, a no-code platform that allows users to build web applications without writing code.
-Bubble.io provides a visual interface for designing and developing websites, making them accessible to non-technical users while still offering powerful features for developers.
+The website was created on Bubble.io, a no-code platform that allows users to build web and mobile applications without writing code.
+Bubble.io provides a visual interface for designing and developing web applications, making them accessible to non-technical users while still offering powerful features for developers.
 Bubble.io is built on a robust architecture that supports scalability, security, and performance.
 
 ### Plugins
