@@ -203,3 +203,6 @@ This week brought significant advancement on both the technical and operational 
 <img src="../images/hours.png" alt="Hours worked" width="400"/>
 <img src="../images/doc.png" alt="Kanban board" width="400"/>
 <img src="../images/dev.png" alt="Kanban board" width="400"/>
+
+## Timeline
+<img src="../images/timeline.png" alt="Timeline" width="400"/>
