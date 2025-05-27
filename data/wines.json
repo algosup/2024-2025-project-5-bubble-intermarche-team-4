@@ -38,7 +38,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Val_Oule_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Soft cheese"
+      "Soft cheese",
+      "Cow's cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -60,7 +61,7 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Hard cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -81,7 +82,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Rougiers_Gris_Rose.png",
     "bestseller": true,
     "cheese": [
-      "Soft cheese"
+      "Sheep cheese",
+      "Semi-soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -102,8 +104,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Rose.png",
     "bestseller": true,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Fresh Cheese",
+      "Goat's cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -124,7 +126,9 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Cotes_De_Provence_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Soft cheese"
+      "Yogurt",
+      "Cow's cheese"
+
     ],
     "alcohol_percentage": 12.0
   },
@@ -145,7 +149,7 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Rose.png",
     "bestseller": true,
     "cheese": [
-      "Semi-hard cheese"
+      "Aged / Dried cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -166,8 +170,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_Lagoy_Rose.png",
     "bestseller": true,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -188,7 +192,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Marignane_Gris.png",
     "bestseller": false,
     "cheese": [
-      "Soft cheese"
+      "Soft cheese",
+      "Triple cream cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -253,8 +258,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Etoile_Alpilles_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Sheep cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -297,8 +302,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Rouge.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Cow's cheese",
+      "Hard cheese"
     ],
     "alcohol_percentage": 13.5
   },
@@ -320,7 +325,7 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Semi-soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -341,7 +346,7 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Etoile_Alpilles_Blanc.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
+      "Sheep's cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5
@@ -364,7 +369,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Hard cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -385,8 +390,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Terre_De_Camargue_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -407,8 +412,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Alpilles_Tradition_Blanc.png",
     "bestseller": true,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Fresh Cheese",
+      "Mixed cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -430,7 +435,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Fresh cheese"
     ],
     "alcohol_percentage": 13.5
   },
@@ -451,7 +456,7 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Gourgonnier_Tradition_Rouge.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
+      "Cow's cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 13.5
@@ -473,7 +478,7 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_Fenouillet_Ventoux_Rouge.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
+      "Sheep's cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 13.5
@@ -496,7 +501,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Semi-soft cheese"
     ],
     "alcohol_percentage": 11.5
   },
@@ -518,7 +523,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "soft cheese"
     ],
     "alcohol_percentage": 13.5
   },
@@ -540,7 +545,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Fresh Cheese"
     ],
     "alcohol_percentage": 13.5
   },
@@ -561,8 +566,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Dame_Gourmande_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -606,7 +611,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -628,7 +633,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -649,7 +654,7 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Cuvee_Gourmande_Rouge.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
+      "Cow's cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 13.5
@@ -671,7 +676,7 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Roche_Mazet_Merlot.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
+      "Cow's cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 13.5
@@ -694,7 +699,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -716,7 +721,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -738,7 +743,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -759,8 +764,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Val_Oule_Rose_Tendresse.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Cow's cheese",
+      "Triple cream cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -781,8 +786,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Gourgonnier_Blanc_Tradition.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Sheep's cheese",
+      "Semi-soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -803,7 +808,7 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Lansac_Rouge_5L.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
+      "Cow's cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 13.5
@@ -826,7 +831,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -869,8 +874,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Listel_Grain_Gris_Rosé.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -891,8 +896,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Var_Miss_Gris.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -936,7 +941,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -958,7 +963,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -979,8 +984,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Val_Oule_Rouge_Frisson.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Cow's cheese",
+      "Triple cream cheese"
     ],
     "alcohol_percentage": 13.5
   },
@@ -1001,8 +1006,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Ventoux_Legende_1911_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1045,8 +1050,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Dame_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1068,7 +1073,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1089,7 +1094,7 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_Oule_Rouge_Emotion.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
+      "Cow's cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 13.5
@@ -1111,8 +1116,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Coeur_Provence_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1133,8 +1138,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_Lagoy_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1155,8 +1160,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Expert_Club_Rose_Anjou.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1177,8 +1182,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Rose_Etoile_Alpilles.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1244,7 +1249,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1309,8 +1314,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Roche_Mazet_Cinsault_Grenache_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1354,7 +1359,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1376,7 +1381,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1397,8 +1402,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Pays_dOc_Gris_Launes.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1441,8 +1446,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Val_Oule_Rose_Desir.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1486,7 +1491,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1508,7 +1513,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1551,8 +1556,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Gourgonnier_Rose_Tradition.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1573,8 +1578,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Var_Domaine_Pelisse_Rose_Cuvee.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1595,8 +1600,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Maures_Cuvee_Ane_Volant_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1662,7 +1667,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1728,7 +1733,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1749,8 +1754,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Le_Gris_Mas_Marignan_Prestige.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1794,7 +1799,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1816,7 +1821,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1838,7 +1843,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1882,7 +1887,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1903,8 +1908,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_Mesclances_Romane_Cotes_Provence_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -1948,7 +1953,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.5
   },
@@ -1991,8 +1996,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/IGP_Herault_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -2035,8 +2040,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/AOC_Ventoux_Mot_dExcuse_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -2101,8 +2106,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Domaine_lOlivette_Tradition_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -2145,8 +2150,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Studio_Miraval_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
@@ -2167,8 +2172,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Rey_Terre_de_Camargue_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Goat's cheese",
-      "Semi-hard cheese"
+      "Buffalo's cheese",
+      "Soft cheese"
     ],
     "alcohol_percentage": 12.0
   },
