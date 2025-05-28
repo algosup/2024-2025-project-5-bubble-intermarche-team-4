@@ -31,3 +31,44 @@
 |Test #|Observations|Feedback|Potential issues|Suggestions|
 |------|------------|--------|----------------|-----------|
 ||||||
+
+
+<hr>
+
+# **Formulaire de retour pour les tests utilisateurs**
+
+1. À quel point était-il facile de comprendre comment utiliser l’application ?
+
+   - Très facile
+   - Facile
+   - Neutre
+   - Difficile
+   - Très difficile
+
+2. Avez-vous trouvé l’information que vous recherchiez ?
+
+   - Oui, complètement
+   - En grande partie
+   - Partiellement
+   - Non
+
+3. Selon vous, quelle est l’utilité de cette application dans la vie réelle ?
+
+   - Très utile
+   - Utile
+   - Neutre
+   - Peu utile
+   - Pas du tout utile
+
+4. Qu’avez-vous le plus apprécié ?
+
+5. Qu’avez-vous trouvé déroutant ou difficile ?
+
+6. Avez-vous des suggestions pour l’améliorer ?
+
+<hr>
+
+| Test # | Observations | Commentaires | Problèmes potentiels | Suggestions |
+| ------ | ------------ | ------------ | -------------------- | ----------- |
+|        |              |              |                      |             |
+

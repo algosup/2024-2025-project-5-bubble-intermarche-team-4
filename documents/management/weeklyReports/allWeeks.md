@@ -242,4 +242,4 @@ The alternative website (not built in Bubble) was evaluated too optimistically i
 
 ## Timeline
 
-<img src="../images/timeline.png" alt="Timeline" width="400"/>
+<img src="../images/timeline.png" alt="Timeline"/>
