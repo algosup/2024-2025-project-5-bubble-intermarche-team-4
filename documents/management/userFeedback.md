@@ -35,7 +35,7 @@
 
 <hr>
 
-# **Formulaire de retour pour les tests utilisateurs**
+# Formulaire de retour pour les tests utilisateurs
 
 1. À quel point était-il facile de comprendre comment utiliser l’application ?
 
