@@ -7,7 +7,8 @@
   <a href="#manifest">Manifest</a> • 
   <a href="#contributing">Contributing</a> • 
   <a href="#license">License</a> • 
-  <a href="#authors">Authors</a>
+  <a href="#authors">Authors</a> • 
+  <a href="#contributing">Cheerish</a> • 
 </p>
 
 <br>
@@ -49,3 +50,11 @@ Team 4:
 - [Elone DELILLE](https://www.linkedin.com/in/elonedelille/) - Quality Assurance
 - [Emilien CHINSY](https://www.linkedin.com/in/emilien-chinsy-5a794632b/) - Software Engineer
 - [Robin GOUMY](https://www.linkedin.com/in/robin-goumy-66452832a/) - Technical Writer
+
+## Cheerish
+
+[Catalogue Link](https://shorturl.at/NTZzb)
+
+<p align="center">
+    <img src="./documents/functional/images/logo/QRCode.png" alt="CheerishQRCode" width="200">
+</p>
