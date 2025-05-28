@@ -197,12 +197,49 @@ Efforts were made to reach out to multiple Intermarché locations to arrange rea
 
 This week brought significant advancement on both the technical and operational fronts. With most elements in place for testing and development, the focus now shifts toward final validations and real-user engagement. Once store feedback is confirmed, user testing will begin, enabling valuable insights to be gathered in the following phase.
 
+## Week 6 Report (May 26 – 28)
+
+### Overview
+
+This week was focused on preparing for user testing and addressing technical and design-related challenges. The team continued close coordination with external partners to ensure readiness for real-user evaluations.
+
+### Accomplishments
+
+- User testing was scheduled for the 6th of June at the Intermarché of Bourges.
+- Close communication was maintained with the Intermarché of Vierzon to prepare baseline testing activities.
+- The testing process was prepared to ensure smooth execution in the coming weeks.
+
+### Challenges
+
+- GitHub issues, including branch conflicts, were encountered and successfully resolved.
+- Design elements were identified as still needing improvements based on user feedback and testing readiness reviews.
+
+### Status
+
+- The technical specifications were completed and delivered ahead of schedule.
+- The user manual is currently on hold during the testing phase but remains ahead of the planned timeline.
+- The alternative website (not built in Bubble) is not ready yet, while the Bubble-based website is fully prepared for testing.
+- The test plan has experienced some delays but is expected to be caught up next week.
+
+### Plan for Next Week
+
+- Conduct user testing with real users.
+- Finalize and execute the test plan.
+- Continue development of the alternative website.
+- Update the Bubble website design based on feedback and test findings.
+
+### Conclusion
+
+The alternative website (not built in Bubble) was evaluated too optimistically in last week’s KPIs, which explains the recent drop in the progress curve, but the team remains focused and ready to move forward with testing and refinement.
 
 ## KPIs
 
 <img src="../images/hours.png" alt="Hours worked" width="400"/>
+
 <img src="../images/doc.png" alt="Kanban board" width="400"/>
+
 <img src="../images/dev.png" alt="Kanban board" width="400"/>
 
 ## Timeline
+
 <img src="../images/timeline.png" alt="Timeline" width="400"/>
