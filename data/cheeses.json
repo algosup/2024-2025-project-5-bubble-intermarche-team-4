@@ -789,7 +789,7 @@
         "rating": null,
         "description_fr": "Morbier AOP à ligne de cendre, pâte onctueuse, arômes fruités et épicés, finale délicate en bouche.",
         "description_en": "Morbier AOP with an ash line, featuring a creamy paste, fruity and spicy aromas, and a delicate finish.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/morbier-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/morbier-aop-lc.jpg",
         "bestseller": false,
         "wine": [
             "Red"
@@ -1965,7 +1965,7 @@
         "rating": null,
         "description_fr": "Cantal jeune AOP au lait cru, fromage à pâte pressée non cuite, arômes de fruits secs et de foin, texture ferme et légèrement granuleuse.",
         "description_en": "Cantal jeune AOP made from raw milk, uncooked pressed cheese with dried fruit and hay aromas, firm and slightly granular texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/cantal-jeune-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/cantal-jeune.jpg",
         "bestseller": false,
         "wine": [
             "Red"
