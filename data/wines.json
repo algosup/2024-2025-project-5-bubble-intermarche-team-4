@@ -1404,25 +1404,25 @@
   },
   {
     "id": 65,
-    "ITM8": "0000017376801",
-    "EAN": "3536650501002",
-    "name": "E. Guigal Côtes-du-Rhône Rouge",
-    "region": "Côtes-du-Rhône",
+    "ITM8": "0000052337077",
+    "EAN": "3250390801054",
+    "name": "IGP Pays d'Oc Merlot Rouge Le Choix Du Pin 75cL",
+    "region": "Languedoc-Roussillon",
     "country": "France",
     "year": 2023,
     "type": "Red",
-    "grape": "Grenache, Syrah",
-    "price": 9.8,
+    "grape": "Merlot",
+    "price": 2.24,
     "rating": null,
-    "description": "Robe pourpre profond, nez de fruits noirs, épices et fumée, bouche structurée avec tanins soyeux et finale longue.",
-    "description_en": "Deep purple colour, aromas of dark fruit, spice and smoke, structured palate with silky tannins and a long finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/E_Guigal_Cotes_Rhone_Rouge.png",
+    "description": "Le Choix du Pin Merlot est un vin rouge souple et fruité du Languedoc-Roussillon. Il offre des arômes de fruits rouges mûrs avec une touche d’épices. Facile à boire, il accompagne idéalement les viandes grillées, les plats simples ou un plateau de fromages légers.",
+    "description_en": "Le Choix du Pin Merlot is a smooth, fruity red wine from Languedoc-Roussillon. It features ripe red fruit aromas with a hint of spice. Easy-drinking and approachable, it pairs well with grilled meats, simple dishes, or mild cheeses.",
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/IGPPaysOcMerlotRougePin75cL.png",
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.0
   },
   {
     "id": 66,
