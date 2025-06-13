@@ -1407,7 +1407,7 @@
     "ITM8": "0000052337077",
     "EAN": "3250390801054",
     "name": "IGP Pays d'Oc Merlot Rouge Le Choix Du Pin 75cL",
-    "region": "Languedoc-Roussilon",
+    "region": "Languedoc-Roussillon",
     "country": "France",
     "year": 2023,
     "type": "Red",
@@ -1416,7 +1416,7 @@
     "rating": null,
     "description": "Le Choix du Pin Merlot est un vin rouge souple et fruité du Languedoc-Roussillon. Il offre des arômes de fruits rouges mûrs avec une touche d’épices. Facile à boire, il accompagne idéalement les viandes grillées, les plats simples ou un plateau de fromages légers.",
     "description_en": "Le Choix du Pin Merlot is a smooth, fruity red wine from Languedoc-Roussillon. It features ripe red fruit aromas with a hint of spice. Easy-drinking and approachable, it pairs well with grilled meats, simple dishes, or mild cheeses.",
-    "image": "https://raw/githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/IGPPaysOcMerlotRougePin75cL.png",
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/IGPPaysOcMerlotRougePin75cL.png",
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
