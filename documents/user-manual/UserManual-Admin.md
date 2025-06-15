@@ -9,7 +9,8 @@
 
 <details>
 <summary><b>Table Of Contents</b></summary>
-- [USER MANUAL](#user-manual)
+
+- [User Manual Admin - Cheerish](#user-manual-admin---cheerish)
   - [Introduction](#introduction)
     - [What is Cheerish?](#what-is-cheerish)
     - [Audience](#audience)
@@ -19,11 +20,12 @@
   - [Installation Guide](#installation-guide)
     - [QR Code Scan](#qr-code-scan)
     - [Installation Steps](#installation-steps)
-  - [Accessing Platform](#accessing-platform)
+    - [Setup](#setup)
+  - [Usage Guide](#usage-guide)
     - [Navigation](#navigation)
-    - [Filter](#filter)
+    - [Search](#search)
     - [Product Page](#product-page)
-    - [User Roles](#user-roles)
+    - [Admin Panel](#admin-panel)
     - [Use Case](#use-case)
   - [Support \& Troubleshooting](#support--troubleshooting)
     - [Common Issues](#common-issues)
@@ -36,6 +38,7 @@
     - [Modifications and Updates](#modifications-and-updates)
     - [Contact Information](#contact-information)
 
+
 </details>
 
 ## Introduction
@@ -46,13 +49,13 @@ Cheerish is a website developed for Intermarché to enhance the shopping experie
 
 ### Audience
 
-This user manual is intended for all users, regardless of technical skills or computer experience. The website is designed to be user-friendly, featuring a simple interface tailored for Intermarché employees. Its purpose is to help users understand how the solution works, how to present it to customers, and how to use the admin panel for managing products.
+This user manual is aimed at Intermarché employees, regardless of their technical skills or computer experience. The website is designed to be intuitive and user-friendly, with a simple interface tailored for customer use. This manual helps employees guide users through the website and also provides instructions on how to use the administration panel for product management.
 
 ### Scope
 
 This document explains how to access, navigate, and use Cheerish, covering all features accessible to users.
 
-Cheerish primarily promotes traditional cheeses, wines, and recipes, especially aimed at foreign visitors seeking local food experiences.
+Cheerish primarily promotes traditional cheeses, wines, and meals, especially aimed at foreign visitors seeking local food experiences.
 
 
 ### Prerequisites 
@@ -83,16 +86,20 @@ There are three different QR codes:
 
 <br>
 <div style="text-align: center;">
-  <img src="images/CheerishQRCode.png" alt="alt text">
+  <img src="images/ScanPoster.png" alt="alt text">
 </div>
 
 ### Installation Steps
 
 The application requires no installation. Once the QR code is scanned, the app opens directly in your mobile browser.
-Account Creation Form
+
+### Setup
+
 At launch, users can select their language (bottom-left corner) and fill out a short form to receive personalized recommendations.
 
-## Accessing Platform
+## Usage Guide
+
+![alt text](images/CheerishMainAccess.png)
 
 ### Navigation
 
@@ -109,7 +116,7 @@ Use your camera to scan a barcode on a product package to find matching suggesti
 
 **Mix & Match**:
 
-This section shows suggested combinations (wine + dish, dish + cheese, etc.) with seasonal ideas to help users create memorable meals.
+This section shows suggested combinations (wine, cheese and dish) with seasonal ideas to help users create memorable meals.
 
 <br>
 <div style="text-align: center;">
@@ -117,13 +124,14 @@ This section shows suggested combinations (wine + dish, dish + cheese, etc.) wit
 </div>
 
 
-### Filter
+### Search
 
-- Search: Enter keywords or product names in the search bar.
-- Scan Barcode: Scan to access product details, prices, and pairings.
-- Apply Filters: Refine results by product type, price, origin, or season,...
+- **Manual Search**: Enter keywords or product names in the search bar.
+- **Scan Barcode**: Scan to access product details, prices, and pairings.
+- **Apply Filters**: Refine results by product type, price, origin, or season,...
 
-**Search**
+**Manual Search**
+
 Quickly find products by entering keywords, product names, or categories in the search bar.
 
 <br>
@@ -133,6 +141,7 @@ Quickly find products by entering keywords, product names, or categories in the 
 <br>
 
 **Scan Bar Code**
+
 Use your device’s camera to scan product barcodes and instantly access detailed information, prices, and pairings.
 
 <br>
@@ -157,33 +166,34 @@ The product page contains all the information related to the item, depending on 
   <img src="images/CheerishProductPage.png" alt="alt text">
 </div>
 
-### User Roles
-
-- Regular Users: Full access to product suggestions and pairings
-- Admin Users: Access to the admin panel for product management
-
 ### Admin Panel
 
-The Cherish Admin Panel provides a secure and structured interface for managing product-related data within the platform. This module enables administrators to perform CRUD operations and control product visibility on the customer-facing website.
+The Cheerish Admin Panel provides a secure and structured interface for managing product-related data within the platform. This module enables administrators to perform CRUD operations and control product visibility on the website.
 
 **Core Functionalities**
 
-- Product Listing
+- Product Listing:
+  
 Displays product names by category (wine or cheese).
-- Product Editing
+- Product Editing:
+  
 Allows modification of product metadata via a form-based UI. Editable fields typically include:
     Name
     Description
     Price
     Image assets
     ...(according to products)
-- Product Deletion
+- Product Deletion:
+  
 Provides the ability to remove a product from the database permanently.
-- Visibility Toggle
+- Visibility Toggle:
+  
 Enables soft-hiding of products without deletion. 
-- Search
+- Search:
+  
 Implements real-time search functionality across the products.
-- Add a product
+- Add a product:
+  
 Ability to add new products with linked fields.
 
 
@@ -211,8 +221,8 @@ Scenario:
 ### Common Issues
 | Issue | Solution |
 | ----- | -------- |
-| App won’t open	|Try a different browser or update it |
-| QR code not working	| Retry scanning or use a different app |
+| App won’t open	|Try scanning again with a different browser or update it |
+| QR code not working	| Retry scanning the QR or contact support |
 
 
 ### How to Report a Bug

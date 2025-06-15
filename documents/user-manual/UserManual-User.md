@@ -7,7 +7,8 @@
 
 <details>
 <summary><b>Table Of Contents</b></summary>
-- [USER MANUAL](#user-manual)
+
+- [User Manual - Cheerish](#user-manual---cheerish)
   - [Introduction](#introduction)
     - [What is Cheerish?](#what-is-cheerish)
     - [Audience](#audience)
@@ -17,11 +18,11 @@
   - [Installation Guide](#installation-guide)
     - [QR Code Scan](#qr-code-scan)
     - [Installation Steps](#installation-steps)
-  - [Accessing Platform](#accessing-platform)
+    - [Setup](#setup)
+  - [Usage Guide](#usage-guide)
     - [Navigation](#navigation)
-    - [Filter](#filter)
+    - [Search](#search)
     - [Product Page](#product-page)
-    - [User Roles](#user-roles)
     - [Use Case](#use-case)
   - [Support \& Troubleshooting](#support--troubleshooting)
     - [Common Issues](#common-issues)
@@ -81,16 +82,20 @@ There are three different QR codes:
 
 <br>
 <div style="text-align: center;">
-  <img src="images/CheerishQRCode.png" alt="alt text">
+  <img src="images/ScanPoster.png" alt="alt text">
 </div>
 
 ### Installation Steps
 
 The application requires no installation. Once the QR code is scanned, the app opens directly in your mobile browser.
-Account Creation Form
+
+### Setup
+
 At launch, users can select their language (bottom-left corner) and fill out a short form to receive personalized recommendations.
 
-## Accessing Platform
+## Usage Guide
+
+![alt text](images/CheerishMainAccess.png)
 
 ### Navigation
 
@@ -115,13 +120,14 @@ This section shows suggested combinations (wine + dish, dish + cheese, etc.) wit
 </div>
 
 
-### Filter
+### Search
 
-- Search: Enter keywords or product names in the search bar.
+- Manual Search: Enter keywords or product names in the search bar.
 - Scan Barcode: Scan to access product details, prices, and pairings.
 - Apply Filters: Refine results by product type, price, origin, or season,...
 
-**Search**
+**Manual Search**
+
 Quickly find products by entering keywords, product names, or categories in the search bar.
 
 <br>
@@ -130,6 +136,7 @@ Quickly find products by entering keywords, product names, or categories in the 
 </div>
 
 **Scan Bar Code**
+
 Use your device’s camera to scan product barcodes and instantly access detailed information, prices, and pairings.
 
 <br>
@@ -138,6 +145,7 @@ Use your device’s camera to scan product barcodes and instantly access detaile
 </div>
 
 **Add Filters**
+
 Refine your search results by applying filters such as price range, type of product, country of origin, and season.
 
 <br>
@@ -154,18 +162,13 @@ The product page contains all the information related to the item, depending on 
   <img src="images/CheerishProductPage.png" alt="alt text">
 </div>
 
-### User Roles
-
-- Regular Users: Full access to product suggestions and pairings
-- Admin Users: Access to the admin panel for product management
-
 ### Use Case
 
 **Bringing the Right Wine for a Cheese**
 
-**Title**: Selecting a wine to pair with cheese for an upcoming event
-**Primary Actor**: Guest (novice in wine & cheese pairing)
-**Goal**: Confidently choose a wine that pairs well with a known cheese
+**Title**: Selecting a wine to pair with cheese for an upcoming event.
+**Primary Actor**: Guest (novice in wine & cheese pairing).
+**Goal**: Confidently choose a wine that pairs well with a known cheese.
 
 Scenario:
 1. Scan the QR code in the supermarket
@@ -184,8 +187,8 @@ Scenario:
 ### Common Issues
 | Issue | Solution |
 | ----- | -------- |
-| App won’t open	|Try a different browser or update it |
-| QR code not working	| Retry scanning or use a different app |
+| App won’t open	| Try scanning again with a different browser or update it |
+| QR code not working	| Retry scanning the QR or contact support |
 
 
 ### How to Report a Bug
