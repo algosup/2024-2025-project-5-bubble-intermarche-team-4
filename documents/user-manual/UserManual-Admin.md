@@ -60,16 +60,16 @@ Cheerish primarily promotes traditional cheeses, wines, and meals, especially ai
 
 ### Prerequisites 
 
-- A smartphone
-- Internet access (mobile data or Wi-Fi)
-- QR code access from an Intermarché store
-- Updated browser
+- A smartphone.
+- Internet access (mobile data or Wi-Fi).
+- QR code access from an Intermarché store.
+- Updated browser.
   
 ### Objectives
 
-- Help users use the solution
-- Explain core features
-- Provide troubleshooting support for common issues
+- Help users use the solution.
+- Explain core features.
+- Provide troubleshooting support for common issues.
 
 ## Starting Guide
 
@@ -80,9 +80,9 @@ Cheerish primarily promotes traditional cheeses, wines, and meals, especially ai
 3. Tap the link that appears.
 
 There are three different QR codes:
-- Main Avenue QR: Redirects to the general website interface
-- Cheese Aisle QR: Opens a personalized cheese selection
-- Wine Aisle QR: Opens a personalized wine selection
+- Main Avenue QR: Redirects to the general website interface.
+- Cheese Aisle QR: Opens a personalized cheese selection.
+- Wine Aisle QR: Opens a personalized wine selection.
 
 <br>
 <div style="text-align: center;">
@@ -104,10 +104,10 @@ At launch, users can select their language (bottom-left corner) and fill out a s
 ### Navigation
 
 From the home page, you can choose between:
-- Dish Selection
-- Cheese Selection
-- Wine Selection
-- Scan Items
+- Dish Selection.
+- Cheese Selection.
+- Wine Selection.
+- Scan Items.
 
 
 **Scan Feature**:
@@ -179,10 +179,10 @@ Displays product names by category (wine or cheese).
 - Product Editing:
   
 Allows modification of product metadata via a form-based UI. Editable fields typically include:
-    Name
-    Description
-    Price
-    Image assets
+    Name.
+    Description.
+    Price.
+    Image assets.
     ...(according to products)
 - Product Deletion:
   
@@ -202,16 +202,16 @@ Ability to add new products with linked fields.
 
 **Bringing the Right Wine for a Cheese**
 
-**Title**: Selecting a wine to pair with cheese for an upcoming event
-**Primary Actor**: Guest (novice in wine & cheese pairing)
-**Goal**: Confidently choose a wine that pairs well with a known cheese
+**Title**: Selecting a wine to pair with cheese for an upcoming event.
+**Primary Actor**: Guest (novice in wine & cheese pairing).
+**Goal**: Confidently choose a wine that pairs well with a known cheese.
 
 Scenario:
-1. Scan the QR code in the supermarket
-2. Select your nationality on the pop-up
-3. Choose "Manual Search" or “Cheese Selection” on the homepage
-4. Search for the cheese
-5. View pairing suggestions, including recommended wines
+1. Scan the QR code in the supermarket.
+2. Select your nationality on the pop-up.
+3. Choose "Manual Search" or “Cheese Selection” on the homepage.
+4. Search for the cheese.
+5. View pairing suggestions, including recommended wines.
 
 <div style="text-align: center;">
   <img src="images/FloatChart.png" alt="alt text">
@@ -228,11 +228,11 @@ Scenario:
 
 ### How to Report a Bug
 
-To report a bug or request help, contact: cheerish.support@gmail.com
+To report a bug or request help, contact: cheerish.support@gmail.com.
 Please include:
-- A description of the issue
-- Screenshots or screen recordings if possible
-- The QR code you scanned
+- A description of the issue.
+- Screenshots or screen recordings if possible.
+- The QR code you scanned.
 
 *While we aim to assist every user, we cannot guarantee the resolution of all issues.*
 

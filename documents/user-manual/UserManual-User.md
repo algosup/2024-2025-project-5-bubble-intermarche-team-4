@@ -100,10 +100,10 @@ At launch, users can select their language (bottom-left corner) and fill out a s
 ### Navigation
 
 From the home page, you can choose between:
-- Dish Selection
-- Cheese Selection
-- Wine Selection
-- Scan Items
+- Dish Selection.
+- Cheese Selection.
+- Wine Selection.
+- Scan Items.
 
 
 **Scan Feature**:
@@ -172,11 +172,11 @@ The product page contains all the information related to the item, depending on 
 **Goal**: Confidently choose a wine that pairs well with a known cheese.
 
 Scenario:
-1. Scan the QR code in the supermarket
-2. Select your nationality on the pop-up
-3. Choose "Manual Search" or “Cheese Selection” on the homepage
-4. Search for the cheese
-5. View pairing suggestions, including recommended wines
+1. Scan the QR code in the supermarket.
+2. Select your nationality on the pop-up.
+3. Choose "Manual Search" or “Cheese Selection” on the homepage.
+4. Search for the cheese.
+5. View pairing suggestions, including recommended wines.
 
 <br>
 <div style="text-align: center;">
@@ -194,11 +194,11 @@ Scenario:
 
 ### How to Report a Bug
 
-To report a bug or request help, contact: cheerish.support@gmail.com
+To report a bug or request help, contact: cheerish.support@gmail.com.
 Please include:
-- A description of the issue
-- Screenshots or screen recordings if possible
-- The QR code you scanned
+- A description of the issue.
+- Screenshots or screen recordings if possible.
+- The QR code you scanned.
 
 *While we aim to assist every user, we cannot guarantee the resolution of all issues.*
 
