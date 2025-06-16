@@ -26,9 +26,9 @@
             "Fresh goat cheese"
         ],
         "flavor": [
-            "tangy"
+            "Tangy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 3,
@@ -57,9 +57,9 @@
             "Soft cheese"
         ],
         "flavor": [
-            "tangy"
+            "Tangy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 3,
@@ -88,10 +88,10 @@
             "Uncooked"
         ],
         "flavor": [
-            "mild",
-            "fruity"
+            "Mild",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 4,
@@ -118,10 +118,10 @@
             "Soft cheese with natural rind (Specialty - strong goat)"
         ],
         "flavor": [
-            "nutty",
-            "tangy"
+            "Nutty",
+            "Tangy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 5,
@@ -150,9 +150,9 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "strong"
+            "Strong"
         ],
-        "aging": "blue"
+        "aging": "Blue"
     },
     {
         "id": 6,
@@ -181,10 +181,10 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "nutty",
-            "earthy"
+            "Nutty",
+            "Earthy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 7,
@@ -213,10 +213,10 @@
             "Dried goat cheese"
         ],
         "flavor": [
-            "strong",
-            "tangy"
+            "Strong",
+            "Tangy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 8,
@@ -247,10 +247,10 @@
             "Aged goat cheese"
         ],
         "flavor": [
-            "nutty",
-            "tangy"
+            "Nutty",
+            "Tangy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 9,
@@ -279,10 +279,10 @@
             "Creamy goat cheese"
         ],
         "flavor": [
-            "fruity",
-            "tangy"
+            "Fruity",
+            "Tangy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 10,
@@ -311,9 +311,9 @@
             "Cooked"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 11,
@@ -342,9 +342,9 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 12,
@@ -373,9 +373,9 @@
             "Fresh goat cheese"
         ],
         "flavor": [
-            "fresh"
+            "Fresh"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 13,
@@ -402,9 +402,9 @@
             "Goat tomme"
         ],
         "flavor": [
-            "nutty"
+            "Nutty"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 14,
@@ -433,9 +433,9 @@
             "Fresh buffalo cheese"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 15,
@@ -464,10 +464,10 @@
             "Strong goat cheese"
         ],
         "flavor": [
-            "strong",
-            "tangy"
+            "Strong",
+            "Tangy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 16,
@@ -496,9 +496,9 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty"
+            "Nutty"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 17,
@@ -527,10 +527,10 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "mild",
-            "earthy"
+            "Mild",
+            "Earthy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 18,
@@ -559,9 +559,9 @@
             "Soft aged paste"
         ],
         "flavor": [
-            "tangy"
+            "Tangy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 19,
@@ -590,9 +590,9 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 20,
@@ -621,9 +621,9 @@
             "Fresh goat cheese"
         ],
         "flavor": [
-            "floral"
+            "Floral"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 21,
@@ -652,9 +652,9 @@
             "Fresh goat cheese"
         ],
         "flavor": [
-            "fresh"
+            "Fresh"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 22,
@@ -681,10 +681,10 @@
             "Goat tomme"
         ],
         "flavor": [
-            "nutty",
-            "tangy"
+            "Nutty",
+            "Tangy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 23,
@@ -713,9 +713,9 @@
             "Fresh goat cheese"
         ],
         "flavor": [
-            "tangy"
+            "Tangy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 24,
@@ -744,10 +744,10 @@
             "Ash rind"
         ],
         "flavor": [
-            "smoky",
-            "tangy"
+            "Smoky",
+            "Tangy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 25,
@@ -776,10 +776,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 26,
@@ -808,10 +808,10 @@
             "Ash rind"
         ],
         "flavor": [
-            "mild",
-            "nutty"
+            "Mild",
+            "Nutty"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 27,
@@ -840,10 +840,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "floral",
-            "mild"
+            "Floral",
+            "Mild"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 28,
@@ -872,10 +872,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 29,
@@ -902,9 +902,9 @@
             "Goat tomme"
         ],
         "flavor": [
-            "tangy"
+            "Tangy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 30,
@@ -931,9 +931,9 @@
             "Blue-veined cheese"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 31,
@@ -962,9 +962,9 @@
             "Mild cow cheese"
         ],
         "flavor": [
-            "fruity"
+            "Fruity"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 32,
@@ -993,9 +993,9 @@
             "Fresh goat cheese"
         ],
         "flavor": [
-            "floral"
+            "Floral"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 33,
@@ -1024,9 +1024,9 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "earthy"
+            "Earthy"
         ],
-        "aging": "washed rind"
+        "aging": "Washed rind"
     },
     {
         "id": 34,
@@ -1055,10 +1055,10 @@
             "Fresh goat cheese"
         ],
         "flavor": [
-            "fruity",
-            "tangy"
+            "Fruity",
+            "Tangy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 35,
@@ -1087,9 +1087,9 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty"
+            "Nutty"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 36,
@@ -1118,9 +1118,9 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty"
+            "Nutty"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 37,
@@ -1149,10 +1149,10 @@
             "Soft aged paste"
         ],
         "flavor": [
-            "nutty",
-            "tangy"
+            "Nutty",
+            "Tangy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 38,
@@ -1183,10 +1183,10 @@
             "Washed rind"
         ],
         "flavor": [
-            "fruity",
-            "tangy"
+            "Fruity",
+            "Tangy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 39,
@@ -1215,9 +1215,9 @@
             "Fresh sheep cheese"
         ],
         "flavor": [
-            "tangy"
+            "Tangy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 40,
@@ -1246,10 +1246,10 @@
             "Mixed cheese"
         ],
         "flavor": [
-            "funky",
-            "tangy"
+            "Funky",
+            "Tangy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 41,
@@ -1278,9 +1278,9 @@
             "Mild processed cow cheese"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 42,
@@ -1309,9 +1309,9 @@
             "Fresh buffalo cheese"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 43,
@@ -1340,9 +1340,9 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty"
+            "Nutty"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 44,
@@ -1371,10 +1371,10 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "truffle",
-            "earthy"
+            "Truffle",
+            "Earthy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 45,
@@ -1403,10 +1403,10 @@
             "Washed rind"
         ],
         "flavor": [
-            "fruity",
-            "nutty"
+            "Fruity",
+            "Nutty"
         ],
-        "aging": "washed rind"
+        "aging": "Washed rind"
     },
     {
         "id": 46,
@@ -1435,10 +1435,10 @@
             "Fresh goat cheese"
         ],
         "flavor": [
-            "fruity",
-            "tangy"
+            "Fruity",
+            "Tangy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 47,
@@ -1467,10 +1467,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "floral",
-            "funky"
+            "Floral",
+            "Funky"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 48,
@@ -1499,9 +1499,9 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 49,
@@ -1530,10 +1530,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 50,
@@ -1562,9 +1562,9 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "tangy"
+            "Tangy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 51,
@@ -1593,10 +1593,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 52,
@@ -1625,9 +1625,9 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 53,
@@ -1656,10 +1656,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "earthy",
-            "floral"
+            "Earthy",
+            "Floral"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 54,
@@ -1715,9 +1715,9 @@
             "Washed rind"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "washed rind"
+        "aging": "Washed rind"
     },
     {
         "id": 56,
@@ -1746,10 +1746,10 @@
             "Washed rind"
         ],
         "flavor": [
-            "fruity",
-            "earthy"
+            "Fruity",
+            "Earthy"
         ],
-        "aging": "washed rind"
+        "aging": "Washed rind"
     },
     {
         "id": 57,
@@ -1780,9 +1780,9 @@
             "Sheep cheese"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 58,
@@ -1836,10 +1836,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "fruity",
-            "tangy"
+            "Fruity",
+            "Tangy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 60,
@@ -1868,10 +1868,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "earthy",
-            "nutty"
+            "Earthy",
+            "Nutty"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 61,
@@ -1900,10 +1900,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 62,
@@ -1932,9 +1932,9 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 63,
@@ -1963,10 +1963,10 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "floral",
-            "earthy"
+            "Floral",
+            "Earthy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 64,
@@ -1995,10 +1995,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 65,
@@ -2052,9 +2052,9 @@
             "Cow cream"
         ],
         "flavor": [
-            "mild"
+            "Mild"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 67,
@@ -2083,10 +2083,10 @@
             "Washed rind"
         ],
         "flavor": [
-            "funky",
-            "earthy"
+            "Funky",
+            "Earthy"
         ],
-        "aging": "washed rind"
+        "aging": "Washed rind"
     },
     {
         "id": 68,
@@ -2117,10 +2117,10 @@
             "Fresh goat cheese"
         ],
         "flavor": [
-            "mild",
-            "funky"
+            "Mild",
+            "Funky"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 69,
@@ -2149,9 +2149,9 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "tangy"
+            "Tangy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 70,
@@ -2180,10 +2180,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "strong"
+            "Nutty",
+            "Strong"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 71,
@@ -2212,10 +2212,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "earthy",
-            "nutty"
+            "Earthy",
+            "Nutty"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 72,
@@ -2244,10 +2244,10 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "creamy",
-            "earthy"
+            "Creamy",
+            "Earthy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 73,
@@ -2276,10 +2276,10 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "floral",
-            "mild"
+            "Floral",
+            "Mild"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 74,
@@ -2308,10 +2308,10 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "floral",
-            "earthy"
+            "Floral",
+            "Earthy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 75,
@@ -2340,10 +2340,10 @@
             "Ash-covered rind"
         ],
         "flavor": [
-            "tangy",
-            "earthy"
+            "Tangy",
+            "Earthy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 76,
@@ -2397,9 +2397,9 @@
             "Washed rind"
         ],
         "flavor": [
-            "earthy"
+            "Earthy"
         ],
-        "aging": "washed rind"
+        "aging": "Washed rind"
     },
     {
         "id": 78,
@@ -2428,10 +2428,10 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "floral",
-            "earthy"
+            "Floral",
+            "Earthy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 79,
@@ -2458,10 +2458,10 @@
             "Hard cheese"
         ],
         "flavor": [
-            "tangy",
-            "nutty"
+            "Tangy",
+            "Nutty"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 80,
@@ -2490,10 +2490,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 81,
@@ -2522,10 +2522,10 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "floral",
-            "earthy"
+            "Floral",
+            "Earthy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 82,
@@ -2554,10 +2554,10 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "tangy",
-            "floral"
+            "Tangy",
+            "Floral"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 83,
@@ -2586,9 +2586,9 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "truffle"
+            "Truffle"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 84,
@@ -2617,10 +2617,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 85,
@@ -2649,10 +2649,10 @@
             "Greek yogurt"
         ],
         "flavor": [
-            "creamy",
-            "tangy"
+            "Creamy",
+            "Tangy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 86,
@@ -2681,10 +2681,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 87,
@@ -2713,10 +2713,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 88,
@@ -2745,10 +2745,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "earthy",
-            "nutty"
+            "Earthy",
+            "Nutty"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 89,
@@ -2777,10 +2777,10 @@
             "Washed rind"
         ],
         "flavor": [
-            "funky",
-            "earthy"
+            "Funky",
+            "Earthy"
         ],
-        "aging": "washed rind"
+        "aging": "Washed rind"
     },
     {
         "id": 90,
@@ -2809,10 +2809,10 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "creamy",
-            "mild"
+            "Creamy",
+            "Mild"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 91,
@@ -2839,10 +2839,10 @@
             "Hard cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 92,
@@ -2871,10 +2871,10 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "creamy",
-            "earthy"
+            "Creamy",
+            "Earthy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     },
     {
         "id": 93,
@@ -2903,10 +2903,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 94,
@@ -2935,10 +2935,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 95,
@@ -2967,10 +2967,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 96,
@@ -2999,10 +2999,10 @@
             "Pressed cheese"
         ],
         "flavor": [
-            "earthy",
-            "nutty"
+            "Earthy",
+            "Nutty"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 97,
@@ -3029,10 +3029,10 @@
             "Blue-veined cheese"
         ],
         "flavor": [
-            "mushroom",
-            "nutty"
+            "Mushroom",
+            "Nutty"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 98,
@@ -3059,10 +3059,10 @@
             "Hard cheese"
         ],
         "flavor": [
-            "nutty",
-            "fruity"
+            "Nutty",
+            "Fruity"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 99,
@@ -3089,10 +3089,10 @@
             "Blue-veined cheese"
         ],
         "flavor": [
-            "creamy",
-            "earthy"
+            "Creamy",
+            "Earthy"
         ],
-        "aging": "aged"
+        "aging": "Aged"
     },
     {
         "id": 100,
@@ -3121,9 +3121,9 @@
             "Bloomy rind"
         ],
         "flavor": [
-            "truffle",
-            "creamy"
+            "Truffle",
+            "Creamy"
         ],
-        "aging": "fresh"
+        "aging": "Fresh"
     }
 ]
