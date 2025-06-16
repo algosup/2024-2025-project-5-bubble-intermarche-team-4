@@ -15,7 +15,7 @@
     - [Scope](#scope)
     - [Prerequisites](#prerequisites)
     - [Objectives](#objectives)
-  - [Installation Guide](#installation-guide)
+  - [Starting Guide](#starting-guide)
     - [QR Code Scan](#qr-code-scan)
     - [Installation Steps](#installation-steps)
     - [Setup](#setup)
@@ -67,7 +67,7 @@ Cheerish primarily promotes traditional cheeses, wines, and recipes, especially 
 - Explain core features
 - Provide troubleshooting support for common issues
 
-## Installation Guide
+## Starting Guide
 
 ### QR Code Scan
 

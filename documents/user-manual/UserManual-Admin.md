@@ -17,7 +17,7 @@
     - [Scope](#scope)
     - [Prerequisites](#prerequisites)
     - [Objectives](#objectives)
-  - [Installation Guide](#installation-guide)
+  - [Starting Guide](#starting-guide)
     - [QR Code Scan](#qr-code-scan)
     - [Installation Steps](#installation-steps)
     - [Setup](#setup)
@@ -71,7 +71,7 @@ Cheerish primarily promotes traditional cheeses, wines, and meals, especially ai
 - Explain core features
 - Provide troubleshooting support for common issues
 
-## Installation Guide
+## Starting Guide
 
 ### QR Code Scan
 
@@ -169,7 +169,7 @@ The product page contains all the information related to the item, depending on 
 
 ### Admin Panel
 
-The Cheerish Admin Panel provides a secure and structured interface for managing product-related data within the platform. This module enables administrators to perform CRUD operations and control product visibility on the website.
+The Cheerish Admin Panel provides a secure and structured interface for managing product-related data within the platform. This module enables administrators to perform CRUD(Create, Read, Update, and Delete) operations and control product visibility on the website.
 
 **Core Functionalities**
 
