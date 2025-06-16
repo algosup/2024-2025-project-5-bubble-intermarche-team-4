@@ -151,10 +151,11 @@ Use your device’s camera to scan product barcodes and instantly access detaile
 
 **Add Filters**
 Refine your search results by applying filters such as price range, type of product, country of origin, and season.
+There are both simple and advanced search options with filters, allowing users to benefit from a flexible interface based on their experience and needs.
 
 <br>
 <div style="text-align: center;">
-  <img src="images/CheerishFliter.png" alt="alt text">
+  <img src="images/CheerishFilter.jpg" alt="alt text">
 </div>
 
 ### Product Page
