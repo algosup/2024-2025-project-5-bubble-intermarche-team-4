@@ -81,11 +81,11 @@
         ],
         "crust_type": [
             "Pâte pressée",
-            "non cuite"
+            "Non cuite"
         ],
         "crust_type_en": [
             "Cooked pressed",
-            "uncooked"
+            "Uncooked"
         ],
         "flavor": [
             "mild",
@@ -143,11 +143,11 @@
         ],
         "crust_type": [
             "Pâte molle",
-            "croûte fleurie"
+            "Croûte fleurie"
         ],
         "crust_type_en": [
             "Soft cheese",
-            "bloomy rind"
+            "Bloomy rind"
         ],
         "flavor": [
             "strong"
@@ -174,11 +174,11 @@
         ],
         "crust_type": [
             "Pâte molle",
-            "croûte fleurie"
+            "Croûte fleurie"
         ],
         "crust_type_en": [
             "Soft cheese",
-            "bloomy rind"
+            "Bloomy rind"
         ],
         "flavor": [
             "nutty",
@@ -304,11 +304,11 @@
         ],
         "crust_type": [
             "Pâte pressée",
-            "cuite"
+            "Cuite"
         ],
         "crust_type_en": [
-            "crust pressed",
-            "cooked"
+            "Crust pressed",
+            "Cooked"
         ],
         "flavor": [
             "mild"
@@ -335,11 +335,11 @@
         ],
         "crust_type": [
             "Pâte molle",
-            "croûte fleurie"
+            "Croûte fleurie"
         ],
         "crust_type_en": [
             "Soft cheese",
-            "bloomy rind"
+            "Bloomy rind"
         ],
         "flavor": [
             "mild"
@@ -425,10 +425,12 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Bufflone frais"
+            "Speciality",
+            "Bufflone frais"
         ],
         "crust_type_en": [
-            "Specialty - Fresh buffalo cheese"
+            "Specialty",
+            "Fresh buffalo cheese"
         ],
         "flavor": [
             "mild"
@@ -454,10 +456,12 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Chèvre fort"
+            "Speciality",
+            "Chèvre fort"
         ],
         "crust_type_en": [
-            "Specialty - Strong goat cheese"
+            "Specialty",
+            "Strong goat cheese"
         ],
         "flavor": [
             "strong",
@@ -484,10 +488,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty"
@@ -513,10 +519,12 @@
             "White"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie (triple-crème)"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft triple-cream cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "mild",
@@ -543,10 +551,12 @@
             "White"
         ],
         "crust_type": [
-            "Tomme de chèvre / Pâte molle affinée"
+            "Tomme de chèvre",
+            "Pâte molle affinée"
         ],
         "crust_type_en": [
-            "Goat tomme / Soft aged paste"
+            "Goat tomme",
+            "Soft aged paste"
         ],
         "flavor": [
             "tangy"
@@ -573,11 +583,11 @@
         ],
         "crust_type": [
             "Pâte molle",
-            "croûte fleurie"
+            "Croûte fleurie"
         ],
         "crust_type_en": [
             "Soft cheese",
-            "bloomy rind"
+            "Bloomy rind"
         ],
         "flavor": [
             "mild"
@@ -603,10 +613,12 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Chèvre frais"
+            "Speciality",
+            "Chèvre frais"
         ],
         "crust_type_en": [
-            "Specialty - Fresh goat cheese"
+            "Specialty",
+            "Fresh goat cheese"
         ],
         "flavor": [
             "floral"
@@ -632,10 +644,12 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Chèvre frais"
+            "Speciality",
+            "Chèvre frais"
         ],
         "crust_type_en": [
-            "Specialty - Fresh goat cheese"
+            "Specialty",
+            "Fresh goat cheese"
         ],
         "flavor": [
             "fresh"
@@ -691,10 +705,12 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Chèvre frais"
+            "Speciality",
+            "Chèvre frais"
         ],
         "crust_type_en": [
-            "Specialty - Fresh goat cheese"
+            "Specialty",
+            "Fresh goat cheese"
         ],
         "flavor": [
             "tangy"
@@ -720,10 +736,12 @@
             "White"
         ],
         "crust_type": [
-            "Tomme de chèvre / croûte cendrée"
+            "Tomme de chèvre",
+            "Croûte cendrée"
         ],
         "crust_type_en": [
-            "Goat tomme with ash rind"
+            "Goat tomme",
+            "Ash rind"
         ],
         "flavor": [
             "smoky",
@@ -750,10 +768,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -780,10 +800,12 @@
             "White"
         ],
         "crust_type": [
-            "Tomme de chèvre / croûte cendrée"
+            "Tomme de chèvre",
+            "Croûte cendrée"
         ],
         "crust_type_en": [
-            "Goat tomme with ash rind"
+            "Goat tomme",
+            "Ash rind"
         ],
         "flavor": [
             "mild",
@@ -810,10 +832,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "floral",
@@ -840,10 +864,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -928,10 +954,12 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Vache doux"
+            "Speciality",
+            "Vache doux"
         ],
         "crust_type_en": [
-            "Specialty - Mild cow cheese"
+            "Specialty",
+            "Mild cow cheese"
         ],
         "flavor": [
             "fruity"
@@ -957,10 +985,12 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Chèvre frais"
+            "Speciality",
+            "Chèvre frais"
         ],
         "crust_type_en": [
-            "Specialty - Fresh goat cheese"
+            "Specialty",
+            "Fresh goat cheese"
         ],
         "flavor": [
             "floral"
@@ -986,10 +1016,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "earthy"
@@ -1015,10 +1047,12 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Chèvre frais"
+            "Speciality",
+            "Chèvre frais"
         ],
         "crust_type_en": [
-            "Specialty - Fresh goat cheese"
+            "Specialty",
+            "Fresh goat cheese"
         ],
         "flavor": [
             "fruity",
@@ -1045,10 +1079,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty"
@@ -1074,10 +1110,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty"
@@ -1103,10 +1141,12 @@
             "White"
         ],
         "crust_type": [
-            "Tomme de chèvre / pâte molle affinée"
+            "Tomme de chèvre",
+            "Pâte molle affinée"
         ],
         "crust_type_en": [
-            "Goat tomme / Soft aged paste"
+            "Goat tomme",
+            "Soft aged paste"
         ],
         "flavor": [
             "nutty",
@@ -1133,10 +1173,14 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite, croûte lavée"
+            "Pâte pressée",
+            "Non cuite",
+            "Croûte lavée"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese with washed rind"
+            "Uncooked",
+            "Pressed cheese",
+            "Washed rind"
         ],
         "flavor": [
             "fruity",
@@ -1163,10 +1207,12 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Brebis frais"
+            "Speciality",
+            "Brebis frais"
         ],
         "crust_type_en": [
-            "Specialty - Fresh sheep cheese"
+            "Specialty",
+            "Fresh sheep cheese"
         ],
         "flavor": [
             "tangy"
@@ -1192,10 +1238,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte persillée (mélange)"
+            "Pâte persillée",
+            "Mélange"
         ],
         "crust_type_en": [
-            "Blue-veined mixed cheese"
+            "Blue-veined",
+            "Mixed cheese"
         ],
         "flavor": [
             "funky",
@@ -1222,10 +1270,12 @@
             "Red"
         ],
         "crust_type": [
-            "Speciality - Vache fondu doux"
+            "Speciality",
+            "Vache fondu doux"
         ],
         "crust_type_en": [
-            "Specialty - Mild processed cow cheese"
+            "Specialty",
+            "Mild processed cow cheese"
         ],
         "flavor": [
             "mild"
@@ -1251,10 +1301,12 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Bufflone frais"
+            "Speciality",
+            "Bufflone frais"
         ],
         "crust_type_en": [
-            "Specialty - Fresh buffalo cheese"
+            "Specialty",
+            "Fresh buffalo cheese"
         ],
         "flavor": [
             "mild"
@@ -1280,10 +1332,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty"
@@ -1309,10 +1363,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "truffle",
@@ -1339,10 +1395,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte lavée"
+            "Pâte molle",
+            "Croûte lavée"
         ],
         "crust_type_en": [
-            "Soft cheese with washed rind"
+            "Soft cheese",
+            "Washed rind"
         ],
         "flavor": [
             "fruity",
@@ -1369,10 +1427,12 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Chèvre frais"
+            "Speciality",
+            "Chèvre frais"
         ],
         "crust_type_en": [
-            "Specialty - Fresh goat cheese"
+            "Specialty",
+            "Fresh goat cheese"
         ],
         "flavor": [
             "fruity",
@@ -1399,10 +1459,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "floral",
@@ -1429,10 +1491,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "mild"
@@ -1458,10 +1522,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -1488,10 +1554,12 @@
             "White"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Cuite",
+            "Pâte pressée"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "tangy"
@@ -1517,10 +1585,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -1547,10 +1617,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "mild"
@@ -1576,10 +1648,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "earthy",
@@ -1631,10 +1705,14 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite, croûte lavée"
+            "Pâte pressée",
+            "Non cuite",
+            "Croûte lavée"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese with washed rind"
+            "Uncooked",
+            "Pressed cheese",
+            "Washed rind"
         ],
         "flavor": [
             "mild"
@@ -1660,10 +1738,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte lavée"
+            "Pâte molle",
+            "Croûte lavée"
         ],
         "crust_type_en": [
-            "Soft cheese with washed rind"
+            "Soft cheese",
+            "Washed rind"
         ],
         "flavor": [
             "fruity",
@@ -1690,10 +1770,14 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Chèvre et brebis frais"
+            "Speciality",
+            "Fresh goat",
+            "Sheep cheese"
         ],
         "crust_type_en": [
-            "Specialty - Fresh goat and sheep cheese"
+            "Specialty",
+            "Fresh goat",
+            "Sheep cheese"
         ],
         "flavor": [
             "mild"
@@ -1744,10 +1828,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "fruity",
@@ -1774,10 +1860,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "earthy",
@@ -1804,10 +1892,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -1834,10 +1924,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "mild"
@@ -1863,10 +1955,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "floral",
@@ -1893,10 +1987,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -1948,10 +2044,12 @@
             "Red"
         ],
         "crust_type": [
-            "Speciality - Crème de vache"
+            "Speciality",
+            "Crème de vache"
         ],
         "crust_type_en": [
-            "Specialty - Cow cream"
+            "Specialty",
+            "Cow cream"
         ],
         "flavor": [
             "mild"
@@ -1977,10 +2075,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte lavée"
+            "Pâte molle",
+            "Croûte lavée"
         ],
         "crust_type_en": [
-            "Soft cheese with washed rind"
+            "Soft cheese",
+            "Washed rind"
         ],
         "flavor": [
             "funky",
@@ -2007,10 +2107,14 @@
             "White"
         ],
         "crust_type": [
-            "Speciality - Chèvre frais enrobé"
+            "Speciality",
+            "Chèvre frais",
+            "Enrobé"
         ],
         "crust_type_en": [
-            "Specialty - Coated fresh goat cheese"
+            "Specialty",
+            "Coated",
+            "Fresh goat cheese"
         ],
         "flavor": [
             "mild",
@@ -2037,10 +2141,12 @@
             "White"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "tangy"
@@ -2066,10 +2172,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -2096,10 +2204,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "earthy",
@@ -2126,10 +2236,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "creamy",
@@ -2156,10 +2268,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "floral",
@@ -2186,10 +2300,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "floral",
@@ -2216,10 +2332,12 @@
             "White"
         ],
         "crust_type": [
-            "Pâte molle à croûte cendrée"
+            "Pâte molle",
+            "Croûte cendrée"
         ],
         "crust_type_en": [
-            "Soft cheese with ashed rind"
+            "Soft cheese",
+            "Ash-covered rind"
         ],
         "flavor": [
             "tangy",
@@ -2271,10 +2389,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte lavée"
+            "Pâte molle",
+            "Croûte lavée"
         ],
         "crust_type_en": [
-            "Soft cheese with washed rind"
+            "Soft cheese",
+            "Washed rind"
         ],
         "flavor": [
             "earthy"
@@ -2300,10 +2420,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "floral",
@@ -2360,10 +2482,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -2390,10 +2514,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "floral",
@@ -2420,10 +2546,12 @@
             "White"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "tangy",
@@ -2450,10 +2578,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "truffle"
@@ -2479,10 +2609,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -2509,10 +2641,12 @@
             "Red"
         ],
         "crust_type": [
-            "Speciality - Yaourt grec"
+            "Speciality",
+            "Yaourt grec"
         ],
         "crust_type_en": [
-            "Specialty - Greek yogurt"
+            "Specialty",
+            "Greek yogurt"
         ],
         "flavor": [
             "creamy",
@@ -2539,10 +2673,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -2569,10 +2705,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -2599,10 +2737,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "earthy",
@@ -2629,10 +2769,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte lavée"
+            "Pâte molle",
+            "Croûte lavée"
         ],
         "crust_type_en": [
-            "Soft cheese with washed rind"
+            "Soft cheese",
+            "Washed rind"
         ],
         "flavor": [
             "funky",
@@ -2659,10 +2801,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "creamy",
@@ -2719,10 +2863,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "creamy",
@@ -2749,10 +2895,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée cuite"
+            "Pâte pressée",
+            "Cuite"
         ],
         "crust_type_en": [
-            "Cooked pressed cheese"
+            "Cooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -2779,10 +2927,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -2809,10 +2959,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "nutty",
@@ -2839,10 +2991,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte pressée non cuite"
+            "Pâte pressée",
+            "Non cuite"
         ],
         "crust_type_en": [
-            "Uncooked pressed cheese"
+            "Uncooked",
+            "Pressed cheese"
         ],
         "flavor": [
             "earthy",
@@ -2959,10 +3113,12 @@
             "Red"
         ],
         "crust_type": [
-            "Pâte molle à croûte fleurie"
+            "Pâte molle",
+            "Croûte fleurie"
         ],
         "crust_type_en": [
-            "Soft cheese with bloomy rind"
+            "Soft cheese",
+            "Bloomy rind"
         ],
         "flavor": [
             "truffle",
