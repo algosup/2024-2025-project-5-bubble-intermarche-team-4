@@ -53,7 +53,7 @@ Team 4:
 
 ## Cheerish
 
-[Catalogue Link](cheerish-93469.bubbleapps.io/version-test/index?debug_mode=false)
+[Catalogue Link](https://cheerish-93469.bubbleapps.io/version-test/index?debug_mode=false)
 
 <p align="center">
     <img src="./documents/functional/images/logo/sign.png" alt="CheerishQRCode" width="200">
