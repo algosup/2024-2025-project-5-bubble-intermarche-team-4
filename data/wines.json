@@ -17,7 +17,9 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Fresh cheese",
+      "Semi-hard cheese",
+      "Hard cheese"
     ],
     "alcohol_percentage": 12.5,
     "sweetness": "Dry",
@@ -47,7 +49,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Val_Oule_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Soft cheese"
+      "Soft cheese",
+      "Fresh cheese"
     ],
     "alcohol_percentage": 12.5,
     "sweetness": "Dry",
@@ -78,7 +81,9 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Fresh cheese",
+      "Semi-hard cheese",
+      "Hard cheese"
     ],
     "alcohol_percentage": 12.0,
     "sweetness": "Dry",
@@ -109,7 +114,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Rougiers_Gris_Rose.png",
     "bestseller": true,
     "cheese": [
-      "Soft cheese"
+      "Soft cheese",
+      "Fresh cheese"
     ],
     "alcohol_percentage": 12.0,
     "sweetness": "Dry",
@@ -140,7 +146,9 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Fresh cheese",
+      "Semi-hard cheese",
+      "Hard cheese"
     ],
     "alcohol_percentage": 12.0,
     "sweetness": "Dry",
@@ -170,7 +178,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Cotes_De_Provence_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Soft cheese"
+      "Soft cheese",
+      "Fresh cheese"
     ],
     "alcohol_percentage": 14.0,
     "sweetness": "Dry",
@@ -230,6 +239,7 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 14.0,
@@ -261,7 +271,8 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Marignane_Gris.png",
     "bestseller": false,
     "cheese": [
-      "Soft cheese"
+      "Soft cheese",
+      "Fresh cheese"
     ],
     "alcohol_percentage": 12.0,
     "sweetness": "Dry",
@@ -291,6 +302,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -322,6 +334,7 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Soft cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -353,6 +366,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -384,6 +398,7 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 13.5,
@@ -446,6 +461,7 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -477,6 +493,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -508,6 +525,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -539,6 +557,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -570,6 +589,7 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -785,6 +805,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -970,6 +991,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -1032,6 +1054,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -1063,6 +1086,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -1093,6 +1117,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -1155,6 +1180,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -1249,6 +1275,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -1311,6 +1338,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -1342,6 +1370,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -1373,6 +1402,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 13.5,
@@ -1404,6 +1434,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -1466,6 +1497,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -1497,6 +1529,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -1559,6 +1592,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -1590,6 +1624,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -1621,6 +1656,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -1652,6 +1688,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -1745,6 +1782,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -1838,6 +1876,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -1900,6 +1939,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -1931,6 +1971,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -1962,6 +2003,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -2024,6 +2066,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -2086,6 +2129,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -2117,6 +2161,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -2179,6 +2224,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -2210,6 +2256,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -2241,6 +2288,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -2334,6 +2382,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -2427,6 +2476,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -2458,6 +2508,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -2520,6 +2571,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -2551,6 +2603,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -2582,6 +2635,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -2644,6 +2698,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -2675,6 +2730,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -2737,6 +2793,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.5,
@@ -2799,6 +2856,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -2861,6 +2919,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -2954,6 +3013,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -3016,6 +3076,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
@@ -3047,6 +3108,7 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
     "alcohol_percentage": 12.0,
