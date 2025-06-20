@@ -29,7 +29,8 @@ This project is a web application developed using Bubble that allows users to ma
 - [Technical Specification](./documents/technical/TechnicalSpecifications.md)
 - [Test Plan](./documents/QA/TestPLan.md)
 - [Test Cases](./documents/QA/TestCases.md)
-- [Weekly Reports](./documents/management/weeklyReports)
+- [General Management Report](./documents/management/weeklyReports/allWeeks.md) (Weekly reports, KPIs, and post-mortem)
+- [Management Documents](./documents/management)
 - [User Manual](./documents/user-manual/)
 
 ## Contributing
