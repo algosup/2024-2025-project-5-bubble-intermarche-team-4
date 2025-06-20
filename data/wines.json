@@ -17,9 +17,20 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Fresh cheese",
+      "Semi-hard cheese",
+      "Hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "appetizer"
+    ]
   },
   {
     "id": 2,
@@ -38,9 +49,19 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Val_Oule_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Soft cheese"
+      "Soft cheese",
+      "Fresh cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "appetizer"
+    ]
   },
   {
     "id": 3,
@@ -60,9 +81,21 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Fresh cheese",
+      "Semi-hard cheese",
+      "Hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral",
+      "Buttery"
+    ],
+    "occasion": [
+      "aperitif",
+      "cheese"
+    ]
   },
   {
     "id": 4,
@@ -81,9 +114,19 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Rougiers_Gris_Rose.png",
     "bestseller": true,
     "cheese": [
-      "Soft cheese"
+      "Soft cheese",
+      "Fresh cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "appetizer"
+    ]
   },
   {
     "id": 5,
@@ -103,9 +146,20 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
-      "Semi-hard cheese"
+      "Fresh cheese",
+      "Semi-hard cheese",
+      "Hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 6,
@@ -124,9 +178,19 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Cotes_De_Provence_Rose.png",
     "bestseller": false,
     "cheese": [
-      "Soft cheese"
+      "Soft cheese",
+      "Fresh cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 14.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "aperitif",
+      "appetizer"
+    ]
   },
   {
     "id": 7,
@@ -147,7 +211,15 @@
     "cheese": [
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 8,
@@ -167,9 +239,20 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 14.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral",
+      "Herbal"
+    ],
+    "occasion": [
+      "aperitif",
+      "appetizer"
+    ]
   },
   {
     "id": 9,
@@ -188,9 +271,18 @@
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/Mas_Marignane_Gris.png",
     "bestseller": false,
     "cheese": [
-      "Soft cheese"
+      "Soft cheese",
+      "Fresh cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity"
+    ],
+    "occasion": [
+      "aperitif",
+      "appetizer"
+    ]
   },
   {
     "id": 10,
@@ -210,9 +302,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "aperitif",
+      "appetizer"
+    ]
   },
   {
     "id": 11,
@@ -232,9 +334,19 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Soft cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "appetizer"
+    ]
   },
   {
     "id": 12,
@@ -254,9 +366,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 13,
@@ -276,9 +398,19 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 14,
@@ -300,7 +432,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 15,
@@ -320,9 +461,19 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "dessert"
+    ]
   },
   {
     "id": 16,
@@ -342,9 +493,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Mineral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 17,
@@ -364,9 +525,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Mineral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 18,
@@ -386,9 +557,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "aperitif",
+      "appetizer"
+    ]
   },
   {
     "id": 19,
@@ -408,9 +589,18 @@
     "bestseller": true,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity"
+    ],
+    "occasion": [
+      "aperitif",
+      "appetizer"
+    ]
   },
   {
     "id": 20,
@@ -432,7 +622,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 21,
@@ -454,7 +653,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 22,
@@ -476,7 +684,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 23,
@@ -498,7 +715,15 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 11.5
+    "alcohol_percentage": 11.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity"
+    ],
+    "occasion": [
+      "aperitif",
+      "dessert"
+    ]
   },
   {
     "id": 24,
@@ -520,7 +745,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 25,
@@ -542,7 +776,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 26,
@@ -562,9 +805,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "appetizer"
+    ]
   },
   {
     "id": 27,
@@ -586,7 +839,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 28,
@@ -608,7 +870,15 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 29,
@@ -630,7 +900,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 30,
@@ -652,7 +931,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Off-dry",
+    "aromas": [
+      "Fruity",
+      "Mineral"
+    ],
+    "occasion": [
+      "aperitif", 
+      "meal"
+  ]
   },
   {
     "id": 31,
@@ -674,7 +962,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 32,
@@ -694,9 +991,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Sweet",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "dessert",
+      "aperitif"
+    ]
   },
   {
     "id": 33,
@@ -718,7 +1025,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "dessert",
+      "aperitif"
+    ]
   },
   {
     "id": 34,
@@ -738,9 +1054,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 35,
@@ -760,9 +1086,18 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 36,
@@ -782,9 +1117,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 37,
@@ -806,7 +1151,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 38,
@@ -826,9 +1180,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 39,
@@ -850,7 +1214,17 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Earthy",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 40,
@@ -872,7 +1246,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 41,
@@ -892,9 +1275,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 42,
@@ -916,7 +1309,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 43,
@@ -936,9 +1338,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Off-dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 44,
@@ -958,9 +1370,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Off-dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 45,
@@ -980,9 +1402,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 46,
@@ -1002,9 +1434,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 47,
@@ -1026,7 +1468,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 48,
@@ -1046,9 +1497,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 49,
@@ -1068,9 +1529,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 50,
@@ -1092,7 +1563,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 51,
@@ -1112,9 +1592,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 52,
@@ -1134,9 +1624,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 53,
@@ -1156,9 +1656,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 54,
@@ -1178,9 +1688,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 55,
@@ -1202,7 +1722,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 56,
@@ -1224,7 +1753,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 57,
@@ -1244,9 +1782,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 58,
@@ -1268,7 +1816,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 59,
@@ -1290,7 +1847,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 60,
@@ -1310,9 +1876,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 61,
@@ -1334,7 +1910,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 62,
@@ -1354,9 +1939,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 63,
@@ -1376,9 +1971,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 64,
@@ -1398,31 +2003,50 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 65,
-    "ITM8": "0000017376801",
-    "EAN": "3536650501002",
-    "name": "E. Guigal Côtes-du-Rhône Rouge",
-    "region": "Côtes-du-Rhône",
+    "ITM8": "0000052337077",
+    "EAN": "3250390801054",
+    "name": "IGP Pays d'Oc Merlot Rouge Le Choix Du Pin 75cL",
+    "region": "Languedoc-Roussillon",
     "country": "France",
     "year": 2023,
     "type": "Red",
-    "grape": "Grenache, Syrah",
-    "price": 9.8,
+    "grape": "Merlot",
+    "price": 2.24,
     "rating": null,
-    "description": "Robe pourpre profond, nez de fruits noirs, épices et fumée, bouche structurée avec tanins soyeux et finale longue.",
-    "description_en": "Deep purple colour, aromas of dark fruit, spice and smoke, structured palate with silky tannins and a long finish.",
-    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/E_Guigal_Cotes_Rhone_Rouge.png",
+    "description": "Le Choix du Pin Merlot est un vin rouge souple et fruité du Languedoc-Roussillon. Il offre des arômes de fruits rouges mûrs avec une touche d’épices. Facile à boire, il accompagne idéalement les viandes grillées, les plats simples ou un plateau de fromages légers.",
+    "description_en": "Le Choix du Pin Merlot is a smooth, fruity red wine from Languedoc-Roussillon. It features ripe red fruit aromas with a hint of spice. Easy-drinking and approachable, it pairs well with grilled meats, simple dishes, or mild cheeses.",
+    "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-wines/IGPPaysOcMerlotRougePin75cL.png",
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "plat",
+      "fromage"
+    ]
   },
   {
     "id": 66,
@@ -1442,9 +2066,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 67,
@@ -1466,7 +2100,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 68,
@@ -1486,9 +2129,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 69,
@@ -1508,9 +2161,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 70,
@@ -1532,7 +2195,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 71,
@@ -1552,9 +2224,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 72,
@@ -1574,9 +2256,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Off-dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 73,
@@ -1596,9 +2288,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 74,
@@ -1620,7 +2322,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 75,
@@ -1642,7 +2353,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 76,
@@ -1662,9 +2382,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 77,
@@ -1686,7 +2416,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 78,
@@ -1708,7 +2447,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 79,
@@ -1728,9 +2476,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 80,
@@ -1750,9 +2508,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 81,
@@ -1774,7 +2542,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 82,
@@ -1794,9 +2571,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 83,
@@ -1816,9 +2603,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 84,
@@ -1838,9 +2635,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 85,
@@ -1862,7 +2669,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 86,
@@ -1882,9 +2698,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 87,
@@ -1904,9 +2730,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 88,
@@ -1928,7 +2764,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 89,
@@ -1948,9 +2793,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.5
+    "alcohol_percentage": 12.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "meal"
+    ]
   },
   {
     "id": 90,
@@ -1972,7 +2827,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 91,
@@ -1992,9 +2856,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 92,
@@ -2016,7 +2890,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 93,
@@ -2036,9 +2919,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 94,
@@ -2060,7 +2953,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 95,
@@ -2082,7 +2984,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 96,
@@ -2102,9 +3013,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 97,
@@ -2126,7 +3047,16 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   },
   {
     "id": 98,
@@ -2146,9 +3076,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 99,
@@ -2168,9 +3108,19 @@
     "bestseller": false,
     "cheese": [
       "Goat's cheese",
+      "Fresh cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 12.0
+    "alcohol_percentage": 12.0,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Floral"
+    ],
+    "occasion": [
+      "aperitif",
+      "entrée"
+    ]
   },
   {
     "id": 100,
@@ -2192,6 +3142,15 @@
       "Goat's cheese",
       "Semi-hard cheese"
     ],
-    "alcohol_percentage": 13.5
+    "alcohol_percentage": 13.5,
+    "sweetness": "Dry",
+    "aromas": [
+      "Fruity",
+      "Spicy"
+    ],
+    "occasion": [
+      "meal",
+      "cheese"
+    ]
   }
 ]

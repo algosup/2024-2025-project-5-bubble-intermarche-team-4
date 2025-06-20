@@ -95,7 +95,7 @@
     ],
     "cheese": [
       "Fresh cheese",
-      "Fresh cheese"
+      "Hard cheese"
     ],
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Cassoulet.jpg"
   },
@@ -133,7 +133,6 @@
       "Red"
     ],
     "cheese": [
-      "Soft cheese",
       "Soft cheese",
       "Fresh cheese"
     ],
@@ -251,7 +250,7 @@
       "Red"
     ],
     "cheese": [
-      "Fresh cheese",
+      "Hard cheese",
       "Fresh cheese"
     ],
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Boudin_Noir_au_Pommes.jpg"
@@ -270,7 +269,7 @@
       "Red"
     ],
     "cheese": [
-      "Fresh cheese",
+      "Hard cheese",
       "Fresh cheese"
     ],
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Pot_au_Feu.jpg"
@@ -290,8 +289,7 @@
       "Rosé"
     ],
     "cheese": [
-      "Fresh cheese",
-      "Fresh cheese",
+      "Hard cheese",
       "Fresh cheese"
     ],
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Couscous_Royal.jpg"
@@ -368,7 +366,7 @@
       "White"
     ],
     "cheese": [
-      "Fresh cheese",
+      "Soft cheese",
       "Fresh cheese"
     ],
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Sole_Meunière.jpg"
@@ -491,7 +489,7 @@
       "Red"
     ],
     "cheese": [
-      "Fresh cheese",
+      "Hard cheese",
       "Fresh cheese",
       "Goat's cheese"
     ],
@@ -536,7 +534,7 @@
     "cheese": [
       "Fresh cheese",
       "Soft cheese",
-      "Fresh cheese"
+      "Semi-soft cheese"
     ],
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Caille_Rôtie.jpg"
   },
@@ -598,7 +596,7 @@
     ],
     "cheese": [
       "Fresh cheese",
-      "Fresh cheese"
+      "Cow cheese"
     ],
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_de_poisson.jpg"
   },
@@ -619,8 +617,8 @@
     ],
     "cheese": [
       "Fresh cheese",
-      "Fresh cheese",
-      "Fresh cheese"
+      "Cow cheese",
+      "Hard cheese"
     ],
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Lotte_à_l'armoricaine.jpg"
   },
@@ -682,7 +680,7 @@
     ],
     "cheese": [
       "Fresh cheese",
-      "Fresh cheese",
+      "Hard cheese",
       "Goat's cheese"
     ],
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Pavé_de_saumon.jpg"
@@ -746,7 +744,7 @@
     ],
     "cheese": [
       "Fresh cheese",
-      "Fresh cheese"
+      "Cow cheese"
     ],
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Gratin_de_légumes.jpg"
   },
@@ -787,7 +785,7 @@
     ],
     "cheese": [
       "Fresh cheese",
-      "Fresh cheese"
+      "Semi-soft cheese"
     ],
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Brandade_de_morue.jpg"
   },
@@ -870,7 +868,7 @@
     ],
     "cheese": [
       "Fresh cheese",
-      "Fresh cheese"
+      "Cow cheese"
     ],
     "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-meals/Tartare_de_saumon.jpg"
   },

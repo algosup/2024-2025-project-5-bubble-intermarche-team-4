@@ -8,7 +8,7 @@
   <a href="#contributing">Contributing</a> • 
   <a href="#license">License</a> • 
   <a href="#authors">Authors</a> • 
-  <a href="#contributing">Cheerish</a> • 
+  <a href="#contributing">Cheerish</a>
 </p>
 
 <br>
@@ -53,8 +53,8 @@ Team 4:
 
 ## Cheerish
 
-[Catalogue Link](https://shorturl.at/NTZzb)
+[Catalogue Link](https://cheerish-93469.bubbleapps.io/version-test/index?debug_mode=false)
 
 <p align="center">
-    <img src="./documents/functional/images/logo/QRCode.png" alt="CheerishQRCode" width="200">
+    <img src="./documents/functional/images/logo/sign.png" alt="CheerishQRCode" width="200">
 </p>

@@ -17,29 +17,18 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Chèvre frais",
-        "crust_type_en": "Specialty - Fresh goat cheese"
-    },
-    {
-        "id": 2,
-        "ITM8": "0000099064583",
-        "EAN": "0000000000198",
-        "name": "Yaourt aux fruits Mère Richard",
-        "region": "France",
-        "country": "France",
-        "type": "Yogurt",
-        "milk": "Cow",
-        "price": 2.1,
-        "rating": null,
-        "description_fr": "Yaourt à base de lait de vache, fermenté et agrémenté de purées de fruits, texture onctueuse et goût doux et fruité.",
-        "description_en": "Yogurt made from cow's milk, fermented and flavored with fruit purée, creamy texture and sweet, fruity taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/yaourt-fruit-mere-richard.jpg",
-        "bestseller": true,
-        "wine": [
-            "Red"
+        "crust_type": [
+            "Speciality",
+            "Chèvre frais"
         ],
-        "crust_type": "Null",
-        "crust_type_en": null
+        "crust_type_en": [
+            "Specialty",
+            "Fresh goat cheese"
+        ],
+        "flavor": [
+            "Tangy"
+        ],
+        "aging": "Fresh"
     },
     {
         "id": 3,
@@ -59,14 +48,24 @@
         "wine": [
             "Rosé"
         ],
-        "crust_type": "Speciality - Chèvre crémeux / Pâte molle",
-        "crust_type_en": "Specialty - Creamy goat cheese / Soft paste"
+        "crust_type": [
+            "Tomme de chèvre",
+            "Pâte molle"
+        ],
+        "crust_type_en": [
+            "Goat tomme",
+            "Soft cheese"
+        ],
+        "flavor": [
+            "Tangy"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 4,
+        "id": 3,
         "ITM8": "0000099060048",
         "EAN": "0204410000000",
-        "name": "Tome de Provence",
+        "name": "Tomme de Provence",
         "region": "Provence",
         "country": "France",
         "type": "Semi-hard cheese",
@@ -80,11 +79,22 @@
         "wine": [
             "Sparkling"
         ],
-        "crust_type": "Pâte pressée non cuite",
-        "crust_type_en": "Uncooked pressed cheese"
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Cooked pressed",
+            "Uncooked"
+        ],
+        "flavor": [
+            "Mild",
+            "Fruity"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 5,
+        "id": 4,
         "ITM8": "0000099041865",
         "EAN": "0204510000000",
         "name": "Pélardon",
@@ -101,11 +111,20 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Pâte molle à croûte naturelle (Speciality - Chèvre fort)",
-        "crust_type_en": "Soft cheese with natural rind (Specialty - strong goat)"
+        "crust_type": [
+            "Pâte molle à croûte naturelle (Speciality - Chèvre fort)"
+        ],
+        "crust_type_en": [
+            "Soft cheese with natural rind (Specialty - strong goat)"
+        ],
+        "flavor": [
+            "Nutty",
+            "Tangy"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 6,
+        "id": 5,
         "ITM8": "0000099041874",
         "EAN": "0204600000000",
         "name": "Saint-Marcellin Mère Richard",
@@ -122,11 +141,21 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte molle à croûte fleurie",
-        "crust_type_en": "Soft cheese with bloomy rind"
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Strong"
+        ],
+        "aging": "Blue"
     },
     {
-        "id": 7,
+        "id": 6,
         "ITM8": "0000099041873",
         "EAN": "0204590000000",
         "name": "Saint-Félicien Mère Richard",
@@ -143,11 +172,22 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Pâte molle à croûte fleurie",
-        "crust_type_en": "Soft cheese with bloomy rind"
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Nutty",
+            "Earthy"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 8,
+        "id": 7,
         "ITM8": "0000099041867",
         "EAN": "0204530000000",
         "name": "Séchons de chèvre",
@@ -164,32 +204,22 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Speciality - Chèvre sec",
-        "crust_type_en": "Specialty - Dried goat cheese"
-    },
-    {
-        "id": 9,
-        "ITM8": "0000019315996",
-        "EAN": "3237054005744",
-        "name": "Faisselle Saint-Félicien – Saint-Marcel 260 g",
-        "region": "France",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow (or goat/sheep)",
-        "price": 6.6,
-        "rating": null,
-        "description_fr": "Faisselle est un fromage frais non protégé, égoutté dans une faisselle, texture fraîche et légère acidité.",
-        "description_en": "Faisselle is an unprotected French fresh cheese drained in a mold, with a fresh texture and mild acidity.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/faisselle-saint-felicien.jpg",
-        "bestseller": true,
-        "wine": [
-            "White"
+        "crust_type": [
+            "Speciality",
+            "Chèvre sec"
         ],
-        "crust_type": "Speciality - Vache frais",
-        "crust_type_en": "Specialty - Fresh cow cheese"
+        "crust_type_en": [
+            "Specialty",
+            "Dried goat cheese"
+        ],
+        "flavor": [
+            "Strong",
+            "Tangy"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 10,
+        "id": 8,
         "ITM8": "0000043439418",
         "EAN": "2663716000000",
         "name": "Crottin de Chavignol AOP 60 g",
@@ -206,11 +236,24 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Tomme de chèvre / Speciality - Chèvre affiné",
-        "crust_type_en": "Goat tomme / Specialty - Aged goat cheese"
+        "crust_type": [
+            "Tomme de chèvre",
+            "Speciality",
+            "Chèvre affiné"
+        ],
+        "crust_type_en": [
+            "Goat tomme",
+            "Specialty",
+            "Aged goat cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Tangy"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 11,
+        "id": 9,
         "ITM8": "0000019026731",
         "EAN": "2663713000000",
         "name": "Étoile Quercy Pavé du Lot 180 g",
@@ -227,11 +270,22 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Chèvre crémeux",
-        "crust_type_en": "Specialty - Creamy goat cheese"
+        "crust_type": [
+            "Speciality",
+            "Chèvre crémeux"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Creamy goat cheese"
+        ],
+        "flavor": [
+            "Fruity",
+            "Tangy"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 12,
+        "id": 10,
         "ITM8": "0000099060040",
         "EAN": "0204830000000",
         "name": "Le Ventoux",
@@ -248,32 +302,21 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
-    },
-    {
-        "id": 13,
-        "ITM8": "0000099041863",
-        "EAN": "2670978000000",
-        "name": "Banon feuille",
-        "region": "Provence",
-        "country": "France",
-        "type": "Goat's cheese",
-        "milk": "Goat",
-        "price": 6.3,
-        "rating": null,
-        "description_fr": "Fromage de chèvre AOP Banon enveloppé dans des feuilles de châtaignier, pâte fondante et goût légèrement relevé.",
-        "description_en": "AOP goat cheese Banon wrapped in chestnut leaves, with a melting paste and a slightly spicy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/banon-feuille.jpg",
-        "bestseller": true,
-        "wine": [
-            "White"
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
         ],
-        "crust_type": "Speciality - Chèvre fort",
-        "crust_type_en": "Specialty - Strong goat cheese"
+        "crust_type_en": [
+            "Crust pressed",
+            "Cooked"
+        ],
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 14,
+        "id": 11,
         "ITM8": "0000019026713",
         "EAN": "2663532000000",
         "name": "Saint-Félicien Tentation 200 g",
@@ -290,11 +333,21 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte molle à croûte fleurie",
-        "crust_type_en": "Soft cheese with bloomy rind"
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 15,
+        "id": 12,
         "ITM8": "0000099041859",
         "EAN": "0204450000000",
         "name": "Bouyguette",
@@ -311,32 +364,21 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Chèvre frais",
-        "crust_type_en": "Specialty - Fresh goat cheese"
-    },
-    {
-        "id": 16,
-        "ITM8": "0000019676898",
-        "EAN": "3523230034289",
-        "name": "Saint-Félicien affiné 150 g",
-        "region": "Rhône-Alpes",
-        "country": "France",
-        "type": "Soft cheese",
-        "milk": "Cow",
-        "price": 3.8,
-        "rating": null,
-        "description_fr": "Version affinée du Saint-Félicien, pâte plus ferme et arômes de crème et de champignon.",
-        "description_en": "Aged version of Saint-Félicien, firmer paste with cream and mushroom aromas.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/saint-felicien-affine.jpg",
-        "bestseller": true,
-        "wine": [
-            "Red"
+        "crust_type": [
+            "Speciality",
+            "Chèvre frais"
         ],
-        "crust_type": "Pâte molle à croûte fleurie",
-        "crust_type_en": "Soft cheese with bloomy rind"
+        "crust_type_en": [
+            "Specialty",
+            "Fresh goat cheese"
+        ],
+        "flavor": [
+            "Fresh"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 17,
+        "id": 13,
         "ITM8": "0000099059676",
         "EAN": "0204660000000",
         "name": "Picodon AOP Mère Richard",
@@ -353,32 +395,19 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Tomme de chèvre (affinée, ferme)",
-        "crust_type_en": "Firm aged goat tomme"
-    },
-    {
-        "id": 18,
-        "ITM8": "0000043434119",
-        "EAN": "3250391104116",
-        "name": "Faisselle P&C Saint-Marcellin IGP 2×80 g",
-        "region": "Dauphiné",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 3.7,
-        "rating": null,
-        "description_fr": "Faisselle IGP Saint-Marcellin conditionnée en portions de 2×80 g, texture fraîche et goût lacté.",
-        "description_en": "IGP Saint-Marcellin faisselle packaged in 2×80 g portions, with a fresh texture and milky taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/faisselle-saint-marcellin.jpg",
-        "bestseller": true,
-        "wine": [
-            "White"
+        "crust_type": [
+            "Tomme de chèvre"
         ],
-        "crust_type": "Speciality - Vache frais",
-        "crust_type_en": "Specialty - Fresh cow cheese"
+        "crust_type_en": [
+            "Goat tomme"
+        ],
+        "flavor": [
+            "Nutty"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 19,
+        "id": 14,
         "ITM8": "0000099006090",
         "EAN": "0204880000000",
         "name": "Mozzarella di Bufala",
@@ -395,11 +424,53 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Bufflone frais",
-        "crust_type_en": "Specialty - Fresh buffalo cheese"
+        "crust_type": [
+            "Speciality",
+            "Bufflone frais"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Fresh buffalo cheese"
+        ],
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 20,
+        "id": 15,
+        "ITM8": "0000099041863",
+        "EAN": "2670978000000",
+        "name": "Banon feuille",
+        "region": "Provence",
+        "country": "France",
+        "type": "Goat's cheese",
+        "milk": "Goat",
+        "price": 6.3,
+        "rating": null,
+        "description_fr": "Fromage de chèvre AOP Banon enveloppé dans des feuilles de châtaignier, pâte fondante et goût légèrement relevé.",
+        "description_en": "AOP goat cheese Banon wrapped in chestnut leaves, with a melting paste and a slightly spicy flavor.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/banon-feuille.jpg",
+        "bestseller": true,
+        "wine": [
+            "White"
+        ],
+        "crust_type": [
+            "Speciality",
+            "Chèvre fort"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Strong goat cheese"
+        ],
+        "flavor": [
+            "Strong",
+            "Tangy"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 16,
         "ITM8": "0000099031468",
         "EAN": "0206360000000",
         "name": "XV du Pic",
@@ -416,32 +487,21 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
-    },
-    {
-        "id": 21,
-        "ITM8": "0000019278690",
-        "EAN": "3358150002120",
-        "name": "Faisselle chèvre frais 115 g",
-        "region": "France",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Goat",
-        "price": 2.4,
-        "rating": null,
-        "description_fr": "Fromage frais de chèvre en faisselle, texture crémeuse et goût légèrement acidulé.",
-        "description_en": "Fresh goat cheese in faisselle form, creamy texture and slightly tangy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/faisselle-chevre-frais.jpg",
-        "bestseller": false,
-        "wine": [
-            "White"
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
         ],
-        "crust_type": "Speciality - Chèvre frais",
-        "crust_type_en": "Specialty - Fresh goat cheese"
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 22,
+        "id": 17,
         "ITM8": "0000099041870",
         "EAN": "0204560000000",
         "name": "Demi Brillat-Savarin affiné",
@@ -458,32 +518,22 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Pâte molle à croûte fleurie (triple-crème)",
-        "crust_type_en": "Soft triple-cream cheese with bloomy rind"
-    },
-    {
-        "id": 23,
-        "ITM8": "3266360612018",
-        "EAN": "3266360612018",
-        "name": "Saint-Marcellin en céramique",
-        "region": "Rhône-Alpes",
-        "country": "France",
-        "type": "Soft cheese",
-        "milk": "Cow",
-        "price": 3.5,
-        "rating": null,
-        "description_fr": "Fromage à pâte molle affiné en pot céramique, texture fondante et goût doux légèrement salé.",
-        "description_en": "Soft cheese aged in ceramic pot, melting texture and mildly salty, delicate flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/saint-marcellin-en-ceramique.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
         ],
-        "crust_type": "Pâte molle à croûte fleurie",
-        "crust_type_en": "Soft cheese with bloomy rind"
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Mild",
+            "Earthy"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 24,
+        "id": 18,
         "ITM8": "0000099041876",
         "EAN": "0204620000000",
         "name": "Rigotte de Condrieu AOP",
@@ -500,11 +550,21 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Tomme de chèvre / Pâte molle affinée",
-        "crust_type_en": "Goat tomme / Soft aged paste"
+        "crust_type": [
+            "Tomme de chèvre",
+            "Pâte molle affinée"
+        ],
+        "crust_type_en": [
+            "Goat tomme",
+            "Soft aged paste"
+        ],
+        "flavor": [
+            "Tangy"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 25,
+        "id": 19,
         "ITM8": "0000099021317",
         "EAN": "0204650000000",
         "name": "Quatre Vents",
@@ -521,32 +581,21 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte molle à croûte fleurie",
-        "crust_type_en": "Soft cheese with bloomy rind"
-    },
-    {
-        "id": 26,
-        "ITM8": "0000019026725",
-        "EAN": "3428380002549",
-        "name": "Rocamadour AOP 2×35 g",
-        "region": "Périgord–Quercy",
-        "country": "France",
-        "type": "Goat's cheese",
-        "milk": "Goat",
-        "price": 2.8,
-        "rating": null,
-        "description_fr": "Fromage de chèvre AOP, pâte fraîche légèrement affinée, goût doux et acidulé.",
-        "description_en": "AOP goat cheese with lightly aged fresh paste, sweet and tangy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/rocamadour-aop-2.jpg",
-        "bestseller": false,
-        "wine": [
-            "White"
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
         ],
-        "crust_type": "Speciality - Chèvre crémeux / Pâte molle",
-        "crust_type_en": "Specialty - Creamy goat cheese / Soft paste"
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 27,
+        "id": 20,
         "ITM8": "0000099041850",
         "EAN": "0204370000000",
         "name": "Chèvre frais aux fleurs",
@@ -563,14 +612,24 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Chèvre frais",
-        "crust_type_en": "Specialty - Fresh goat cheese"
+        "crust_type": [
+            "Speciality",
+            "Chèvre frais"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Fresh goat cheese"
+        ],
+        "flavor": [
+            "Floral"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 28,
+        "id": 21,
         "ITM8": "0000043439409",
         "EAN": "2663700000000",
-        "name": "Le Chevrot nu 200 g",
+        "name": "Le Chevrot nu 20 g",
         "region": "Poitou",
         "country": "France",
         "type": "Fresh cheese",
@@ -584,11 +643,21 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Chèvre frais",
-        "crust_type_en": "Specialty - Fresh goat cheese"
+        "crust_type": [
+            "Speciality",
+            "Chèvre frais"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Fresh goat cheese"
+        ],
+        "flavor": [
+            "Fresh"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 29,
+        "id": 22,
         "ITM8": "0000043439400",
         "EAN": "2663715000000",
         "name": "Sainte-Maure de Touraine AOP 250 g",
@@ -605,95 +674,20 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Tomme de chèvre",
-        "crust_type_en": "Goat tomme"
-    },
-    {
-        "id": 30,
-        "ITM8": "0000999211445",
-        "EAN": "8002461872419",
-        "name": "Vivaldi Burrata 200 g",
-        "region": "Pouilles",
-        "country": "Italy",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 7.2,
-        "rating": null,
-        "description_fr": "Fromage italien à pâte filée, cœur crémeux et texture moelleuse, saveur douce de crème fraîche.",
-        "description_en": "Italian stretched-curd cheese, creamy core and tender texture, sweet fresh cream flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/vivaldi-burrata.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "crust_type": [
+            "Tomme de chèvre"
         ],
-        "crust_type": "Speciality - Vache frais",
-        "crust_type_en": "Specialty - Fresh cow cheese"
-    },
-    {
-        "id": 31,
-        "ITM8": "0000099043122",
-        "EAN": "0000000000197",
-        "name": "Yaourt nature Mère Richard",
-        "region": "France",
-        "country": "France",
-        "type": "Yogurt",
-        "milk": "Cow",
-        "price": 1.7,
-        "rating": null,
-        "description_fr": "Yaourt nature fermenté à base de lait de vache, texture onctueuse et goût frais légèrement acidulé.",
-        "description_en": "Plain yogurt made from cow’s milk, creamy texture with a fresh, mildly tangy taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/yaourt-nature-mere-richard.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "crust_type_en": [
+            "Goat tomme"
         ],
-        "crust_type": "Not cheese (Yogurt)",
-        "crust_type_en": "Not cheese (Yogurt)"
-    },
-    {
-        "id": 32,
-        "ITM8": "0000019076830",
-        "EAN": "2663760000000",
-        "name": "Mozza di Bufala Bonbon 200 g",
-        "region": "Campania",
-        "country": "Italy",
-        "type": "Fresh cheese",
-        "milk": "Buffalo",
-        "price": 4.5,
-        "rating": null,
-        "description_fr": "Bouchées de mozzarella de lait de bufflonne, cœur tendre et texture moelleuse, saveur douce et lactée.",
-        "description_en": "Buffalo milk mozzarella bites with a soft core and tender texture, offering a sweet, milky flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/mozza-di-bufala-bonbon.jpg",
-        "bestseller": false,
-        "wine": [
-            "White"
+        "flavor": [
+            "Nutty",
+            "Tangy"
         ],
-        "crust_type": "Speciality - Bufflone frais",
-        "crust_type_en": "Specialty - Fresh buffalo cheese"
+        "aging": "Aged"
     },
     {
-        "id": 33,
-        "ITM8": "0000043434095",
-        "EAN": "2873981000000",
-        "name": "½ Reblochon AOP 250 g",
-        "region": "Savoie",
-        "country": "France",
-        "type": "Soft cheese",
-        "milk": "Cow",
-        "price": 4.8,
-        "rating": null,
-        "description_fr": "Reblochon de Savoie AOP à pâte pressée non cuite, croûte lavée, arômes de noix et de crème fraîche.",
-        "description_en": "AOP Reblochon from Savoie with washed rind, pressed uncooked paste, aromas of nuts and fresh cream.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/reblochon-aop.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte molle à croûte lavée",
-        "crust_type_en": "Soft cheese with washed rind"
-    },
-    {
-        "id": 34,
+        "id": 23,
         "ITM8": "0000099006105",
         "EAN": "0205000000000",
         "name": "Bûche de chèvre",
@@ -710,32 +704,21 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Chèvre frais",
-        "crust_type_en": "Specialty - Fresh goat cheese"
-    },
-    {
-        "id": 35,
-        "ITM8": "0000019969645",
-        "EAN": "3417881210577",
-        "name": "Burrata de chèvre 120 g",
-        "region": "Puglia",
-        "country": "Italy",
-        "type": "Fresh cheese",
-        "milk": "Goat",
-        "price": 3.7,
-        "rating": null,
-        "description_fr": "Burrata fabriquée à base de lait de chèvre, cœur crémeux et pâte filée, notes douces et acidulées.",
-        "description_en": "Goat milk burrata with a creamy core and stretched paste, offering sweet and slightly tangy notes.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/burrata-de-chevre.jpg",
-        "bestseller": false,
-        "wine": [
-            "White"
+        "crust_type": [
+            "Speciality",
+            "Chèvre frais"
         ],
-        "crust_type": "Speciality - Chèvre crémeux",
-        "crust_type_en": "Specialty - Creamy goat cheese"
+        "crust_type_en": [
+            "Specialty",
+            "Fresh goat cheese"
+        ],
+        "flavor": [
+            "Tangy"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 36,
+        "id": 24,
         "ITM8": "0000099041298",
         "EAN": "0204040000000",
         "name": "Brique cendrée",
@@ -752,32 +735,22 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Tomme de chèvre / croûte cendrée",
-        "crust_type_en": "Goat tomme with ash rind"
-    },
-    {
-        "id": 37,
-        "ITM8": "0000099090403",
-        "EAN": "0000000000176",
-        "name": "Fromage de chèvre fermier × 2",
-        "region": "France",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Goat",
-        "price": 7.1,
-        "rating": null,
-        "description_fr": "Petits fromages frais fermiers, texture lisse et goût franc de lait de chèvre.",
-        "description_en": "Two fresh farm goat cheeses with smooth texture and pronounced fresh goat’s milk flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/fromage-de-chevre-fermier.jpg",
-        "bestseller": false,
-        "wine": [
-            "White"
+        "crust_type": [
+            "Tomme de chèvre",
+            "Croûte cendrée"
         ],
-        "crust_type": "Spécialité - Chèvre frais",
-        "crust_type_en": "Specialty - Fresh goat cheese"
+        "crust_type_en": [
+            "Goat tomme",
+            "Ash rind"
+        ],
+        "flavor": [
+            "Smoky",
+            "Tangy"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 38,
+        "id": 25,
         "ITM8": "0000043439380",
         "EAN": "2663664000000",
         "name": "½ Abondance AOP 4,5 – 5 kg",
@@ -794,11 +767,22 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 39,
+        "id": 26,
         "ITM8": "0000043439405",
         "EAN": "2663704000000",
         "name": "Selles-sur-Cher AOP 150 g",
@@ -815,11 +799,22 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Tomme de chèvre / croûte cendrée",
-        "crust_type_en": "Goat tomme with ash rind"
+        "crust_type": [
+            "Tomme de chèvre",
+            "Croûte cendrée"
+        ],
+        "crust_type_en": [
+            "Goat tomme",
+            "Ash rind"
+        ],
+        "flavor": [
+            "Mild",
+            "Nutty"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 40,
+        "id": 27,
         "ITM8": "0000099006095",
         "EAN": "0204930000000",
         "name": "Tomme aux fleurs",
@@ -836,32 +831,22 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte pressée non cuite",
-        "crust_type_en": "Uncooked pressed cheese"
-    },
-    {
-        "id": 41,
-        "ITM8": "0000099006154",
-        "EAN": "3770007325617",
-        "name": "Mozzarella di Bufala Tressée",
-        "region": "Campania",
-        "country": "Italy",
-        "type": "Fresh cheese",
-        "milk": "Buffalo",
-        "price": 6.5,
-        "rating": null,
-        "description_fr": "Mozzarella tressée au lait de bufflonne, texture élastique et saveur délicatement lactée.",
-        "description_en": "Braided buffalo milk mozzarella with an elastic texture and delicate, milky flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/mozzarella-di-bufala-tressee.jpg",
-        "bestseller": false,
-        "wine": [
-            "White"
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
         ],
-        "crust_type": "Speciality - Bufflone frais",
-        "crust_type_en": "Specialty - Fresh buffalo cheese"
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Floral",
+            "Mild"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 42,
+        "id": 28,
         "ITM8": "0000019665927",
         "EAN": "2843295000000",
         "name": "Comté Extra AOP 18 mois (1/8 de meule)",
@@ -878,11 +863,22 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 43,
+        "id": 29,
         "ITM8": "0000043439396",
         "EAN": "2663703000000",
         "name": "Chabichou du Poitou AOP 150 g",
@@ -899,95 +895,19 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Tomme de chèvre",
-        "crust_type_en": "Goat tomme"
-    },
-    {
-        "id": 44,
-        "ITM8": "0000019453295",
-        "EAN": "3492847279003",
-        "name": "Plateau 3 fromages 190 g",
-        "region": "France",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Mixed",
-        "price": 4.2,
-        "rating": null,
-        "description_fr": "Assortiment de trois fromages (frais, demi-sec et affiné) présenté en portions, parfait pour l’apéritif.",
-        "description_en": "Assortment of three cheeses (fresh, semi-soft and aged) in single portions, ideal for appetizers.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/plateau-3-fromages.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "crust_type": [
+            "Tomme de chèvre"
         ],
-        "crust_type": "Speciality (frais, demi-sec, affiné)",
-        "crust_type_en": "Specialty (fresh, semi-aged, aged)"
-    },
-    {
-        "id": 45,
-        "ITM8": "0009919362340",
-        "EAN": "2891829000000",
-        "name": "Cabécou du Périgord AOP (12×35 g)",
-        "region": "Périgord",
-        "country": "France",
-        "type": "Goat's cheese",
-        "milk": "Goat",
-        "price": 4.5,
-        "rating": null,
-        "description_fr": "Petits cabécous AOP, pâte légèrement affinée, texture ferme et goût de chèvre frais souligné d’une pointe de sel.",
-        "description_en": "Small AOP goat cheeses, lightly aged paste with a firm texture and fresh goat flavor enhanced by a hint of salt.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/cabecou-du-perigord-aop.jpg",
-        "bestseller": false,
-        "wine": [
-            "White"
+        "crust_type_en": [
+            "Goat tomme"
         ],
-        "crust_type": "Tomme de chèvre",
-        "crust_type_en": "Goat tomme"
-    },
-    {
-        "id": 46,
-        "ITM8": "0000099026567",
-        "EAN": "3760081251155",
-        "name": "Apéritif BQ Lait Cru Vache",
-        "region": "France",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 7.7,
-        "rating": null,
-        "description_fr": "Fromage de vache au lait cru, affiné en petits formats, chair crémeuse et saveurs riches pour l’apéritif.",
-        "description_en": "Raw cow’s milk cheese, aged in small formats, with a creamy body and rich flavors perfect for appetizers.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/aperitif-bq-lait-cru-vache.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "flavor": [
+            "Tangy"
         ],
-        "crust_type": "Speciality - Vache crémeux",
-        "crust_type_en": "Specialty - Creamy cow cheese"
+        "aging": "Aged"
     },
     {
-        "id": 47,
-        "ITM8": "0000000000016",
-        "EAN": "0000000000016",
-        "name": "Coupe Fromage LS",
-        "region": "France",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Mixed",
-        "price": 5.1,
-        "rating": null,
-        "description_fr": "Sélection de fromages tranchés et assortis, prête à servir pour vos plateaux apéritifs.",
-        "description_en": "Selection of sliced, assorted cheeses ready to serve for your appetizer platters.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/coupe-fromage-ls.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Speciality (mix fromages variés)",
-        "crust_type_en": "Specialty (mixed cheeses)"
-    },
-    {
-        "id": 48,
+        "id": 30,
         "ITM8": "0000099006089",
         "EAN": "0204870000000",
         "name": "Gorgonzola à la cuillère",
@@ -1004,11 +924,19 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte persillée",
-        "crust_type_en": "Blue-veined cheese"
+        "crust_type": [
+            "Pâte persillée"
+        ],
+        "crust_type_en": [
+            "Blue-veined cheese"
+        ],
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 49,
+        "id": 31,
         "ITM8": "0000099041453",
         "EAN": "0204160000000",
         "name": "Figou",
@@ -1025,11 +953,21 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Vache doux",
-        "crust_type_en": "Specialty - Mild cow cheese"
+        "crust_type": [
+            "Speciality",
+            "Vache doux"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Mild cow cheese"
+        ],
+        "flavor": [
+            "Fruity"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 50,
+        "id": 32,
         "ITM8": "0000099041858",
         "EAN": "0204440000000",
         "name": "Saint Domnin à la lavande",
@@ -1046,11 +984,21 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Chèvre frais",
-        "crust_type_en": "Specialty - Fresh goat cheese"
+        "crust_type": [
+            "Speciality",
+            "Chèvre frais"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Fresh goat cheese"
+        ],
+        "flavor": [
+            "Floral"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 51,
+        "id": 33,
         "ITM8": "0000099041848",
         "EAN": "0204350000000",
         "name": "Brie de Meaux AOP",
@@ -1067,32 +1015,21 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte molle à croûte fleurie",
-        "crust_type_en": "Soft cheese with bloomy rind"
-    },
-    {
-        "id": 52,
-        "ITM8": "0000043434033",
-        "EAN": "8001868003129",
-        "name": "Parmigiano Reggiano AOP (copeaux) 100 g",
-        "region": "Émilie-Romagne",
-        "country": "Italy",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 3.4,
-        "rating": null,
-        "description_fr": "Parmigiano Reggiano AOP affiné au minimum 24 mois et râpé en copeaux, notes intenses de noix et texture granuleuse.",
-        "description_en": "Parmigiano Reggiano AOP aged at least 24 months and shaved into flakes, with intense nutty notes and a granular texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/parmigiano-reggiano-aop.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Earthy"
+        ],
+        "aging": "Washed rind"
     },
     {
-        "id": 53,
+        "id": 34,
         "ITM8": "0000043439092",
         "EAN": "2663695000000",
         "name": "Chèvre enrobé d’airelles 80 g",
@@ -1109,11 +1046,22 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Chèvre frais",
-        "crust_type_en": "Specialty - Fresh goat cheese"
+        "crust_type": [
+            "Speciality",
+            "Chèvre frais"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Fresh goat cheese"
+        ],
+        "flavor": [
+            "Fruity",
+            "Tangy"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 54,
+        "id": 35,
         "ITM8": "0000019950665",
         "EAN": "2831292000000",
         "name": "Parmigiano Reggiano AOP 24 mois (4,5 kg)",
@@ -1130,11 +1078,21 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 55,
+        "id": 36,
         "ITM8": "0000019782641",
         "EAN": "2839011000000",
         "name": "Emmental lait cru 27% MG (1/8 meule)",
@@ -1151,11 +1109,21 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 56,
+        "id": 37,
         "ITM8": "0000099041844",
         "EAN": "0204310000000",
         "name": "Mothais-sur-feuille",
@@ -1172,11 +1140,22 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Tomme de chèvre / pâte molle affinée",
-        "crust_type_en": "Goat tomme / Soft aged paste"
+        "crust_type": [
+            "Tomme de chèvre",
+            "Pâte molle affinée"
+        ],
+        "crust_type_en": [
+            "Goat tomme",
+            "Soft aged paste"
+        ],
+        "flavor": [
+            "Nutty",
+            "Tangy"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 57,
+        "id": 38,
         "ITM8": "0000019849086",
         "EAN": "2843995000000",
         "name": "Morbier AOP (100 j, 1/2 meule)",
@@ -1188,16 +1167,29 @@
         "rating": null,
         "description_fr": "Morbier AOP à ligne de cendre, pâte onctueuse, arômes fruités et épicés, finale délicate en bouche.",
         "description_en": "Morbier AOP with an ash line, featuring a creamy paste, fruity and spicy aromas, and a delicate finish.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/morbier-aop.jpg",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/morbier-aop-lc.jpg",
         "bestseller": false,
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte pressée non cuite, croûte lavée",
-        "crust_type_en": "Uncooked pressed cheese with washed rind"
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite",
+            "Croûte lavée"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese",
+            "Washed rind"
+        ],
+        "flavor": [
+            "Fruity",
+            "Tangy"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 58,
+        "id": 39,
         "ITM8": "0000043439450",
         "EAN": "2663709000000",
         "name": "Lou Péraiñ Pérail brebis 150 g",
@@ -1214,11 +1206,21 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Brebis frais",
-        "crust_type_en": "Specialty - Fresh sheep cheese"
+        "crust_type": [
+            "Speciality",
+            "Brebis frais"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Fresh sheep cheese"
+        ],
+        "flavor": [
+            "Tangy"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 59,
+        "id": 40,
         "ITM8": "0000024389388",
         "EAN": "2824730000000",
         "name": "Mascarpone Gorgonzola 1,2 kg",
@@ -1235,11 +1237,22 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte persillée (mélange)",
-        "crust_type_en": "Blue-veined mixed cheese"
+        "crust_type": [
+            "Pâte persillée",
+            "Mélange"
+        ],
+        "crust_type_en": [
+            "Blue-veined",
+            "Mixed cheese"
+        ],
+        "flavor": [
+            "Funky",
+            "Tangy"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 60,
+        "id": 41,
         "ITM8": "0000099041511",
         "EAN": "0204170000000",
         "name": "Galletout",
@@ -1256,11 +1269,21 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Speciality - Vache fondu doux",
-        "crust_type_en": "Specialty - Mild processed cow cheese"
+        "crust_type": [
+            "Speciality",
+            "Vache fondu doux"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Mild processed cow cheese"
+        ],
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 61,
+        "id": 42,
         "ITM8": "0000099008081",
         "EAN": "0205070000000",
         "name": "Burrata",
@@ -1277,53 +1300,21 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Bufflone frais",
-        "crust_type_en": "Specialty - Fresh buffalo cheese"
-    },
-    {
-        "id": 62,
-        "ITM8": "0000019118070",
-        "EAN": "3254550030193",
-        "name": "Camembert Pyro Isigny AOP 250 g",
-        "region": "Normandy",
-        "country": "France",
-        "type": "Soft cheese",
-        "milk": "Cow",
-        "price": 4.4,
-        "rating": null,
-        "description_fr": "Camembert AOP au lait cru d’Isigny, pâte molle et onctueuse, arômes de crème et de champignon.",
-        "description_en": "Isigny AOP Camembert made from raw milk, with a soft, creamy paste and aromas of cream and mushroom.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/camembert-pyro-isigny-aop.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "crust_type": [
+            "Speciality",
+            "Bufflone frais"
         ],
-        "crust_type": "Pâte molle à croûte fleurie",
-        "crust_type_en": "Soft cheese with bloomy rind"
-    },
-    {
-        "id": 63,
-        "ITM8": "0000043439007",
-        "EAN": "2663503000000",
-        "name": "Camembert lait cru AOP 250 g",
-        "region": "Normandy",
-        "country": "France",
-        "type": "Soft cheese",
-        "milk": "Cow",
-        "price": 5.2,
-        "rating": null,
-        "description_fr": "Camembert AOP à pâte molle et croûte fleurie, goût riche de crème fraîche et note terreuse.",
-        "description_en": "AOP Camembert with a soft interior and bloomy rind, featuring rich fresh cream flavor and earthy notes.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/camembert-lait-cru-aop.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "crust_type_en": [
+            "Specialty",
+            "Fresh buffalo cheese"
         ],
-        "crust_type": "Pâte molle à croûte fleurie",
-        "crust_type_en": "Soft cheese with bloomy rind"
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 64,
+        "id": 43,
         "ITM8": "0000099009832",
         "EAN": "0205160000000",
         "name": "Raclette",
@@ -1340,11 +1331,21 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte pressée non cuite",
-        "crust_type_en": "Uncooked pressed cheese"
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 65,
+        "id": 44,
         "ITM8": "0000099041288",
         "EAN": "0204030000000",
         "name": "Grand Morin à la truffe d’été",
@@ -1361,11 +1362,22 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte molle à croûte fleurie",
-        "crust_type_en": "Soft cheese with bloomy rind"
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Truffle",
+            "Earthy"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 66,
+        "id": 45,
         "ITM8": "0000099041837",
         "EAN": "0204240000000",
         "name": "Saint-Nectaire fermier",
@@ -1382,53 +1394,22 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte molle à croûte lavée",
-        "crust_type_en": "Soft cheese with washed rind"
-    },
-    {
-        "id": 67,
-        "ITM8": "0009919782641",
-        "EAN": "2839008000000",
-        "name": "Emmental lait cru (1/8 meule)",
-        "region": "Jura/Bourgogne",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 13.0,
-        "rating": null,
-        "description_fr": "Emmental français au lait cru, pâte pressée cuite, arômes doux de beurre et de foin, texture alvéolée.",
-        "description_en": "French raw-milk Emmental with cooked pressed paste, featuring gentle buttery and hay aromas and a holey texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/emmental-lait-cru-meule.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "crust_type": [
+            "Pâte molle",
+            "Croûte lavée"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
-    },
-    {
-        "id": 68,
-        "ITM8": "0009919667068",
-        "EAN": "2843122000000",
-        "name": "Gruyère France IGP 5 kg",
-        "region": "Franche-Comté",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 19.8,
-        "rating": null,
-        "description_fr": "Gruyère IGP français à pâte pressée cuite, arômes prononcés de noisette et légère saveur fruitée.",
-        "description_en": "French IGP Gruyère with cooked pressed paste, offering pronounced nutty aromas and a subtle fruity taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/gruyere-france.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "crust_type_en": [
+            "Soft cheese",
+            "Washed rind"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
+        "flavor": [
+            "Fruity",
+            "Nutty"
+        ],
+        "aging": "Washed rind"
     },
     {
-        "id": 69,
+        "id": 46,
         "ITM8": "0000024447157",
         "EAN": "2849441000000",
         "name": "Chèvre enrobé abricot 80 g",
@@ -1445,32 +1426,22 @@
         "wine": [
             "White"
         ],
-        "crust_type": "Speciality - Chèvre frais",
-        "crust_type_en": "Specialty - Fresh goat cheese"
-    },
-    {
-        "id": 70,
-        "ITM8": "0000019443461",
-        "EAN": "5202425001128",
-        "name": "Feta grecque AOP 180 g",
-        "region": "Macedonia",
-        "country": "Greece",
-        "type": "Fresh cheese",
-        "milk": "Sheep (plus chèvre)",
-        "price": 4.1,
-        "rating": null,
-        "description_fr": "Feta AOP de Grèce en bloc, pâte friable et goût acidulé salé typique.",
-        "description_en": "Greek AOP feta block with a crumbly texture and the characteristic salty-tangy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/feta-grecque-aop.jpg",
-        "bestseller": false,
-        "wine": [
-            "White"
+        "crust_type": [
+            "Speciality",
+            "Chèvre frais"
         ],
-        "crust_type": "Speciality - Brebis sec (Pâte friable)",
-        "crust_type_en": "Specialty - Aged sheep cheese (crumbly paste)"
+        "crust_type_en": [
+            "Specialty",
+            "Fresh goat cheese"
+        ],
+        "flavor": [
+            "Fruity",
+            "Tangy"
+        ],
+        "aging": "Fresh"
     },
     {
-        "id": 71,
+        "id": 47,
         "ITM8": "0000099006094",
         "EAN": "0204920000000",
         "name": "Le Sauvaget",
@@ -1487,494 +1458,22 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte pressée non cuite",
-        "crust_type_en": "Uncooked pressed cheese"
-    },
-    {
-        "id": 72,
-        "ITM8": "0000043439327",
-        "EAN": "2663571000000",
-        "name": "Comté affiné 9–12 mois (1/8 meule)",
-        "region": "Franche-Comté",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 24.9,
-        "rating": null,
-        "description_fr": "Comté AOP affiné 9 à 12 mois, arômes doux de noix et lait cuivré, texture ferme et fondante.",
-        "description_en": "AOP Comté aged 9–12 months with gentle nutty and ripe flavors, firm yet melting texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/comte-affine-9-12.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
-    },
-    {
-        "id": 73,
-        "ITM8": "0000099041350",
-        "EAN": "0204080000000",
-        "name": "Comté 12 mois",
-        "region": "Franche-Comté",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 28.8,
-        "rating": null,
-        "description_fr": "Comté AOP affiné 12 mois, saveurs prononcées de beurre et de fruits secs, texture granuleuse.",
-        "description_en": "AOP Comté aged 12 months, pronounced buttery and dried fruit flavors, granular texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/comte-12-mois.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
-    },
-    {
-        "id": 74,
-        "ITM8": "0009943439268",
-        "EAN": "2890729000000",
-        "name": "Beaufort AOP perçé (1/12 meule)",
-        "region": "Savoie",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 33.3,
-        "rating": null,
-        "description_fr": "Beaufort AOP perçé, pâte pressée cuite, arômes puissants de noisette et de foin, texture onctueuse.",
-        "description_en": "AOP Beaufort with natural openings, cooked pressed paste, powerful hazelnut and hay aromas, smooth texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/beaufort-aop-perce.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
+        "flavor": [
+            "Floral",
+            "Funky"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
+        "aging": "Aged"
     },
     {
-        "id": 75,
-        "ITM8": "0000099041420",
-        "EAN": "0204130000000",
-        "name": "Couronne Lochoise",
-        "region": "Lochois",
-        "country": "France",
-        "type": "Goat's cheese",
-        "milk": "Goat",
-        "price": 6.8,
-        "rating": null,
-        "description_fr": "Petit fromage de chèvre frais en forme de couronne, pâte crémeuse et goût fin et acidulé.",
-        "description_en": "Small fresh goat cheese in a crown shape, creamy paste with a fine, tangy flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/couronne-lochoise.jpg",
-        "bestseller": false,
-        "wine": [
-            "White"
-        ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
-    },
-    {
-        "id": 76,
-        "ITM8": "0009943439221",
-        "EAN": "2890801000000",
-        "name": "Saint-Nectaire laitière AOP (1,7 kg)",
-        "region": "Auvergne",
-        "country": "France",
-        "type": "Soft cheese",
-        "milk": "Cow",
-        "price": 16.3,
-        "rating": null,
-        "description_fr": "Saint-Nectaire AOP au lait entier, croûte naturelle et pâte onctueuse aux arômes de noisette.",
-        "description_en": "AOP Saint-Nectaire made with whole milk, natural rind and creamy paste with hazelnut aromas.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/saint-nectaire-laitiere.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
-    },
-    {
-        "id": 77,
-        "ITM8": "0000019248513",
-        "EAN": "3296651111937",
-        "name": "Brillat-Savarin IGP 200 g",
-        "region": "Normandy",
-        "country": "France",
-        "type": "Triple-cream cheese",
-        "milk": "Cow",
-        "price": 5.8,
-        "rating": null,
-        "description_fr": "Brillat-Savarin IGP à pâte très crémeuse et riche, saveurs de crème fraîche et de champignon.",
-        "description_en": "Triple-cream IGP Brillat-Savarin with very rich, creamy paste and flavors of fresh cream and mushroom.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/brillat-savarin-igp.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Spécialité - Brebis frais",
-        "crust_type_en": "Specialty - Fresh sheep cheese"
-    },
-    {
-        "id": 78,
-        "ITM8": "0000024454373",
-        "EAN": "3760280680817",
-        "name": "Halloumi AOP 225 g",
-        "region": "Chypre",
-        "country": "Cyprus",
-        "type": "Semi-hard cheese",
-        "milk": "Sheep & Goat",
-        "price": 4.9,
-        "rating": null,
-        "description_fr": "Halloumi AOP à pâte ferme qui grille ou frit sans fondre, saveur légèrement salée et lactée.",
-        "description_en": "AOP Halloumi with firm paste that grills or fries without melting, offering a slightly salty, milky taste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/halloumi-aop.jpg",
-        "bestseller": false,
-        "wine": [
-            "White"
-        ],
-        "crust_type": "Pâte persillée (mélange)",
-        "crust_type_en": "Blue-veined mixed cheese"
-    },
-    {
-        "id": 79,
-        "ITM8": "0009919915032",
-        "EAN": "2844180000000",
-        "name": "Picodon AOP 60 g",
-        "region": "Drôme (Rhône-Alpes)",
-        "country": "France",
-        "type": "Goat's cheese",
-        "milk": "Goat",
-        "price": 7.6,
-        "rating": null,
-        "description_fr": "Petit fromage de chèvre AOP à pâte ferme et goût poivré, à savourer frais ou légèrement affiné.",
-        "description_en": "Small AOP goat cheese with firm paste and peppery flavor, best enjoyed fresh or lightly aged.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/picodon-aop-60.jpg",
-        "bestseller": false,
-        "wine": [
-            "White"
-        ],
-        "crust_type": "Tomme de chèvre (affinée, ferme)",
-        "crust_type_en": "Firm aged goat tomme"
-    },
-    {
-        "id": 80,
-        "ITM8": "0000043439171",
-        "EAN": "2663495000000",
-        "name": "Époisses AOP 250 g",
-        "region": "Bourgogne",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 8.2,
-        "rating": null,
-        "description_fr": "Époisses AOP à croûte lavée, arômes puissants de sous-bois et de crème, pâte onctueuse et fondante.",
-        "description_en": "AOP Époisses with washed rind, powerful aromas of forest floor and cream, smooth and melting paste.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/epoisses-aop.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Spécialité - Bufflone frais",
-        "crust_type_en": "Specialty - Fresh buffalo cheese"
-    },
-    {
-        "id": 81,
-        "ITM8": "0000043439334",
-        "EAN": "2663661000000",
-        "name": "P&C Morbier AOP LC 6K5",
-        "region": "Franche-Comté",
-        "country": "France",
-        "type": "Soft cheese",
-        "milk": "Cow",
-        "price": 17.2,
-        "rating": null,
-        "description_fr": "Fromage à pâte pressée non cuite, orné d’une ligne de cendre, texture souple et goût fruité avec une pointe de noisette.",
-        "description_en": "Pressed uncooked cheese marked by an ash line, with a supple texture and fruity, hazelnut-tinged flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/morbier-aop-lc.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte pressée non cuite, croûte lavée",
-        "crust_type_en": "Uncooked pressed cheese with washed rind"
-    },
-    {
-        "id": 82,
-        "ITM8": "0009919362372",
-        "EAN": "2891827000000",
-        "name": "GP Cantal Jeune lait cru AOP 5 kg",
-        "region": "Auvergne",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 18.0,
-        "rating": null,
-        "description_fr": "Fromage à pâte pressée cuite, affiné 1 à 2 mois, arômes doux de beurre frais et de foin, texture ferme et fondante.",
-        "description_en": "Cooked pressed cheese aged 1–2 months, offering gentle fresh butter and hay aromas, with a firm yet melting texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/cantal-jeune.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
-    },
-    {
-        "id": 83,
-        "ITM8": "0000019749800",
-        "EAN": "2843639000000",
-        "name": "Tomme Cazelles brebis (4.4 env.)",
-        "region": "Occitanie",
-        "country": "France",
-        "type": "Semi-hard cheese",
-        "milk": "Sheep",
-        "price": 21.0,
-        "rating": null,
-        "description_fr": "Tomme de brebis à pâte pressée non cuite, parfum lacté et notes de beurre frais, texture souple et crémeuse.",
-        "description_en": "Pressed uncooked sheep’s cheese with milky, buttery aromas and a supple, creamy texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/tomme-cazelles.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte pressée non cuite",
-        "crust_type_en": "Uncooked pressed cheese"
-    },
-    {
-        "id": 84,
-        "ITM8": "0000099006097",
-        "EAN": "0204950000000",
-        "name": "Tomme de Montagne Chartreuse",
-        "region": "Chartreuse",
-        "country": "France",
-        "type": "Semi-hard cheese",
-        "milk": "Cow",
-        "price": 23.1,
-        "rating": null,
-        "description_fr": "Tomme de montagne à pâte pressée non cuite, arômes de sous-bois et de foin, texture ferme avec une pointe fondante.",
-        "description_en": "Mountain tomme with pressed uncooked paste, offering forest-floor and hay aromas, firm with a slight melting quality.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/tomme-de-montagne-chartreuse.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte pressée non cuite",
-        "crust_type_en": "Uncooked pressed cheese"
-    },
-    {
-        "id": 85,
-        "ITM8": "0000099041877",
-        "EAN": "0204630000000",
-        "name": "Olives de Nyons",
-        "region": "Nyons",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": null,
-        "price": 20.3,
-        "rating": null,
-        "description_fr": "Olives noires de Nyons à chair ferme, saveur fruitée et légèrement croquante, idéales à l’apéritif.",
-        "description_en": "Firm black Nyons olives with a fruity flavor and slight crunch, perfect for appetizers.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/olives-de-nyons.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Not cheese (Olives)",
-        "crust_type_en": "Not cheese (Olives)"
-    },
-    {
-        "id": 86,
-        "ITM8": "0000099011577",
-        "EAN": "3483130046402",
-        "name": "Petit pot crème chocolat",
-        "region": "France",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 1.9,
-        "rating": null,
-        "description_fr": "Crème au chocolat onctueuse en pot individuel, texture veloutée et goût intense de cacao.",
-        "description_en": "Velvety chocolate cream in a single-serve pot, with a smooth texture and intense cocoa flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/petit-pot-creme-chocolat.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Not cheese (Dessert)",
-        "crust_type_en": "Not cheese (Dessert)"
-    },
-    {
-        "id": 87,
-        "ITM8": "0000043439455",
-        "EAN": "2663545000000",
-        "name": "P’tit Basque pur brebis 660 g",
-        "region": "Pays Basque",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Sheep",
-        "price": 26.6,
-        "rating": null,
-        "description_fr": "Fromage de brebis à pâte pressée non cuite, croûte lavée, texture fondante et arômes doux de lait frais.",
-        "description_en": "Pressed uncooked sheep’s cheese with a washed rind, melting texture and sweet fresh-milk aromas.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/ptit-basque.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte pressée non cuite, croûte lavée",
-        "crust_type_en": "Uncooked pressed cheese with washed rind"
-    },
-    {
-        "id": 88,
-        "ITM8": "0000099041875",
-        "EAN": "0204610000000",
-        "name": "Reblochon Fermier AOP",
-        "region": "Savoie",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 33.0,
-        "rating": null,
-        "description_fr": "Reblochon fermier à croûte lavée, pâte onctueuse et arômes de crème, légèrement fruités et terreux.",
-        "description_en": "Farm-made Reblochon with washed rind, creamy paste and aromas of cream with subtle fruity and earthy notes.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/reblochon-fermier-aop.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte molle à croûte lavée",
-        "crust_type_en": "Soft cheese with washed rind"
-    },
-    {
-        "id": 89,
-        "ITM8": "0000024105511",
-        "EAN": "2831762000000",
-        "name": "Itchebai Chèvre & Brebis 4.5 kg",
-        "region": "Pays Basque",
-        "country": "France",
-        "type": "Goat's cheese",
-        "milk": "Goat & Sheep",
-        "price": 25.9,
-        "rating": null,
-        "description_fr": "Fromage basque mêlant lait de chèvre et de brebis, pâte ferme et parfumée, notes de foin et de fruits secs.",
-        "description_en": "Basque cheese blending goat and sheep milk, with a firm, flavorful paste featuring hay and dried-fruit notes.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/itchebai-chevre-brebis.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte pressée non cuite",
-        "crust_type_en": "Uncooked pressed cheese"
-    },
-    {
-        "id": 90,
-        "ITM8": "0000099060024",
-        "EAN": "0204690000000",
-        "name": "Picholines naturelles",
-        "region": "Provence",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": null,
-        "price": 16.7,
-        "rating": null,
-        "description_fr": "Olives Picholine vertes, chair croquante et saveur fruitée, sélectionnées pour leur amertume modérée.",
-        "description_en": "Green Picholine olives with a crisp flesh and fruity flavor, selected for their moderate bitterness.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/picholines-naturelles.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Not cheese (Olives)",
-        "crust_type_en": "Not cheese (Olives)"
-    },
-    {
-        "id": 91,
-        "ITM8": "0000043434115",
-        "EAN": "3250391105335",
-        "name": "Chaource AOP 250 g",
-        "region": "Champagne",
-        "country": "France",
-        "type": "Soft cheese",
-        "milk": "Cow",
-        "price": 4.6,
-        "rating": null,
-        "description_fr": "Fromage à pâte molle et croûte fleurie, onctueux et crémeux avec des arômes de crème fraîche et de champignon.",
-        "description_en": "Soft bloomy-rind cheese with a creamy interior and aromas of fresh cream and mushroom.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/chaource-aop.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte molle à croûte fleurie",
-        "crust_type_en": "Soft cheese with bloomy rind"
-    },
-    {
-        "id": 92,
-        "ITM8": "0000099041839",
-        "EAN": "0204260000000",
-        "name": "Pélissonne d'Ardèche",
-        "region": "Ardèche",
-        "country": "France",
-        "type": "Semi-hard cheese",
-        "milk": "Cow",
-        "price": 22.6,
-        "rating": null,
-        "description_fr": "Fromage de vache à pâte pressée non cuite, texture ferme et goût fruité avec une légère note épicée.",
-        "description_en": "Pressed uncooked cow’s milk cheese with a firm texture and fruity flavor with a hint of spice.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/pelissonne-ardeche.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte pressée non cuite",
-        "crust_type_en": "Uncooked pressed cheese"
-    },
-    {
-        "id": 93,
-        "ITM8": "0000099041838",
-        "EAN": "0204250000000",
-        "name": "Tomme de Tarentaise",
-        "region": "Tarentaise",
-        "country": "France",
-        "type": "Semi-hard cheese",
-        "milk": "Cow",
-        "price": 18.8,
-        "rating": null,
-        "description_fr": "Tomme de montagne à pâte pressée non cuite, arômes de foin et de fruits secs, texture fondante et légèrement souple.",
-        "description_en": "Mountain tomme with pressed uncooked paste, offering hay and dried fruit aromas, melting yet slightly firm texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/tomme-de-tarentaise.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte pressée non cuite",
-        "crust_type_en": "Uncooked pressed cheese"
-    },
-    {
-        "id": 94,
-        "ITM8": "0000099041352",
-        "EAN": "0204100000000",
-        "name": "Comté 24 mois",
-        "region": "Franche-Comté",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 38.7,
-        "rating": null,
-        "description_fr": "Comté AOP affiné 24 mois, saveurs intenses de noisette et de fruits secs, texture granuleuse et friable.",
-        "description_en": "AOP Comté aged 24 months, with intense nutty and dried fruit flavors, granular and crumbly texture.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/comte-24-mois.jpg",
-        "bestseller": false,
-        "wine": [
-            "Red"
-        ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
-    },
-    {
-        "id": 95,
+        "id": 48,
         "ITM8": "0000043439371",
         "EAN": "2663568000000",
         "name": "Comté Vagne AOP 18 mois (5 kg)",
@@ -1991,53 +1490,454 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte pressée cuite",
-        "crust_type_en": "Cooked pressed cheese"
-    },
-    {
-        "id": 96,
-        "ITM8": "0000099052839",
-        "EAN": "3429881511936",
-        "name": "Brocciu frais fermier AOP",
-        "region": "Corse",
-        "country": "France",
-        "type": "Fresh cheese",
-        "milk": "Sheep & Goat",
-        "price": 8.9,
-        "rating": null,
-        "description_fr": "Fromage frais corse de lactosérum de brebis et chèvre, texture onctueuse et goût légèrement acidulé.",
-        "description_en": "Corsican fresh whey cheese made from sheep and goat milk, with a creamy texture and slight tang.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/brocciu-frais-fermier-aop.jpg",
-        "bestseller": false,
-        "wine": [
-            "White"
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
         ],
-        "crust_type": "Spécialité - Brebis & Chèvre frais",
-        "crust_type_en": "Specialty - Fresh sheep and goat cheese"
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 97,
-        "ITM8": "0000099011579",
-        "EAN": "3483130046419",
-        "name": "Petit pot crème café",
-        "region": "France",
+        "id": 49,
+        "ITM8": "0000099041350",
+        "EAN": "0204080000000",
+        "name": "Comté 12 mois",
+        "region": "Franche-Comté",
         "country": "France",
         "type": "Fresh cheese",
         "milk": "Cow",
-        "price": 1.9,
+        "price": 28.8,
         "rating": null,
-        "description_fr": "Crème dessert onctueuse aromatisée au café, texture veloutée et goût riche en arômes de torréfaction.",
-        "description_en": "Velvety coffee-flavored cream dessert, smooth texture with rich roasted coffee notes.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/petit-pot-creme-cafe.jpg",
+        "description_fr": "Comté AOP affiné 12 mois, saveurs prononcées de beurre et de fruits secs, texture granuleuse.",
+        "description_en": "AOP Comté aged 12 months, pronounced buttery and dried fruit flavors, granular texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/comte-12-mois.jpg",
         "bestseller": false,
         "wine": [
             "Red"
         ],
-        "crust_type": "Not cheese (Dessert)",
-        "crust_type_en": "Not cheese (Dessert)"
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 98,
+        "id": 50,
+        "ITM8": "0000099041420",
+        "EAN": "0204130000000",
+        "name": "Couronne Lochoise",
+        "region": "Lochois",
+        "country": "France",
+        "type": "Goat's cheese",
+        "milk": "Goat",
+        "price": 6.8,
+        "rating": null,
+        "description_fr": "Petit fromage de chèvre frais en forme de couronne, pâte crémeuse et goût fin et acidulé.",
+        "description_en": "Small fresh goat cheese in a crown shape, creamy paste with a fine, tangy flavor.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/couronne-lochoise.jpg",
+        "bestseller": false,
+        "wine": [
+            "White"
+        ],
+        "crust_type": [
+            "Cuite",
+            "Pâte pressée"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Tangy"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 51,
+        "ITM8": "0009943439268",
+        "EAN": "2890729000000",
+        "name": "Beaufort AOP perçé (1/12 meule)",
+        "region": "Savoie",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": "Cow",
+        "price": 33.3,
+        "rating": null,
+        "description_fr": "Beaufort AOP perçé, pâte pressée cuite, arômes puissants de noisette et de foin, texture onctueuse.",
+        "description_en": "AOP Beaufort with natural openings, cooked pressed paste, powerful hazelnut and hay aromas, smooth texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/beaufort-aop-perce.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 52,
+        "ITM8": "0000019749800",
+        "EAN": "2843639000000",
+        "name": "Tomme Cazelles brebis (4.4 env.)",
+        "region": "Occitanie",
+        "country": "France",
+        "type": "Semi-hard cheese",
+        "milk": "Sheep",
+        "price": 21.0,
+        "rating": null,
+        "description_fr": "Tomme de brebis à pâte pressée non cuite, parfum lacté et notes de beurre frais, texture souple et crémeuse.",
+        "description_en": "Pressed uncooked sheep’s cheese with milky, buttery aromas and a supple, creamy texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/tomme-cazelles.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 53,
+        "ITM8": "0000099006097",
+        "EAN": "0204950000000",
+        "name": "Tomme de Montagne Chartreuse",
+        "region": "Chartreuse",
+        "country": "France",
+        "type": "Semi-hard cheese",
+        "milk": "Cow",
+        "price": 23.1,
+        "rating": null,
+        "description_fr": "Tomme de montagne à pâte pressée non cuite, arômes de sous-bois et de foin, texture ferme avec une pointe fondante.",
+        "description_en": "Mountain tomme with pressed uncooked paste, offering forest-floor and hay aromas, firm with a slight melting quality.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/tomme-de-montagne-chartreuse.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Earthy",
+            "Floral"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 54,
+        "ITM8": "0000099041877",
+        "EAN": "0204630000000",
+        "name": "Olives de Nyons",
+        "region": "Nyons",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": null,
+        "price": 20.3,
+        "rating": null,
+        "description_fr": "Olives noires de Nyons à chair ferme, saveur fruitée et légèrement croquante, idéales à l’apéritif.",
+        "description_en": "Firm black Nyons olives with a fruity flavor and slight crunch, perfect for appetizers.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/olives-de-nyons.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Not cheese (Olives)"
+        ],
+        "crust_type_en": [
+            "Not cheese (Olives)"
+        ]
+    },
+    {
+        "id": 55,
+        "ITM8": "0000043439455",
+        "EAN": "2663545000000",
+        "name": "P’tit Basque pur brebis 660 g",
+        "region": "Pays Basque",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": "Sheep",
+        "price": 26.6,
+        "rating": null,
+        "description_fr": "Fromage de brebis à pâte pressée non cuite, croûte lavée, texture fondante et arômes doux de lait frais.",
+        "description_en": "Pressed uncooked sheep’s cheese with a washed rind, melting texture and sweet fresh-milk aromas.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/ptit-basque.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite",
+            "Croûte lavée"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese",
+            "Washed rind"
+        ],
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Washed rind"
+    },
+    {
+        "id": 56,
+        "ITM8": "0000099041875",
+        "EAN": "0204610000000",
+        "name": "Reblochon Fermier AOP",
+        "region": "Savoie",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": "Cow",
+        "price": 33.0,
+        "rating": null,
+        "description_fr": "Reblochon fermier à croûte lavée, pâte onctueuse et arômes de crème, légèrement fruités et terreux.",
+        "description_en": "Farm-made Reblochon with washed rind, creamy paste and aromas of cream with subtle fruity and earthy notes.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/reblochon-fermier-aop.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte lavée"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Washed rind"
+        ],
+        "flavor": [
+            "Fruity",
+            "Earthy"
+        ],
+        "aging": "Washed rind"
+    },
+    {
+        "id": 57,
+        "ITM8": "0000024105511",
+        "EAN": "2831762000000",
+        "name": "ITCHEBAI CHEVRE&BREBIS 4K5",
+        "region": "Pays Basque",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": "Goat and Sheep",
+        "price": 25.9,
+        "rating": null,
+        "description_fr": "Fromage frais de chèvre et brebis, texture crémeuse et goût doux, idéal pour tartiner.",
+        "description_en": "Fresh cheese made from goat and sheep milk, creamy texture and mild flavor, perfect for spreading.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/itchebai-chevre-brebis.jpg",
+        "bestseller": false,
+        "wine": [
+            "White"
+        ],
+        "crust_type": [
+            "Speciality",
+            "Fresh goat",
+            "Sheep cheese"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Fresh goat",
+            "Sheep cheese"
+        ],
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 58,
+        "ITM8": "0000099060024",
+        "EAN": "0204690000000",
+        "name": "Picholines naturelles",
+        "region": "Provence",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": null,
+        "price": 16.7,
+        "rating": null,
+        "description_fr": "Olives Picholine vertes, chair croquante et saveur fruitée, sélectionnées pour leur amertume modérée.",
+        "description_en": "Green Picholine olives with a crisp flesh and fruity flavor, selected for their moderate bitterness.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/picholines-naturelles.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Not cheese (Olives)"
+        ],
+        "crust_type_en": [
+            "Not cheese (Olives)"
+        ]
+    },
+    {
+        "id": 59,
+        "ITM8": "0000099041839",
+        "EAN": "0204260000000",
+        "name": "Pélissonne d'Ardèche",
+        "region": "Ardèche",
+        "country": "France",
+        "type": "Semi-hard cheese",
+        "milk": "Cow",
+        "price": 22.6,
+        "rating": null,
+        "description_fr": "Fromage de vache à pâte pressée non cuite, texture ferme et goût fruité avec une légère note épicée.",
+        "description_en": "Pressed uncooked cow’s milk cheese with a firm texture and fruity flavor with a hint of spice.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/pelissonne-ardeche.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Fruity",
+            "Tangy"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 60,
+        "ITM8": "0000099041838",
+        "EAN": "0204250000000",
+        "name": "Tomme de Tarentaise",
+        "region": "Tarentaise",
+        "country": "France",
+        "type": "Semi-hard cheese",
+        "milk": "Cow",
+        "price": 18.8,
+        "rating": null,
+        "description_fr": "Tomme de montagne à pâte pressée non cuite, arômes de foin et de fruits secs, texture fondante et légèrement souple.",
+        "description_en": "Mountain tomme with pressed uncooked paste, offering hay and dried fruit aromas, melting yet slightly firm texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/tomme-de-tarentaise.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Earthy",
+            "Nutty"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 61,
+        "ITM8": "0000099041352",
+        "EAN": "0204100000000",
+        "name": "Comté 24 mois",
+        "region": "Franche-Comté",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": "Cow",
+        "price": 38.7,
+        "rating": null,
+        "description_fr": "Comté AOP affiné 24 mois, saveurs intenses de noisette et de fruits secs, texture granuleuse et friable.",
+        "description_en": "AOP Comté aged 24 months, with intense nutty and dried fruit flavors, granular and crumbly texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/comte-24-mois.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 62,
+        "ITM8": "0000043439371",
+        "EAN": "2663568000000",
+        "name": "COMTE VAGNE AOP 18 MOIS 5KG",
+        "region": "Franche-Comté",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": "Cow",
+        "price": 7.4,
+        "rating": null,
+        "description_fr": "Comté AOP affiné 18 mois, arômes doux de beurre et de lait cuit, texture souple et onctueuse.",
+        "description_en": "AOP Comté aged 18 months, offering gentle buttery and cooked milk aromas, supple and creamy texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/comte-vagne-aop.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 63,
         "ITM8": "0000043439010",
         "EAN": "2663499000000",
         "name": "Roitelet Brie 3,150 kg",
@@ -2054,11 +1954,22 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte molle à croûte fleurie",
-        "crust_type_en": "Soft cheese with bloomy rind"
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Floral",
+            "Earthy"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 99,
+        "id": 64,
         "ITM8": "0000099006092",
         "EAN": "0204900000000",
         "name": "Pavé du Larzac AOP",
@@ -2075,28 +1986,1144 @@
         "wine": [
             "Red"
         ],
-        "crust_type": "Pâte pressée non cuite",
-        "crust_type_en": "Uncooked pressed cheese"
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
     },
     {
-        "id": 100,
-        "ITM8": "0000099011576",
-        "EAN": "3483130046426",
-        "name": "Petit pot crème caramel",
-        "region": "France",
-        "country": "France",
+        "id": 65,
+        "ITM8": "0000099060022",
+        "EAN": "0204670000000",
+        "name": "OLIVES A LA GRECQUE",
+        "region": "Greece",
+        "country": "Greece",
         "type": "Fresh cheese",
-        "milk": "Cow",
-        "price": 1.9,
+        "milk": null,
+        "price": 18.0,
         "rating": null,
-        "description_fr": "Crème dessert onctueuse aromatisée au caramel, texture veloutée et goût sucré profond.",
-        "description_en": "Velvety caramel-flavored cream dessert, smooth texture and deep sweet flavor.",
-        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/petit-pot-creme-caramel.jpg",
+        "description_fr": "Olives vertes à la grecque, chair ferme et saveur fruitée, idéales pour les salades et les apéritifs.",
+        "description_en": "Green olives from Greece with firm flesh and fruity flavor, perfect for salads and appetizers.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/olives-a-la-grecque.jpg",
         "bestseller": false,
         "wine": [
             "Red"
         ],
-        "crust_type": "Not cheese (Dessert)",
-        "crust_type_en": "Not cheese (Dessert)"
+        "crust_type": [
+            "Not cheese (Olives)"
+        ],
+        "crust_type_en": [
+            "Not cheese (Olives)"
+        ]
+    },
+    {
+        "id": 66,
+        "ITM8": "0000099006103",
+        "EAN": "0204980000000",
+        "name": "ALPI-CREME",
+        "region": "Italy",
+        "country": "Italy",
+        "type": "Fresh cheese",
+        "milk": "Cow",
+        "price": 4.5,
+        "rating": null,
+        "description_fr": "Crème de lait de vache, texture onctueuse et goût doux, idéale pour les sauces et les desserts.",
+        "description_en": "Cream made from cow's milk, with a smooth texture and mild flavor, perfect for sauces and desserts.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/alpi-creme.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Speciality",
+            "Crème de vache"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Cow cream"
+        ],
+        "flavor": [
+            "Mild"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 67,
+        "ITM8": "0000099010435",
+        "EAN": "0205200000000",
+        "name": "MONT D'OR MINI",
+        "region": "Jura",
+        "country": "France",
+        "type": "Soft cheese",
+        "milk": "Cow",
+        "price": 8.0,
+        "rating": null,
+        "description_fr": "Mont d'Or mini, fromage à pâte molle, croûte lavée, arômes de bois et de crème, texture fondante.",
+        "description_en": "Mini Mont d'Or, soft cheese with washed rind, featuring wood and cream aromas and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/mont-dor-mini.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte lavée"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Washed rind"
+        ],
+        "flavor": [
+            "Funky",
+            "Earthy"
+        ],
+        "aging": "Washed rind"
+    },
+    {
+        "id": 68,
+        "ITM8": "0000043439091",
+        "EAN": "2663692000000",
+        "name": "ENROBE RAISINS BLONDS 80G",
+        "region": "France",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": "Goat",
+        "price": 3.5,
+        "rating": null,
+        "description_fr": "Fromage de chèvre frais enrobé de raisins blonds, mélange sucré et crémeux, parfait pour les plateaux de fromage.",
+        "description_en": "Fresh goat cheese coated with blond raisins, a sweet and creamy blend, perfect for cheese platters.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/enrobe-raisins-blonds.jpg",
+        "bestseller": false,
+        "wine": [
+            "White"
+        ],
+        "crust_type": [
+            "Speciality",
+            "Chèvre frais",
+            "Enrobé"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Coated",
+            "Fresh goat cheese"
+        ],
+        "flavor": [
+            "Mild",
+            "Funky"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 69,
+        "ITM8": "0000099046349",
+        "EAN": "0274100000000",
+        "name": "LE PETIT JABRON",
+        "region": "Provence",
+        "country": "France",
+        "type": "Soft cheese",
+        "milk": "Goat",
+        "price": 5.0,
+        "rating": null,
+        "description_fr": "Petit fromage de chèvre à pâte molle, croûte fleurie, saveurs douces et crémeuses, texture fondante.",
+        "description_en": "Small soft goat cheese with a bloomy rind, offering sweet and creamy flavors and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/le-petit-jabron.jpg",
+        "bestseller": false,
+        "wine": [
+            "White"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Tangy"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 70,
+        "ITM8": "0000043439394",
+        "EAN": "2663635000000",
+        "name": "GRUYERE SUISSE RES 9M AOP 4KG",
+        "region": "Switzerland",
+        "country": "Switzerland",
+        "type": "Fresh cheese",
+        "milk": "Cow",
+        "price": 8.0,
+        "rating": null,
+        "description_fr": "Gruyère suisse AOP affiné 9 mois, pâte pressée cuite, arômes de noisette et de beurre, texture ferme et fondante.",
+        "description_en": "Swiss Gruyère AOP aged 9 months, cooked pressed paste, with hazelnut and butter aromas, firm and melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/gruyere-suisse-res.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Strong"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 71,
+        "ITM8": "0000099060037",
+        "EAN": "0204820000000",
+        "name": "TOMME DU LARZAC",
+        "region": "Languedoc",
+        "country": "France",
+        "type": "Semi-hard cheese",
+        "milk": "Sheep",
+        "price": 6.5,
+        "rating": null,
+        "description_fr": "Tomme de brebis du Larzac, pâte pressée non cuite, arômes de foin et de fruits secs, texture souple et légèrement granuleuse.",
+        "description_en": "Larzac sheep’s tomme with pressed uncooked paste, featuring hay and dried fruit aromas, supple and slightly granular texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/tomme-du-larzac.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Earthy",
+            "Nutty"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 72,
+        "ITM8": "0000099067509",
+        "EAN": "0206910000000",
+        "name": "CAMEMBERT JORT",
+        "region": "Normandy",
+        "country": "France",
+        "type": "Soft cheese",
+        "milk": "Cow",
+        "price": 4.0,
+        "rating": null,
+        "description_fr": "Camembert Jort, fromage à pâte molle, croûte fleurie, saveurs de crème et de champignon, texture fondante.",
+        "description_en": "Jort Camembert, soft cheese with a bloomy rind, offering cream and mushroom flavors and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/camembert-jort.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Creamy",
+            "Earthy"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 73,
+        "ITM8": "0000099041842",
+        "EAN": "0204290000000",
+        "name": "TRIANGLE DE FONTENILLE",
+        "region": "Provence",
+        "country": "France",
+        "type": "Soft cheese",
+        "milk": "Cow",
+        "price": 5.5,
+        "rating": null,
+        "description_fr": "Triangle de Fontenille, fromage à pâte molle, croûte fleurie, saveurs douces et crémeuses, texture fondante.",
+        "description_en": "Fontenille triangle, soft cheese with a bloomy rind, offering sweet and creamy flavors and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/triangle-de-fontenille.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Floral",
+            "Mild"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 74,
+        "ITM8": "0000099067511",
+        "EAN": "0204330000000",
+        "name": "CAMEMBERT DI BUFALA",
+        "region": "Campania",
+        "country": "Italy",
+        "type": "Soft cheese",
+        "milk": "Buffalo",
+        "price": 5.0,
+        "rating": null,
+        "description_fr": "Camembert de bufflonne, fromage à pâte molle, croûte fleurie, saveurs de crème et de champignon, texture fondante.",
+        "description_en": "Buffalo Camembert, soft cheese with a bloomy rind, offering cream and mushroom flavors and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/camembert-di-bufala.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Floral",
+            "Earthy"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 75,
+        "ITM8": "0000043439402",
+        "EAN": "2663701000000",
+        "name": "P&C VALENCAY PYRAMIDE AOP 220G",
+        "region": "Loire Valley",
+        "country": "France",
+        "type": "Goat's cheese",
+        "milk": "Goat",
+        "price": 5.5,
+        "rating": null,
+        "description_fr": "Pyramide de Valençay AOP, fromage de chèvre à pâte molle, croûte cendrée, saveurs de lait frais et de champignon, texture fondante.",
+        "description_en": "Valençay AOP pyramid, soft goat cheese with an ashed rind, featuring fresh milk and mushroom flavors, melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/pyramide-valencay-aop.jpg",
+        "bestseller": false,
+        "wine": [
+            "White"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte cendrée"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Ash-covered rind"
+        ],
+        "flavor": [
+            "Tangy",
+            "Earthy"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 76,
+        "ITM8": "0000099060025",
+        "EAN": "0204700000000",
+        "name": "PICHOLINE AIL BASILIC",
+        "region": "Provence",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": null,
+        "price": 18.0,
+        "rating": null,
+        "description_fr": "Olives Picholine à l'ail et au basilic, saveurs méditerranéennes, chair croquante et parfumée.",
+        "description_en": "Picholine olives with garlic and basil, Mediterranean flavors, crisp and aromatic flesh.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/picholine-ail-basilic.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Not cheese (Olives)"
+        ],
+        "crust_type_en": [
+            "Not cheese (Olives)"
+        ]
+    },
+    {
+        "id": 77,
+        "ITM8": "0000043439070",
+        "EAN": "2663680000000",
+        "name": "P&C REBLOCHON SAVOIE AOP 450G",
+        "region": "Savoie",
+        "country": "France",
+        "type": "Soft cheese",
+        "milk": "Cow",
+        "price": 9.0,
+        "rating": null,
+        "description_fr": "Reblochon de Savoie AOP, fromage à pâte molle, croûte lavée, saveurs de crème et de champignon, texture fondante.",
+        "description_en": "Reblochon de Savoie AOP, soft cheese with washed rind, featuring cream and mushroom flavors and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/reblochon-savoie-aop.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte lavée"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Washed rind"
+        ],
+        "flavor": [
+            "Earthy"
+        ],
+        "aging": "Washed rind"
+    },
+    {
+        "id": 78,
+        "ITM8": "0000099067507",
+        "EAN": "0206900000000",
+        "name": "PETIT CAMEMBERT",
+        "region": "Normandy",
+        "country": "France",
+        "type": "Soft cheese",
+        "milk": "Cow",
+        "price": 3.5,
+        "rating": null,
+        "description_fr": "Petit Camembert, fromage à pâte molle, croûte fleurie, saveurs de crème et de champignon, texture fondante.",
+        "description_en": "Small Camembert, soft cheese with a bloomy rind, offering cream and mushroom flavors and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/petit-camembert.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Floral",
+            "Earthy"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 79,
+        "ITM8": "0000099041871",
+        "EAN": "0204570000000",
+        "name": "PECORINO PEPATO",
+        "region": "Sicily",
+        "country": "Italy",
+        "type": "Hard cheese",
+        "milk": "Sheep",
+        "price": 7.5,
+        "rating": null,
+        "description_fr": "Pecorino Pepato, fromage de brebis sicilien, pâte dure, arômes de poivre et de fruits secs, texture granuleuse.",
+        "description_en": "Pecorino Pepato, Sicilian sheep cheese with hard paste, featuring pepper and dried fruit aromas, granular texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/pecorino-pepato.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte dure"
+        ],
+        "crust_type_en": [
+            "Hard cheese"
+        ],
+        "flavor": [
+            "Tangy",
+            "Nutty"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 80,
+        "ITM8": "0000099041412",
+        "EAN": "0204110000000",
+        "name": "COMTE 30 MOIS",
+        "region": "Franche-Comté",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": "Cow",
+        "price": 40.0,
+        "rating": null,
+        "description_fr": "Comté AOP affiné 30 mois, saveurs intenses de noisette et de fruits secs, texture granuleuse et friable.",
+        "description_en": "AOP Comté aged 30 months, with intense nutty and dried fruit flavors, granular and crumbly texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/comte-30-mois.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 81,
+        "ITM8": "0000099014606",
+        "EAN": "0205950000000",
+        "name": "CAUSSENARD",
+        "region": "Languedoc",
+        "country": "France",
+        "type": "Soft cheese",
+        "milk": "Cow",
+        "price": 6.0,
+        "rating": null,
+        "description_fr": "Caussenard, fromage à pâte molle, croûte fleurie, saveurs de crème et de champignon, texture fondante.",
+        "description_en": "Caussenard, soft cheese with a bloomy rind, offering cream and mushroom flavors and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/caussenard.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Floral",
+            "Earthy"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 82,
+        "ITM8": "0000099041857",
+        "EAN": "0204430000000",
+        "name": "ROND DU BERRY",
+        "region": "Berry",
+        "country": "France",
+        "type": "Soft cheese",
+        "milk": "Goat",
+        "price": 5.0,
+        "rating": null,
+        "description_fr": "Rond du Berry, fromage de chèvre à pâte molle, croûte fleurie, saveurs douces et crémeuses, texture fondante.",
+        "description_en": "Rond du Berry, soft goat cheese with a bloomy rind, offering sweet and creamy flavors and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/rond-du-berry.jpg",
+        "bestseller": false,
+        "wine": [
+            "White"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Tangy",
+            "Floral"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 83,
+        "ITM8": "0000099041849",
+        "EAN": "0204360000000",
+        "name": "CAMEMBERT DI BUFALA TRUFFE",
+        "region": "Campania",
+        "country": "Italy",
+        "type": "Soft cheese",
+        "milk": "Buffalo",
+        "price": 6.0,
+        "rating": null,
+        "description_fr": "Camembert de bufflonne à la truffe, fromage à pâte molle, croûte fleurie, saveurs de truffe et de crème, texture fondante.",
+        "description_en": "Buffalo Camembert with truffle, soft cheese with a bloomy rind, featuring truffle and cream flavors and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/camembert-di-bufala-truffe.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Truffle"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 84,
+        "ITM8": "0000043439367",
+        "EAN": "2663629000000",
+        "name": "EMMENTALER SUISSE LONGE AOP5KG",
+        "region": "Switzerland",
+        "country": "Switzerland",
+        "type": "Fresh cheese",
+        "milk": "Cow",
+        "price": 8.5,
+        "rating": null,
+        "description_fr": "Emmental suisse AOP, fromage à pâte pressée cuite, arômes de noisette et de beurre, texture ferme et fondante.",
+        "description_en": "Swiss Emmental AOP, cooked pressed cheese with hazelnut and butter aromas, firm and melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/emmentaler-suisse-longe-aop.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 85,
+        "ITM8": "0000099066859",
+        "EAN": "3760166068104",
+        "name": "YAOURT A LA GRECQUES",
+        "region": "Greece",
+        "country": "Greece",
+        "type": "Fresh cheese",
+        "milk": "Cow",
+        "price": 2.5,
+        "rating": null,
+        "description_fr": "Yaourt à la grecque, texture épaisse et crémeuse, goût doux et légèrement acidulé, parfait pour les desserts ou les sauces.",
+        "description_en": "Greek yogurt with a thick and creamy texture, mild and slightly tangy flavor, perfect for desserts or sauces.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/yaourt-a-la-grecque.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Speciality",
+            "Yaourt grec"
+        ],
+        "crust_type_en": [
+            "Specialty",
+            "Greek yogurt"
+        ],
+        "flavor": [
+            "Creamy",
+            "Tangy"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 86,
+        "ITM8": "0000019362412",
+        "EAN": "2663643000000",
+        "name": "GP CANTAL ENTRE 2 LC 5KG",
+        "region": "Auvergne",
+        "country": "France",
+        "type": "Hard cheese",
+        "milk": "Cow",
+        "price": 7.0,
+        "rating": null,
+        "description_fr": "Cantal Entre-Deux, fromage à pâte pressée non cuite, arômes de fruits secs et de foin, texture ferme et légèrement granuleuse.",
+        "description_en": "Cantal Entre-Deux, uncooked pressed cheese with dried fruit and hay aromas, firm and slightly granular texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/cantal-entre-2.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 87,
+        "ITM8": "0000043439268",
+        "EAN": "2663789000000",
+        "name": "BEAUFORT PTPERCE AOP 1/12M 3K5",
+        "region": "Savoie",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": "Cow",
+        "price": 9.0,
+        "rating": null,
+        "description_fr": "Beaufort AOP affiné 12 mois, fromage à pâte pressée cuite, arômes de fruits secs et de beurre, texture ferme et fondante.",
+        "description_en": "Beaufort AOP aged 12 months, cooked pressed cheese with dried fruit and butter aromas, firm and melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/beaufort-aop.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 88,
+        "ITM8": "0000024105506",
+        "EAN": "2831760000000",
+        "name": "BASKERIU PUR BREBIS 4K5",
+        "region": "Basque Country",
+        "country": "France",
+        "type": "Semi-hard cheese",
+        "milk": "Sheep",
+        "price": 8.0,
+        "rating": null,
+        "description_fr": "Baskeriu, fromage de brebis basque, pâte pressée non cuite, arômes de foin et de fruits secs, texture souple et légèrement granuleuse.",
+        "description_en": "Baskeriu, Basque sheep cheese with pressed uncooked paste, featuring hay and dried fruit aromas, supple and slightly granular texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/baskeriu-pur-brebis.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Earthy",
+            "Nutty"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 89,
+        "ITM8": "0000099010434",
+        "EAN": "0205190000000",
+        "name": "MONT D'OR MOYEN",
+        "region": "Jura",
+        "country": "France",
+        "type": "Soft cheese",
+        "milk": "Cow",
+        "price": 10.0,
+        "rating": null,
+        "description_fr": "Mont d'Or moyen, fromage à pâte molle, croûte lavée, arômes de bois et de crème, texture fondante.",
+        "description_en": "Medium Mont d'Or, soft cheese with washed rind, featuring wood and cream aromas and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/mont-dor-moyen.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte lavée"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Washed rind"
+        ],
+        "flavor": [
+            "Funky",
+            "Earthy"
+        ],
+        "aging": "Washed rind"
+    },
+    {
+        "id": 90,
+        "IRM8": "0000099007491",
+        "EAN": "0205020000000",
+        "name": "FLEUR DE RE",
+        "region": "Charente-Maritime",
+        "country": "France",
+        "type": "Soft cheese",
+        "milk": "Cow",
+        "price": 5.0,
+        "rating": null,
+        "description_fr": "Fleur de Ré, fromage à pâte molle, croûte fleurie, saveurs douces et crémeuses, texture fondante.",
+        "description_en": "Fleur de Ré, soft cheese with a bloomy rind, offering sweet and creamy flavors and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/fleur-de-re.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Creamy",
+            "Mild"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 91,
+        "ITM8": "0000019950653",
+        "EAN": "2831290000000",
+        "name": "PARMIGIANO REGGIANO 30M AOP1KG",
+        "region": "Emilia-Romagna",
+        "country": "Italy",
+        "type": "Hard cheese",
+        "milk": "Cow",
+        "price": 12.0,
+        "rating": null,
+        "description_fr": "Parmigiano Reggiano AOP affiné 30 mois, fromage à pâte dure, arômes de fruits secs et de beurre, texture granuleuse et friable.",
+        "description_en": "Parmigiano Reggiano AOP aged 30 months, hard cheese with dried fruit and butter aromas, granular and crumbly texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/parmigiano-reggiano-30m-aop.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte dure"
+        ],
+        "crust_type_en": [
+            "Hard cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 92,
+        "ITM8": "0000099007495",
+        "EAN": "0205030000000",
+        "name": "NEUFCHATEL FERMIER AOP",
+        "region": "Normandy",
+        "country": "France",
+        "type": "Soft cheese",
+        "milk": "Cow",
+        "price": 5.5,
+        "rating": null,
+        "description_fr": "Neufchâtel fermier AOP, fromage à pâte molle, croûte fleurie, saveurs de crème et de champignon, texture fondante.",
+        "description_en": "Neufchâtel fermier AOP, soft cheese with a bloomy rind, offering cream and mushroom flavors and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/neufchatel-fermier-aop.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Creamy",
+            "Earthy"
+        ],
+        "aging": "Fresh"
+    },
+    {
+        "id": 93,
+        "ITM8": "0000099041551",
+        "EAN": "0204200000000",
+        "name": "BEAUFORT D'ETE",
+        "region": "Savoie",
+        "country": "France",
+        "type": "Fresh cheese",
+        "milk": "Cow",
+        "price": 9.5,
+        "rating": null,
+        "description_fr": "Beaufort d'été, fromage à pâte pressée cuite, arômes de fruits secs et de beurre, texture ferme et fondante.",
+        "description_en": "Beaufort d'été, cooked pressed cheese with dried fruit and butter aromas, firm and melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/beaufort-d-ete.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Cuite"
+        ],
+        "crust_type_en": [
+            "Cooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 94,
+        "ITM8": "0000019362372",
+        "EAN": "2663688000000",
+        "name": "GP CANTAL JEUNE LAIT CRU AOP5K",
+        "region": "Auvergne",
+        "country": "France",
+        "type": "Hard cheese",
+        "milk": "Cow",
+        "price": 6.5,
+        "rating": null,
+        "description_fr": "Cantal jeune AOP au lait cru, fromage à pâte pressée non cuite, arômes de fruits secs et de foin, texture ferme et légèrement granuleuse.",
+        "description_en": "Cantal jeune AOP made from raw milk, uncooked pressed cheese with dried fruit and hay aromas, firm and slightly granular texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/cantal-jeune.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 95,
+        "ITM8": "0000043439140",
+        "EAN": "2663551000000",
+        "name": "MORBIER AOP GD AGE 60J 6,8K",
+        "region": "Jura",
+        "country": "France",
+        "type": "Semi-hard cheese",
+        "milk": "Cow",
+        "price": 8.0,
+        "rating": null,
+        "description_fr": "Morbier AOP affiné 60 jours, fromage à pâte pressée non cuite, arômes de fruits secs et de foin, texture souple et légèrement granuleuse.",
+        "description_en": "Morbier AOP aged 60 days, uncooked pressed cheese with dried fruit and hay aromas, supple and slightly granular texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/morbier-aop.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 96,
+        "ITM8": "0000099041835",
+        "EAN": "0204220000000",
+        "name": "MONT LACAUNE DE BREBIS",
+        "region": "Languedoc",
+        "country": "France",
+        "type": "Semi-hard cheese",
+        "milk": "Sheep",
+        "price": 7.0,
+        "rating": null,
+        "description_fr": "Mont Lacaune de brebis, fromage à pâte pressée non cuite, arômes de foin et de fruits secs, texture souple et légèrement granuleuse.",
+        "description_en": "Mont Lacaune sheep cheese, uncooked pressed cheese with hay and dried fruit aromas, supple and slightly granular texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/mont-lacaune-de-brebis.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte pressée",
+            "Non cuite"
+        ],
+        "crust_type_en": [
+            "Uncooked",
+            "Pressed cheese"
+        ],
+        "flavor": [
+            "Earthy",
+            "Nutty"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 97,
+        "ITM8": "0000019885528",
+        "EAN": "2839104000000",
+        "name": "FOURME D'AMBERT STFLOUR AOP2K2",
+        "region": "Auvergne",
+        "country": "France",
+        "type": "Blue cheese",
+        "milk": "Cow",
+        "price": 8.0,
+        "rating": null,
+        "description_fr": "Fourme d'Ambert AOP, fromage bleu à pâte persillée, arômes de champignon et de noisette, texture crémeuse et fondante.",
+        "description_en": "Fourme d'Ambert AOP, blue cheese with veined paste, featuring mushroom and hazelnut aromas, creamy and melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/fourme-d-ambert-aop.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte persillée"
+        ],
+        "crust_type_en": [
+            "Blue-veined cheese"
+        ],
+        "flavor": [
+            "Mushroom",
+            "Nutty"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 98,
+        "ITM8": "0000043439384",
+        "EAN": "2663630000000",
+        "name": "APPENZELLER SURCHOIX 1/2 3K5",
+        "region": "Appenzell",
+        "country": "Switzerland",
+        "type": "Hard cheese",
+        "milk": "Cow",
+        "price": 10.0,
+        "rating": null,
+        "description_fr": "Appenzeller Surchoix, fromage suisse à pâte dure, arômes de fruits secs et de beurre, texture ferme et légèrement granuleuse.",
+        "description_en": "Appenzeller Surchoix, Swiss hard cheese with dried fruit and butter aromas, firm and slightly granular texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/appenzeller-surchoix.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte dure"
+        ],
+        "crust_type_en": [
+            "Hard cheese"
+        ],
+        "flavor": [
+            "Nutty",
+            "Fruity"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 99,
+        "ITM8": "0000043439436",
+        "EAN": "2663796000000",
+        "name": "SAINT AGUR L'INTENSE 2KG3",
+        "region": "Auvergne",
+        "country": "France",
+        "type": "Blue cheese",
+        "milk": "Cow",
+        "price": 9.0,
+        "rating": null,
+        "description_fr": "Saint Agur l'Intense, fromage bleu crémeux, arômes de champignon et de beurre, texture onctueuse et fondante.",
+        "description_en": "Saint Agur l'Intense, creamy blue cheese with mushroom and butter aromas, smooth and melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/saint-agur-l-intense.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte persillée"
+        ],
+        "crust_type_en": [
+            "Blue-veined cheese"
+        ],
+        "flavor": [
+            "Creamy",
+            "Earthy"
+        ],
+        "aging": "Aged"
+    },
+    {
+        "id": 100,
+        "ITM8": "0000099032277",
+        "EAN": "0206450000000",
+        "name": "L'ESPAGNOL A LA TRUFFE",
+        "region": "Spain",
+        "country": "Spain",
+        "type": "Soft cheese",
+        "milk": "Cow",
+        "price": 7.0,
+        "rating": null,
+        "description_fr": "L'Espagnol à la truffe, fromage à pâte molle, croûte fleurie, saveurs de truffe et de crème, texture fondante.",
+        "description_en": "L'Espagnol with truffle, soft cheese with a bloomy rind, featuring truffle and cream flavors and a melting texture.",
+        "image": "https://raw.githubusercontent.com/algosup/2024-2025-project-5-bubble-intermarche-team-4/refs/heads/main/data/images-cheeses/l-espagnol-a-la-truffe.jpg",
+        "bestseller": false,
+        "wine": [
+            "Red"
+        ],
+        "crust_type": [
+            "Pâte molle",
+            "Croûte fleurie"
+        ],
+        "crust_type_en": [
+            "Soft cheese",
+            "Bloomy rind"
+        ],
+        "flavor": [
+            "Truffle",
+            "Creamy"
+        ],
+        "aging": "Fresh"
     }
 ]
