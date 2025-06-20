@@ -234,11 +234,11 @@ The alternative website (not built in Bubble) was evaluated too optimistically i
 
 ## Week 7 Report (June 2 – 6)
 
-## Overview
+### Overview
 
 This week was centered around the second round of real-user testing at Intermarché Bourges. Feedback from the first testing session in Vierzon was used to guide initial design improvements. Although testing at Bourges was successfully conducted, its feedback will be reviewed and integrated during the following week. Additionally, the test plan was finalised and delivered on schedule.
 
-## Accomplishments
+### Accomplishments
 
 - User testing was successfully conducted on the 6th of June at Intermarché Bourges:
   - The target audience was defined in more detail.
@@ -248,27 +248,125 @@ This week was centered around the second round of real-user testing at Intermarc
 - Website design was reviewed and improved based on feedback collected during the first user testing session at Intermarché Vierzon.
 - The test plan was completed and delivered as planned.
 
-## Challenges
+### Challenges
 
 - A lack of participants from the target demographic limited the breadth of testing insights.
 - The product barcode scanning feature did not function as expected during testing. A €40 fee is required to enable this functionality, which was not originally accounted for in the budget.
 
-## Status
+### Status
 
 - The test plan was finished and delivered on time.
 - The user manual remains on hold.
 - The project is progressing as expected and remains on schedule, with a buffer built in to accommodate any unforeseen issues.
 
-## Plan for Next Week
+### Plan for Next Week
 
 - Analyse and integrate feedback from the second user testing session (Bourges).
 - Continue user testing with real users.
 - Advance the development of the alternative website.
 - Begin writing the user manual.
 
-## Conclusion
+### Conclusion
 
 Despite some budget-related constraints and limited access to the target audience, valuable progress was made through ongoing testing and early design adjustments. The team remains on track and is well-positioned to address upcoming improvements based on Bourges feedback in the following week.
+
+## Week 8 Report (June 10 – 13)
+
+### Overview
+
+This week was dedicated to refining the final components of the project. Efforts were concentrated on completing the user manual, advancing the alternative website, and finalising the Bubble proof of concept. The focus on detail-oriented work marked the final push before delivery.
+
+### Accomplishments
+
+- The user manual was written and significantly progressed toward completion.
+- Development of the alternative website was advanced.
+- The Bubble version of the application was finalised and prepared for delivery.
+
+### Challenges
+
+- Due to the team’s full focus on final refinements, no additional user testing could be conducted this week.
+
+### Status
+
+- All deliverables are on schedule.
+- The project is expected to be delivered ahead of the initial deadline.
+
+### Plan for Next Week
+
+- Last details of the user manual.
+- Last details of the proof of concept.
+- Finalise the development of the alternative website.
+- Preparation for the final presentation.
+
+### Conclusion
+
+The project has entered its final phase with all key elements approaching completion. While additional user testing could not be carried out this week, overall progress remains ahead of schedule, and the team is on track for early delivery.
+
+## Week 9 Report (June 16 – 20)
+
+### Overview
+
+This final project week was dedicated to completing final deliverables, preparing the project presentation, and wrapping up the collaboration. The week marked the official handover of the project to the continuation team and the conclusion of the current team's active involvement.
+
+### Accomplishments
+
+- Final adjustments to the user manual were completed on Monday.
+- Final debugging of the Bubble version was carried out on Monday.
+- The alternative web application (React version) was finalised.
+- The final presentation was prepared and successfully delivered.
+- A post-mortem meeting was held to review outcomes, challenges, and lessons learned.
+
+### Challenges
+
+- No major challenges were encountered this week, as all final tasks had been anticipated and addressed in advance.
+
+### Status
+
+- All deliverables were completed on time or ahead of schedule.
+- The final presentation was delivered successfully and met expectations.
+
+### Plan for the Future
+
+- Thibaud and Elone will continue the project in collaboration with the Intermarché team.
+- The React version of the application will be sent to the client as the finalised delivery.
+
+### Conclusion
+
+The project was concluded successfully, with all goals achieved and the handover process clearly defined. The team delivered a polished final product and left the continuation phase in capable hands, ensuring a smooth transition for future development.
+
+## Post Mortem Report
+
+### What Went Well
+
+- Team cohesion was strong throughout the project, with each member contributing effectively.
+- The project was completed on time, and all deliverables were met according to the initial plan.
+- The final presentation was well-received and reflected the team's hard work and dedication.
+- The use of the Mural Kanban board greatly improved task tracking and overall project visibility.
+- Project management was appreciated for providing structure and maintaining team momentum.
+
+### What Didn’t Go Well
+
+- The team was sometimes too restless, leading to occasional miscommunications and minor delays.
+- There was no time allocated to improve the design of the proof of concept.
+- The design of the proof of concept did not fully reflect the quality of the final product.
+- Testing at Saint-Rémy-de-Provence was not feasible due to its distance and logistical challenges.
+- No response was received from the Intermarché store in Issoudun despite follow-up attempts.
+
+### What We Learned
+
+- Having a visual management tool like Mural significantly enhances collaboration and task tracking.
+- Clear communication and regular check-ins are essential to maintain alignment on project objectives.
+- Early and consistent user testing is crucial for identifying usability issues and guiding design improvements.
+
+### Action Items
+
+- Adopt a more disciplined approach to task management and deadlines.
+- Equip future project spaces with a TV and AirPlay to facilitate live demonstrations and collaborative reviews.
+
+### Conclusion
+
+This project demonstrated the value of strong team dynamics, structured planning, and consistent effort. While some improvements could have been made in design and communication, the project was a success overall and delivered value to both the client and the team. The React version of the application will be sent to the client as the final delivery. The experience has provided valuable lessons to carry forward into future work.
+
 
 ## KPIs
 
@@ -281,3 +379,9 @@ Despite some budget-related constraints and limited access to the target audienc
 ## Timeline
 
 <img src="../images/timeline.png" alt="Timeline"/>
+
+## Mural Kanban Board
+
+<img src="../images/start.png" alt="Start of the project" width="200"/>
+<img src="../images/middle.png" alt="Start of the project" width="200"/>
+<img src="../images/end.png" alt="Start of the project" width="200"/>
