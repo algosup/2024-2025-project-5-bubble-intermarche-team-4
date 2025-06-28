@@ -82,3 +82,94 @@ This test suite covers all key features and workflows based on the Functional Sp
 	•	Steps:
 	1.	Scan unknown barcode.
 	•	Expected Result: Displays “Product not found” with Retry button.
+
+⸻
+
+## 6. Product Filtering
+
+### TC-012: Filter by Wine Type & Price
+	•	Steps:
+	1.	Go to Wines Discovery Page.
+	2.	Apply filters: Type = Red, Price = 5–15€.
+	•	Expected Result: List updates with red wines in range.
+
+### TC-013: Cheese Filter by Milk Type
+	•	Steps:
+	1.	Go to Cheese Discovery.
+	2.	Filter: Milk = Goat.
+	•	Expected Result: Only goat milk cheeses are shown.
+
+⸻
+
+## 7. Product Tags
+
+### TC-014: Tag Click Filter
+	•	Steps:
+	1.	Click on tag “Rosé” on a product.
+	•	Expected Result: Redirects to filtered product list showing all Rosé wines.
+
+⸻
+
+## 8. Search Mechanic
+
+### TC-015: Typo Tolerance
+	•	Steps:
+	1.	Enter “camember” in search.
+	•	Expected Result: Suggests “Camembert”.
+
+### TC-016: Search + Filter Combination
+	•	Steps:
+	1.	Search “Savoie”
+	2.	Filter: Milk = Cow.
+	•	Expected Result: Products match both criteria.
+
+⸻
+
+## 9. Mix & Match Feature
+
+### TC-017: Fixed Combination Display
+	•	Steps:
+	1.	Open Mix & Match section.
+	•	Expected Result: Displays 5 curated combos (e.g., Cod Brandade + Cinsault Rosé + Figou).
+
+⸻
+
+## 10. UI Responsiveness & Accessibility
+
+### TC-018: Mobile Layout Scaling
+	•	Steps:
+	1.	Open on iPhone X and Pixel 4.
+	•	Expected Result: Layout adapts, text is readable.
+
+### TC-019: Language Button Contrast
+	•	Steps:
+	1.	Navigate to Home page.
+	•	Expected Result: Language toggle has sufficient contrast (WCAG).
+
+⸻
+
+## 11. Performance
+
+### TC-020: Load Time
+	•	Steps:
+	1.	Open homepage over 4G.
+	•	Expected Result: Loads within 2 seconds.
+
+### TC-021: Search Response Time
+	•	Steps:
+	1.	Type search term.
+	•	Expected Result: Results update in <1 second.
+
+⸻
+
+## 12. Error States
+
+### TC-022: Broken Image Handling
+	•	Steps:
+	1.	Open Product Page with missing image.
+	•	Expected Result: Shows placeholder image.
+
+### TC-023: API Timeout Simulation
+	•	Steps:
+	1.	Disconnect network during product fetch.
+	•	Expected Result: Show error message and retry option.
