@@ -173,3 +173,30 @@ This test suite covers all key features and workflows based on the Functional Sp
 	•	Steps:
 	1.	Disconnect network during product fetch.
 	•	Expected Result: Show error message and retry option.
+
+⸻
+
+## 13. Additional Functional Coverage
+
+### TC-025: Regional Product Highlight
+	•	Steps:
+	1.	Go to Discovery Page.
+	2.	Filter region = Provence.
+	•	Expected Result: Only products from Provence are displayed.
+
+### TC-026: Reset Filters
+	•	Steps:
+	1.	Apply 2–3 filters.
+	2.	Click “Reset”.
+	•	Expected Result: All filters are cleared, and the full product list appears.
+
+### TC-027: Swipeable Carousel Test
+	•	Steps:
+	1.	On mobile, swipe product carousel.
+	•	Expected Result: Carousel scrolls smoothly, loads new product items.
+
+### TC-028: Session Persistence of Language
+	•	Steps:
+	1.	Set interface to German.
+	2.	Navigate through 3 pages.
+	•	Expected Result: Language remains set to German across pages.
